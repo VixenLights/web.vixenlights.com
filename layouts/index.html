@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <div class="h3 pb-2 mt-4 mb-2 border-bottom">{{ .Title }}</div>
+  {{ .Content }}
+
+  <div class="row">
+    {{ with .Params.cards }}
+      {{ range $i, $e := . }}
+
+    <div class="col-md">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">{{ $e.title }}</h4>
+          <h6 class="card-subtitle text-muted">{{ $e.subtitle }}</h6>
+        </div>
+        <ul class="list-group list-group-flush">
+          {{range $e.list}}
+          <li class="list-group-item">{{ . }}</li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+
+      {{ end }}
+
+<!--
+  - heading: Bar
+    lead: Bar lead text
+    bullets:
+      - Seven
+      - Eight
+      - Nine
+-->
+    </div>
+    {{ end }}
+  </div>
+{{ end }}
