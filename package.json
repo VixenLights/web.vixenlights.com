@@ -1,0 +1,24 @@
+{
+  "name": "vixenlights-website",
+  "version": "0.0.1",
+  "description": "Website for the Vixen Sequencer lighting software.",
+  "main": "none.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixenlights/webtest.vixenlights.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bugs.vixenlights.com"
+  },
+  "homepage": "https://github.com/VixenLights/vixen#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0"
+  }
+}
