@@ -1,18 +1,18 @@
 ---
-title: Alternating
+title: Basics
 author: Jeff
 date: 2017-09-14T01:04:08+00:00
 
 ---
-![Alternating Settings Screen](images/Alternatingsettings-174x300.png)
+![Alternating Settings Screen](/images/docs/usage/sequencer/effects/basic/alternating/Alternatingsettings-174x300.png)
 
 &nbsp;
 
-The alternating effect does what it&#8217;s name implies. It automates the process of alternating elements between colors. A simple example is a row of mini trees alternating back and forth from red to green.
+The **Alternating** effect does what it's name implies. It automates the process of alternating elements between colors. A simple example is a row of mini trees alternating back and forth from red to green.
 
 &nbsp;
 
-![Alternating Trees](images/AlternatingTrees-300x31.png)
+![Alternating Trees](/images/docs/usage/sequencer/effects/basic/alternating/AlternatingTrees-300x31.png)
 
 &nbsp;
 
@@ -24,13 +24,13 @@ Group level specifies how many elements are of the same color before switching t
 
 Change interval defines on a non static effect, how often the colors switch back and forth. It is specified in ms. So if you want the colors to switch back and forth every 500 ms, set it to 500.
 
-Color offset specifies how many colors to jump when the alternating pattern starts over. This can create interesting marquee style effects.
+Color offset specifies how many colors to jump when the alternating pattern starts over. This can create interesting marquee style effect.
 
 ### Mark Collections
 
 Switching the Alternating Source to Mark Collection allows the switching between colors based on individual Marks within the selected Mark Collection. A video is included at the bottom of the page to demostrate using Marks in the Alternating effect.
 
-![Alternating Aligned to Marks](images/AlternatingMarks-300x88.png)
+![Alternating Aligned to Marks](/images/docs/usage/sequencer/effects/basic/alternating/AlternatingMarks-300x88.png)
 
 ### Color
 
@@ -38,7 +38,7 @@ The alternating supports what we can a Color Gradient Level Pair. In this case t
 
 ### Effect Depth
 
-This works as it does in some of the other effects and specifies at what level of grouping the effect is applied.
+This works as it does in some of the other effects/basic and specifies at what level of grouping the effect is applied.
 
 &nbsp;
 
@@ -46,4 +46,4 @@ This works as it does in some of the other effects and specifies at what level o
 
 In Vixen 3.5, support for aligning the alternate transitions to a mark collection has been added. This give more control over when the colors alternate.
 
-[3]{{<youtube id="A5DrPmhCIqo" title="Using Marks with the Alternating Effect">}}
+{{<youtube id="A5DrPmhCIqo" title="Using Marks with the Alternating Effect">}}

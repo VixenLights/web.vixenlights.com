@@ -1,13 +1,11 @@
 ---
-title: Spin
+title: Basics
 author: Jeff
-type: page
 date: 2016-08-14T17:27:19+00:00
-
 ---
-The Spin is a lot like the Chase effect. It can be thought of as several chases back to back. See the page for the <a href="http://Chase" data-wplink-url-error="true">Chase</a> to get a feel for most of the parameters of the Spin.
+The **Spin** is a lot like the [Chase]({{< ref "chase-basics">}}) effect. It can be thought of as repeating chases back to back. If you have learned the [Chase]({{< ref "chase-basics">}}) effect, you already have many of the concepts to use the **Spin** effect.
 
-## Behavior (3.6u1+)
+### Behavior (3.6u1+)
 
 There are two types of behaviors. Across Elements/Groups is the default behavior and is equivalent to how the effect acted prior to 3.6u1.
 
