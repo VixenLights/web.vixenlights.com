@@ -9,5 +9,3 @@ The Pulse effect is one step above a Set Level. In fact this effect can do every
 With the ability to control the brightness over the duration of the effect, the Pulse enables things like a fade on or fade off by adjusting the curve from a ramp up or ramp down. But the curve can take any shape and thus you can form your pulse to do about anything.
 
 The pulse is also highly useful as a modifying effect when using layers. It can be used to fade other effects on or off, or control their brightness. See the sections on [Layers]({{< ref "">}}) for more details.
-
-

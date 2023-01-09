@@ -2,7 +2,7 @@
 title: Curves
 author: Jeff
 date: 2014-08-13T02:03:00+00:00
-
+weight: 40
 ---
 The curve editor allows you to define how a parameter changes over time. The most common place you see curves is for intensity. The Pulse effect is a key example where this is used. To create a ramp effect, the curve will be a diagonal line from the lower left to the upper right. To create a ramp down, the curve is reversed. Additional points can be added to the curve to change how it acts. The points can be dragged to the proper place, or the actual values can be edited.
 
