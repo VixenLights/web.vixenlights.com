@@ -1,8 +1,7 @@
 ---
 title: "Usage"
-linkTitle: "Usage"
-weight: 6
 date: 2017-01-05
+weight: 20
 description: >
   This section will describe all the core features of Vixen.
 ---

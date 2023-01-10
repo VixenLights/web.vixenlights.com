@@ -4,9 +4,9 @@ author: Jeff
 date: 2013-11-07T18:16:40+00:00
 weight: 10
 ---
-### Introduction ###
+### Introduction
 
-In order for your controllers to output data, the elements need to  be connected to them.  This is a process we call &#8220;Patching&#8221;  Think of the old telephone switchboards where an incoming call needs to be connected by an operator to a destination.  The operator plugged in a cable from one jack to another to connect the calls.  They called this &#8220;patching the call&#8221;  The same concept applies here.  This allows your elements to be connected to your controllers in any order providing great flexibility.
+In order for your controllers to output data, the elements need to  be connected to them.  This is a process we call **Patching**  Think of the old telephone switchboards where an incoming call needs to be connected by an operator to a destination.  The operator plugged in a cable from one jack to another to connect the calls.  They called this patching the call. The same concept applies here.  This allows your elements to be connected to your controllers in any order providing great flexibility.
 
 The graphical view in the center pane of the  Display setup screen shows what's going on.
 
@@ -22,7 +22,7 @@ What this is doing is taking the element information, and breaking down the colo
 
 From this filter, the data is patched to the appropriate controller channels.  Note that should your RGB lights be in a different RGB order,  you can change the order of the colors in the color breakdown filter, or you could repatch the outputs of the filter with patching lines that cross.  Either way is equally valid.
 
-### Filters vs Properties ###
+### Filters vs Properties
 
 This can be confusing.  Properties are information about the element that are used by various parts of the software.  Currently an element can support Color, Grid, or Location properties.  The element color properties are used in the sequence editor so that you are only presented the color options for colors that this element supports. Editing the color property does not alter the color breakdown filter.  Editing the color breakdown filter (in graphical view) does not alter the color property.  The easiest way to change them both, is to unpatch the element, and start over.
 
@@ -34,7 +34,7 @@ Conversely, when you add a dimming curve, the wizard only adds the dimming curve
 
 It's important to note that the list box below the configure button is a list of the properties assigned to an element.  Only some configure wizards will produce a property in this list.  And even if it has a similar name, the property is not at all linked to a filter.
 
-### Patching Process ###
+### Patching Process
 
   1. First you need to make sure your filter chain is the way you want it.  Select the element(s) you want to patch from the element setup pane on the right.
   2. Decide if you want to include dimming curves, and if so, how much control you wish to have over it.  If you want to add a dimming curve and have the same curve apply all of the colors add it at this point. (this gives it a dimming curve, but no ability to color balance)
@@ -54,13 +54,13 @@ There may be cases where your physical lights are backwards from how you have yo
 
 There is a similarly worded option in the Selected Controllers column as well.  The difference here is that the output channels will be reversed. If this is an element with a multi-output color breakdown filter (such as RGB) not only will the elements be patched in reverse, but the color order will also be reversed. You probably don't want to use this option to reverse multicolor elements.
 
-### Unpatching ###
+### Unpatching
 
 If you want to preserve the filter chain, you'll want to unpatch from the controllers.  Select the controller channels to be unpatched, and press the **Unpatch Controllers** button
 
 If you want to discard the filter chain and recreate it, you can unpatch from the elements.  Select the elements to be unpatched, and click the **Unpatch Elements** button. It will then ask you if you want to remove the filters as well.  The answer is almost always yes.  (there's some legacy reasons why you wouldn't want to remove filters, but you can no longer get to them from the display setup screen, so you might as well delete them)
 
-### Dimming Curves ###
+### Dimming Curves
 
 It was mentioned above, but to additionally call it out. The best practice when adding dimming curves to your elements is to use a library curve for the curve when setting it up. This allows you to go into the curve library and edit the library curve to change any instance of the dimming on the elements it was used to patch. We recommend giving it some thought and setting up a library curve for each prop that you may want to adjust or even all items that use the same type of lights so you can easily balance them. Adjusting the library curve values once patched in makes an immediate change to the output. Alternatively, you can choose to just replace the existing curve with a new one in the display setup. You do not have to unpatch to replace an existing curve with a new value, however you will need to restart Vixen to see the results. Thus the library curve has an advantage of being able to change without a restart.
 

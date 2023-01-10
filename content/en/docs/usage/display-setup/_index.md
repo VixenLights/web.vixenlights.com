@@ -2,6 +2,7 @@
 title: Setup and Configuration
 date: 2017-01-05
 weight: 10
+description: This section covers the features of the Sequencer
 ---
 
 ### Display Configuration Concepts

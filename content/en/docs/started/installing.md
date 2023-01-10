@@ -4,7 +4,7 @@ weight: 20
 description: Installation instructions for Vixen
 ---
 
-**All Windows 7/8 support ceased in 2020. Windows 8.1 is supported. **
+**All Windows 7/8 support ceased in 2020. Windows 8.1 is supported.**
 
 Mobile type processors often found in laptops have often been found to perform poorly with Vixen 3 when they are in power saving mode. You should make sure you have the power saving in performance mode or disabled for optimal results.
 
