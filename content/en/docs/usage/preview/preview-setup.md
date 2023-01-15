@@ -1,8 +1,7 @@
 ---
 title: Preview Setup
 author: Jeff
-date: 2013-04-29T00:43:27+00:00
-
+weight: 5
 ---
 The Previews Configuration dialog lets you add and edit multiple previews. Why multiple previews? Because you may have one for this year's Christmas, next year's Christmas, Halloween, Easter, St. Patrick's Day and more. Create a preview just to try out new things and have one to hold your current display.
 
