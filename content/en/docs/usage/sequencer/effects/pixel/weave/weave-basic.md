@@ -1,7 +1,7 @@
 ---
 title: Basics
-author: Geoff Armstrong
-date: 2018-02-01T10:03:42+00:00
+author: Vixen Team
+date: 2023-01-16T10:03:42+00:00
 
 ---
 
@@ -20,13 +20,17 @@ Creates an effect that draws a basket weave pattern and animates it.  This effec
 ## Configuration
 
   * **Direction** -  Configures the direction of bar movement.
-    * Up – The bars move in a upward direction.
-    * Down – The bars move in a downward direction.
-    * Left – The bars move from right to left.
-    * Right – The bars move from left to right.
-    * Compress – The bars move in a motion that looks like they are compressing in the middle.
-    * Expands – The bars move outward from the center.
-    * Horizontal Compress / Expand – This is the same as Compress / Expand only in the opposite plane.
+    * Moves Up – The bars move in a upward direction.
+    * Moves Down – The bars move in a downward direction.
+    * Vertical Expand – The bars move outward from the center.
+    * Vertical Compress – The bars move in a motion that looks like they are compressing in the middle.
+    * Moves Left – The bars move from right to left.
+    * Moves Right – The bars move from left to right.
+    * Horizontal Expand – The bars move outward from the center.
+    * Horizontal Compress – The bars move in a motion that looks like they are compressing in the middle.       
+    * Center Compress – The bars move in a motion that looks like they are compressing in the middle.    
+    * Center Expand – The bars move outward from the center.
+    
 
   * **Rotation** - The rotation of the weave bars.  The weave bars can rotate in either direction using the following mapping to the curve:
 
@@ -36,24 +40,23 @@ Creates an effect that draws a basket weave pattern and animates it.  This effec
     * 25 – 90 Degrees (Clockwise)
     * 0 – 180 Degrees (Clockwise)
 
-
   * **Speed** - Determines how fast the weave moves.
 
   * **Highlight** -  Creates a white highlighted leading edge on each bar. This may not be highly visible in some cases when using location positioning.
 
   * **3D** - Makes each color appear as a gradient fading to black.
 
-  * **Weave Thickness** - Controls the thickness of the weave bar.  This value is a percentage of the display element.
+  * **Thickness** - Controls the thickness of the weave bar.  This value is a percentage of the display element.
 
-  * **Weave Spacing** - Controls the blank area between each weave bar. This value is percentage of the display element. 
+  * **Spacing** - Controls the blank area between each weave bar. This value is percentage of the display element. 
 
 ---
 
 ### Color
 
-  * **Horizontal Colors** - The color gradients for the horizontal bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
+  * **Horizontal Gradients** - The color gradients for the horizontal bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
 
-  * **Vertical Colors** - The color gradients for the vertical bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
+  * **Vertical Gradients** - The color gradients for the vertical bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
 
 ---
 
