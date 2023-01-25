@@ -7,7 +7,7 @@ date: 2023-01-16T10:03:42+00:00
 
 ## Overview
 
-Creates an effect that draws a basket weave pattern and animates it.  This effect works the best on a matrix with a large pixel count.
+Creates an effect that draws a weave pattern and animates it.  This effect works the best on a matrix with a large pixel count.
 
 ---
 
@@ -20,16 +20,16 @@ Creates an effect that draws a basket weave pattern and animates it.  This effec
 ## Configuration
 
   * **Direction** -  Configures the direction of bar movement.
-    * Moves Up – The bars move in a upward direction.
-    * Moves Down – The bars move in a downward direction.
-    * Vertical Expand – The bars move outward from the center.
+    * _Moves Up_ – The bars move in a upward direction.
+    * _Moves Down_ – The bars move in a downward direction.
+    * _Vertical Expand_ – The bars move outward from the center.
     * Vertical Compress – The bars move in a motion that looks like they are compressing in the middle.
-    * Moves Left – The bars move from right to left.
-    * Moves Right – The bars move from left to right.
-    * Horizontal Expand – The bars move outward from the center.
-    * Horizontal Compress – The bars move in a motion that looks like they are compressing in the middle.       
-    * Center Compress – The bars move in a motion that looks like they are compressing in the middle.    
-    * Center Expand – The bars move outward from the center.
+    * _Moves Left_ – The bars move from right to left.
+    * _Moves Right_ – The bars move from left to right.
+    * _Horizontal Expand_ – The bars move outward from the center.
+    * _Horizontal Compress_ – The bars move in a motion that looks like they are compressing in the middle.       
+    * _Center Compress_ – The bars move in a motion that looks like they are compressing in the middle.    
+    * _Center Expand_ – The bars move outward from the center.
     
 
   * **Rotation** - The rotation of the weave bars.  The weave bars can rotate in either direction using the following mapping to the curve:
@@ -45,10 +45,21 @@ Creates an effect that draws a basket weave pattern and animates it.  This effec
   * **Highlight** -  Creates a white highlighted leading edge on each bar. This may not be highly visible in some cases when using location positioning.
 
   * **3D** - Makes each color appear as a gradient fading to black.
-
+  
   * **Thickness** - Controls the thickness of the weave bar.  This value is a percentage of the display element.
 
   * **Spacing** - Controls the blank area between each weave bar. This value is percentage of the display element. 
+
+  * **Advanced Sizing** - Enables curves for controling the weave bar thickness and spacing.  The horizontal and vertical weave bar thickness and spacing can be configured independently
+                          when in advanced sizing mode.
+
+  * **Horizontal Thickness** - Controls the thickness of the horizontal weave bars.  This value is a percentage of the display element.
+
+  * **Horizontal Spacing** - Controls the blank area between each horizontal weave bar. This value is percentage of the display element. 
+
+  * **Vertical Thickness** - Controls the thickness of the vertical weave bars.  This value is a percentage of the display element.
+
+  * **Vertical Spacing** - Controls the blank area between each vertical weave bar. This value is percentage of the display element. 
 
 ---
 
