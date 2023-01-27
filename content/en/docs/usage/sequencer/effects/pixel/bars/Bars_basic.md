@@ -90,5 +90,4 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 #### Video Tutorial
 
-
-[Bar Effect Enhancements](https://www.youtube.com/watch?v=puavBNDAIbw "Bars Demo")
+{{< youtube puavBNDAIbw>}}
