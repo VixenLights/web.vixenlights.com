@@ -55,6 +55,7 @@ Creates an effect that washes colors over the display element.
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect. 
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
+#### Video 
 
-
+{{< video src="/images/docs/usage/sequencer/effects/pixel/colorwash/Colorwash.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 
