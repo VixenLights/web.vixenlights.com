@@ -46,6 +46,8 @@ Creates an effect that imitates a curtain opening or closing across your display
 * **Intensity** - This is an overall brightness intensity curve for over the duration of the effect. 
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
+* **Intensity Per Iteration** - Adjust the intensity over each iteration.
+
 ---
 
 ## Video 
