@@ -23,7 +23,7 @@ Creates an effect that draws a weave pattern and animates it.  This effect works
     * _Moves Up_ – The bars move in a upward direction.
     * _Moves Down_ – The bars move in a downward direction.
     * _Vertical Expand_ – The bars move outward from the center.
-    * Vertical Compress – The bars move in a motion that looks like they are compressing in the middle.
+    * _Vertical Compress_ – The bars move in a motion that looks like they are compressing in the middle.
     * _Moves Left_ – The bars move from right to left.
     * _Moves Right_ – The bars move from left to right.
     * _Horizontal Expand_ – The bars move outward from the center.
