@@ -22,9 +22,9 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 ## Configuration
 
-* **Bar Type:** Selects either a _Flat_ or an angled _Zig Zag_ styled bar.
+* **Bar Type**  - Selects either a _Flat_ or an angled _Zig Zag_ styled bar.
 
-* **Direction:** sets the direction of bar movement.
+* **Direction** - Sets the direction of bar movement.
 
   * _Moves Up_ - The bars move in a upward direction.
   * _Moves Down_ - The bars move in a downward direction.
