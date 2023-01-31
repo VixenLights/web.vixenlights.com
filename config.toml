@@ -111,7 +111,7 @@ url_latest_version = "https://webtest.vixenlights.com"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/VixenLights/webtest.vixenlights.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/VixenLights/vixen"
+#github_project_repo = "https://github.com/VixenLights/vixen"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -121,13 +121,13 @@ github_project_repo = "https://github.com/VixenLights/vixen"
 github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Algolia DocSearch
 #algolia_docsearch = false
 
 # Enable Lunr.js offline search
-#offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
