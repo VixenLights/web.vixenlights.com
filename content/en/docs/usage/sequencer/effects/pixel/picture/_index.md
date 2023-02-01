@@ -2,7 +2,7 @@
 title: Picture
 author: Vixen Team
 description: Creates an effect that imports a picture file to be displayed on a grid type prop.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/meteors/]
+aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/picture/]
 ---
 
 ---

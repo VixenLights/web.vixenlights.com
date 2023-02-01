@@ -52,7 +52,7 @@ This effect can be layered with other effects to produce complex effect combinat
 
 ---
 
-### Effect Color
+### Color
 
 * **Color Type** - Determines how the colors are applied to a blade. The gradient can traverse over time, over the length of the blade. There are options for random colors or a rainbow of colors.
 
