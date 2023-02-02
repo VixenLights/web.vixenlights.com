@@ -1,19 +1,17 @@
 name: Docker
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
-    tags:
-      - 'v*'
-    paths-ignore:
-      - '**/.gitignore'
-      - '**/README.md'
+  workflow_call:
+    inputs:
+      hugo-environment:
+        required: true
+        type: string
+      image-name:
+        required: true
+        type: string
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   docker:
@@ -44,7 +42,7 @@ jobs:
       - run: npm ci
 
       - name: Hugo build
-        run: hugo
+        run: hugo --environment ${{ inputs.hugo-environment }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -56,7 +54,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.REGISTRY }}/${{ inputs.image-name }}
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
