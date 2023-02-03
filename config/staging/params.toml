@@ -1,0 +1,2 @@
+# This will specify the develop branch for staging
+github_branch = "develop"

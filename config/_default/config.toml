@@ -1,6 +1,6 @@
-baseURL = 'https://webtest.vixenlights.com/'
+baseURL = 'http://localhost:1313'
 languageCode = 'en-us'
-title = 'Vixenlights'
+title = 'Vixen Lights'
 
 # Language settings
 contentDir = "content/en"
@@ -61,7 +61,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "VixenLights"
+title = "Vixen Lights"
 description = "Website for Vixen Lights Software"
 languageName ="English"
 # Weight used for sorting.
@@ -84,8 +84,8 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Vixen Team"
-privacy_policy = ""
+copyright = "2023 The Vixen Team"
+privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -111,7 +111,7 @@ url_latest_version = "https://webtest.vixenlights.com"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/VixenLights/webtest.vixenlights.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/VixenLights/vixen"
+#github_project_repo = "https://github.com/VixenLights/vixen"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -121,13 +121,13 @@ github_project_repo = "https://github.com/VixenLights/vixen"
 github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Algolia DocSearch
 #algolia_docsearch = false
 
 # Enable Lunr.js offline search
-#offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
@@ -156,7 +156,7 @@ sidebar_menu_foldable = true
 [params.ui.feedback]
 enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it!'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
@@ -182,17 +182,24 @@ enable = false
   url = "https://www.facebook.com/v.lights.3"
   icon = "fab fa-facebook"
   desc = "Official Facebook page"
+[[params.links.user]]
+  name = "Facebook"
+  url = "https://www.facebook.com/groups/3801138629943646/"
+  icon = "fab fa-facebook"
+  desc = "Vixen 3 Sequencing Group"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
   url = "https://github.com/VixenLights/vixen"
   icon = "fab fa-github"
-  desc = "Development takes place here!"
+  desc = "Source code repository for Vixen"
 [[params.links.developer]]
   name = "Developer mailing list"
-  url = " https://groups.google.com/g/vixendev/about"
+  url = "https://groups.google.com"
   icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+  desc = "Discuss development issues in Google Groups by joining the Vixen Development group."
+
+
 
 # hugo module configuration
 

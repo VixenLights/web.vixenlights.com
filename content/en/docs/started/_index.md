@@ -2,5 +2,5 @@
 title: "Getting Started"
 weight: 2
 description: >
-  How to get started with Vixen
+  This section covers topics on getting started with Vixen.
 ---
