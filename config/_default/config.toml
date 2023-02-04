@@ -113,6 +113,9 @@ github_repo = "https://github.com/VixenLights/web.vixenlights.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/VixenLights/vixen"
 
+# An optional link to a related project JIRA issue tracker. This should be used instead of the github_project_repo above.
+jira_project_url = "http://bugs.vixenlights.com"
+
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
 
