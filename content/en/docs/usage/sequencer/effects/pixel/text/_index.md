@@ -2,7 +2,7 @@
 title: Text
 author: Vixen Team
 description: Creates an effect that displays text on the display element.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spirograph/]
+aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/text/]
 ---
 
 ---
