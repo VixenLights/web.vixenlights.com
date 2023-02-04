@@ -53,9 +53,9 @@ quality = 75
 anchor = "smart"
 
 [services]
-#[services.googleAnalytics]
+[services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-#id = "UA-00000000-0"
+id = "G-96PKHB28ZQ"   # Test id
 
 # Language configuration
 
@@ -106,12 +106,15 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://webtest.vixenlights.com"
+url_latest_version = "https://web.vixenlights.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/VixenLights/webtest.vixenlights.com"
+github_repo = "https://github.com/VixenLights/web.vixenlights.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/VixenLights/vixen"
+
+# An optional link to a related project JIRA issue tracker. This should be used instead of the github_project_repo above.
+jira_project_url = "http://bugs.vixenlights.com"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -154,10 +157,10 @@ sidebar_menu_foldable = true
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = false
+enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it!'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/vixenlights/web.vixenlights.com/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
