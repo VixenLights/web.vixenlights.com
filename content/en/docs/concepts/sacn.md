@@ -1,12 +1,14 @@
 ---
 title: Streaming ACN
-author: Jon Chuchla
-date: 2016-12-18T04:52:58+00:00
+author: Vixen Team
 weight: 60
 ---
-Streaming ACN, also known by it's abbreviation **sACN** or by its technical specification document number **e1.31&** is a lighting protocol that encapsulates DMX type data and sends it over a TCP/IP Ethernet network.  It is an intermediate step between DMX based lighting controls, and full ACN based implementations.  ACN (Architecture for Control Networks) is an extensible suite of protocols that can be used to control all varieties of devices used in live production networks.  Since a full transition to ACN is a major paradigm shift, sACN was created that operates within an ACN network and uses familiar concepts from the DMX standard that has been in common use for decades.  DMX defined the electrical signaling as well as the data format.  Only the concepts of channels and universe and a loose guideline for timing is carried forward from DMX to sACN.
 
-### Universes and Channels.
+### Overview
+
+Streaming ACN, also known by it's abbreviation **sACN** or by its technical specification document number **e1.31** is a lighting protocol that encapsulates DMX type data and sends it over a TCP/IP Ethernet network.  It is an intermediate step between DMX based lighting controls, and full ACN based implementations.  ACN (Architecture for Control Networks) is an extensible suite of protocols that can be used to control all varieties of devices used in live production networks.  Since a full transition to ACN is a major paradigm shift, sACN was created that operates within an ACN network and uses familiar concepts from the DMX standard that has been in common use for decades.  DMX defined the electrical signaling as well as the data format.  Only the concepts of channels and universe and a loose guideline for timing is carried forward from DMX to sACN.
+
+### Universes and Channels
 
 In DMX, only 512 channels of data could be carried on a DMX cable.  This was a limit based on the balance of data rate, distance requirements, multidrop topology and refresh rate.  With all of those factors considered, 512 channels was defined as the standard number of channels in a universe.  As shows grew, and designers needed more than 512 channels to control a show, it became necessary to implement multiple independent DMX networks.  While not part of the standard, the term **universe** became the standard term to refer to each separate DMX network.  In the DMX world, every group of 512 channels was its own physical network and this network was called a universe.
 

@@ -1,9 +1,11 @@
 ---
 title: Element Color Types
-author: Jon Chuchla
-date: 2014-09-07T07:48:10+00:00
+author: Vixen Team
 weight: 30
 ---
+
+### Overview
+
 It's a common misconception that Vixen 3 is for RGB (Pixel) lights.  It is true that it's very easy to sequence RGB lights in Vixen 3, but it's also a great sequencer for standard Christmas lights as well.  When creating your elements, you'll need to define what kind of lights that element consists of.  If you don't configure the Color Handling, which creates the color properties, that element is assumed to be full RGB.  The different types of lights are as follows:
 
 ### Single Color (Discrete Color)

@@ -1,12 +1,16 @@
 ---
 title: Filters and Patching
-author: Jeff
-date: 2013-04-28T16:23:11+00:00
+author: Vixen Team
 weight: 50
 ---
+
+### Overview
+
 Patching is the idea used to tell Vixen how a element relates to an output. In a simple setup, a user might have 12 mini-trees, and a single Renard to control them. They might patch each mini-tree channel directly 1:1 to a corresponding output on the Renard. This is a simple use case, and is the equivalent to the way Vixen 2.x works: a direct 1:1 correlation between elements that the user sequences with and the outputs from the controller.
 
 However, in a more complicated setup, there may not be 1:1 mappings. For example, say the user has a large tree that has been wrapped in 8 strings of lights, and they have each string on a different output on a controller. If they wanted to treat the tree as one single object (eg. not control each string individually), they can map the one "Tree" element to the 8 controller outputs that correspond to the strings.
+
+### Filters
 
 In this patching system we have also introduced the concept of 'filters' which can be inserted in the path from elements to controller outputs. Filters are intended to take data in, manipulate it in some way, and then output the data. For example, a simple filter might be a dimming curve. The Dimming Curve filter has a single input and a single output. It transforms the intensity value of any lighting data it gets according to a user-configured curve. It wouldn't affect the data in any other way, or doesn't distinguish between multiple pieces of data coming in: for example, if there are two lighting values that come in at the same time, it transforms them independently, then outputs the two lighting values.
 
