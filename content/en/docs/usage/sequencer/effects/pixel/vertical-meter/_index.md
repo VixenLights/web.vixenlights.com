@@ -2,7 +2,7 @@
 title: Vertical Meter
 author: Vixen Team
 description: Creates an effect that simulates Simulates a vertical audio meter.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spirograph/]
+aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/vertical-meter/]
 ---
 
 ---
@@ -11,6 +11,11 @@ aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spirog
 
 Creates an effect that simulates Simulates a vertical audio meter.  This is designed as a single string effect, but if it is applied to a grid, all strings will behave the same.  
 The origin of the meter is the starting point where it is drawn on the preview. So the preview should be drawn from the bottom up for it to appear as a normal vertical meter.
+
+
+**_Hint_**: To get the meter to properly fit the element group, you should Start with the **Zoom** at max and then adjust the **Gain** starting at the low end working upward so that the loudest parts of the music have minimial visible effect. 
+             Then adjust the **Zoom** downward so that the softer parts of the music make the element light up most of the time.
+
 
 ---
 
@@ -32,8 +37,8 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 
 * **Normalize** - Applies an audio normalizing filter to the audio before it is analyzed for use in the effect. This should be enabled for most uses.
 
-* **Zoom** - Scales the visual response to the audio
-
+* **Zoom** - Scales the visual response to the audio.
+            
 
 ---
 
@@ -50,7 +55,7 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 
 * **Color Handling** - Controls how the color is handled.
     * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Discret_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+    * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
     * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
 
 * **Custom Gradient** - Controls the color of the effect.
