@@ -15,6 +15,10 @@ This effect, along with Vertical Meter and Waveform are all audio based effects.
 They use the actual audio associated with the sequence as the input for the effect. 
 Because these effects must preprocess the audio before creating the effect, it may take a few extra moments to render the effect on the timeline whenever it moves or changes.
 
+**_Hint_:** To get the meter to properly fit the element group, you should Start with the **Zoom** at max and then adjust the **Gain** starting at the low end working upward so that the loudest parts of the music have minimial visible effect. 
+             Then adjust the **Zoom** downward so that the softer parts of the music make the element light up most of the time.
+   
+
 ---
 
 ### Audio Sensitivity Range
@@ -35,10 +39,7 @@ Because these effects must preprocess the audio before creating the effect, it m
                            
 * **Normalize** - Applies an audio normalizing filter to the audio before it is analyzed for use in the effect. This should be enabled for most uses.
                   
-* **Zoom** - Scales the visual response to the audio.
-             Hint: To get the meter to properly fit the element group, you should Start with the **Zoom** at max and then adjust the **Gain** starting at the low end working upward so that the loudest parts of the music have minimial visible effect. 
-             Then adjust the **Zoom** downward so that the softer parts of the music make the element light up most of the time.
-   
+* **Zoom** - Scales the visual response to the audio
 
 
 ---
