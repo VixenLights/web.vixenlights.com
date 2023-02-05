@@ -1,6 +1,11 @@
 ---
-title: Contribution Guidelines
-weight: 500
+title: Developer
+weight: 100
+type: docs
+aliases: [/docs/contribution-guidelines]
+menu:
+  main:
+    weight: 100
 description: How to contribute to Vixen
 ---
 
