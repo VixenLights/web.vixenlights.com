@@ -2,7 +2,7 @@
 title: Set Position
 author: Vixen Team
 description: Set Position effect positions the pan and tilt of the intelligent fixture.
-aliases: [/vixen-3-documentation/sequencer/effects/intelligent-fixture/set-position/]
+aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spiral/]
 ---
 
 ---
