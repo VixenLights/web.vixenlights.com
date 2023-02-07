@@ -2,7 +2,7 @@
 title: Playing Sequences
 author: Vixen Lights
 weight: 25
-description: This section describes playing sequences.
+description: This section covers playing sequences.
 ---
 
 ### Overview
