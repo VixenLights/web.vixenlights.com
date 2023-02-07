@@ -35,6 +35,12 @@ Effects can be resized by clicking on the start or the end and dragging them to 
 
 Effects can also be dragged from one element to another by clicking on them and dragging while holding the mouse down. Multiple effects can be selected and dragged at the same time. By holding the Ctrl key down while dragging the effect(s) you can create a copy of them and drag the copy to the new location. Holding the Shift key down locks the dragged effects in the same vertical time so you can move them up or down to another element. See the [Timeline][2] section for more details.
 
+### Effect Replacement
+
+There are times when you want to replace one or more effects with an effect of a different type. This can be tedius when you have to delete them and create new. On top of that you likely want them to occupy the same time slot and duration of the original effect. Fortunatly there is an easy way to accomplish this.
+
+Existing effects can be replaced with another effect type directly in the editor. Select the effects you want to replace with a different effect. Hold down the Control key and drag the new effect you want anywhere on the timeline. You will be prompted to confirm you want to replace the selected effects with the new effect. Once you agree, all the selected effects will now be replaced with the new effect set to it's default. All of the effects will still be selected and you can edit them all at once.
+
 [1]: {{< ref snap-points>}}
 [2]: {{< ref timeline>}}
 [3]: {{< ref effects>}}
