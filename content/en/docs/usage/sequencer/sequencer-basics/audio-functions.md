@@ -2,7 +2,7 @@
 title: Audio
 author: Vixen Team
 weight: 120
-description: This page describes working with audio.
+description: This section describes the Audio features.
 ---
 
 ### Overview
