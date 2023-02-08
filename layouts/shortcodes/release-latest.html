@@ -1,0 +1,19 @@
+{{ $release := site.Data.release.latest }}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Version: {{ $release.name }}</h5>
+        <h6 class="card-subtitle mb-4 text-muted">{{ (dateFormat ":date_long" (time $release.published_at) ) }}</h6>
+        {{ range $release.assets }}
+            {{ if strings.HasSuffix .name "64bit.exe" }}
+                <p class="card-text">64 bit Release Build</p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
+            {{ end }}
+        {{ end }}
+        {{ range $release.assets }}
+            {{ if strings.HasSuffix .name "32bit.exe" }}
+                <p class="card-text">32 bit build for older computers. This will likely be phased out in 2023.</p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>

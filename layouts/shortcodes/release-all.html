@@ -1,0 +1,13 @@
+{{ range site.Data.release.all }}
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Version: {{ .name }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ .published_at }}</h6>
+    </div>
+    <ul class="list-group list-group-flush">
+        {{ range .assets }}
+        <li class="list-group-item"><a href="{{ .browser_download_url }}">{{ .name }}</a></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
