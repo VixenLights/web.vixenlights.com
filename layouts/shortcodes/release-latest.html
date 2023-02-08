@@ -2,20 +2,17 @@
 <div class="card">
     <div class="card-body">
         <h5 class="card-title">Version: {{ $release.name }}</h5>
-        <h6 class="card-subtitle mb-4 text-muted">{{ $release.published_at }}</h6>
+        <h6 class="card-subtitle mb-4 text-muted">{{ (dateFormat ":date_long" (time $release.published_at) ) }}</h6>
         {{ range $release.assets }}
             {{ if strings.HasSuffix .name "64bit.exe" }}
-                <p class="card-text">64 bit installer for modern computers</p>
-                <p class="card-text">Blah, blah, blah... when do we get 128 bit computers?</p>
-                <p class="card-text"><a href="{{ .browser_download_url }}">{{ .name }}</a></p>
+                <p class="card-text">64 bit Release Build</p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
             {{ end }}
         {{ end }}
         {{ range $release.assets }}
             {{ if strings.HasSuffix .name "32bit.exe" }}
-                <p class="card-text">32 bit installer for your abacus. :)</p>
-                <p class="card-text">Ramble on here about how this is going away at some point
-                    and the user should upgrade to at least a slide rule.</p>
-                <p class="card-text"><a href="{{ .browser_download_url }}">{{ .name }}</a></p>
+                <p class="card-text">32 bit build for older computers. This will likely be phased out in 2023.</p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
             {{ end }}
         {{ end }}
     </div>
