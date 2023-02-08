@@ -84,7 +84,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "2023 The Vixen Team"
+copyright = "The Vixen Team"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -140,7 +140,7 @@ prism_syntax_highlighting = false
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+footer_about_disable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -173,20 +173,20 @@ enable = false
 [[params.links.user]]
   name = "Do It Yourself Christmas"
   url = "http://doityourselfchristmas.com/forums/forumdisplay.php?96-Vixen-3"
-  icon = "fa fa-bars"
+  icon = "fa fa-user-group"
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="diychristmas.org"
   url = "https://diychristmas.org/vb5/node/75"
-  icon = "fa fa-bars"
+  icon = "fa fa-user-group"
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
-  name = "Facebook"
+  name = "Official Vixen 3"
   url = "https://www.facebook.com/v.lights.3"
   icon = "fab fa-facebook"
-  desc = "Official Facebook page"
+  desc = "Official Vixen 3 Facebook page"
 [[params.links.user]]
-  name = "Facebook"
+  name = "Vixen 3 Sequencing"
   url = "https://www.facebook.com/groups/3801138629943646/"
   icon = "fab fa-facebook"
   desc = "Vixen 3 Sequencing Group"
@@ -197,7 +197,7 @@ enable = false
   icon = "fab fa-github"
   desc = "Source code repository for Vixen"
 [[params.links.developer]]
-  name = "Developer mailing list"
+  name = "Vixen Development mailing list"
   url = "https://groups.google.com"
   icon = "fa fa-envelope"
   desc = "Discuss development issues in Google Groups by joining the Vixen Development group."
