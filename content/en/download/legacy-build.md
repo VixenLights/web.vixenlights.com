@@ -4,9 +4,11 @@ author: Vixen Team
 weight: 100
 ---
 
-### Legacy Vixen 2.x
+### Overview
 
-The legacy 2.x version of Vixen has been superseeded by Vixen 3. 
+Vixen has been around in the lighting community for a very long time. There are still a few users who use the legacy 2.x versions of Vixen. The legacy 2.x versions of Vixen were superseeded by Vixen 3 back in 2014.
+
+### Download
 
 [Vixen 2 Artifacts][1] are provided for historical purposes.
 
