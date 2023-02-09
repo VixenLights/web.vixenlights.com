@@ -190,6 +190,11 @@ enable = false
   url = "https://www.facebook.com/groups/3801138629943646/"
   icon = "fab fa-facebook"
   desc = "Vixen 3 Sequencing Group"
+[[params.links.user]]
+  name = "Official YouTube Channel"
+  url = "https://www.youtube.com/@VixenLightsSoftware"
+  icon = "fab fa-youtube"
+  desc = "Official YouTube Channel for Vixen content"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
