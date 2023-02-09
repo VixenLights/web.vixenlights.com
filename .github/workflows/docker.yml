@@ -22,6 +22,18 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Fetch release data for vixenlights/vixen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data/release
+          gh api -H "Accept: application/vnd.github+json" \
+                 /repos/vixenlights/vixen/releases \
+                 > data/release/all.json
+          gh api -H "Accept: application/vnd.github+json" \
+                 /repos/vixenlights/vixen/releases/latest \
+                 > data/release/latest.json
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
