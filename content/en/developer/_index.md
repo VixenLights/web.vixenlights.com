@@ -1,12 +1,13 @@
 ---
 title: Developer
-weight: 100
-type: docs
+weight: 0
 aliases: [/docs/contribution-guidelines]
 menu:
   main:
     weight: 100
 description: How to contribute to Vixen
+cascade:
+  - type: docs
 ---
 
 Vixen is an open source project and we love getting patches and contributions to make Vixen and its docs even better.
