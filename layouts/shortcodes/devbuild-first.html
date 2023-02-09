@@ -1,9 +1,9 @@
 {{ range first 1 (where site.Data.release.all "prerelease" "eq" true) }}
 
-<div class="card mb-4">
+<div class="card mb-4 -bg-200 w-75">
     <div class="card-body">
         <h5 class="card-title">Version: {{ .name }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ (dateFormat ":date_long" (time .published_at) ) }}</h6>
+        <h6 class="card-subtitle mb-3 text-muted">{{ (dateFormat ":date_long" (time .published_at) ) }}</h6>
         <ul class="list-group list-group-flush">
             {{ range .assets }}
                 {{ if strings.HasSuffix .name "64bit.exe" }}
