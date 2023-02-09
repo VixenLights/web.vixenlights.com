@@ -1,8 +1,14 @@
 ---
 title: Command Lines
 author: Vixen Team
+description: This section covers the command line aarguments.
 ---
+
+### Overview
+
 Command line arguments tell Vixen, when it loads, to disable a certain feature or to set a certain option.
+
+### Arguments
 
 * **no_controllers** - Disables all of the controllers in one swell foop.
 * **no_execution** - Disables the execution engine of Vixen.
