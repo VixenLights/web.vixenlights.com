@@ -1,11 +1,12 @@
 ---
 title: Net
 author: Vixen Team
+description: This section covers using the Net Smart object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/net/
 ---
-### Description
+### Overview
 
-The net can be used to quickly cover an area with lights. Areas such as s tree-trunk or a bush can be covered without having to draw every strand of lights. It also makes a fairly accurate representation of icicle light strings.
+The net can be used to quickly cover an area with lights similar to the Net lights. Areas such as a tree-trunk or a bush can be covered without having to draw every strand of lights. It also makes a fairly accurate representation of icicle light strings.
 
 ### Settings
 

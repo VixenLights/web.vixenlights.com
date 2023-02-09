@@ -1,9 +1,10 @@
 ---
 title: Icicles
-author: Jeff
+author: Vixen Team
+description: This section covers using the Icicles Smart object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/icicles/
 ---
-### Description
+### Overview
 
 Icicles can be either **Pixel** based or **Standard** string based. Pixel Icicles have individually addressable pixels across the entire Icicles and standard Icicles typically have one color strand.
 

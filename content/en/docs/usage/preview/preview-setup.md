@@ -1,8 +1,12 @@
 ---
 title: Preview Setup
-author: Jeff
+author: Vixen Team
+description: This section covers getting to the Preview setup.
 weight: 5
 ---
+
+### Overview
+
 The Previews Configuration dialog lets you add and edit multiple previews. Why multiple previews? Because you may have one for this year's Christmas, next year's Christmas, Halloween, Easter, St. Patrick's Day and more. Create a preview just to try out new things and have one to hold your current display.
 
 ![Preview Setup](/images/docs/usage/preview/preview-setup/PreviewsConfiguration.png)
