@@ -1,8 +1,8 @@
 ---
-title: "Effect Editor"
-date: 2017-01-05
+title: Effect Editor
+author: Vixen Team
 weight: 30
-description: This section covers the Effect Editor features in the Sequencer
+description: This section covers the Effect Editor features.
 ---
 
 The effect editor is a docking pane used to edit the features of the effects. There are various controls that are highly intuitive to control the values of the effects. The docking pane can be docked in any of the normal docking places or can float as a undocked window.
