@@ -1,7 +1,7 @@
 ---
 title: Draw Mode
 author: Vixen Team
-weight: 30
+weight: 40
 description: This section covers the Draw Mode feature.
 ---
 
