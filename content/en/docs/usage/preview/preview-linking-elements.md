@@ -1,8 +1,13 @@
 ---
 title: Linking Elements
 author: Vixen Team
+description: This section covers linking elements in the Preview.
 weight: 100
 ---
+
+### Overview
+
+Linking in the Preview is the act of assigning an Element to the light node that it represets. Much of this can be automated when adding Props to the Preview, but sometimes you may need to do it manually. In the Proerties section of a Prop shape is a entry called Linked Elements that can be used to edit the linkage.
 
 ### Usage Notes
 

@@ -1,42 +1,14 @@
 ---
-title: Basic Shapes
+title: Basic Drawing
 author: Vixen Team
 weight: 30
+description: This section covers the Basic Shapes used for Props.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/basic-shapes/
 ---
-### Shape Properties
 
-All of the basic shapes in Vixen share similar properties.
+### Overview
 
-When you select a shape in the preview display a properties page will appear on the bottom left side of the preview editor screen.
-
-![Preview Toolbar](/images/docs/usage/preview/basic-shapes/line-properties.png)
-
-### Position
-
-The position of each item is defined by various X and Y coordinates. Each item has different XY coordinates that can be set, for example, a line is defined by two points (labeled Point1 and Point2) in the image above. These can be set manually set in the properties sheet, set via dragging the selection boxes around the item in the preview window or by using the arrow keys after the item is selected.
-
-### Light Count
-
-This defines the number of lights in the item. Some items, such as the rectangle, have multiple strings each with their own light count.
-
-Increasing the light count in a a string will add lights to the end of the string. If the item is defined as a **Standard** string type, there is no more configuration necessary. If the item is defined as a **Pixel** string type, these newly added pixels will be unassigned. You will have to link them to an element.
-
-Decreasing the light count removes pixels from the end of the string. There is a side effect of this. If you have a **Pixel** string type and remove 10 pixels and then re-add 10 pixels, you will lose any Element linking information you may have had defined.
-
-### Light Size
-
-The diameter of the light on the screen. Adjust this until the light size looks the way you want. The defaut size is 3, and bigger numbers provide a larger light diameter.
-
-### String Type
-
-This defines the type of string you want to use for this item. A **Standard** string type is one where the entire prop is linked to a single element. A **Pixel** string type is one that has each of it's lights liked to an individual element. There is nothing wrong with linking multiple lights in a pixel string to the same element.
-
-### Linked Elements
-
-This is where you tell the preview what elements each item and pixel should respond to. Every item on the preview is linked to an element or, in the case of pixels, elements.
-
-For more on linking elements, look at the [Linking Elements][1] section.
+The notion of how Props are represented in the Preview is denoted by Shapes. All Props have a Shape and there are 3 distinct types. The first are the Basic Drawing types. These are simple in nature, but can represent a wide variety of items effectively. These are selected from the Basic Drawing area in the toolbar.
 
 ### Point
 
@@ -71,5 +43,3 @@ Hold Ctrl while resizing the shape to maintain the triangle as an isosceles tri
 ### Multi String
 
 The Multi String is used to draw more complex light strings that are not just in a single straight line. They contan multiple points and line segments that join those points together. They can be **Standard** or **Pixel** strings. This can be used for rooflines and other shapes that change directions. You click to start the string and then hover the string out to the location it should change directions. Click again and the segment will hold and you can hover to the next location to click and set that segment. Once you are done, usethe ESC key to end the drawing.
-
- [1]: http://www.vixenlights.com/vixen-3-documentation/preview/how-to/linking-elements/ "Linking Elements"

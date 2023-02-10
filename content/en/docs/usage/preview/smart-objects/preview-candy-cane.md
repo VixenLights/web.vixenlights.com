@@ -1,10 +1,11 @@
 ---
 title: Candy Cane
 author: Vixen Team
+description: This section covers using the Candy Cane Smart object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/candy-cane/
 ---
 
-### Description
+### Overview
 
 A Candy Cane can be either **Pixel** based or **Standard** string based. A pixel Candy Cane has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
 

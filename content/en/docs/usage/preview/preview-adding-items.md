@@ -2,7 +2,13 @@
 title: Adding Items
 author: Vixen Team
 weight: 15
+description: This section covers adding Props to the Preview.
 ---
+
+### Overview
+
+Being able to add your Prop shapes to the Preview allows you to visualize what the actual Prop will look like when your sequences are running.
+
 ### Adding a Shape to the Preview Window
 
 There are two ways to add any item to the preview… automagic linking and manual linking. Automatically linked items can always be edited later in the [Element Links Screen][1].
