@@ -1,9 +1,13 @@
 ---
-title: JIRA Issue Management
+title: Issue Management
 author: Vixen Team
-weight: 20
+weight: 40
+description: This section covers managing issues in JIRA.
 ---
-We use JIRA to track feature requests, bug reports, improvements, and other development-related work in Vixen.  This page will explain the structure and layout of some of the JIRA tickets, the processes we go through when working on them, and any other related notes.
+
+### Overview
+
+We use JIRA to track feature requests, bug reports, improvements, and other development-related work for the Vixen application.  This page will explain the structure and layout of some of the JIRA tickets, the processes we go through when working on them, and any other related notes. For documentation issues, see [Contributing to Documentation][3].
 
 The [JIRA bug tracker][1] can be found here. We are currently utilizing the cloud version of JIRA, so the link here will redirect you to the Atlassian location for our cloud instance. If you have a question that is not answered on this page, please ask!
 
@@ -26,7 +30,7 @@ JIRA tickets have a number of fields that can be used to help describe and categ
 * **Fix Version** This should be added when the code is merged and will be included in the next version.
 * **Assignee/Reporter** Who is working on it, and who reported it.
 * **Description/Attachements** (<span style="color: #ff6600;">*</span>)  Include as much detail about the problem here. If needed, attach config files, sequences, logs, etc.
-* **Task Group**  We tried to use this to track a rough timeframe of when work would be done. Finding it too hard to predict, so we&#8217;ve stopped using it.
+* **Task Group**  We tried to use this to track a rough timeframe of when work would be done. Finding it too hard to predict, so we've stopped using it.
 * **Epic Link**  Which _Project_ of work this falls under, if any. Leave empty unless you're sure of what it should be.
 
 ### Epic/Project Tickets
@@ -50,7 +54,7 @@ Note that to be able to do a some of these functions, you need to have appropria
 
 Note that this process does not have any documentation steps integrated into it. If the work you do on a ticket involves updating the application documentation. i.e this site, then you should create a cooresponding issue in the Github issues for this site and document the needed changes. You can then make those changes or ensure they are documented so that someone else can.
 
-# Ticket Searches
+### Ticket Searches
 
 There's a number of searches we have made that can be handy:
 
@@ -58,3 +62,4 @@ There's a number of searches we have made that can be handy:
 
 [1]: http://bugs.vixenlights.com
 [2]: http://bugs.vixenlights.com/issues/?filter=10000
+[3]: {{< ref "contribute-docs#creating-an-issue" >}}
