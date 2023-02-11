@@ -22,5 +22,9 @@ Intelligent Fixture Effects are different than the other lighting effects in tha
 capabilities of the fixture hardware in easy to use effects.  Most fixture will only support a subset of these effects.  The effect help pages identify the requirements of the hardware for the effect
 to be applicable.
 
+### Device Action Effects ###
+
+Device Action effects are intended to control items external to Vixen at precise times during a sequence.  External items might include special hardware devices or other software applications.
+
 
 
