@@ -2,6 +2,7 @@
 title: Edit Functions
 date: 2017-01-05
 description: Information about editing intelligent fixture functions.
+weight: 20 
 ---
 
 ![EditFunctions](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/EditFunctions.png)
