@@ -2,6 +2,7 @@
 title: Grouping
 date: 2017-01-05
 description: Information about controlling how many fixtures are created and if they are grouped.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/grouping/]
 weight: 70 
 ---
 

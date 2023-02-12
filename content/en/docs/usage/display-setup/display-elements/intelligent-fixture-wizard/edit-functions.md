@@ -2,6 +2,7 @@
 title: Edit Functions
 date: 2017-01-05
 description: Information about editing intelligent fixture functions.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/edit-functions/]
 weight: 20 
 ---
 

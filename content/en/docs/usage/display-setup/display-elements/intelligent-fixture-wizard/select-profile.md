@@ -3,6 +3,7 @@ title: Select Profile
 date: 2017-01-05
 weight: 10
 description: Information about selecting or creating a DMX intelligent fixture profile.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/select-profile/]
 ---
 
 ---

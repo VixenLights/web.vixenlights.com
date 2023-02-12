@@ -2,10 +2,11 @@
 title: Automation
 date: 2017-01-05
 description: Information about configuring intelligent fixture automation options.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/automation/]
 weight: 50 
 ---
 
-![EditFunctions](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Automation.png)
+![Automation](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Automation.png)
 
 ---
 ### Background

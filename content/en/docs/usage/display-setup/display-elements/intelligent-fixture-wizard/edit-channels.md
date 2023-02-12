@@ -2,10 +2,11 @@
 title: Edit Channels
 date: 2017-01-05
 description: Information about editing channels associated with the intelligent fixture.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/edit-channels/]
 weight: 30 
 ---
 
-![EditFunctions](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/EditChannels.png)
+![EditChannels](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/EditChannels.png)
 
 ---
 ### Background
