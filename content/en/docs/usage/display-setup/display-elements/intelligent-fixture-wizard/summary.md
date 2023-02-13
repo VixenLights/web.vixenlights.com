@@ -3,9 +3,10 @@ title: Summary
 date: 2017-01-05
 description: Summary information about the intelligent fixtures about to be created.
 weight: 80 
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/summary/]
 ---
 
-![Grouping](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Summary.png)
+![Summary](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Summary.png)
 
 ---
 ### Background

@@ -3,6 +3,7 @@ title: Intelligent Fixture Wizard
 date: 2017-01-05
 weight: 10
 description: Information about setting up DMX intelligent fixture display elements.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/]
 ---
 
 ---

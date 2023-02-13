@@ -2,10 +2,11 @@
 title: Dimming Curves
 date: 2017-01-05
 description: Information about optionally configuring dimming curves for the intelligent fixture light outputs.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/dimming-curves/]
 weight: 60 
 ---
 
-![EditFunctions](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DimmingCurves.png)
+![DimmingCurves](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DimmingCurves.png)
 
 ---
 ### Background

@@ -2,10 +2,11 @@
 title: Color Support
 date: 2017-01-05
 description: Information about selecting color support for the intelligent fixture.
+aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/color-support/]
 weight: 40 
 ---
 
-![EditFunctions](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/ColorSupport.png)
+![ColorSupport](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/ColorSupport.png)
 
 ---
 ### Background
