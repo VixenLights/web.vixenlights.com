@@ -1,8 +1,8 @@
 ---
 title: Setup and Configuration
-date: 2017-01-05
+author: Vixen Team
 weight: 10
-description: This section covers the features of the Sequencer
+description: This section covers how to setup and configure your display.
 ---
 
 ### Display Configuration Concepts

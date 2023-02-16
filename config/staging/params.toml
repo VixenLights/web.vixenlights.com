@@ -1,2 +1,6 @@
 # This will specify the develop branch for staging
 github_branch = "develop"
+
+# A link to latest version of the docs. Used in the "version-banner" partial to
+# point people to the main doc site.
+url_latest_version = "https://webtest.vixenlights.com"

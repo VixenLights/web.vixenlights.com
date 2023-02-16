@@ -1,9 +1,10 @@
 ---
 title: Arch
 author: Vixen Team
+description: This section covers using the Arch Smart object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/arch/
 ---
-### Description
+### Overview
 
 An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
 

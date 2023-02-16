@@ -53,9 +53,9 @@ quality = 75
 anchor = "smart"
 
 [services]
-#[services.googleAnalytics]
+[services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-#id = "UA-00000000-0"
+id = "G-96PKHB28ZQ"   # Test id
 
 # Language configuration
 
@@ -84,7 +84,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "2023 The Vixen Team"
+copyright = "The Vixen Team"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -106,12 +106,15 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://webtest.vixenlights.com"
+url_latest_version = "http://localhost:1313"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/VixenLights/webtest.vixenlights.com"
+github_repo = "https://github.com/VixenLights/web.vixenlights.com"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/VixenLights/vixen"
+
+# An optional link to a related project JIRA issue tracker. This should be used instead of the github_project_repo above.
+jira_project_url = "http://bugs.vixenlights.com"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -137,7 +140,7 @@ prism_syntax_highlighting = false
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+footer_about_disable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -154,10 +157,10 @@ sidebar_menu_foldable = true
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = false
+enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it!'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/vixenlights/web.vixenlights.com/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
@@ -170,23 +173,28 @@ enable = false
 [[params.links.user]]
   name = "Do It Yourself Christmas"
   url = "http://doityourselfchristmas.com/forums/forumdisplay.php?96-Vixen-3"
-  icon = "fa fa-bars"
+  icon = "fa fa-user-group"
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="diychristmas.org"
   url = "https://diychristmas.org/vb5/node/75"
-  icon = "fa fa-bars"
+  icon = "fa fa-user-group"
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
-  name = "Facebook"
+  name = "Official Vixen 3"
   url = "https://www.facebook.com/v.lights.3"
   icon = "fab fa-facebook"
-  desc = "Official Facebook page"
+  desc = "Official Vixen 3 Facebook page"
 [[params.links.user]]
-  name = "Facebook"
+  name = "Vixen 3 Sequencing"
   url = "https://www.facebook.com/groups/3801138629943646/"
   icon = "fab fa-facebook"
   desc = "Vixen 3 Sequencing Group"
+[[params.links.user]]
+  name = "Official YouTube Channel"
+  url = "https://www.youtube.com/@VixenLightsSoftware"
+  icon = "fab fa-youtube"
+  desc = "Official YouTube Channel for Vixen content"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
@@ -194,7 +202,7 @@ enable = false
   icon = "fab fa-github"
   desc = "Source code repository for Vixen"
 [[params.links.developer]]
-  name = "Developer mailing list"
+  name = "Vixen Development mailing list"
   url = "https://groups.google.com"
   icon = "fa fa-envelope"
   desc = "Discuss development issues in Google Groups by joining the Vixen Development group."

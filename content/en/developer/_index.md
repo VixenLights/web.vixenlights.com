@@ -1,21 +1,28 @@
 ---
-title: "Developer"
-linkTitle: "Developer"
+title: Developer
 weight: 0
-type: docs
+aliases: [/docs/contribution-guidelines]
 menu:
   main:
-    weight: 30
+    weight: 100
+description: How to contribute to the Vixen project.
+cascade:
+  - type: docs
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Vixen is an open source project and we love getting patches and contributions to make Vixen and its docs even better. Even people who are willing to test and provide feedback are a welcome benefit to the project.
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+### Contributor License Agreement
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+Contributions to this project become part of the project and are subject to the open source licensing.
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+### Code Reviews
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+All submissions, including submissions by project members, require review. We use GitHub pull requests and review process for this purpose. Consult [GitHub Help][1] for more information on using pull requests.
+
+### Community Guidelines
+
+This project follows [Google's Open Source Community Guidelines][2].
+
+[1]: https://help.github.com/articles/about-pull-requests/
+[2]: https://opensource.google.com/conduct/

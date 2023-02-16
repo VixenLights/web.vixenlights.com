@@ -1,13 +1,16 @@
 ---
 title: Web API
 author: Vixen Team
-
+description: This section covers the RESTful API interfaces.
 ---
-Vixen implements a Restful Web API. The API allows you to get display element info, search for elements, start/pause/stop a sequence, stop a running sequence and get status updates of running sequences.
 
-You can send commands and receive responses from the Vixen web server using the commands below. The key thing to learn with this API is that most of it uses JSON object data. So if a request is POSTing data to the server that data will be in JSON object notation and sent in the body of the request. All responses are in JSON object notation as well.
+### Overview
 
-The Postman application is a good tool to use to learn how the API works and fully supports sending restful requests with JSON notation.  
+Vixen implements a Restful Web API. The API allows you to get get element info, search for elements, start/pause/stop a sequence, stop a running sequence and get status updates of running sequences.
+
+You can send commands and receive responses from the Vixen web server using the API below. The key thing to learn with this API is that most of it uses JSON object data. So if a request is POSTing data to the server that data will be in JSON object notation and sent in the body of the request. All responses are in JSON.
+
+The Postman application is a good tool to use to learn how the API works and fully supports sending RESTful requests with JSON notation.  
 
 ### GET /api/element/getElements
 

@@ -1,10 +1,11 @@
 ---
 title: Color and Brightness
-author: Jon Chuchla
+author: Vixen Team
 weight: 20
-date: 2014-08-13T14:06:27+00:00
-
 ---
+
+### Overview
+
 Color and brightness are handled a bit differently in Vixen 3.  To understand the color system in Vixen 3, you need to know a little bit about color models.
 
 ### RGB (Red Green Blue)

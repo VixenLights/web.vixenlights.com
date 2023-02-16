@@ -1,8 +1,11 @@
 ---
 title: Intelligent Fixture
-author: John Baur
+author: Vixen Team
+description: This section covers using the Intelligent Fixture Smart object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/intelligent-fixture
 ---
+
+### Overview
 
 Intelligent Fixtures are only supported in the OpenGL Preview due to performance and the need for 3D rendering capability.
 

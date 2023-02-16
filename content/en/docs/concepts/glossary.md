@@ -1,7 +1,6 @@
 ---
 title: Glossary
-author: Jon Chuchla
-date: 2013-10-31T20:33:22+00:00
+author: Vixen Team
 weight: 150
 ---
 ### Channel

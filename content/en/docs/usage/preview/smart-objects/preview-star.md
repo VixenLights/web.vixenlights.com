@@ -1,11 +1,12 @@
 ---
 title: Star
 author: Vixen Team
+description: This section covers using the Smart Star object.
 alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/star
 ---
-### Description
+### Overview
 
-An Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
+A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
 
 ### Adding an Star in Vixen 3.6+
 

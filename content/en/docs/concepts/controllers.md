@@ -1,10 +1,14 @@
 ---
 title: Controllers
-author: Jeff
-date: 2013-04-28T16:22:45+00:00
+author: Vixen Team
 weight: 40
 ---
-Controllers are the actual objects that send data out of the computer, in a specific format and transport method to real hardware in your yard.  After you've defined your elements on a high level, you'll need to set up at least one controller to output data to the real world.  You'll need one controller for each output of your computer.  There are different kinds of controller modules that correspond with real world hardware.  For example, the "Open DMX Output" controller will output one universe of DMX data using the protocol designed for the Enttec Open DMX based hardware dongle.
+
+### Overview
+
+Controllers are the actual objects that send data out of the computer, in a specific format and transport method to real hardware in your yard. After you've defined your elements on a high level, you'll need to set up at least one controller to output data to the real world. You'll need one controller for each output of your computer. There are different kinds of controller modules that correspond with real world hardware. For example, the "Open DMX Output" controller will output one universe of DMX data using the protocol designed for the Enttec Open DMX based hardware dongle.
+
+### Configuration
 
 When you configure a controller, you need to first specify the type.  There are several supported output types that correspond with various real world hardware.  After defining the controller, you need to tell it how many channels it will have.  This needs to be the sum of all of the individual output channels of all actual devices connected to that port.  Most controllers also have some other information specific to that device that also needs to be defined.  For a Renard, it would be the Com Port, and Baud Rate; for sACN, it's the universes and addressing.  Some controller types have no configurable parameters, the Open DMX Output is one example.  It doesn't use a com port, and it has a fixed output size of 512 channels.
 
