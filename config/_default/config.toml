@@ -195,6 +195,11 @@ enable = false
   url = "https://www.youtube.com/@VixenLightsSoftware"
   icon = "fab fa-youtube"
   desc = "Official YouTube Channel for Vixen content"
+[[params.links.user]]
+  name = "Report a Bug"
+  url = "https://bugs.vixenlights.com"
+  icon = "fa-brands fa-jira"
+  desc = "Vixen Bug Tracker"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
