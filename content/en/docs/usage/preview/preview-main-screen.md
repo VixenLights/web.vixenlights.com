@@ -3,7 +3,7 @@ title: Main Preview Screen
 author: Vixen Team
 weight: 10
 description: This section covers the main Preview screen.
-alias: vixen-3-documentation/preview/main-preview-screen
+aliases: [/vixen-3-documentation/preview/main-preview-screen/]
 ---
 
 ### Overview

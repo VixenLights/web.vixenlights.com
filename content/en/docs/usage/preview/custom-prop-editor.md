@@ -2,7 +2,7 @@
 title: Custom Prop Editor
 author: Vixen Team
 description: This section covers the Custom Prop Editor. 
-alias: /vixen-3-documentation/preview/custom-prop-editor
+aliases: [/vixen-3-documentation/preview/custom-prop-editor/]
 ---
 ### Overview
 

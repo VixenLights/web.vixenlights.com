@@ -2,6 +2,7 @@
 title: Setup and Configuration
 author: Vixen Team
 weight: 10
+aliases: [/vixen-3-documentation/setup-configuration/]
 description: This section covers how to setup and configure your display.
 ---
 

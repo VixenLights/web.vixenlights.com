@@ -2,6 +2,7 @@
 title: Release Builds
 author: Vixen Team
 weight: 10
+aliases: [/downloads/vixen-3-downloads/]
 ---
 
 ### Overview
