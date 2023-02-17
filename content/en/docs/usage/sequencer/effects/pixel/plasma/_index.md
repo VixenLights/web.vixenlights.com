@@ -2,7 +2,7 @@
 title: Plasma
 author: Vixen Team
 description: Creates an effect that resembles plasma.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/plasma/]
+aliases: [/vixen-3-documentation/sequencer/effects/plasma/]
 ---
 
 ---

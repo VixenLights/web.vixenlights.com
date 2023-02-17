@@ -2,7 +2,7 @@
 title: Spirograph
 author: Vixen Team
 description: Creates an effect simulating the geometric patterns created by a children''s spirograph geometric drawing toy. 
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spirograph/]
+aliases: [/vixen-3-documentation/sequencer/effects/spirograph/]
 ---
 
 ---

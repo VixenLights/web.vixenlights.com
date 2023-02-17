@@ -2,7 +2,7 @@
 title: Tree
 author: Vixen Team
 description: Creates an effect that simulates wrapping garland around a tree.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/tree/]
+aliases: [/vixen-3-documentation/sequencer/effects/tree/]
 ---
 
 ---

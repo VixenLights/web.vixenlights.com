@@ -2,7 +2,7 @@
 title: Pinwheel
 author: Vixen Team
 description: Creates an effect that makes a spiral that resembles a Pinwheel.             
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/pinwheel/]
+aliases: [/vixen-3-documentation/sequencer/effects/pinwheel/]
 ---
 
 ---
