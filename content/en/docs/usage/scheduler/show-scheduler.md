@@ -2,7 +2,7 @@
 title: Show Scheduler
 author: Vixen Team
 weight: 30
-alias: /vixen-3-documentation/scheduling-a-show/show-scheduler/
+aliases: [/vixen-3-documentation/scheduling-a-show/show-scheduler/]
 ---
 After you have setup your Show in the [Show Editor][1], you will want to schedule it to run.
 

@@ -2,7 +2,7 @@
 title: Spiral
 author: Vixen Team
 description: Creates a spiraled effect when applied to a mega-tree.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/spiral/]
+aliases: [/vixen-3-documentation/sequencer/effects/spiral/]
 ---
 
 ---

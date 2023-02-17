@@ -2,7 +2,7 @@
 title: Vertical Meter
 author: Vixen Team
 description: Creates an effect that simulates Simulates a vertical audio meter.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/vertical-meter/]
+aliases: [/vixen-3-documentation/sequencer/effects/vertical-meter/]
 ---
 
 ---

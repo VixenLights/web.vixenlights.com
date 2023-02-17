@@ -3,6 +3,7 @@ title: Sequence Import
 author: Vixen Team
 weight: 20
 description: This section covers importing a sequence package of shared sequences.
+aliases: [/vixen-3-documentation/sequencer/sequence-import/]
 ---
 
 ### Overview

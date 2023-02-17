@@ -3,7 +3,7 @@ title: Basic Drawing
 author: Vixen Team
 weight: 30
 description: This section covers the Basic Shapes used for Props.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/basic-shapes/
+aliases: [/vixen-3-documentation/preview/adding-items-to-the-preview/basic-shapes/]
 ---
 
 ### Overview

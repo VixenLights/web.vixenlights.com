@@ -2,7 +2,7 @@
 title: Snowflakes
 author: Vixen Team
 description: Creates an effect that simulates falling snowflakes.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/snowflakes/]
+aliases: [/vixen-3-documentation/sequencer/effects/snowflakes/]
 ---
 
 ---

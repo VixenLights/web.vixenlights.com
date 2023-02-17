@@ -2,7 +2,7 @@
 title: Show Editor
 author: Vixen Team
 weight: 20
-alias: /vixen-3-documentation/scheduling-a-show/show-editor
+aliases: [/vixen-3-documentation/scheduling-a-show/show-editor]
 ---
 
 ### Creating a Show

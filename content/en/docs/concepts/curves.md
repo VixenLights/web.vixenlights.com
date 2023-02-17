@@ -2,6 +2,7 @@
 title: Curves
 author: Vixen Team
 weight: 40
+aliases: [/vixen-3-documentation/basic-concepts-of-vixen-3/curve-editor/]
 ---
 
 ### Overview

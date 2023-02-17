@@ -2,7 +2,7 @@
 title: Snowstorm
 author: Vixen Team
 description: Creates an effect that mimics an intense snowstorm with snow falling sideways.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/snowstorm/]
+aliases: [/vixen-3-documentation/sequencer/effects/snowstorm/]
 ---
 
 ---

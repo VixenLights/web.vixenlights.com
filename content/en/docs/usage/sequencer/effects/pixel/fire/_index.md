@@ -1,7 +1,7 @@
 ---
 title: Fire
 description: Creates an effect that simulates burning fire.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/fire/]
+aliases: [/vixen-3-documentation/sequencer/effects/fire/]
 ---
 
 ---
@@ -33,7 +33,7 @@ Creates an effect that simulates burning fire.
 
 ## Brightness
 
-* **Intensity** - This is an overall brightness intensity curve for over the duration of the effect. 
+* **Intensity** - This is an overall brightness intensity curve for over the duration of the effect.ï¿½
                   This is a legacy parameter, consider using intensity overlay layers instead.
                  
 ---

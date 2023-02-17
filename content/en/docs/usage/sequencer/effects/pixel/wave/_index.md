@@ -2,7 +2,7 @@
 title: Wave
 author: Vixen Team
 description: Creates an effect that produces waves on the display element.  
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/wave/]
+aliases: [/vixen-3-documentation/sequencer/effects/Wave/]
 ---
 
 ---

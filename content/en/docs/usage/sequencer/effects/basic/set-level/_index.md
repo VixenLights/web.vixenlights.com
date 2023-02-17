@@ -2,7 +2,7 @@
 title: Set Level
 author: Vixen Team
 description: Creates a fixed level effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/set-level/]
+aliases: [/vixen-3-documentation/sequencer/effects/set-level/]
 ---
 
 ### Overview

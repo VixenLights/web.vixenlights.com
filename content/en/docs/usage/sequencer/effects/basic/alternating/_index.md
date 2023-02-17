@@ -2,7 +2,7 @@
 title: Alternating
 author: Vixen Team
 description: Creates an alternating effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/alternating/]
+aliases: [/vixen-3-documentation/sequencer/effects/alternating/]
 ---
 
 ### Overview

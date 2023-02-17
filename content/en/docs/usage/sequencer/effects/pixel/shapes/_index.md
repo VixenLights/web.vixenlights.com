@@ -1,7 +1,7 @@
 ---
 title: Shapes
 description: Creates an effect that animates shapes on the display element.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/shapes/]
+aliases: [/vixen-3-documentation/sequencer/effects/shapes/]
 ---
 
 ---

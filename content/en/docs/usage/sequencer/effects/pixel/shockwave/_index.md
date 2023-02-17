@@ -2,7 +2,7 @@
 title: Shockwave
 author: Vixen Team
 description: Creates an effect that simulates the shockwave from an explosion, or the ripples of an object thrown into water.             
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/shockwave/]
+aliases: [/vixen-3-documentation/sequencer/effects/shockwave/]
 ---
 
 ---

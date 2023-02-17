@@ -2,7 +2,7 @@
 title: Waveform
 author: Vixen Team
 description: Creates an effect that fills a display element with color based on the audio.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/waveform/]
+aliases: [/vixen-3-documentation/sequencer/effects/waveform/]
 ---
 
 ---

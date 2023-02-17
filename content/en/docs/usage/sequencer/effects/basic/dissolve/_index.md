@@ -2,7 +2,7 @@
 title: Dissolve
 author: Vixen Team
 description: Creates a Dissolving or Filling effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/dissolve/]
+aliases: [/vixen-3-documentation/sequencer/effects/Dissolve/]
 ---
 
 ### Overview
