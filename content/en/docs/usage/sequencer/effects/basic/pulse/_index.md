@@ -2,7 +2,7 @@
 title: Pulse
 author: Vixen Team
 description: Creates a pulsing type effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/pulse/]
+aliases: [/vixen-3-documentation/sequencer/effects/pulse/]
 ---
 
 ### Overview

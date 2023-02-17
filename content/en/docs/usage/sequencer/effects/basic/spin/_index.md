@@ -1,7 +1,7 @@
 ---
 title: Spin
 description: Creates a spinning effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/spin/]
+aliases: [/vixen-3-documentation/sequencer/effects/spin/]
 ---
 The **Spin** is similar to the [Chase][5] effect. It can be thought of as repeating chases back to back which creates a spinning effect.
 

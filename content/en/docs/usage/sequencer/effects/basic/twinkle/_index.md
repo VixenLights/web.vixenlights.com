@@ -2,7 +2,7 @@
 title: Twinkle
 author: Vixen Team
 description: Creates a twinkling effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/twinkle/]
+aliases: [/vixen-3-documentation/sequencer/effects/twinkle/]
 ---
 
 ### Overview

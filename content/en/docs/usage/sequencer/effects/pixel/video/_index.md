@@ -3,7 +3,7 @@ title: Video
 author: Vixen Team
 description: Creates an effect that allows you to embed a video file to be played on your grid.
 
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/video/]
+aliases: [/vixen-3-documentation/sequencer/effects/video/]
 ---
 
 ---

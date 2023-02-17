@@ -2,7 +2,7 @@
 title: Chase
 author: Vixen Team
 description: Creates a chasing effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/chase/]
+aliases: [/vixen-3-documentation/sequencer/effects/chase/]
 ---
 
 ### Overview

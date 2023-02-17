@@ -2,7 +2,7 @@
 title: VU Meter
 author: Vixen Team
 description: Create an effect that simulates a VU meter indicator light.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/vu-meter/]
+aliases: [/vixen-3-documentation/sequencer/effects/vu-meter/]
 ---
 
 ---

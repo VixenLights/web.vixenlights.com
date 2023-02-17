@@ -2,7 +2,7 @@
 title: Wipe
 author: Vixen Team
 description: Creates a wiping effect.
-aliases: [/vixen-3-documentation/sequencer/effects/basic-lighting-effects/wipe/]
+aliases: [/vixen-3-documentation/sequencer/effects/wipe/]
 ---
 
 ### Overview

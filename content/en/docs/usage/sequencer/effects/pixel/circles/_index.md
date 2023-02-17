@@ -1,7 +1,7 @@
 ---
 title: Circles
 description: Creates an effect that animates concentric circles.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/circles/]
+aliases: [/vixen-3-documentation/sequencer/effects/circles/]
 ---
 
 ---

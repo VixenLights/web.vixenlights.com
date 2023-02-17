@@ -1,7 +1,7 @@
 ---
 title: Border
 description: Creates an effect that outlines a display element with a border.
-aliases: [/vixen-3-documentation/sequencer/effects/pixel-lighting-effects/border/]
+aliases: [/vixen-3-documentation/sequencer/effects/border/]
 ---
 
 ---
