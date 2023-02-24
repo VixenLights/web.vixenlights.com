@@ -3,6 +3,7 @@ title: Linking Elements
 author: Vixen Team
 description: This section covers linking elements in the Preview.
 weight: 100
+aliases: [/vixen-3-documentation/preview/how-to/linking-elements/]
 ---
 
 ### Overview
