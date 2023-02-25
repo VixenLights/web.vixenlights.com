@@ -4,6 +4,8 @@ author: Vixen Team
 weight: 10
 description: This section covers the main Preview screen.
 aliases: [/vixen-3-documentation/preview/main-preview-screen/]
+aliases: [/vixen-3-documentation/preview/background-image/]
+
 ---
 
 ### Overview
@@ -42,11 +44,16 @@ Most lighting displays happen at night. You can use the slider next to the image
 
 #### Resizing the Background Image
 
-* From the Edit menu, select Background Properties
-* Change the width. The height will adjust and keep the aspect ratio of the image
+* From the **Edit** menu, select **Background Properties**
+* Change the width. By default the height will adjust and keep the aspect ratio of the background image.
+* Selecting the ![ChainLink](/images/docs/usage/preview/main-preview-screen/ChainLink.PNG) button will toggle between keeping the aspect ratio of the width and height fixed vs allowing
+  both the width and height to be edited independently.
 * All items on the preview will re-size and move to new locations to match the new preview image
 
-![Preview Background Resize](/images/docs/usage/preview/main-preview-screen/resize-background-dialog.jpg)
+* By unselecting **Scale Shapes** the preview can be expanded to allow more space for props.  
+  This type of resize is often desired when a background image is not being used.
+
+  ![Preview Background Resize](/images/docs/usage/preview/main-preview-screen/resize-background-dialog.png)
 
 ### Select
 
