@@ -36,7 +36,7 @@
     };
     const sendFeedback = (value) => {
       if (!gtag) { console.log('!gtag'); }
-      gtag('event', 'click', {
+      gtag('event', 'feedback', {
         'event_category': value?'page helpful':'page not helpful',
         'event_label': window.location.pathname,
         'event_value': value
