@@ -36,9 +36,10 @@
     };
     const sendFeedback = (value) => {
       if (!gtag) { console.log('!gtag'); }
-      gtag('event', 'feedback', {
-        'event_category': 'page_helpful',
-        'event_label': (value ? 'Yes' : 'No'),
+      gtag('event', 'click', {
+        'event_category': value?'page helpful':'page not helpful',
+        'event_label': window.location.pathname,
+        'event_value': value
       });
     };
     yesButton.addEventListener('click', () => {
