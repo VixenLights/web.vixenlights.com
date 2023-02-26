@@ -13,6 +13,6 @@ jobs:
   docker-prod:
     uses: ./.github/workflows/docker.yml
     with:
-      hugo-environment: production
+      environment: production
       image-name: ${{ github.repository_owner }}/www.vixenlights.com
     secrets: inherit
