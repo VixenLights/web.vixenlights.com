@@ -3,7 +3,7 @@ name: Docker
 on:
   workflow_call:
     inputs:
-      hugo-environment:
+      environment:
         required: true
         type: string
       image-name:
@@ -15,6 +15,7 @@ env:
 
 jobs:
   docker:
+    environment: ${{ inputs.environment }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -54,7 +55,7 @@ jobs:
       - run: npm ci
 
       - name: Hugo build
-        run: hugo --environment ${{ inputs.hugo-environment }}
+        run: hugo --environment ${{ inputs.environment }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2

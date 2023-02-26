@@ -13,6 +13,6 @@ jobs:
   docker-stage:
     uses: ./.github/workflows/docker.yml
     with:
-      hugo-environment: staging
+      environment: staging
       image-name: ${{ github.repository_owner }}/webtest.vixenlights.com
     secrets: inherit
