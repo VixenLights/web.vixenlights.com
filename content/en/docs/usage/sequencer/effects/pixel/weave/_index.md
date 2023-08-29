@@ -75,3 +75,9 @@ Creates an effect that draws a weave pattern and animates it.  This effect works
 
   * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                     This is a legacy parameter, consider using intensity overlay layers instead.
+
+---
+
+#### Video Tutorial
+
+{{< youtube pmC0ZrT3ceE>}}
