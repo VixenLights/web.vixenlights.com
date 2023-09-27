@@ -2,7 +2,7 @@
 title: Mega Tree
 author: Vixen Team
 description: This section covers using the Mega Tree Smart object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/mega-tree/
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/mega-tree/']
 ---
 
 ### Overview

@@ -2,7 +2,7 @@
 title: Icicles
 author: Vixen Team
 description: This section covers using the Icicles Smart object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/icicles/
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/icicles/']
 ---
 ### Overview
 

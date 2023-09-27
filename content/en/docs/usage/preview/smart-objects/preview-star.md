@@ -2,7 +2,7 @@
 title: Star
 author: Vixen Team
 description: This section covers using the Smart Star object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/star
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/star']
 ---
 ### Overview
 
