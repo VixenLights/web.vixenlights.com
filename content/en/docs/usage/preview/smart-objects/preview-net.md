@@ -2,7 +2,7 @@
 title: Net
 author: Vixen Team
 description: This section covers using the Net Smart object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/net/
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/net/']
 ---
 ### Overview
 

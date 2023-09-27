@@ -2,7 +2,7 @@
 title: Intelligent Fixture
 author: Vixen Team
 description: This section covers using the Intelligent Fixture Smart object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/intelligent-fixture
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/intelligent-fixture']
 ---
 
 ### Overview
