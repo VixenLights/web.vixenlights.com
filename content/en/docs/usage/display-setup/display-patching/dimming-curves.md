@@ -3,7 +3,7 @@ title: Dimming Curves
 author: Jeff
 date: 2022-06-06T17:02:08+00:00
 
-aliases: [http://www.vixenlights.com/vixen-3-documentation/setup-configuration/link-elements-to-controllers/]
+aliases: [/vixen-3-documentation/setup-configuration/link-elements-to-controllers/]
 
 ---
 ### Dimming Curves
