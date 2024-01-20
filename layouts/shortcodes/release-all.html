@@ -2,7 +2,7 @@
 <div class="card mb-4">
     <div class="card-body">
         <h5 class="card-title">Version: {{ .name }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ .published_at }}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">{{ (dateFormat ":date_long" (time .published_at).Local ) }}</h6>
     </div>
     <ul class="list-group list-group-flush">
         {{ range .assets }}

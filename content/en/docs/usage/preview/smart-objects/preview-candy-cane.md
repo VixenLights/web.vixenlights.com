@@ -2,7 +2,7 @@
 title: Candy Cane
 author: Vixen Team
 description: This section covers using the Candy Cane Smart object.
-alias: /vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/candy-cane/
+aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/candy-cane/']
 ---
 
 ### Overview

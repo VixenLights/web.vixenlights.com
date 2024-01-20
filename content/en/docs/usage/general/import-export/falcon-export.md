@@ -46,16 +46,20 @@ The next screen will be used to setup how to do the export. Here you can choose 
 
 Once you have chosen a format, the next section will adapt for the format. For Falcon 2.6+, the main options here are as follows.
 
-- **Create Universe File** This specifies if the universe configuration file should be genrated that reflects the controller and channel mapping. This generated in the exact format that FPP uses. It can be directly uploaded to replace the existing configuration.
+- **Create Universe File** This specifies if the universe configuration file should be genrated that reflects the controller and channel mapping. This is generated in the exact format that FPP uses. It can be directly uploaded to replace the existing configuration as part of the export in the wizard.
 - **Include Audio** This specifies if the audio file should be included as part of the export. If enabled, the audio file will be named the same as the sequence file to ensure FPP can locate it automatically.
 - **Backup Universe File** If the export location already has a universe file it will be renamed before it is replaced with the new one created when **Create Universe File** is enabled.
 - **Enable Conpression** This enables the FSEQ file to be compressed. The default is enabled and recommended.
 
-The last area is the output folder. This can be a file folder on your computer, or the shared location on the FFP device itself if Sambe file sharing is enabled on the FPP. This was enabled by default on FPP versions 5 and older, but on 6+ it has to be enabled in the settings under **FPP Settings -> System** In the section OS Settings select Enable Samba/CIFS. This will allow you to direcly export to the FPP folder over a network connection. You can use \\ip\\fpp by changing ip to either the ip addess of the FPP device, or the hostname if you have DNS. If you directly export to FPP, the export wizard can place all the files where they belong including the universe file, sequences, and audio. If you export to the file system, the output folder structure will mimic the structure on FPP. You can then manually upload the files for FPP. If you let the wizard export to FPP, you will need to restart the FPPD Daemon.  
+The last area is the output folder. This can be a file folder on your computer, or the shared location on the FFP device itself if Samba/CIFS file sharing is enabled in FPP. This was enabled by default on FPP versions 5 and older, but on 6+ it has to be enabled in the settings under **FPP Settings -> System**. You will need to ensure the advanced settings are enabled under **FPP Settings -> UI -> User Interface Level** in order to view the OS settings. In the section OS Settings, select Enable Samba/CIFS.
+
+![FPP OS Settings](/images/docs/usage/general/import-export/fpp_samba_setting.png "FPP OS Settings")
+
+This will allow you to direcly export to the FPP folder over a network connection. You can use \\ip\\fpp by changing ip to either the ip addess of the FPP device, or the hostname if you have DNS. If you directly export to FPP, the export wizard can place all the files where they belong including the universe file, sequences, and audio. If you export to the file system, the output folder structure will mimic the structure on FPP. You can then manually upload the files for FPP. If you let the wizard export to FPP, you will need to restart the FPPD Daemon to pick up any configuration changes.  
 
 #### Summary
 
-The last screen is the summary screen that details what will be done. There is also an option to save thsi configuration for future use. You can enter the name, or choose an existing configuiration to update. After you hit next, it will commence exporting. There will be progress bars showing the progress through the process.
+The last screen is the summary screen that details what will be done. There is also an option to save this configuration for future use. You can enter the name, or choose an existing configuiration to update. After you hit next, it will commence exporting. There will be progress bars showing the progress through the process.
 
 ### Sequence Editor Export
 

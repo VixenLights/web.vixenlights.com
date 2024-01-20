@@ -11,7 +11,7 @@
     Vixen {{ $release.name  }} Released!
 </h4>
 <div class="mb-0">
-    <p>Release Date: {{ (dateFormat ":date_long" (time $release.published_at) ) }}. </p>
+    <p>Release Date: {{ dateFormat ":date_long" (time $release.published_at).Local }}. </p>
     <p>
         <a href="/download/release-build/">Download 
 	    </a>
