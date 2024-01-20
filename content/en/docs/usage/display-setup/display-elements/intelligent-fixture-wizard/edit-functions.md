@@ -131,6 +131,9 @@ If the entries are tagged Vixen will automatically apply the prism if a prism is
   * The entry that applies the prism should be tagged **Prism Open**.
   * The entry that remove the prism should be tagged **Prism Close**.
 
+  **Associated Prism Function** - This drop down allows the user to select the associated Prism function that is being opened and closed.
+  This field is critical when the fixture contains more than one prism function that can be opened and closed.
+
 ---
 
 * **Prism Function** - Defines a function for placing a prism into the beam of light.
