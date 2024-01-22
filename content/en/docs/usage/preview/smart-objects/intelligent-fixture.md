@@ -47,6 +47,12 @@ Swaps the start position with the stop position and inverts the direction of mov
 
 Determines the Intelligent Fixture element the graphic is linked to.  Selecting the **...** button allows you to pick an Intelligent Fixture element. 
 
+### Maximum Strobe Duration (ms)
+
+Determines the maximum amount of time an intelligent fixture's beam will be active in the preview when it's shutter is in strobe mode.
+This time may be reduced depending on the strobe interval time such that the beam is ON (active) for 25% of the interval.
+This property should be configured to allow the preview to simulate the actual strobe duration of the physical hardware.
+
 ### Mounting Position
 
 Selects the mounting position of the fixture.  This property allows for simulating the fixture being mounted upside down.
@@ -66,6 +72,16 @@ Defines the resting position of the fixture. The stop position defines the maxim
 ### Show Legend
 
 When true enables a legend that will show a function label and the corresponding channel value.  The legend can be used to debug problems and to provide feedback for functions that are not directly supported by the preview. The legend is only applicable to index and range functions that were populated with a Preview Legend character.
+
+### Strobe Rate Maximum (Hz)
+
+Defines the maximum rate in Hz at which the intelligent fixture should strobe in the preview.
+This property should be configured to allow the preview to simulate the actual strobe rate of the physical hardware.
+
+### Strobe Rate Minimum (Hz)
+
+Defines the minimum rate in Hz at which the intelligent fixture should strobe in the preview.
+This property should be configured to allow the preview to simulate the actual strobe rate of the physical hardware.
 
 ### Tilt Start Position (Degrees)
 
