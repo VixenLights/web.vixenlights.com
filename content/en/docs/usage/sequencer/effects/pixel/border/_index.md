@@ -24,53 +24,15 @@ Creates an effect that outlines a display element with a border.
 
 ### Configuration
 
-* **Border Mode** - Selects between _Simple_ and _Advanced_ borders.  Advanced borders have addtional settings to configure their appearance.
+* **Border Mode** - Selects the type of border.
+ 
+  * [_Simple_](./border_simple) - This border mode provides a uniform border around the display element.
+  * [_Advanced_](./border_advanced) - This border mode provides advanced control over the size and width of the border. 
+  * [_Marquee_](./border_marquee) - This border mode provides moving bands of color moving around the display element.  
+                                     This border mode also has special render levels that make visually interesting patterns on mega-trees.
 
-* **Border Type** - Selects between _Single_ or _Independent_ border width control.  _Single_ border type makes all the sides of the display element a uniform thickness.
 
----
 
-### Border
 
-* **Width** - Controls the thickness of the border when _Simple_ **Border Mode** is selected.
 
-* **Thickness** - Adjusts the thickness of the border.  Applies when _Single_ **Border Type** is selected.
-
-* **Top Width** - Adjusts the top border thickness.
-
-* **Bottom Width** - Adjusts the bottom border thickness.
-
-* **Left Width** - Adjusts the left border thickness.
-
-* **Right Width** - Adjusts the right border thickness.
-
-* **Width** - Configures the width of the border. 
-
-* **Height** - Configures the height of the border.
-
----
-
-### Movement
-
-* **X Offset** - Adjusts the position of the effect along the X axis.
-
-* **Y Offset** - Adjusts the position of the effect along the Y axis.
-
----
-
-### Color
-
-* **Gradient Mode** - Configures how the **Color Gradient** is applied to the border
-                      (_Over Time_, _Across Element_, _Vertically Across Element_, _Diagonal Bottom-Top Element_, _Diagonal Top-Bottom Element_).
-
-* **Color Gradient** - Controls the colors of the border.
-
----
-
-### Brightness
-
-* **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
-                  This is a legacy parameter, consider using intensity overlay layers instead.
-
----
 
