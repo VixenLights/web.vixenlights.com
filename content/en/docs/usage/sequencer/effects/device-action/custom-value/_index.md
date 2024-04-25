@@ -13,9 +13,9 @@ The Custom Value effect is a special purpose effect intended primarily for testi
 It is used to generate data of specific types to test downstream modules in the application.  This effect is not usually used for sequencing purposes.
 
 **Note:** When using the numerical **Data Type** values like *8 Bit Value* this effect should NOT be used on display elements that are patched to color filters.  
-Instead the display element should be directly patched to a controller.  This can be done in the **Setup Display** using the *Graphical View*.  
-When the **Data Type** is configured to numerical values this effect does not create color data (intents) so a color filter will prevent the custom values from
-making it to the controller.
+Instead the display element should be directly patched to a controller.  This can be done in the **Setup Display** using the *Graphical View*.  When the **Data Type** is 
+configured to numerical values this effect does not create color data (intents) so a color filter will prevent the custom values from
+making it to the controller.  Contact the Vixen team if you need help in this area.
 
 
 Previously this effect was used to control special features of DMX moving heads and other intelligent fixtures.
