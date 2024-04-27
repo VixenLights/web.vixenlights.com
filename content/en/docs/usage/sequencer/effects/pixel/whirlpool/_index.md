@@ -25,7 +25,7 @@ Creates an effect that draws a whirlpool.  This effect works the best on a matri
 
   * **Columns** - Controls the number of columns of whirlpools on the display element.
   * **Rows** - Controls the number of rows of whirlpools on the display element.
-  * **Panel Spacing** - Controls the spacing between the whirlpool panels on the display element.
+  * **Panel Spacing** - Controls the spacing between the whirlpool panels on the display element as a percentage of the display element.
   * **Individual Configuration** - Enables each individual whirlpool to be configured separately by displaying each whirlpool in the **Whirls** collection.
   If the top level **Whirl Configuration** settings are modified, those changes are applied to all whirl panels.
 ---
@@ -37,7 +37,7 @@ Creates an effect that draws a whirlpool.  This effect works the best on a matri
     * _Concentric Whirls_ - Draws concentrics rings to form the whirlpool.
     * _Meteor_ - Draws a meteor following the whirlpool path.
     
-  * **Tail Length** - Determines the length of the meteor.  Only applies when the **Whirl Mode** is set to *Meteor*.
+  * **Tail Length** - Determines the length of the meteor as a percentage of the display element.  Only applies when the **Whirl Mode** is set to *Meteor*.
 
   * **Rotation** - Configure the direction of rotation (Clockwise vs Counter-Clockwise) that the whirls are drawn.
     * _Clockwise_ - Whirls are drawn moving clockwise.
@@ -56,9 +56,9 @@ Creates an effect that draws a whirlpool.  This effect works the best on a matri
 
   * **Reverse Draw** - Reverses the drawing of the whirl.  The whirl is drawn complete and then is erased.
   
-  * **Spacing** - Controls the amount blank area between each whirl.
+  * **Spacing** - Controls the amount blank area between each whirl as a percentage of the display element.
 
-  * **Thickness** - Controls the thickness of the whirl.    
+  * **Thickness** - Controls the thickness of the whirl as a percentage of the display element.
 
   * **3D** - Adds 3D shading to the whirls.
 ---
@@ -113,7 +113,7 @@ Note if any of the top level **Whirl Configuration** settings are changed those 
 
 * **Top Color** - Color gradient applied to the top sides of each whirlpool when the **Color Mode** is *Side Colors*.
 
-* **Band Length** - The length of each color band when the **Color Mode** is *Color Bands*.
+* **Band Length** - The length of each color band as a percentage of the display element when the **Color Mode** is *Color Bands*.
 
 * **Colors** - The collection of color gradients when the **Color Mode** is *Color Rings* or *Color Bands*.
 
