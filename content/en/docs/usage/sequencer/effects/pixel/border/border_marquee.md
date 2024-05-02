@@ -32,15 +32,13 @@ Creates an effect that outlines a display element with a marquee border.
 
     Render Levels 1 and 2 provide visually interesting patterns when this effect is placed on a mega-tree and other props.
 
-* **Use Percentage** - Controls whether the _Band Length_, _Skip Length_, _Thickness_ and _Stagger_ settings are measured in pixels or are a percentage of the display element size.
+* **Thickness** - Controls the width of the marquee border as a percentage of the display element.
 
-* **Thickness** - Controls the width of the marquee border.
+* **Stagger** - Controls the offset between each band of pixels in the marquee border as a percentage of the display element.  The **Thickness** needs to greater than 1 pixel for this control to be visible.
 
-* **Stagger** - Controls the offset between each band of pixels in the marquee border.  The _Thickness_ needs to greater than 1 pixel for this control to be visible.
+* **Band Length** - Controls the size of the marquee color bands as a percentage of the display element.
 
-* **Band Length** - Controls the size of the marquee color bands.
-
-* **Skip Length** - Controls the size of the blank area between marquee color bands.
+* **Skip Length** - Controls the size of the blank area between marquee color bands as a percentage of the display element.
 
 * **Reverse** - Toggles the direction of the marquee movement.
 
