@@ -24,7 +24,9 @@ Creates an effect that simulates the shockwave from an explosion, or the ripples
 
 ### Configuration
 
-* **Center X:** - Sets the horizontal position where the pattern is centered from. This control has a range of 0-100 where 50 is the horizontal center.
+* **Shape** - Selects between a *Circle* or *Diamond* shaped shockwave.
+
+* **Center X** - Sets the horizontal position where the pattern is centered from. This control has a range of 0-100 where 50 is the horizontal center.
 
 * **Center Y** - Sets the vertical position where the pattern is centered from. This control has a range of 0-100 where 50 is the vertical center.
 
