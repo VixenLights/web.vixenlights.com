@@ -31,6 +31,9 @@ Creates an effect that outlines a display element with a border.
   * [_Marquee_](./border_marquee) - This border mode provides moving bands of color moving around the display element.  
                                      This border mode also has special render levels that make visually interesting patterns on mega-trees.
 
+#### Video Tutorial
+
+{{< youtube _lLaCfQWKzA>}}
 
 
 
