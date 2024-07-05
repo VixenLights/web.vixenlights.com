@@ -50,4 +50,5 @@ Creates an effect that simulates the shockwave from an explosion, or the ripples
 
 #### Video
 
-{{< video src="/images/docs/usage/sequencer/effects/pixel/shockwave/Shockwave.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
+{{< youtube dm9BFR39ZCU>}}
+
