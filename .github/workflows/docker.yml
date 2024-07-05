@@ -75,7 +75,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ inputs.image-name }}
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.repository_owner }}
