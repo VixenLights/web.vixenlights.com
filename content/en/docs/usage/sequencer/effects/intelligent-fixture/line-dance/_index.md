@@ -18,13 +18,13 @@ intelligent fixtures quick and easy.
 
 ### Configuration
 
-* **Dance Mode** - Selects between the intelligent fixture dance effects (_Fan_, _Wave_).
+* **Dance Mode** - Selects between the intelligent fixture dance effects (_Fan_, ...more to come).
 
 ---
 
 ### Requirements
 
-This effect is intended to be placed on a group of 3 or more intelligent fixtures.
+This effect is intended to be placed on a group of 2 or more intelligent fixtures.
 This effect is intended for intelligent fixtures that are positioned in a line.
 
 ---
