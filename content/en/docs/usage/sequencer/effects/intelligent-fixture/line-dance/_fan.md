@@ -50,10 +50,11 @@ This effect also works well when the Tilt is modified with the _Set Position_ ef
 This effect requires 2 or more intelligent fixtures that support the Pan function with _Pan_ tag.
 The effect requires that the intelligent fixtues can pan greater than 360 degrees.
 
-
 ---
 
+#### Video Tutorial
 
+{{< youtube R2t7cT_qxj0>}}
 
 
 
