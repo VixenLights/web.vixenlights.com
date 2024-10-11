@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: {{ if ne hugo.Environment "production" }}/{{ end }}
+{{ if ne hugo.Environment "production" }}Disallow: /{{ end }}
+Disallow: /builds/
