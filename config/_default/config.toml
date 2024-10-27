@@ -60,12 +60,13 @@ id = "G-96PKHB28ZQ"   # Test id
 # Language configuration
 
 [languages]
-[languages.en]
-title = "Vixen Lights"
-description = "Website for Vixen Lights Software"
-languageName ="English"
-# Weight used for sorting.
-weight = 1
+  [languages.en]
+    [languages.en.params]
+      title = "Vixen Lights"
+      description = "Website for Vixen Lights Software"
+      languageName ="English"
+      # Weight used for sorting.
+      weight = 1
 
 [markup]
   [markup.goldmark]
@@ -140,7 +141,7 @@ prism_syntax_highlighting = false
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = true
+footer_about_enable = false
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
