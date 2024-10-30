@@ -16,9 +16,18 @@ Notes: You will need to change the Glediator Matrix size to match the Vixen matr
 
 ---
 
+## Jinx
+
+Jinx! can be used to create files to import to this effect also. In Jinx!, you will need to specify to output to Glediator file, which writes an .out file after starting output in Jinx! It is the .out file that you rename to .gled and then Vixen can read it using the Glediator effect.
+
+[Jinx! Website][2]
+
+---
+
 ## String Setup
- 
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+  
 ---
 
 ## Movement
@@ -42,11 +51,8 @@ When Movement Type is set to Speed, the **Speed** slider will control the speed 
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
-                 
+
 ---
 
-
  [1]: https://ledpixeltm.com/glediator-led-software/
-
-
-
+ [2]: https://live-leds.de
