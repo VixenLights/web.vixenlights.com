@@ -54,5 +54,5 @@ When Movement Type is set to Speed, the **Speed** slider will control the speed 
 
 ---
 
- [1]: https://ledpixeltm.com/glediator-led-software/
+ [1]: https://lededittm.com/glediator-software-download-for-led-matrix-control/
  [2]: https://live-leds.de
