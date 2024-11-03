@@ -52,6 +52,12 @@ Check the days you want your show to run.
 
 Enter the start time and end time of your show.
 
+### Enabling the Scheduler
+
+![Enable the Scheduler](/images/docs/usage/scheduler/scheduler-enabled.png)
+
+Ensure from the main Admin screen that the scheduler is enabled by selecting the Enabled button. The check mark indicates the scheduler is enabled and you should see the Scheduler Status window showing when the next scheduled item will occur.
+
 ### Video Tutorial
 
 {{< youtube Daph7eTD4i4>}}
