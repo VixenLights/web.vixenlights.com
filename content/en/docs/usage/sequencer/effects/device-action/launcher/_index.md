@@ -8,7 +8,7 @@ description: Launcher effect for launching executables and scripts with the Laun
 
 ### Overview
 
-This effect is for launching executables and scripts with the Launcher controller.  
+This effect is for launching executables and scripts with the [Launcher Controller][1].
 
 ---
 
@@ -20,10 +20,10 @@ This effect is for launching executables and scripts with the Launcher controlle
 
 * **Arguments** - Optional arguments consumed by the **Executable**.
 
-
 ---
 
+### Example
 
+![Launcher Effect](/images/docs/usage/sequencer/effects/device-action/launcher/launcher-effect.png)
 
-
-
+[1]: {{< ref "docs/usage/display-setup/display-controllers/launcher-controller">}} "Launcher Controller"
