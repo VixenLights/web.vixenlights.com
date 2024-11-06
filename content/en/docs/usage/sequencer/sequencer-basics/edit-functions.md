@@ -25,7 +25,7 @@ Multi select of effects can be done by holding down the CTRL key while selecting
 
 Clicking the timeline and dragging the mouse with the left mouse button held will create a rectangular selection lasso that will select all effects inside or touching the lasso. You can also utilize the drag box filter by clicking the drag box icon in the toolbar to choose which effects the drag box will select. This will filter the selections to only those effects matching your criteria.
 
-Additional capabilites for selection are provide by the Draw Mode. See the section on [Draw Modes]({{< ref draw-mode.md>}}) for further details.
+Additional capabilities for selection are provide by the Draw Mode. See the section on [Draw Modes]({{< ref draw-mode.md>}}) for further details.
 
 ### Editing Effects
 
@@ -35,9 +35,11 @@ Effects can be resized by clicking on the start or the end and dragging them to 
 
 Effects can also be dragged from one element to another by clicking on them and dragging while holding the mouse down. Multiple effects can be selected and dragged at the same time. By holding the Ctrl key down while dragging the effect(s) you can create a copy of them and drag the copy to the new location. Holding the Shift key down locks the dragged effects in the same vertical time so you can move them up or down to another element. See the [Timeline][2] section for more details.
 
+Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to connect with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects.  Further continuing to move the mouse left while holding down the Alt key will connect additional elements. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will connect the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Further moving the mouse right while holding down the Alt key will connect additional effects.
+
 ### Effect Replacement
 
-There are times when you want to replace one or more effects with an effect of a different type. This can be tedius when you have to delete them and create new. On top of that you likely want them to occupy the same time slot and duration of the original effect. Fortunatly there is an easy way to accomplish this.
+There are times when you want to replace one or more effects with an effect of a different type. This can be tedious when you have to delete them and create new. On top of that you likely want them to occupy the same time slot and duration of the original effect. Fortunately there is an easy way to accomplish this.
 
 Existing effects can be replaced with another effect type directly in the editor. Select the effects you want to replace with a different effect. Hold down the Control key and drag the new effect you want anywhere on the timeline. You will be prompted to confirm you want to replace the selected effects with the new effect. Once you agree, all the selected effects will now be replaced with the new effect set to it's default. All of the effects will still be selected and you can edit them all at once.
 
