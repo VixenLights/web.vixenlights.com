@@ -35,7 +35,7 @@ Effects can be moved around on the timeline by simply clicking on them and dragg
 
 Effects can also be [Cut, Copied and Pasted][10] from one place to another. Normal paradigms apply for this mechanism. Another way to make a quick copy of an effect is to Ctrl click and then drag on the effect. This will clone the selected effect(s) and allow you to quickly drag a copy of it else where. Holding the Shift key while dragging the effect will hold it at the time so you can drag it to another element and not change its position in time.
 
-Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to connect with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects.  Further continuing to move the mouse left while holding down the Alt key will connect additional elements. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will connect the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Further moving the mouse right while holding down the Alt key will connect additional effects.
+Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to adjoin with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will adjoin the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Holding the Alt and Shift keys down together will work similarly, but only Effects at at the same [Layer][15] will be affected.
 
 Each effect can have an info popup when the mouse is hovered over them. This provides information such as the name of the effect, the start and end time, the duration, and the layer the effect is in. This can be enabled or disabled under **View -> Show Effect Info** or with Ctrl+I.
 
@@ -67,3 +67,4 @@ Many of the Timeline settings are saved with each sequence you edit. Thus when y
  [12]: {{< ref "marks#marks-bar">}}
  [13]: {{< ref "marks#adding-marks">}}
  [14]: {{< ref "marks#editing-marks">}}
+ [15]: {{< ref "layers">}}

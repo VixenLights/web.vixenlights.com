@@ -35,7 +35,7 @@ Effects can be resized by clicking on the start or the end and dragging them to 
 
 Effects can also be dragged from one element to another by clicking on them and dragging while holding the mouse down. Multiple effects can be selected and dragged at the same time. By holding the Ctrl key down while dragging the effect(s) you can create a copy of them and drag the copy to the new location. Holding the Shift key down locks the dragged effects in the same vertical time so you can move them up or down to another element. See the [Timeline][2] section for more details.
 
-Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to connect with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects.  Further continuing to move the mouse left while holding down the Alt key will connect additional elements. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will connect the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Further moving the mouse right while holding down the Alt key will connect additional effects.
+Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to adjoin with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will adjoin the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Holding the Alt and Shift keys down together will work similarly, but only Effects at at the same [Layer][4] will be affected.
 
 ### Effect Replacement
 
@@ -46,3 +46,4 @@ Existing effects can be replaced with another effect type directly in the editor
 [1]: {{< ref snap-points>}}
 [2]: {{< ref timeline>}}
 [3]: {{< ref effects>}}
+[4]: {{< ref layers>}}
