@@ -34,7 +34,16 @@ When contributing to Vixen, we track all issues and improvements in our [JIRA bu
 
 You should name your branches with the JIRA issue number. i.e. VIX-2345. Any commits to the branch should start with the same issue number as well. From there follow Git guidelines for commit messages. All commit messages should strive to be useful to provide context of the change. All submissions are done through pull requests on Github. See [Branching Practices][6] for guidance on this topic.
 
-More information on how we manage JIRA can be found [here][3].
+Commit messages should be descriptive and helpful for those who do not know what you changed. Each commit message titel should start with the JIRA issue id. Beyond that, you should follow Github guildlines for formatting your commit messages. [Git Commit Message][9].
+
+Commit message example.
+
+VIX-1234 Fixing the invalid dialog message
+
+* Add the correct dialog message showing the error that happened.
+* Removed the info icon and replaced it with the error icon.
+  
+More information on how we manage JIRA can be found here. [Issue Management][3].
 
 ### Developer Group
 
@@ -52,3 +61,4 @@ Alternatively, if there's something you'd like to see in Vixen (or if you've fou
 [6]: {{< ref "git-information#branching-practices" >}}
 [7]: {{< ref "issue-management#lifecycle-of-a-ticket" >}}
 [8]: {{< ref community >}}
+[9]: <https://github.com/joelparkerhenderson/git-commit-message>
