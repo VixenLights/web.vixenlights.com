@@ -11,7 +11,7 @@ The Timeline is the heart of the sequence editor. It is divided up from left to 
 
 ### Time Ruler
 
-The ruler along the top contains the hash marks for the time intervals. These will vary from minutes to seconds to milliseconds as you zoom in and out. You can also click here to place a caret as the starting place or drag and select a range for the sequence when playing. See [Playing Sequences][4] for more information on this feature. Marks can be added here to mark beats or other important parts of the sequence and can be used as alignment references. Hovering the mouse near the bottom of the ruler will transition the cursor to a horizontal bar that you can click and drag to resize the height of the ruller. The time numbers will scale in size relative to the height. Marks can be added via the ruler. See [Adding Marks][13].
+The ruler along the top contains the hash marks for the time intervals. These will vary from minutes to seconds to milliseconds as you zoom in and out. You can also click here to place a caret as the starting place or drag and select a range for the sequence when playing. See [Playing Sequences][4] for more information on this feature. Marks can be added here to mark beats or other important parts of the sequence and can be used as alignment references. Hovering the mouse near the bottom of the ruler will transition the cursor to a horizontal bar that you can click and drag to resize the height of the ruler. The time numbers will scale in size relative to the height. Marks can be added via the ruler. See [Adding Marks][13].
 
 ### Mark Bar
 
@@ -21,9 +21,9 @@ Below the ruler is the Mark Bar. This area will only show up if you have [Marks]
 
 As mentioned above the Timeline consists of rows of the elements organized in an expandable tree. This mirrors the tree created in the [Display Setup][2]. Clicking the plus icons in front of a group element will expand that row to reveal its children. Rows can be selected by clicking in the area where the element name is. You can use this to [Cut, Copy and Paste][10] entire rows of Effects.
 
-The rows can have a highlight indicator showing if they have any effects on them, or any of their chidren have effects. Enabling the menu option **View -> Highlight Rows With Effects** will turn this feature on. The element names will be highlighted in yellow if that row has any effects on it. The plus expander icon will be outliend in yellow if any of the children have effects on them. With the combination of the two, you can quickly see where effects may be hiding.
+The rows can have a highlight indicator showing if they have any effects on them, or any of their children have effects. Enabling the menu option **View -> Highlight Rows With Effects** will turn this feature on. The element names will be highlighted in yellow if that row has any effects on it. The plus expander icon will be outlined in yellow if any of the children have effects on them. With the combination of the two, you can quickly see where effects may be hiding.
 
-You can resize the height of any row in the Timeline. In the element name section hover over the bottom border for any element. Then the horzontal cross cursor appears, you can click and drag the row to the height you want. There are also keyboard short cuts increase or decrease all the rows sizes together. They can be found under the menu options in **View** to zoom the rows in or out. To reset the row heights to the default click the option under **View -> Reset Row Height to Default**. The height settings are saved when you close the sequence editor and will be restored when returning. 
+You can resize the height of any row in the Timeline. In the element name section hover over the bottom border for any element. Then the horizontal cross cursor appears, you can click and drag the row to the height you want. There are also keyboard short cuts increase or decrease all the rows sizes together. They can be found under the menu options in **View** to zoom the rows in or out. To reset the row heights to the default click the option under **View -> Reset Row Height to Default**. The height settings are saved when you close the sequence editor and will be restored when returning. 
 
 Rows can also be collapsed quickly by clicking the **View -> Collapse All Element Groups** option. This will return all the rows to the collapsed state. The expanded states of the rows are also saved from session to session.
 
@@ -35,6 +35,8 @@ Effects can be moved around on the timeline by simply clicking on them and dragg
 
 Effects can also be [Cut, Copied and Pasted][10] from one place to another. Normal paradigms apply for this mechanism. Another way to make a quick copy of an effect is to Ctrl click and then drag on the effect. This will clone the selected effect(s) and allow you to quickly drag a copy of it else where. Holding the Shift key while dragging the effect will hold it at the time so you can drag it to another element and not change its position in time.
 
+Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to adjoin with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will adjoin the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Holding the Alt and Shift keys down together will work similarly, but only Effects at at the same [Layer][15] will be affected.
+
 Each effect can have an info popup when the mouse is hovered over them. This provides information such as the name of the effect, the start and end time, the duration, and the layer the effect is in. This can be enabled or disabled under **View -> Show Effect Info** or with Ctrl+I.
 
 ### Marks
@@ -43,13 +45,13 @@ Each effect can have an info popup when the mouse is hovered over them. This pro
 
 ### Timeline Shuttling
 
-Movement up and down and right and left in the Timeline can be done with a mouse and scroll wheel. The mouse wheel will scroll up and down when hvered over the Timeline. Holding Shift while scrolling the mouse wheel will move left and right.  
+Movement up and down and right and left in the Timeline can be done with a mouse and scroll wheel. The mouse wheel will scroll up and down when hovered over the Timeline. Holding Shift while scrolling the mouse wheel will move left and right.  
 
-Holding Ctrl while scrolling will zoom in and out the visible time span. Where the point of zoom occurs can be controlled by the option in the menu **View -> Zoom Under Mouse Position**. When selected the point of zoom will be where the mouse is. Otherwise it will be the center of the visible Timeline. Ctrl + and Ctrl - will also alow you to zoom with the keyboard.
+Holding Ctrl while scrolling will zoom in and out the visible time span. Where the point of zoom occurs can be controlled by the option in the menu **View -> Zoom Under Mouse Position**. When selected the point of zoom will be where the mouse is. Otherwise it will be the center of the visible Timeline. Ctrl + and Ctrl - will also allow you to zoom with the keyboard.
 
 ### Persisted Settings
 
-Many of the Timeline settings are saved with each sequence you edit. Thus when you return, the place on the Timeline will be restored along with expanded groups and row sizings to get you back sequencing as quickly as possible.
+Many of the Timeline settings are saved with each sequence you edit. Thus when you return, the place on the Timeline will be restored along with expanded groups and row sizing to get you back sequencing as quickly as possible.
 
  [1]: {{< ref display-elements-groups>}}
  [2]: {{< ref display-element-basics>}}
@@ -65,3 +67,4 @@ Many of the Timeline settings are saved with each sequence you edit. Thus when y
  [12]: {{< ref "marks#marks-bar">}}
  [13]: {{< ref "marks#adding-marks">}}
  [14]: {{< ref "marks#editing-marks">}}
+ [15]: {{< ref "layers">}}
