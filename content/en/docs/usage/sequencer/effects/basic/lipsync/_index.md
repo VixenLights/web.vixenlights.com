@@ -39,4 +39,15 @@ Since Vixen 3.5
 
 {{< youtube RhBecwSIAfo>}}
 
+---
+
+### Lyric Tracks
+
+A good way to get lyric tracks that are very close to begin with is to use a track generator. One that works pretty well is the [Autolyrics][2] site. One of our users made a video that gives an overview of the process. When selecting the mark track to use in the effect, be sure to use the Phoneme one. If you need to make adjustments, you can adjust the phoneme marks to better align with the lipmovements you want. If the track is slightly off, you can select and move the blocks of phrases, words, phonemes to meet your needs. In most cases this gets you very close.
+
+{{< youtube BJoWTXzQQew>}}
+
+&nbsp;
+
 [1]: {{< ref marks>}} "Marks"
+[2]: <https://autolyrics.lightingfanatics.com> "Autolyrics"
