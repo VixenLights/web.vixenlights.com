@@ -3,7 +3,12 @@ title: Visual Studio
 author: Vixen Team
 weight: 40
 ---
+
+## General Info
+
 We use currently use Visual Studio 2019 or 2022 for development. You can use the community or free version that MS provides, or any of the higher paid versions. The current community version is quite good and is equivalent to the old Professional version. The vast majority of the code is in C#, with a small portion in C++. When you install Visual Studio, you will need the C++ build tools.
+
+## Settings
 
 There are a couple settings that need to be configured in Visual Studio so your code formatting will adhere to our preferred style. We use tabs instead of spaces to format our files. The following screen shot shows how you should configure the editor to do this automatically.
 
@@ -15,6 +20,13 @@ In the following diff, you can see that the new lines inserted have spaces inste
 
 ![Spaces vs Tabs](/images/docs/contribution-guidelines/spaces-vs-tabs.png)
 
+## Extensions
+
+The project uses WIX to build the installer for the application. If you are using Visual Studio, you should install the Heatwave for VS2022 extension so VS will recognize the project files. [Heatwave][2]
+
+## Additional Tools
+
 We also have access to some very powerful tools courtesy of some of our partners who support open source projects. One very powerful tool is [Resharper][1]. If you are an active developer and are interested in using this tool contact us on the developer list and we can discuss getting you one of our team licenses. You have to be an active developer with a verifiable commit history.
 
 [1]: https://www.jetbrains.com/dotnet/
+[2]: https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17
