@@ -21,6 +21,23 @@ TortoiseGit is a UI tool that can make it easier for some to use Git. This allow
 
 [TortoiseGit Manuals][4]
 
+[posh-git][8]
+
+posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that
+can be displayed in the PowerShell prompt, e.g.:
+
+![C:\Users\Keith\GitHub\posh-git [main ≡ +0 ~1 -0 | +0 ~1 -0 !]> ][prompt-def-long]
+
+posh-git also provides tab completion support for common git commands, branch names, paths and more.
+For example, with posh-git, PowerShell can tab complete git commands like `checkout` by typing `git ch` and pressing
+the <kbd>tab</kbd> key. That will tab complete to `git checkout` and if you keep pressing <kbd>tab</kbd>, it will
+cycle through other command matches such as `cherry` and `cherry-pick`. You can also tab complete remote names and
+branch names e.g.: `git pull or<tab> ma<tab>` tab completes to `git pull origin main`.
+
+See the [Install Docs][9] for details on how to install it into your Powershell profile.
+
+#### Visual Studio
+
 Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You are welcome to use whatever you like and are comfortable with.
 
 ### Branching Practices
@@ -44,3 +61,6 @@ The general idea is that the master branch is, tracking the development for the 
 [5]: https://github.com/VixenLights/Vixen
 [6]: https://bugs.vixenlights.com
 [7]: https://git-scm.com/docs/git-rebase
+[8]: https://github.com/dahlbyk/posh-git
+[9]: https://github.com/dahlbyk/posh-git/blob/master/README.md#installation
+[prompt-def-long]: https://github.com/dahlbyk/posh-git/wiki/images/PromptDefaultLong.png   "~\GitHub\posh-git [main ≡ +0 ~1 -0 | +0 ~1 -0 !]> "
