@@ -15,15 +15,15 @@ There are many tools to work with a Git based project. You will at minimum need 
 
 [Git SCM][2]
 
-TortoiseGit is a UI tool that can make it easier for some to use Git. This allows you to make commits, view history, etc. without having to use the command line tools in Git itself.
+#### TortoiseGit
 
-[TortoiseGit][3]
+[TortoiseGit][3] is a UI tool that can make it easier for some to use Git. This allows you to make commits, view history, etc. without having to use the command line tools in Git itself. It is popular in the SVN world, so there may be some familiarity from there if you come from the SVN space.
 
 [TortoiseGit Manuals][4]
 
-[posh-git][8]
+#### Git Powershell Integration
 
-posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that
+[posh-git][8] is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that
 can be displayed in the PowerShell prompt, e.g.:
 
 ![C:\Users\Keith\GitHub\posh-git [main ≡ +0 ~1 -0 | +0 ~1 -0 !]> ][prompt-def-long]
@@ -38,7 +38,7 @@ See the [Install Docs][9] for details on how to install it into your Powershell 
 
 #### Visual Studio
 
-Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You are welcome to use whatever you like and are comfortable with.
+Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You can also utilize a Powershell terminal into one of the docking panes and then the command line tools are readily available. Using posh-git mentioned above enhances this experience.
 
 ### Branching Practices
 
