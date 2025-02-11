@@ -24,9 +24,25 @@ In the following diff, you can see that the new lines inserted have spaces inste
 
 The project uses WIX to build the installer for the application. If you are using Visual Studio, you should install the Heatwave for VS2022 extension so VS will recognize the project files. [Heatwave][2]
 
+## Building
+
+Within Visual Studio, you can build / run the project in debug or release mode. The release mode provides for optimized builds, where the debug builds are more geared to debugging, especially when a debugger is attached. Another option is available for additional testing. Using msbuild at the command line, you can create a full installer that can be run just like the official releases. You can read more on how to do that [here][github-installer] in the Vixen source project.
+
+## Sandbox Tools
+
+If you are running one of the pro versions of Windows, you can utilize the Windows Sandbox to test your builds in an isolated environment. This can be ver useful to simulate what a first time user might experience. See the [Sandbox Testing][github-sandbox] in the Vixen source project for further information on how to do this.
+
+[Windows Sandbox][windows-sandbox]
+
+[Windows Sandbox Configuration][windows-sandbox-config]
+
 ## Additional Tools
 
 We also have access to some very powerful tools courtesy of some of our partners who support open source projects. One very powerful tool is [Resharper][1]. If you are an active developer and are interested in using this tool contact us on the developer list and we can discuss getting you one of our team licenses. You have to be an active developer with a verifiable commit history.
 
 [1]: https://www.jetbrains.com/dotnet/
 [2]: https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17
+[github-installer]: https://github.com/VixenLights/Vixen/tree/master/Installer
+[github-sandbox]: https://github.com/VixenLights/Vixen/tree/master/sandbox
+[windows-sandbox]: https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/
+[windows-sandbox-config]: https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-configure-using-wsb-file
