@@ -47,7 +47,7 @@ More information on how we manage JIRA can be found here. [Issue Management][3].
 
 ### Developer Group
 
-We maintain a develoepr group for broader discussions on Google Groups. If you are looking to join us as a comtributor, please join the Vixen Development Group and introduce yourself and decscribe your interests in contributing. We can help you get started. See the [Communty Page][8] for more information on how to connect.
+We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and decscribe your interests in contributing. We can help you get started. See the [Communty Page][8] for more information on how to connect.
 
 ### Creating Issues
 
