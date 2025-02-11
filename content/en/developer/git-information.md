@@ -15,11 +15,23 @@ There are many tools to work with a Git based project. You will at minimum need 
 
 [Git SCM][2]
 
+#### Github SSH integration
+
+In order to use Github and interact with it on the command line you need to ensure you have the proper SSH keys configured. See the following article on how to configure SSH access.
+
+[Connect to Github via SSH][11]
+
 #### TortoiseGit
 
 [TortoiseGit][3] is a UI tool that can make it easier for some to use Git. This allows you to make commits, view history, etc. without having to use the command line tools in Git itself. It is popular in the SVN world, so there may be some familiarity from there if you come from the SVN space.
 
 [TortoiseGit Manuals][4]
+
+#### GIT Bash Integration
+
+Here's a project to add the branch info to the prompt in Git Bash. This is similar to the Powershell one but has some slight variations. There are likley many other variations out there that you can try out to find what suits you the best.
+
+[Git Bash Prompt][10]
 
 #### Git Powershell Integration
 
@@ -52,7 +64,13 @@ The general idea is that the master branch is, tracking the development for the 
 
 * If you are collaborating with another developer, then you may want to share work on a branch. Here you can both work on the same branch shared publicly or you can merge changes between yourself. This is not very common in our development structure, so ask questions if it comes up and we can help guide you through it.
 
-* Larger bodies of work will be conducted on a feature branch in the repository. Here something like an Epic can we worked on by multiple developers, or broken up into multiple parts and that can be assembled on the feature branch and then a singular pull request can merge the entirety of that back to master. 
+* Larger bodies of work will be conducted on a feature branch in the repository. Here something like an Epic can we worked on by multiple developers, or broken up into multiple parts and that can be assembled on the feature branch and then a singular pull request can merge the entirety of that back to master.
+
+### Rebase vs Merge
+
+In this project we prefer developers rebase their changes onto the latest master when there are conflicts. Rebase provides for a cleaner inline history in our opinion. Not all changes require a rebase / merge to update before presenting a PR, but in many cases is can be beneficial to test your work completely integrated with the mainline. There are benefits when you are working on changes that may span enough time that multiple other changes are incorporated into the mainline. Incremental rebasing can help keep you up to date and allow you to resolve smaller incremental conflicts as you go along.
+
+[Git Rebase][git-rebase]
 
 [1]: https://github.com
 [2]: https://git-scm.com
@@ -63,4 +81,7 @@ The general idea is that the master branch is, tracking the development for the 
 [7]: https://git-scm.com/docs/git-rebase
 [8]: https://github.com/dahlbyk/posh-git
 [9]: https://github.com/dahlbyk/posh-git/blob/master/README.md#installation
+[10]: https://github.com/magicmonty/bash-git-prompt
+[11]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+[git-rebase]: https://docs.github.com/en/get-started/using-git/about-git-rebase
 [prompt-def-long]: https://github.com/dahlbyk/posh-git/wiki/images/PromptDefaultLong.png   "~\GitHub\posh-git [main ≡ +0 ~1 -0 | +0 ~1 -0 !]> "
