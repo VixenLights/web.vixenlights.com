@@ -10,7 +10,7 @@ We use currently use Visual Studio 2019 or 2022 for development. You can use the
 
 ## Settings
 
-There are a couple settings that need to be configured in Visual Studio so your code formatting will adhere to our preferred style. We use tabs instead of spaces to format our files. The following screen shot shows how you should configure the editor to do this automatically.
+There are a couple settings that need to be configured in Visual Studio so your code formatting will adhere to our preferred style. We use tabs instead of spaces to format our files. The following screen shot shows how you should configure the editor to do this automatically. Most recently an editorconfig file has been added to the the project which should govern the code style in Visual Studio so this proactive step should not be necessary.
 
 ![Visual Studio Tab Settings](/images/docs/contribution-guidelines/visualstudio-tab-settings.png)
 
@@ -27,6 +27,12 @@ The project uses WIX to build the installer for the application. If you are usin
 ## Building
 
 Within Visual Studio, you can build / run the project in debug or release mode. The release mode provides for optimized builds, where the debug builds are more geared to debugging, especially when a debugger is attached. Another option is available for additional testing. Using msbuild at the command line, you can create a full installer that can be run just like the official releases. You can read more on how to do that [here][github-installer] in the Vixen source project.
+
+## Installer
+
+The Wix tool kit is used for creating the installer. There are two projects (Vixen.Installer and Vixen.DeployBundle) that handle packaging and building the installer. The [Heatwave][2] extension is necessary for Visual Studio to recognize the project types.
+
+The [Installer][github-installer] folder in the project tree has a README with information on the commands necessary to build the full installer. These same commands are used for production dev and release builds can can be run locally to produce equivelent output. See the Sanbox section below on deploying and testing those installs in a clean environment. 
 
 ## Sandbox Tools
 
