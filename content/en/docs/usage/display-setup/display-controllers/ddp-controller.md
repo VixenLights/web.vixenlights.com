@@ -16,6 +16,6 @@ There is minimal setup for this controller unlike the e1.31 controllers which ha
 
 ## Patching
 
-Elements / Props are patched to this controller just like any other controller. Select the controller and when you patch, the selcted elements will be patched to the next available channels. You can also select a range of channels and patch elements to those directly.
+Elements / Props are patched to this controller just like any other controller. Select the controller and when you patch, the selected elements will be patched to the next available channels. You can also select a range of channels and patch elements to those directly.
 
 [1]:http://www.3waylabs.com/ddp/
