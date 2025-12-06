@@ -57,6 +57,16 @@ The last area is the output folder. This can be a file folder on your computer, 
 
 This will allow you to direcly export to the FPP folder over a network connection. You can use \\ip\\fpp by changing ip to either the ip addess of the FPP device, or the hostname if you have DNS. If you directly export to FPP, the export wizard can place all the files where they belong including the universe file, sequences, and audio. If you export to the file system, the output folder structure will mimic the structure on FPP. You can then manually upload the files for FPP. If you let the wizard export to FPP, you will need to restart the FPPD Daemon to pick up any configuration changes.  
 
+Note: Windows 11 has changed some security settings and will not allow you to mount an anonymous samba share. The folloing has worked for several users.
+
+See [SMB Protocol Changes][2] for more info.
+
+This can either be deactivated via group policy by activating Computer Configuration > Administrative Templates > Network > Lanman Workstation > Enable insecure guest logons
+
+Or via Registry Editor by adding the following Key
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation with DWORD property AllowInsecureGuestAuth and the value 1
+
 #### Summary
 
 The last screen is the summary screen that details what will be done. There is also an option to save this configuration for future use. You can enter the name, or choose an existing configuiration to update. After you hit next, it will commence exporting. There will be progress bars showing the progress through the process.
@@ -66,3 +76,4 @@ The last screen is the summary screen that details what will be done. There is a
 Under **File -> Export** in the sequencer is the legacy export. It is very similar to the wizard, but much simplier in that it can only export the seuence you have open in the editor. You cannot save any setting in it either. This is retained for legacy purposes, but may be removed in the future, so the recomendation is to use the wizard.
 
 [1]: {{< ref sequencer>}}
+[2]: <https://learn.microsoft.com/en-us/w...4h2#server-message-block-smb-protocol-changes>
