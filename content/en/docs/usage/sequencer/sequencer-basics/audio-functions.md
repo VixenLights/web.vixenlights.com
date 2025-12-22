@@ -5,9 +5,9 @@ weight: 120
 description: This section describes the Audio features.
 ---
 
-### Overview
+## Overview
 
-Most sequences will have an audio track that the lights are syncronized to. Vixen supports most formats of audio files and provides many features for incorporating audio into a sequence.
+Most sequences will have an audio track that the lights are synchronized to. Vixen supports most formats of audio files and provides many features for incorporating audio into a sequence.
 
 ### Adding / Removing Audio
 
