@@ -9,7 +9,7 @@ The individually controllable outputs of a Controller.
 
 ### Controller
 
-A module that defines an specific hardware device or set of devices. The controler setup contains channel configuration, communications protocol, and how it&#8217;s connected to the show computer.
+A module that defines an specific hardware device or set of devices. The controller setup contains channel configuration, communications protocol, and how it&#8217;s connected to the show computer.
 
 ### Curve
 
@@ -33,7 +33,7 @@ A gradient is a color that changes over time.  It consists of one or more color
 
 ### Group
 
-A logical grouping of elements. This helps to organize elements into groups that are likely to be worked with together. Within the sequencer, effects can be applied to either elements, or groups. A level effect applied to a group, will affect all elements in that group. Groups may contain other groups. There is no limit to how deep groups can be nested.
+A logical grouping of elements. This helps to organize elements into groups that are likely to be worked with together. Within the sequencer, effects can be applied to either elements, or groups. A level effect applied to a group will affect all elements in that group. Groups may contain other groups. There is no limit to how deep groups can be nested.
 
 ### Mark
 
@@ -53,7 +53,7 @@ A logical connection between Elements, Filters, and Controller Channels. A patch
 
 ### Preview
 
-The screen used as a virtual lighinting display. The preview allows you to play your sequence on virtualized hardware so you can see how it will look.
+The screen used as a virtual lighting display. The preview allows you to play your sequence on virtualized hardware so you can see how it will look.
 
 ### Program
 
