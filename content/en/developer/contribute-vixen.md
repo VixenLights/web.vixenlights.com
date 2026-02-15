@@ -16,9 +16,9 @@ The Vixen application code is hosted on [Github][1]. You can clone the repositor
 There are a few libraries and tools that you need to have installed in order to get the application to build. Depending on how much you develop in other projects you may have these already installed.
 
 * Windows 10 or higher.
-* Visual Studio 2022 / Visual Studio Code with appropriate plugins.
-* MSVC v143 VS 2022 C++ tools / C++ build tools for Visual Studio Code.
-* Git >= 2.47
+* Visual Studio 2026 / Visual Studio Code with appropriate plugins.
+* MSVC v145 VS 2026 C++ tools / C++ build tools for Visual Studio Code.
+* Git >= 2.50
 * Microsoft .NET 8
 * Microsoft Visual C++ x64 Redistributable
 
