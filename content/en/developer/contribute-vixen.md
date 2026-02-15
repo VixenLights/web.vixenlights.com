@@ -5,13 +5,13 @@ weight: 10
 description: How to contribute to the Vixen application.
 ---
 
-### Overview
+## Overview
 
 Vixen is an open source project and we appreciate getting patches and contributions to make Vixen and its documentation even better.
 
 The Vixen application code is hosted on [Github][1]. You can clone the repository to get a copy of the source code to work with.
 
-### Development Libraries
+## Development Libraries
 
 There are a few libraries and tools that you need to have installed in order to get the application to build. Depending on how much you develop in other projects you may have these already installed.
 
@@ -30,7 +30,7 @@ See this [article][4] on Visual Studio settings you should use.
 
 See this [article][5] for information on Git.
 
-### Workflow
+## Workflow
 
 When contributing to Vixen, we track all issues and improvements in our [JIRA bug tracker][2]. Work should have an associated issue created for it. It will be necessary to have an account in JIRA so you can work with the issues. See [Lifecycle][7] of an issue for guidance on how we manage issues. When you become a contributor, we can add you to the appropriate access groups to facilite workign with the issues beyond a simple user.
 
@@ -47,7 +47,7 @@ VIX-1234 Fixing the invalid dialog message
   
 More information on how we manage JIRA can be found here. [Issue Management][3].
 
-### Project Structure
+## Project Structure
 
 Vixen 3 is a modular application that allows for pluggable modules to be developed for it. It is written in C# and some small parts in C++. The UI consists of a mix of Winforms and WPF. The WPF sections generally follow the MVVM pattern with most of it using CATEL for the MVVM library. Any new UI should favor WPF where appropriate. The code structure is as follows under the src folder:
 
@@ -80,11 +80,11 @@ Conventions for development:
 * NuGet packages follow the same principle as Project References. You should include the package in the Common area and allow the libraries to be deployed in that path. Then in the local project the NuGet package is added but is set not to copy the assets locally by setting the following in the properties of the library.
   * Exclude Assets : None
 
-### Developer Group
+## Developer Group
 
 We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and decscribe your interests in contributing. We can help you get started. See the [Communty Page][8] for more information on how to connect.
 
-### Creating Issues
+## Creating Issues
 
 Alternatively, if there's something you'd like to see in Vixen (or if you've found something that isn't working the way you'd expect), but you're not sure how to fix it yourself, please create an [Issue][2] in our JIRA board for anything in the application.
 
