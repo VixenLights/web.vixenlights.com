@@ -19,12 +19,12 @@ There are a few libraries and tools that you need to have installed in order to 
 * Visual Studio 2026 / Visual Studio Code with appropriate plugins.
 * MSVC v145 VS 2026 C++ tools / C++ build tools for Visual Studio Code.
 * Git >= 2.50
-* Microsoft .NET 8
+* Microsoft .NET 10
 * Microsoft Visual C++ x64 Redistributable
 
 Project libraries are included in the source tree, or included via Nuget. Familiarity with Nuget is necessary.
 
-The current build target is .NET 8 Windows and Visual C++. We no longer maintain x86 builds.
+The current build target is .NET 10 Windows and Visual C++. We no longer maintain x86 builds.
 
 See this [article][4] on Visual Studio settings you should use.
 
