@@ -6,7 +6,7 @@ weight: 40
 
 ## General Info
 
-We use currently use Visual Studio 2019 or 2022 for development. You can use the community or free version that MS provides, or any of the higher paid versions. The current community version is quite good and is equivalent to the old Professional version. The vast majority of the code is in C#, with a small portion in C++. When you install Visual Studio, you will need the C++ build tools.
+We use currently use Visual Studio 2026 for development. You can use the community or free version that MS provides, or any of the higher paid versions. The current community version is quite good and is mostly equivalent to the old Professional version. The vast majority of the code is in C#, with a small portion in C++. When you install Visual Studio, you will need the C++ build tools.
 
 ## Settings
 
@@ -32,15 +32,7 @@ Within Visual Studio, you can build / run the project in debug or release mode. 
 
 The Wix tool kit is used for creating the installer. There are two projects (Vixen.Installer and Vixen.DeployBundle) that handle packaging and building the installer. The [Heatwave][2] extension is necessary for Visual Studio to recognize the project types.
 
-The [Installer][github-installer] folder in the project tree has a README with information on the commands necessary to build the full installer. These same commands are used for production dev and release builds can can be run locally to produce equivelent output. See the Sanbox section below on deploying and testing those installs in a clean environment. 
-
-## Sandbox Tools
-
-If you are running one of the pro versions of Windows, you can utilize the Windows Sandbox to test your builds in an isolated environment. This can be ver useful to simulate what a first time user might experience. See the [Sandbox Testing][github-sandbox] in the Vixen source project for further information on how to do this.
-
-[Windows Sandbox][windows-sandbox]
-
-[Windows Sandbox Configuration][windows-sandbox-config]
+The [Installer][github-installer] folder in the project tree has a README with information on the commands necessary to build the full installer. These same commands are used for production dev and release builds can can be run locally to produce equivelent output. See the Sanbox section below on deploying and testing those installs in a clean environment.
 
 ## Additional Tools
 
@@ -49,6 +41,3 @@ We also have access to some very powerful tools courtesy of some of our partners
 [1]: https://www.jetbrains.com/dotnet/
 [2]: https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17
 [github-installer]: https://github.com/VixenLights/Vixen/tree/master/Installer
-[github-sandbox]: https://github.com/VixenLights/Vixen/tree/master/sandbox
-[windows-sandbox]: https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/
-[windows-sandbox-config]: https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-configure-using-wsb-file

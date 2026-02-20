@@ -1,9 +1,9 @@
 ---
 title: File Extensions
 author: Vixen Team
-weight: 50
+weight: 60
 ---
-### File Extensions  
+## File Extensions  
 
 * .VCL - Exported Curve Library
 * .VGL - Exported ColorGradient Library
