@@ -1,5 +1,5 @@
 {{ $release := site.Data.release.latest }}
-<div class="card mb-4 -bg-200 w-75">
+<div class="card mb-4 w-75">
     <div class="card-body">
         <h5 class="card-title">Version: {{ $release.name }}</h5>
         <h6 class="card-subtitle mb-3 text-muted">{{ (dateFormat ":date_long" (time $release.published_at).Local ) }}</h6>
