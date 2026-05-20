@@ -95,4 +95,4 @@ jobs:
           TOKEN: ${{ secrets.WATCHTOWER_TOKEN }}
           ENDPOINT: ${{ secrets.WATCHTOWER_ENDPOINT }}
         run: |
-          curl -i -H "Authorization: Bearer $TOKEN" $ENDPOINT
+          curl -X POST -i -H "Authorization: Bearer $TOKEN" $ENDPOINT
