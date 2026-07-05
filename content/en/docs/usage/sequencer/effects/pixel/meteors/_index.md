@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/meteors/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that simulates falling meteors. Can also be used to create an explosion, or a swarm of flies.
 
@@ -15,20 +15,24 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
 
 ### String Setup
   
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ### Configuration
 
-* **Motion** - Controls the type of meteor between (Falling, Random, and Explode).
+* **Motion** - Chooses the overall meteor movement style.
+  * _Falling_ - Uses the selected direction.
+  * _Random_ - Creates meteors within the min/max angle range.
+  * _Explode_ - Sends meteors outward from the center.
 
 * **Direction** - The direction of movement of the meteors.
 
-* **Speed** - The speed at which all meteors move (available when Random motion is not selected)
+* **Speed** - Controls the base speed of the meteors over the effect duration. Speed Variation is applied around this value to create slower and faster individual meteors. (available when Random motion is not selected)
 
-* **Speed Variation** -  Allows you to add a bit of dynamic variation to the meteors.  This value combines with the Speed setting to allow each meteor to use a random speed.  The random speed will only deviate from the base speed by the amount of variation set here.
+* **Speed Variation** -  Controls how much individual meteor speeds vary from the main Speed value. Higher values create a wider mix of slow and fast meteors. The random speed will only deviate from the base speed by the amount of variation set here.
 
-* **Count** - The number of meteors.
+* **Count** -  Controls how many meteors are active during the effect. Higher values create a denser meteor field.
 
 * **Tail Length** - The length of the meteor tail.
 
@@ -40,11 +44,11 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
 
 * **Movement** - Adjusts the type of movement (None, Bounce, Wrap, Speed, Wobble, Wobble Both Directions).
 
-* **Ground Level** - Adds a ground level for the meteors to hit.
+* **Ground Level Enable** - Adds a ground level for the meteors to hit.
 
-* **GroundLevel** - A curve that establishes the ground level over the duration of the effect.
+* **Ground Level** -  A Curve that sets the height of the ground area across the display when ground level is enabled. Meteors stop and break up when they hit this area.
 
-* **Flip Direction** - Flips the directions the meteors will move. 
+* **Flip Direction** - Flips the directions the meteors will move.
 
 * **Count Per String** - Generates meteors for each string.
 
@@ -53,14 +57,14 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
 ### Color
 
 * **Color Type** - Selects how colors are applied to the effect.
-	* _Rainbow_ - Uses random colors on all meteors and their tails  
-	* _Range_ - Uses one solid color for each meteor. The colors are chosen from a range between the colors/gradients in the gradient list.  
-	* _Palette_ - Uses one solid color for each meteor. The colors are chosen from the specific colors/gradients in the gradient list.  If the colors in the list are gradients, only the starting color is used.  
-	* _Gradient_ - Uses one gradient for each meteor. The gradients are chosen from the specific colors/gradients in the gradient list.
+  * _Rainbow_ - Uses random colors on all meteors and their tails  
+  * _Range_ - Uses one solid color for each meteor. The colors are chosen from a range between the colors/gradients in the gradient list.  
+  * _Palette_ - Uses one solid color for each meteor. The colors are chosen from the specific colors/gradients in the gradient list.  If the colors in the list are gradients, only the starting color is used.  
+  * _Gradient_ - Uses one gradient for each meteor. The gradients are chosen from the specific colors/gradients in the gradient list.
 
 * **Gradients:** The colors/gradient list used by the effect.  See the color type above for how the colors/gradients are applied.
 
-* **Ground Color** - Determines the color of the ground.  Only visible if the **Ground Level** curve is non-zero.
+* **Ground Color** -  Sets the color gradient used to draw the ground area when ground level is enabled. Only visible if the **Ground Level** curve is non-zero.
 
 ---
 
@@ -70,7 +74,6 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
-
 
 #### Video
 

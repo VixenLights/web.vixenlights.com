@@ -7,8 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/spirograph/]
 
 ---
 
-### Overview
-
+## Overview
 
 Creates an effect simulating the geometric patterns created by a children''s spirograph geometric drawing toy. 
 This effect creates moving flower type effects. When setting the controls for this effect, it is helpful to understand the actual toy it is based upon: 
@@ -17,38 +16,38 @@ This effect creates moving flower type effects. When setting the controls for th
 ---
 
 ### String Setup
-    
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ### Configuration
 
-* **Speed** - The speed at which the pattern is drawn.
+* **Speed** - Controls how quickly the spirograph pattern rotates and advances over the effect duration.
+Inner Circle Radius: Sets the inner circle radius used to draw the spirograph shape. Smaller values create tighter, more intricate loops.
 
-* **Outer Circle Radius** - The radius of the inner circle.
+* **Outer Circle Radius** - Sets the outer circle radius used to draw the spirograph shape. Larger values expand the pattern outward across the display.
 
-* **InnerCircle Radius** - The radius of the outer circle.
+* **InnerCircle Radius** - Sets the inner circle radius used to draw the spirograph shape. Smaller values create tighter, more intricate loops.
 
-* **Spirographs** - The number of circles (roulette curves) that make up the spirograph.
+* **Spirographs** - Controls how much of the spirograph path is drawn. Higher values create longer, denser patterns of the roulette curves.
 
-* **Distance** - A fixed distance between the circles
+* **Distance** - Sets how far the drawing point is from the center of the inner circle, changing the size and shape of the loops.
 
-* **Color Range** - When color type is set to _Standard_, this defines what part of the range of colors is used.
+* **Color Range** - Controls how colors are spread from the center of the pattern outward. Higher values stretch the color bands over a larger area.
 
-* **Animate Distance** - Uses a variable distance instead of a fixed distance. Creates a sense of growth in the pattern.
-
+* **Animate Distance** - When enabled, the drawing distance changes as the effect plays, making the spirograph shape morph over time. Creates a sense of growth in the pattern.
 
 ---
 
 ### Color
 
-* **Color Type** -  Controls how color is applied to the effect.
-    * _Standard_ - Uses the defined colors/gradients in order from center outward.  
-    * _Rainbow_ - Draws in completely random colors.  
-    * _Random_ - Uses only the defined colors randomly.
-
+* **Color Type** -  Chooses how colors are applied.
+  * _Standard_ - Standard uses the selected colors by distance from center.  
+  * _Rainbow_ - Rainbow generates random rainbow colors.  
+  * _Random_ - Random picks randomly from the selected colors.
 * **Gradients** - One or more colors used to shade the effect.
-   
+
 ---
 
 ### Brightness
