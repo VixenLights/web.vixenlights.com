@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/picture/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that imports a picture file to be displayed on a grid type prop. May also be used to apply a texture to an element of any configuration.
 
@@ -17,11 +17,11 @@ A great place to download seamless tiles is: <http://www.patterncooler.com/>. T
 
 ### String Setup
   
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
-  
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ### Movement
@@ -41,10 +41,10 @@ A great place to download seamless tiles is: <http://www.patterncooler.com/>. T
 
 ### Configuration
 
-* **Picture Source** - Selects between an embedded built-in image or selecting a file.
+* **Picture Source** - Chooses whether the effect uses an image file you select or one of the built-in embedded picture patterns.
 
-* **Embedded Pictures** - Select from a collection of included pattern images.  
-*note, you may choose a eithe rcustom file, or embedded image, but not both.
+* **Embedded Pictures** - Selects the built-in picture pattern to render when Picture Source is set to Embedded.
+*note, you may choose either a custom file, or embedded image, but not both.
 
 * **Stretch to Grid** - Adjusts image diminesions to fit the grid size.
 
@@ -54,7 +54,7 @@ A great place to download seamless tiles is: <http://www.patterncooler.com/>. T
 
 ### Effect Color
 
-* **Color Effect** - Selects the type of color/gradient applied to the picture (_None_, _Custom Color_, _Gray Scale_).
+* **Color Effect** - Chooses how the picture colors are handled: _None_ keeps the original colors, _Custom Color_ recolors the picture using the selected gradient while preserving brightness, and _GreyScale_ converts the image to grayscale.
 
 * **Color Gradient** - Selects the color of the effect.  Applicable when the Color Effect selection is _Custom Color_.
 
