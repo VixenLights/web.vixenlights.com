@@ -62,10 +62,10 @@ A great place to download seamless tiles is: <http://www.patterncooler.com/>. T
 
 ### Brightness
 
-* **Intensity** - This is an overall brightness intensity curve over the duration of the effect. 
+* **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
-* **Increase Brightness** - Increases the brightness of the image.
+* **Increase Brightness** -  Adjusts the picture brightness over the effect duration. Higher values boost the image brightness, while the Brightness setting still controls the final output level. GreyScale converts the image to grayscale.
 
 ---
 
