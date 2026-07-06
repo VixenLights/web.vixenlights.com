@@ -5,7 +5,7 @@ weight: 20
 description: This section covers the Layer Editor.
 ---
 
-### Overview
+## Overview
 
 Layers are a method of controlling how separate Effects on the same element interact with each other. It can be very powerful to create variations on the existing effects. The Layer Editor is the docking window in the Sequencer that controls how the layers are configured. The layer editor is a docking window like most of the other editor type windows. It can be positioned in any fashion typical of a docking style window. If it is not visible it can be enabled under the View menu in the sequence editor. The menu name is **Layer Editor Window**.
 
