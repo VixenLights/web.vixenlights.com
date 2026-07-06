@@ -4,7 +4,7 @@ author: Vixen Team
 weight: 20
 description: This section covers examples of using Layers.
 ---
-### Intensity Overlay
+## Intensity Overlay
 
 ![Effect Fade Layering](/images/docs/usage/sequencer/layers/layer-mixing/EffectFadeLayerFullColor.png)
 
