@@ -7,8 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/spiral/]
 
 ---
 
-### Overview
-
+## Overview
 
 This effect is best used on a megatree. When used on a megatree, it appears as a spiraled effect around the tree. 
 When used on a flat matrix, it appears similar to the bars effect but with diagonal bars and space between the bars.
@@ -16,8 +15,9 @@ When used on a flat matrix, it appears similar to the bars effect but with diago
 ---
 
 ### String Setup
-    
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ### Configuration
@@ -34,7 +34,7 @@ When used on a flat matrix, it appears similar to the bars effect but with diago
 
 * **Thickness** - The thickness of each band. This value is a percentage range of 0-100%
 
-* **Rotation** - The angle of rotation of the bands. 0 is in the center and is vertical. The outer limits are -50 and 50 and represent a tilt of 50 degrees to the left or right.
+* **Rotation** - Rotation speed and direction over the duration of the effect. 50 means no rotation, values above 50 rotate forward faster as they approach 100, and values below 50 rotate backward faster as they approach 0.
 
 * **3D** - Applies a horizontal fade to each band.
 
@@ -45,7 +45,6 @@ When used on a flat matrix, it appears similar to the bars effect but with diago
 Grow and shrink can be combined and used together. When used this way, it will first start at the specified thickness and 
 grow to the maximum followed by shrinking from the maximum to the specified thickness.
 
-
 ---
 
 ### Color
@@ -54,7 +53,6 @@ grow to the maximum followed by shrinking from the maximum to the specified thic
 
 * **Vertical Blend** - When selected, gradients are applied vertically to the bands. When not selected, gradients are applied horizontally.
 
-   
 ---
 
 ### Brightness
