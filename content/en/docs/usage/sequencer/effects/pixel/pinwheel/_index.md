@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/pinwheel/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that makes a spiral that resembles a Pinwheel.
 You can control the number of arms that it has and the colors they will be. 
@@ -18,11 +18,12 @@ This effect can be layered with other effects to produce complex effect combinat
 
 ### String Setup
   
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
   
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ### Configuration
@@ -45,9 +46,9 @@ This effect can be layered with other effects to produce complex effect combinat
 
 * **Center Hub** - Determines how big the hub or hole in the center of the wheel is.
 
-* **Rotation** - Determines which direction the wheel spins (_Forward_, _Backward_).
+* **Rotation** - Rotation speed and direction over the duration of the effect. 50 means no rotation, values above 50 rotate forward faster as they approach 100, and values below 50 rotate backward faster as they approach 0.
 
-* **Blade Type** - Determines how the blade looks (_Flat_, _3D_, _Inverted 3D_, _Fan_).
+* **Blade Type** - Determines how the blade looks (*Flat*, *3D*, *Inverted 3D*, *Fan*).
                    There are 4 choices from a flat look to 3D looks and a fan blade look.
 
 ---
