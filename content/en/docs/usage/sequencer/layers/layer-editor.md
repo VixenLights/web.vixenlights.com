@@ -22,9 +22,13 @@ Below the import/export buttons, the **Add Layer** and **Remove Layer** buttons 
 
 Layers can be reordered by dragging them in the list to the position you want them to be in. In order to drag the layer, you need to click in the blue area surrounding the Layer expander. It will highlight in blue as you hover over it.
 
+![Layer Editor Overview](/images/docs/usage/sequencer/layers/layer-editor/LayerEditorOverview.png)
+
 Expanding the layer provides a way to name the layer as desired as well as change its configuration if it has options. The drop down box allows you to choose the type of mixer used to combine color between this layer and the layer below it. If the type of mixer has configuration options, there will be a Configuration button once it is expanded. Clicking on that will bring up the configuration dialog for that type.
 
 Next to the layer name text box there is a **Quick Rename** button. Clicking it renames the layer to the display name of its currently selected mixing filter type. For example, if the layer uses a filter named `Mask and Fill`, clicking Quick Rename sets the layer name to `Mask and Fill`. If another layer already uses that name, a numeric suffix is automatically appended (`Name - 2`, `Name - 3`, and so on).
+
+![Layer Editor Expanded Row](/images/docs/usage/sequencer/layers/layer-editor/LayerEditorExpanded.png)
 
 As you work on your sequence, you may find that you need multiple sets of layers in different orders to accomplish what you need. Keep in mind that layers and their order are applied across the entire sequence.
 
@@ -41,3 +45,7 @@ Clicking **Import Layers** opens an open-file dialog filtered to `.v3l` files. A
 If an imported layer name already exists in the current sequence, the imported layer is automatically renamed using a numeric suffix (`Name - 2`, `Name - 3`, and so on).
 
 If any layers in the file reference a mixing filter that is not installed, Vixen displays a warning dialog summarizing how many layers will be imported and how many will be skipped. You can choose to proceed (importing only the valid layers) or cancel (importing nothing). If all layers are valid, import proceeds immediately without a confirmation dialog. If all layers are invalid, Vixen shows an error and nothing is imported.
+
+---
+
+*Import Layers, Export Layers, and Quick Rename were added in build 1442.*
