@@ -6,7 +6,7 @@ description: This section covers the main Preview screen.
 aliases: ['/vixen-3-documentation/preview/main-preview-screen/', '/vixen-3-documentation/preview/background-image/']
 ---
 
-### Overview
+## Overview
 
 The main preview screen is where the preview magic happens.
 
@@ -14,7 +14,7 @@ The main preview screen is where the preview magic happens.
 
 From the top, you can see the main menu bar. You'll practically never need this unless you prefer words instead of pictures.
 
-On the left, top of this screen is the Elements Tree. This is a duplicate of the elements tree you use to setup the [Display Elements & Groups][1].
+On the left, top of this screen is the Elements Tree. This is a duplicate of the elements tree you use to setup the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups").
 
 Below the Elements Tree are the properties for the currently selected display item.
 
@@ -59,11 +59,11 @@ Clicking this button puts the preview in selection mode. This cancels any other 
 
 ### Basic Drawing
 
-The basic drawing tools group the simple drawing tools for easy access. See the [Basic Shapes][2] for more information on how to use these items.
+The basic drawing tools group the simple drawing tools for easy access. See the [Basic Shapes]({{< ref preview-basic-shapes >}} "Basic Shapes") for more information on how to use these items.
 
 ### Smart Objects
 
-The more complicated items are grouped in the Smart Objects area. These are props such as your Mega Tree and Stars. For more information see [Smart Objects][3].
+The more complicated items are grouped in the Smart Objects area. These are props such as your Mega Tree and Stars. For more information see [Smart Objects]({{< ref smart-objects >}} "Smart Objects").
 
 ### Align
 
@@ -79,11 +79,11 @@ This section contains the tools for aligning and sizing preview objects to each 
 
 ### Bulb Size
 
-The two buttons in this section increase or decrease the [Light Size][7] of the currently selected item(s) without needing to type a value into the properties panel.
+The two buttons in this section increase or decrease the [Light Size]({{< ref "preview-common-settings#light-size" >}} "Light Size") of the currently selected item(s) without needing to type a value into the properties panel.
 
 ### Custom Prop
 
-This section gives quick access to the [Custom Prop Editor][8]: one button launches the editor directly, and the other opens the folder where your custom prop library files are stored. You can also import a prop shared by someone else via **File -> Import Prop** in the main menu.
+This section gives quick access to the [Custom Prop Editor]({{< ref custom-prop-editor >}} "Custom Prop Editor"): one button launches the editor directly, and the other opens the folder where your custom prop library files are stored. You can also import a prop shared by someone else via **File -> Import Prop** in the main menu.
 
 ### Undo / Redo
 
@@ -114,16 +114,16 @@ The Location Offset function in the **Settings** menu allows you to specify the 
 
 Two other options live in the **Settings** menu:
 
-* **Keep Insert Mode Active** - Normally, drawing a shape or using a [Prop Wizard][9] returns you to selection mode afterward. Checking this keeps you in insert mode so you can place several copies of the same prop in a row without re-selecting the tool each time.
+* **Keep Insert Mode Active** - Normally, drawing a shape or using a [Prop Wizard](#prop-wizards "Prop Wizards") returns you to selection mode afterward. Checking this keeps you in insert mode so you can place several copies of the same prop in a row without re-selecting the tool each time.
 * **Use OpenGL Preview** - Switches the live preview viewer to use OpenGL rendering instead of GDI, which can improve performance on displays with a very large number of pixels. This is only available if your graphics hardware supports it; if it doesn't, Vixen will show a message and fall back to the standard GDI viewer.
 
 ### Help
 
-The **Help** menu links to this documentation (**View Help**), the [Vixen YouTube channel](https://www.youtube.com/channel/UCsyABr1UByL5NG9DiGiXmpg), and dedicated help for the [Prop Wizard templates][9] (**Template Help**) and the [Custom Prop Editor][8] (**Custom Prop Help**).
+The **Help** menu links to this documentation (**View Help**), the [Vixen YouTube channel](https://www.youtube.com/channel/UCsyABr1UByL5NG9DiGiXmpg), and dedicated help for the [Prop Wizard templates](#prop-wizards "Prop Wizards") (**Template Help**) and the [Custom Prop Editor]({{< ref custom-prop-editor >}} "Custom Prop Editor") (**Custom Prop Help**).
 
 ### Close
 
-When you're done editing this screen, click X button in the upper right or File -> Exit. Incremental changes may be saved using the File -> Save menu or Ctrl S. If you dod not save inside the preview you can save or cancel your changes in the [Previews Configuration][4]. If you made a huge mistake and want to lose your changes, click Cancel on the Previews Configuration dialog box and it will revert to the last saved change. That could be the save inside the preview, or to the last time you clicked OK in the Preview Configuration Dialog.
+When you're done editing this screen, click X button in the upper right or File -> Exit. Incremental changes may be saved using the File -> Save menu or Ctrl S. If you dod not save inside the preview you can save or cancel your changes in the [Previews Configuration]({{< ref preview-setup >}} "Previews Configuration"). If you made a huge mistake and want to lose your changes, click Cancel on the Previews Configuration dialog box and it will revert to the last saved change. That could be the save inside the preview, or to the last time you clicked OK in the Preview Configuration Dialog.
 
 ### Prop Wizards
 
@@ -133,7 +133,7 @@ Starting with Vixen 3.6, above the element tree is a drop down selector to add c
 
 ![Preview Toolbar](element-tree.png)
 
-The Element Tree is the same tree used on the [Display Elements & Groups][2] screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers][5] section.
+The Element Tree is the same tree used on the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups") screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers]({{< ref controllers >}} "Controllers") section.
 
 If you already have the elements created, then you can add a preview visual with the following steps.
 
@@ -141,24 +141,14 @@ If you already have the elements created, then you can add a preview visual with
   2. Click on a shape
   3. Draw the element on the preview main display
 
-For more information have a look at the section on [Linking Elements][6].
+For more information have a look at the section on [Linking Elements]({{< ref preview-linking-elements >}} "Linking Elements").
 
-_Note:_ Clicking on an element or group of elements in the element tree will highlight individual pixels, individual strings or entire items depending on what is clicked on in the tree
+**Note:** Clicking on an element or group of elements in the element tree will highlight individual pixels, individual strings or entire items depending on what is clicked on in the tree
 
 ### Item Properties
 
-Display items all have properties associated with them. Along with multiple common properties, some items have custom properties that can be set. See the [Basic Shapes][2] and [Smart Objects][3] for more information on how to use these properties.
+Display items all have properties associated with them. Along with multiple common properties, some items have custom properties that can be set. See the [Basic Shapes]({{< ref preview-basic-shapes >}} "Basic Shapes") and [Smart Objects]({{< ref smart-objects >}} "Smart Objects") for more information on how to use these properties.
 
 ![Item Properties](arch-properties.png)
 
 **View -> Prop Information** toggles an overlay that draws an outline around every prop on the canvas along with the Z position of its first pixel, which can help when working with props that use pixel depth.
-
- [1]: {{< ref display-elements-groups>}} "Display Elements & Groups"
- [2]: {{< ref preview-basic-shapes>}} "Basic Shapes"
- [3]: {{< ref smart-objects>}} "Smart Objects"
- [4]: {{< ref preview-setup>}} "Previews Configuration"
- [5]: {{< ref controllers>}} "Controllers"
- [6]: {{< ref preview-linking-elements>}} "Linking Elements"
- [7]: {{< ref "preview-common-settings#light-size" >}} "Light Size"
- [8]: {{< ref custom-prop-editor>}} "Custom Prop Editor"
- [9]: #prop-wizards "Prop Wizards"

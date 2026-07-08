@@ -12,11 +12,11 @@ The net can be used to quickly cover an area with lights similar to the Net ligh
 
 ### Position
 
-See Position in [Common Settings][1]
+See Position in [Common Settings]({{< ref preview-common-settings >}} "Common Settings")
 
 ### Light Size
 
-See Light Size in [Common Settings][1]
+See Light Size in [Common Settings]({{< ref preview-common-settings >}} "Common Settings")
 
 ### Light Spacing
 
@@ -24,7 +24,4 @@ The light spacing is the number of pixels between each light in the net. You can
 
 ### Linked Elements
 
-See [Linked Elements][2]
-
-[1]: {{< ref preview-linking-elements>}} "Linking Elements"
-[2]: {{< ref preview-common-settings>}} "Common Settings"
+See [Linked Elements]({{< ref preview-linking-elements >}} "Linking Elements")
