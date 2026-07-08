@@ -6,7 +6,7 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 ---
 ## Overview
 
-The net can be used to quickly cover an area with lights similar to the Net lights. Areas such as a tree-trunk or a bush can be covered without having to draw every strand of lights. It also makes a fairly accurate representation of icicle light strings.
+The net can be used to quickly cover an area with lights similar to the Net lights. Areas such as a tree-trunk or a bush can be covered without having to draw every strand of lights. It also makes a fairly accurate representation of icicle light strings.
 
 ### Settings
 
@@ -16,7 +16,7 @@ See Position in [Common Settings]({{< ref preview-common-settings >}} "Common Se
 
 ### Light Size
 
-See Light Size in [Common Settings]({{< ref preview-common-settings >}} "Common Settings")
+See Light Size in [Common Settings]({{< ref preview-common-settings >}} "Common Settings")
 
 ### Light Spacing
 

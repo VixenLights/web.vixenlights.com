@@ -7,7 +7,7 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 
 ## Overview
 
-A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel Mega Tree has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
+A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel Mega Tree has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
 
 ### Adding a Mega Tree in Vixen 3.6+
 
@@ -68,11 +68,11 @@ Click on the Setup button to link elements to the strings in the Mega Tree. Elem
 
 ## String Type
 
-See the [common settings][2] section for more information.
+See the [common settings][2] section for more information.
 
 ### Light Size
 
-See the [common settings][2] section for more information.
+See the [common settings][2] section for more information.
 
 ### String Count
 
@@ -92,7 +92,7 @@ A mega tree is made up of a top ellipse and a bottom ellipse connected by light 
 
 ### Base Height
 
-A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the height of the bottom ellipse. The width of the ellipse is defined by re-sizing the tree on the preview screen.
+A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the height of the bottom ellipse. The width of the ellipse is defined by re-sizing the tree on the preview screen.
 
 [1]: {{< ref preview-linking-elements>}} "Linking Elements"
 [2]: {{< ref preview-common-settings>}} "Common Settings"

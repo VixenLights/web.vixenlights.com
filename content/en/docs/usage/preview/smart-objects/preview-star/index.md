@@ -6,7 +6,7 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 ---
 ## Overview
 
-A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
+A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
 
 ### Adding an Star in Vixen 3.6+
 

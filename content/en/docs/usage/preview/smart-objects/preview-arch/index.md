@@ -6,7 +6,7 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 ---
 ## Overview
 
-An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
+An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
 
 ### Adding an Arch in Vixen 3.6+
 
@@ -38,7 +38,7 @@ Steps:
   2. Click on the Arch smart object.
   3. Draw the arch on the screen.
   4. Change the string type to **Pixel**
-  5. Change the Light Count to a multiple of the number of segments you have. So, if you have 9 segments, I'd suggest 36 (9 X 4) lights.
+  5. Change the Light Count to a multiple of the number of segments you have. So, if you have 9 segments, I'd suggest 36 (9 X 4) lights.
   6. Click on the ... next to Linked Elements
   7. Assign your first arch element to the first item multiple (in our example, the first 4 pixels).
   8. Assign each successive multiple (in our example above, 4 pixels) to the same element.
@@ -61,11 +61,11 @@ See Position in [Common Settings][2]
 ### Light Count
 
 For an Arch, this is commonly the number of segments in the arch. If your Arch has 25 pixel segments, it will be 25. If you have 9 segments of analog lights, the number will be 9.
-See Light Count in [Common Settings][2]
+See Light Count in [Common Settings][2]
 
 ### Light Size
 
-See Light Size in [Common Settings][2]
+See Light Size in [Common Settings][2]
 
 ### Linked Elements
 

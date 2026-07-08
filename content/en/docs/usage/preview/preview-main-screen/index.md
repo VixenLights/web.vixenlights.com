@@ -59,7 +59,7 @@ Clicking this button puts the preview in selection mode. This cancels any other 
 
 ### Basic Drawing
 
-The basic drawing tools group the simple drawing tools for easy access. See the [Basic Shapes]({{< ref preview-basic-shapes >}} "Basic Shapes") for more information on how to use these items.
+The basic drawing tools group the simple drawing tools for easy access. See the [Basic Shapes]({{< ref preview-basic-shapes >}} "Basic Shapes") for more information on how to use these items.
 
 ### Smart Objects
 
@@ -133,7 +133,7 @@ Starting with Vixen 3.6, above the element tree is a drop down selector to add c
 
 ![Preview Toolbar](element-tree.png)
 
-The Element Tree is the same tree used on the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups") screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers]({{< ref controllers >}} "Controllers") section.
+The Element Tree is the same tree used on the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups") screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers]({{< ref controllers >}} "Controllers") section.
 
 If you already have the elements created, then you can add a preview visual with the following steps.
 

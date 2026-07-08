@@ -38,7 +38,7 @@ The first pixel of an ellipse is the right-most point. Pixels are in order clock
 
 Use the ![Triangle button](draw-triangle.png) button. A triangle is composed of three strings of lights.
 
-Hold Ctrl while resizing the shape to maintain the triangle as an isosceles triangle.
+Hold Ctrl while resizing the shape to maintain the triangle as an isosceles triangle.
 
 ### Multi String
 

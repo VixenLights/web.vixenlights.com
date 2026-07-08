@@ -7,7 +7,7 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 
 ## Overview
 
-A Candy Cane can be either **Pixel** based or **Standard** string based. A pixel Candy Cane has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
+A Candy Cane can be either **Pixel** based or **Standard** string based. A pixel Candy Cane has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
 
 ### Adding a Candy Cane in Vixen 3.6+
 
@@ -40,11 +40,11 @@ See Position in [Common Settings][2]
 ### Light Count
 
 For an Candy Cane, this is commonly the number of segments in the Candy Cane. If your Candy Cane has 25 pixel segments, it will be 25. If you have 9 segments of analog lights, the number will be 9.
-See Light Count in [Common Settings][2]
+See Light Count in [Common Settings][2]
 
 ### Light Size
 
-See Light Size in [Common Settings][2]
+See Light Size in [Common Settings][2]
 
 ### Linked Elements
 
