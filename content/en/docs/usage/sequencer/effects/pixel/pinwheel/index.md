@@ -40,6 +40,8 @@ This effect can be layered with other effects to produce complex effect combinat
 
 * **Twist** - Determines how much the arms curve.
 
+* **Offset Percentage** - Determines how the **X Offset** and **Y Offset** values below are interpreted. When enabled (the default), the offsets are a percentage of the target's width/height. When disabled, the offsets are an absolute pixel amount instead.
+
 * **X Offset** - Shifts the center of the wheel along the X-axis.
 
 * **Y Offset** - Shifts the center of the wheel along the Y-axis.
@@ -55,10 +57,13 @@ This effect can be layered with other effects to produce complex effect combinat
 
 ### Color
 
-* **Color Type** - Determines how the colors are applied to a blade. The gradient can traverse over time, over the length of the blade. There are options for random colors or a rainbow of colors.
+* **Color Type** - Determines how arm colors are generated from the **Colors** list below.
+    * _Gradient over time_ - Each arm is given one color from the list (cycling through the list if there are more arms than colors), which shifts along that color's gradient as the effect plays.
+    * _Gradient Across Arms_ - Each arm's color instead varies along its length, from hub to tip, following the gradient.
+    * _Random_ - Each arm is assigned a random solid color when the effect starts and keeps that color for the duration. The **Colors** list is hidden and not used.
+    * _Rainbow_ - Each arm is assigned a new random color on every frame, producing a flickering rainbow look. The **Colors** list is hidden and not used.
 
-* **Colors** - Can be simple colors or gradients. Each color or gradient has a level to adjust it's brightness over the duration of the effect. You can have one to many colors. 
-The blades will rotate across the selected colors.
+* **Colors** - Can be simple colors or gradients. Each color or gradient has a level to adjust its brightness over the duration of the effect. You can have one to many colors; if there are more arms than colors, colors are reused round-robin across the arms. Hidden when **Color Type** is set to _Random_ or _Rainbow_.
 
 ---
 
@@ -71,4 +76,4 @@ The blades will rotate across the selected colors.
 
 #### Video
 
-{{< video src="/images/docs/usage/sequencer/effects/pixel/pinwheel/Pinwheel.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
+{{< video src="Pinwheel.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
