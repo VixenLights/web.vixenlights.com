@@ -10,7 +10,7 @@ aliases: ['/vixen-3-documentation/preview/main-preview-screen/', '/vixen-3-docum
 
 The main preview screen is where the preview magic happens.
 
-![Preview Setup](/images/docs/usage/preview/main-preview-screen/main-preview-screen.png)
+![Preview Setup](main-preview-screen.png)
 
 From the top, you can see the main menu bar. You'll practically never need this unless you prefer words instead of pictures.
 
@@ -22,7 +22,7 @@ And, on the right is the stage. This is where you will do all the work to setup 
 
 ### Toolbar
 
-![Preview Toolbar](/images/docs/usage/preview/main-preview-screen/preview-toolbar.png)
+![Preview Toolbar](preview-toolbar.png)
 
 The toolbar is used to tell the preview what you want to do. There are various groups in the toolbar.
 
@@ -44,14 +44,14 @@ Most lighting displays happen at night. You can use the slider next to the image
 
 * From the **Edit** menu, select **Background Properties**
 * Change the width. By default the height will adjust and keep the aspect ratio of the background image.
-* Selecting the ![ChainLink](/images/docs/usage/preview/main-preview-screen/ChainLink.PNG) button will toggle between keeping the aspect ratio of the width and height fixed vs allowing
+* Selecting the ![ChainLink](ChainLink.PNG) button will toggle between keeping the aspect ratio of the width and height fixed vs allowing
   both the width and height to be edited independently.
 * All items on the preview will re-size and move to new locations to match the new preview image
 
 * By unselecting **Scale Shapes** the preview can be expanded to allow more space for props.  
   This type of resize is often desired when a background image is not being used.
 
-  ![Preview Background Resize](/images/docs/usage/preview/main-preview-screen/resize-background-dialog.png)
+  ![Preview Background Resize](resize-background-dialog.png)
 
 ### Select
 
@@ -77,14 +77,49 @@ This section contains the tools for aligning and sizing preview objects to each 
 * Distribute Vertically - This will distribute the shapes evenly spaced between the topmost and the bottommost shape.
 * Match Properties - This will match similar properties on shapes like height and width.
 
+### Bulb Size
+
+The two buttons in this section increase or decrease the [Light Size][7] of the currently selected item(s) without needing to type a value into the properties panel.
+
+### Custom Prop
+
+This section gives quick access to the [Custom Prop Editor][8]: one button launches the editor directly, and the other opens the folder where your custom prop library files are stored. You can also import a prop shared by someone else via **File -> Import Prop** in the main menu.
+
+### Undo / Redo
+
+Undo and Redo step backward and forward through your recent changes to the preview, such as adding, moving, resizing, or locking items. Each button also has a drop-down arrow that lets you jump back (or forward) multiple steps at once by picking an item from the history list.
+
+### Lock, Unlock, and Hide Locked
+
+Once you've finished positioning a prop, you can lock it in place so it can no longer be accidentally selected, moved, or resized while you keep working on the rest of your display.
+
+* **Lock** - Locks the selected item(s). A locked item can still be clicked and unlocked, but cannot otherwise be selected, dragged, resized, or included in a lasso/marquee selection.
+* **Unlock** - Unlocks the selected item(s).
+* **Unlock All** - Unlocks every item in the preview, regardless of what is currently selected.
+* **Hide Locked / Show Locked** - This single toggle button switches between hiding and showing locked items on the canvas. It's only enabled once at least one item is locked (or while hide mode is already on, so you can turn it back off). Turning it on makes every locked item disappear from the canvas entirely - it can't be seen, clicked, dragged, marquee-selected, or right-clicked, and its **Show Info** overlay (see below) is hidden too. This is handy for decluttering a dense layout: lock the props you've already finished, hide them, and edit only what's left as if the locked props weren't there.
+
+  Locked items are never removed from the Element Tree or from your saved preview - hiding only affects what's drawn on this editing canvas. Locking a new item while hide mode is on hides it immediately, and unlocking a hidden item (including via **Unlock All**) brings it back immediately. Hide mode is a temporary view setting: it always starts back off when you reopen the preview, and it isn't part of the Undo/Redo history.
+
+### Canvas Status Bar
+
+Along the bottom edge of the editing canvas is a status bar with two parts.
+
+* On the left, a color legend shows what each highlight color on the canvas means: *Linked*, *Selected*, *Un-Linked*, *Element Selected*, *Locked*, and *Pixel #1* (the first pixel of a selected pixel-based prop, useful for confirming its start point and direction).
+* On the right, a zoom slider (25%-400%) with the current zoom percentage lets you zoom in for detail work or out to see your whole layout.
+
 ### Location Offset
 
 When using location based effects, the locations of your props on the preview screen provides the spatial location information used by the effects. This allows for a wipe across several props in a group, or whole house wipes or many other effects. But there are times when your whole display doesn’t fit into one preview. Or it isn’t convenient to work on when it’s all in a single preview. You may want to have multiple preview to show different sections of your display, but you still want to apply a wipe effect across all of them. One example is if you are sequencing for multiple houses. Each house would have its own preview. Another example is if you have a front yard and side yard display. You may want each view on a separate preview.
 The Location Offset function in the **Settings** menu allows you to specify the relationship of a preview instance with respect to others. It lets you offset the coordinates of all the props on the preview by a given amount. For the side by side multiple houses, or side yard, front yard examples, You would look at the leftmost preview, and determine it’s dimensions. In the Edit menu, click on Background Properties. Make note of the existing image size dimensions. Then close this preview configuration screen and open the configuration screen for the next preview. In the Settings menu, select “Location Offset Setup”. If you want this second preview to appear to the right of the previous one, enter the width of the previous preview into the horizontal box. For example, if you have two previews that are 1920×1080 in size. You would enter 1920 into the Horizontal offset in the second preview.
 
+Two other options live in the **Settings** menu:
+
+* **Keep Insert Mode Active** - Normally, drawing a shape or using a [Prop Wizard][9] returns you to selection mode afterward. Checking this keeps you in insert mode so you can place several copies of the same prop in a row without re-selecting the tool each time.
+* **Use OpenGL Preview** - Switches the live preview viewer to use OpenGL rendering instead of GDI, which can improve performance on displays with a very large number of pixels. This is only available if your graphics hardware supports it; if it doesn't, Vixen will show a message and fall back to the standard GDI viewer.
+
 ### Help
 
-Links you to this documentation.
+The **Help** menu links to this documentation (**View Help**), the [Vixen YouTube channel](https://www.youtube.com/channel/UCsyABr1UByL5NG9DiGiXmpg), and dedicated help for the [Prop Wizard templates][9] (**Template Help**) and the [Custom Prop Editor][8] (**Custom Prop Help**).
 
 ### Close
 
@@ -96,7 +131,7 @@ Starting with Vixen 3.6, above the element tree is a drop down selector to add c
 
 ### Element Tree
 
-![Preview Toolbar](/images/docs/usage/preview/main-preview-screen/element-tree.png)
+![Preview Toolbar](element-tree.png)
 
 The Element Tree is the same tree used on the [Display Elements & Groups][2] screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers][5] section.
 
@@ -114,7 +149,9 @@ _Note:_ Clicking on an element or group of elements in the element tree will hig
 
 Display items all have properties associated with them. Along with multiple common properties, some items have custom properties that can be set. See the [Basic Shapes][2] and [Smart Objects][3] for more information on how to use these properties.
 
-![Item Properties](/images/docs/usage/preview/main-preview-screen/arch-properties.png)
+![Item Properties](arch-properties.png)
+
+**View -> Prop Information** toggles an overlay that draws an outline around every prop on the canvas along with the Z position of its first pixel, which can help when working with props that use pixel depth.
 
  [1]: {{< ref display-elements-groups>}} "Display Elements & Groups"
  [2]: {{< ref preview-basic-shapes>}} "Basic Shapes"
@@ -122,3 +159,6 @@ Display items all have properties associated with them. Along with multiple comm
  [4]: {{< ref preview-setup>}} "Previews Configuration"
  [5]: {{< ref controllers>}} "Controllers"
  [6]: {{< ref preview-linking-elements>}} "Linking Elements"
+ [7]: {{< ref "preview-common-settings#light-size" >}} "Light Size"
+ [8]: {{< ref custom-prop-editor>}} "Custom Prop Editor"
+ [9]: #prop-wizards "Prop Wizards"

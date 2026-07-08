@@ -6,29 +6,29 @@ description: This section covers the Basic Shapes used for Props.
 aliases: [/vixen-3-documentation/preview/adding-items-to-the-preview/basic-shapes/]
 ---
 
-### Overview
+## Overview
 
 The notion of how Props are represented in the Preview is denoted by Shapes. All Props have a Shape and there are 3 distinct types. The first are the Basic Drawing types. These are simple in nature, but can represent a wide variety of items effectively. These are selected from the Basic Drawing area in the toolbar.
 
 ### Point
 
-Use the button that looks like a pencil. A point is a single light point on the screen. By setting the Light Size property, you can use this light to define spots, floods or other larger light areas on your scene.
+Use the ![Point button](pencil.png) button that looks like a pencil. A point is a single light point on the screen. By setting the Light Size property, you can use this light to define spots, floods or other larger light areas on your scene.
 
 ### Light String
 
-A light string is a single, straight line of lights. This can be **Standard** or **Pixel** strings.
+Use the ![Light String button](draw-line.png) button. A light string is a single, straight line of lights. This can be **Standard** or **Pixel** strings.
 
 Light strings are defined by two points, Point1 and Point2 which are located on either end of the string.
 
 ### Rectangle
 
-A rectangle is basically four strings of lights that are attached at each corner. Once the rectangle is placed, each corner can be individually moved so that it no longer keeps its rectangular shape.
+Use the ![Rectangle button](draw-rectangle.png) button. A rectangle is basically four strings of lights that are attached at each corner. Once the rectangle is placed, each corner can be individually moved so that it no longer keeps its rectangular shape.
 
 To maintain a rectangular shape when adjusting it's size, hold down the Ctrl key while moving the bottom, right corner.
 
 ### Ellipse
 
-An ellipse is a single string of lights. It can be defined as a standard string of lights or a pixel string.
+Use the ![Ellipse button](draw-ellipse.png) button. An ellipse is a single string of lights. It can be defined as a standard string of lights or a pixel string.
 
 Ellipses are defined by two points, the top left point and the bottom right point. To adjust the size of the shape, click on one of the corners and drag it to a new size.
 
@@ -36,7 +36,7 @@ The first pixel of an ellipse is the right-most point. Pixels are in order clock
 
 ### Triangle
 
-A triangle is composed of three strings of lights.
+Use the ![Triangle button](draw-triangle.png) button. A triangle is composed of three strings of lights.
 
 Hold Ctrl while resizing the shape to maintain the triangle as an isosceles triangle.
 

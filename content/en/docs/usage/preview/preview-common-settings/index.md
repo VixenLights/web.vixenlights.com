@@ -5,11 +5,11 @@ weight: 20
 description: This section covers the common settings used for Prop Shapes.
 ---
 
-### Overview
+## Overview
 
 There are various common settings that are available in most, if not all of the items you can include in your preview. These options are detailed in this section. When you select a shape in the preview display a properties page will appear on the bottom left side of the preview editor screen.
 
-![Preview Toolbar](/images/docs/usage/preview/basic-shapes/line-properties.png)
+![Preview Toolbar](line-properties.png)
 
 ### Position
 

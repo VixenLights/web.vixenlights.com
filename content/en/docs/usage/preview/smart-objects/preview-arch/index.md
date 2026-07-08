@@ -4,7 +4,7 @@ author: Vixen Team
 description: This section covers using the Arch Smart object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/arch/']
 ---
-### Overview
+## Overview
 
 An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
 
@@ -14,7 +14,7 @@ An arch can be either **Pixel** based or **Standard** string based. A pixel arch
 
 You can add an Arch using the wizard buy clicking the Rainbow icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Arch and drag from upper left to lower right. This will create a basic ARch shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Arch.
 
-![Arch Wizard](/images/docs/usage/preview/smart-shapes/arch/arch-setup.png)
+![Arch Wizard](arch-setup.png)
 
 In this dialog, you will provide the group name for your Arch. It defaults to Arch, but if you are adding multiples, you will want to name them Arch-1, Arch-2, etc. The next entry is the name the segments will be called. This defaults to Arch Px. If you are adding multiple Arches, you would name this Arch-1 Px or Arch-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example Arch-1 Px-1, Arch-1 Px-2.
 

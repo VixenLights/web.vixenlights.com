@@ -5,7 +5,7 @@ weight: 15
 description: This section covers adding Props to the Preview.
 ---
 
-### Overview
+## Overview
 
 Being able to add your Prop shapes to the Preview allows you to visualize what the actual Prop will look like when your sequences are running.
 
