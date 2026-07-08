@@ -44,7 +44,7 @@ Most lighting displays happen at night. You can use the slider next to the image
 
 * From the **Edit** menu, select **Background Properties**
 * Change the width. By default the height will adjust and keep the aspect ratio of the background image.
-* Selecting the ![ChainLink](ChainLink.PNG) button will toggle between keeping the aspect ratio of the width and height fixed vs allowing
+* Selecting the ![ChainLink](chain-link.png) button will toggle between keeping the aspect ratio of the width and height fixed vs allowing
   both the width and height to be edited independently.
 * All items on the preview will re-size and move to new locations to match the new preview image
 
