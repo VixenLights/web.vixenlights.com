@@ -5,9 +5,9 @@ description: This section covers using the Mega Tree Smart object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/mega-tree/']
 ---
 
-### Overview
+## Overview
 
-A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel Mega Tree has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
+A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel Mega Tree has individually addressable pixels across the entire cane and a standard cane has a single strand of lights that span the cane.
 
 ### Adding a Mega Tree in Vixen 3.6+
 
@@ -15,7 +15,7 @@ A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel 
 
 You can add a Mega Tree using the wizard buy clicking the Mega Tree icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Mega Tree and drag from upper left to lower right. This will create a basic Mega Tree shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Mega Tree.
 
-![Mega Tree Wizard](/images/docs/usage/preview/smart-shapes/mega-tree/mega-tree-std-setup.png)
+![Mega Tree Wizard](mega-tree-std-setup.png)
 
 In this dialog, you will provide the name for your Mega Tree. It defaults to Megatree, but if you are adding multiples, you will want to name them Megatree-1, Megatree-2, etc. The next entry is the string count and the prefix name for each string. This defaults to 16 and a prefix of S. Adjust the string count to the number of strings you have.
 
@@ -25,7 +25,7 @@ The next section concerns the startign location for the wiring on your tree. Typ
 
 Setup for a **Pixel** Tree
 
-![Mega Tree Wizard](/images/docs/usage/preview/smart-shapes/mega-tree/mega-tree-pixel-setup.png)
+![Mega Tree Wizard](mega-tree-pixel-setup.png)
 
 Once you select Ok, the next step will be whether to add a Dimming Curve or not. See the section on [Dimming Curves][3]
 
@@ -68,11 +68,11 @@ Click on the Setup button to link elements to the strings in the Mega Tree. Elem
 
 ## String Type
 
-See the [common settings][2] section for more information.
+See the [common settings][2] section for more information.
 
 ### Light Size
 
-See the [common settings][2] section for more information.
+See the [common settings][2] section for more information.
 
 ### String Count
 
@@ -92,7 +92,7 @@ A mega tree is made up of a top ellipse and a bottom ellipse connected by light 
 
 ### Base Height
 
-A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the height of the bottom ellipse. The width of the ellipse is defined by re-sizing the tree on the preview screen.
+A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the height of the bottom ellipse. The width of the ellipse is defined by re-sizing the tree on the preview screen.
 
 [1]: {{< ref preview-linking-elements>}} "Linking Elements"
 [2]: {{< ref preview-common-settings>}} "Common Settings"

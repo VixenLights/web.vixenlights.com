@@ -4,9 +4,9 @@ author: Vixen Team
 description: This section covers using the Smart Star object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/star']
 ---
-### Overview
+## Overview
 
-A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
+A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
 
 ### Adding an Star in Vixen 3.6+
 
@@ -14,7 +14,7 @@ A Star can be either **Pixel** based or **Standard** string based. A pixel Star 
 
 You can add an Star using the wizard buy clicking the Star icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Star and drag from upper left to lower right. This will create a basic Star shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Star.
 
-![Star Wizard](/images/docs/usage/preview/smart-shapes/star/star-setup.png)
+![Star Wizard](star-setup.png)
 
 In this dialog, you will provide the group name for your Star. It defaults to Star, but if you are adding multiples, you will want to name them Star-1, Star-2, etc. The next entry is the name the segments will be called. This defaults to Star Px. If you are adding multiple Stars, you would name this Star-1 Px or Star-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example Star-1 Px-1, Star-1 Px-2.
 

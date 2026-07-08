@@ -5,11 +5,11 @@ weight: 20
 description: This section covers the common settings used for Prop Shapes.
 ---
 
-### Overview
+## Overview
 
 There are various common settings that are available in most, if not all of the items you can include in your preview. These options are detailed in this section. When you select a shape in the preview display a properties page will appear on the bottom left side of the preview editor screen.
 
-![Preview Toolbar](/images/docs/usage/preview/basic-shapes/line-properties.png)
+![Preview Toolbar](line-properties.png)
 
 ### Position
 
@@ -29,7 +29,7 @@ What makes a Standard string **Standard** is that all of the lights in the strin
 
 A Standard string is what most people think of when they think Christmas lights. It is a string of lights that is either a single color or is multi-colored. These lights are static so their color cannot be assigned by the software. The are either on, off, or are in some state in-between.
 
-_There is one exception:_ A string of **Pixel** lights that are all controlled as a group and are not individually addressable is a Standard string too.
+**There is one exception:** A string of **Pixel** lights that are all controlled as a group and are not individually addressable is a Standard string too.
 
 ### Pixel String
 
@@ -49,6 +49,4 @@ Decreasing the light count removes pixels from the end of the string. There is a
 
 ### Linked Elements
 
-When you want to see what your display will look like when you run a sequence, you need to have your preview items linked to elements. See the [Linking Elements][1] section for more information.
-
-[1]: {{< ref preview-linking-elements>}} "Linking Elements"
+When you want to see what your display will look like when you run a sequence, you need to have your preview items linked to elements. See the [Linking Elements]({{< ref preview-linking-elements >}} "Linking Elements") section for more information.

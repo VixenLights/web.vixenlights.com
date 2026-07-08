@@ -4,9 +4,9 @@ author: Vixen Team
 description: This section covers using the Icicles Smart object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/icicles/']
 ---
-### Overview
+## Overview
 
-Icicles can be either **Pixel** based or **Standard** string based. Pixel Icicles have individually addressable pixels across the entire Icicles and standard Icicles typically have one color strand.
+Icicles can be either **Pixel** based or **Standard** string based. Pixel Icicles have individually addressable pixels across the entire Icicles and standard Icicles typically have one color strand.
 
 ### Adding Icicles in Vixen 3.6+
 
@@ -14,7 +14,7 @@ Icicles can be either **Pixel** based or **Standard** string based. Pixel Icicle
 
 You can add Icicles using the wizard buy clicking the Snowflake icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to Iciclest the Icicles and drag from upper left to lower right. This will create a basic Icicles shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Icicles.
 
-![Icicles Wizard](/images/docs/usage/preview/smart-shapes/icicles/icicles-setup.png)
+![Icicles Wizard](icicles-setup.png)
 
 In this dialog, you will provide the name for your Icicles. It defaults to Icicles, but if you are adding multiples, you will want to name them Icicles-1, Icicles-2, etc. Fill in the string count and the pattern for the individual Icicle drops.
 

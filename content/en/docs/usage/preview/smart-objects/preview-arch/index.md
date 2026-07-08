@@ -4,9 +4,9 @@ author: Vixen Team
 description: This section covers using the Arch Smart object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/arch/']
 ---
-### Overview
+## Overview
 
-An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
+An arch can be either **Pixel** based or **Standard** string based. A pixel arch has individually addressable pixels across the entire arch and a standard arch has a number of segments that span the arch.
 
 ### Adding an Arch in Vixen 3.6+
 
@@ -14,7 +14,7 @@ An arch can be either **Pixel** based or **Standard** string based. A pixel arch
 
 You can add an Arch using the wizard buy clicking the Rainbow icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Arch and drag from upper left to lower right. This will create a basic ARch shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Arch.
 
-![Arch Wizard](/images/docs/usage/preview/smart-shapes/arch/arch-setup.png)
+![Arch Wizard](arch-setup.png)
 
 In this dialog, you will provide the group name for your Arch. It defaults to Arch, but if you are adding multiples, you will want to name them Arch-1, Arch-2, etc. The next entry is the name the segments will be called. This defaults to Arch Px. If you are adding multiple Arches, you would name this Arch-1 Px or Arch-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example Arch-1 Px-1, Arch-1 Px-2.
 
@@ -38,7 +38,7 @@ Steps:
   2. Click on the Arch smart object.
   3. Draw the arch on the screen.
   4. Change the string type to **Pixel**
-  5. Change the Light Count to a multiple of the number of segments you have. So, if you have 9 segments, I'd suggest 36 (9 X 4) lights.
+  5. Change the Light Count to a multiple of the number of segments you have. So, if you have 9 segments, I'd suggest 36 (9 X 4) lights.
   6. Click on the ... next to Linked Elements
   7. Assign your first arch element to the first item multiple (in our example, the first 4 pixels).
   8. Assign each successive multiple (in our example above, 4 pixels) to the same element.
@@ -61,11 +61,11 @@ See Position in [Common Settings][2]
 ### Light Count
 
 For an Arch, this is commonly the number of segments in the arch. If your Arch has 25 pixel segments, it will be 25. If you have 9 segments of analog lights, the number will be 9.
-See Light Count in [Common Settings][2]
+See Light Count in [Common Settings][2]
 
 ### Light Size
 
-See Light Size in [Common Settings][2]
+See Light Size in [Common Settings][2]
 
 ### Linked Elements
 

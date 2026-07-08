@@ -21,7 +21,7 @@ To access the context menu while in transparent mode, right-click the blue Trans
 
 The setting is saved automatically and will be restored the next time the preview window is opened.
 
-![Transparent Background Context Menu](/images/docs/usage/preview/transparent-background/context-menu-transparent.png)
+![Transparent Background Context Menu](context-menu-transparent.png)
 
 ## Behavior
 
@@ -29,7 +29,7 @@ The setting is saved automatically and will be restored the next time the previe
 - **Lit pixels remain opaque** — Colored pixels produced by active lights are fully visible and unaffected by what is behind the preview window.
 - **Background image is suppressed** — Any background image configured for the preview will not be displayed while Transparent Background is enabled. The background image and transparent background mode are mutually exclusive. The background image is restored when the feature is disabled.
 
-![Transparent Background Active](/images/docs/usage/preview/transparent-background/transparent-background-active.png)
+![Transparent Background Active](transparent-background-active.png)
 
 ## Limitations
 
