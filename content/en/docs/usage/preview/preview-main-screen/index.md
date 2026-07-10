@@ -83,7 +83,7 @@ The two buttons in this section increase or decrease the [Light Size]({{< ref "p
 
 ### Custom Prop
 
-This section gives quick access to the [Custom Prop Editor]({{< ref custom-prop-editor >}} "Custom Prop Editor"): one button launches the editor directly, and the other opens the folder where your custom prop library files are stored. You can also import a prop shared by someone else via **File -> Import Prop** in the main menu.
+This section gives quick access to the [Custom Prop Editor]({{< ref custom-prop-editor >}} "Custom Prop Editor") — the tool for modeling props that don't fit the built-in [Basic Shapes]({{< ref preview-basic-shapes >}} "Basic Shapes") or [Smart Objects]({{< ref smart-objects >}} "Smart Objects"). One button launches the editor directly, and the other opens the folder where your custom prop library files are stored. You can also import a prop shared by someone else via **File -> Import Prop** in the main menu.
 
 ### Undo / Redo
 
