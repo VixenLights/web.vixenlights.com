@@ -5,13 +5,15 @@ weight: 25
 description: This section covers the Timeline features.
 ---
 
-### Overview
+## Overview
 
 The Timeline is the heart of the sequence editor. It is divided up from left to right in minutes and seconds. Top to bottom in rows are the [Elements][1] you have defined in the [Display Setup][2]. These should correspond to the props in your display and may have [Groups][1] of props that you have organized. Any groups can be expanded to reveal the sub elements or other groups. The Timeline can be zoomed in or out to show as much or little of the time the sequence covers. There are keyboard and mouse shortcuts to control the zoom and allow panning from left to right and up and down. See the [Editor Shortcuts][3] section for more details on these commands.
 
 ### Time Ruler
 
 The ruler along the top contains the hash marks for the time intervals. These will vary from minutes to seconds to milliseconds as you zoom in and out. You can also click here to place a caret as the starting place or drag and select a range for the sequence when playing. See [Playing Sequences][4] for more information on this feature. Marks can be added here to mark beats or other important parts of the sequence and can be used as alignment references. Hovering the mouse near the bottom of the ruler will transition the cursor to a horizontal bar that you can click and drag to resize the height of the ruler. The time numbers will scale in size relative to the height. Marks can be added via the ruler. See [Adding Marks][13].
+
+Selecting effects on the Timeline also moves this cursor automatically to keep it in sync with your selection. See [Cursor Movement on Selection][16] for details on this behavior and how to turn it off.
 
 ### Mark Bar
 
@@ -33,7 +35,7 @@ Rows can also be collapsed quickly by clicking the **View -> Collapse All Elemen
 
 Effects can be moved around on the timeline by simply clicking on them and dragging it to the desired location. The length can also be changed by dragging on the beginning or end of the effect. A tool tip will appear when resizing to show the start and duration of the effect. The same tool tip will appear when hovering over the effect. Multiple effects can be moved or resized at the same time by multi selecting them. This uses standard select means of Ctrl/Shift click as you would see in any modern windows app. Once you have multiples selected, they can be moved or resized as a group. See the section on [Alignment Helpers][8] and the [Draw Indicator][9] sections for further ways to manipulate effects in relation to each other.
 
-Effects can also be [Cut, Copied and Pasted][10] from one place to another. Normal paradigms apply for this mechanism. Another way to make a quick copy of an effect is to Ctrl click and then drag on the effect. This will clone the selected effect(s) and allow you to quickly drag a copy of it else where. Holding the Shift key while dragging the effect will hold it at the time so you can drag it to another element and not change its position in time.
+Effects can also be [Cut, Copied and Pasted][10] from one place to another. Normal paradigms apply for this mechanism. Another way to make a quick copy of an effect is to Ctrl click and then drag on the effect. This will clone the selected effect(s) and allow you to quickly drag a copy of it else where. Holding the Shift key while dragging the effect will hold it at the time so you can drag it to another element and not change its position in time. Holding Ctrl + Shift while dragging clones the selected effect(s) and locks the clones to the same start and end times, letting you drag the clones straight up or down to another element without changing their position in time.
 
 Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to adjoin with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will adjoin the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Holding the Alt and Shift keys down together will work similarly, but only Effects at at the same [Layer][15] will be affected.
 
@@ -68,3 +70,4 @@ Many of the Timeline settings are saved with each sequence you edit. Thus when y
  [13]: {{< ref "marks#adding-marks">}}
  [14]: {{< ref "marks#editing-marks">}}
  [15]: {{< ref "layers">}}
+ [16]: {{< ref "edit-functions#cursor-movement-on-selection">}}

@@ -5,7 +5,7 @@ weight: 10
 description: This section covers the basic edit functions.
 ---
 
-### Overview
+## Overview
 
 Editing a sequence is one of the most important aspects of creating your light show. The sequencer is intended to facilitate rapid creation of content and also to feel at home with standard conventions you have used in other applications.
 
@@ -27,13 +27,24 @@ Clicking the timeline and dragging the mouse with the left mouse button held wil
 
 Additional capabilities for selection are provide by the Draw Mode. See the section on [Draw Modes]({{< ref draw-mode.md>}}) for further details.
 
+### Cursor Movement on Selection
+
+By default, selecting an effect moves the timeline cursor to that effect's start time, keeping the cursor in sync with whatever you're working on. This applies whether you click a single effect, multi-select a group, or extend a selection with Ctrl or Shift.
+
+* **Single effect** &mdash; Clicking an effect moves the cursor to its start time, even if it was already selected.
+* **Multiple effects selected at once** &mdash; The cursor moves to the earliest start time among the selected effects.
+* **Ctrl/Shift click** &mdash; The cursor follows the most recently clicked effect rather than jumping to the earliest one in the selection.
+* **Lasso selection** &mdash; The cursor doesn't move while you're dragging the selection box. Once you release the mouse, the cursor moves to the earliest start time among the selected effects.
+
+Right-clicking an effect to open its context menu does not move the cursor. Right-clicking empty space on the Timeline still places the cursor at that time, as before. This behavior was modified in Build 1450. If you'd rather the cursor not move automatically when you select effects, check **Edit -> Legacy Cursor / Active Row** to restore the previous behavior.
+
 ### Editing Effects
 
 Effects can be edited in many ways. Clicking on any effect will bring up it's settings in the Effect Editor. You settings can be changed and the effect will render the changes on the fly. If you have multiple effects of the same type selected, all their settings can be edited at the same time. There are also some basic settings that may be the same for multiple types of effects. These can be edited at the same time as well. The [Effects][3] section details the settings for each Effect.
 
 Effects can be resized by clicking on the start or the end and dragging them to the new length you desire. Multiple effects can be selected at the same time and resizing them works in unison. See [Snap Points][1] for more info on getting effects to align to specific things in the Timeline.
 
-Effects can also be dragged from one element to another by clicking on them and dragging while holding the mouse down. Multiple effects can be selected and dragged at the same time. By holding the Ctrl key down while dragging the effect(s) you can create a copy of them and drag the copy to the new location. Holding the Shift key down locks the dragged effects in the same vertical time so you can move them up or down to another element. See the [Timeline][2] section for more details.
+Effects can also be dragged from one element to another by clicking on them and dragging while holding the mouse down. Multiple effects can be selected and dragged at the same time. By holding the Ctrl key down while dragging the effect(s) you can create a copy of them and drag the copy to the new location. Holding the Shift key down locks the dragged effects in the same vertical time so you can move them up or down to another element. Holding Ctrl + Shift down while dragging combines both behaviors: the selected effects are cloned, and the clones can only be dragged up or down to another element, keeping the same start and end times as the effects they were cloned from. See the [Timeline][2] section for more details.
 
 Clicking on the left edge of an effect while holding down the Alt key and moving the mouse will cause the effect just left to adjoin with this effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Similarly, clicking on the right side of an effect while holding down the Alt key and moving the mouse right will adjoin the immediate right effect. Continuing to move the mouse while the Alt key is depressed will jointly size both effects. Holding the Alt and Shift keys down together will work similarly, but only Effects at at the same [Layer][4] will be affected.
 
