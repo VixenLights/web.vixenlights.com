@@ -17,6 +17,8 @@ The effect looks for a State property anywhere on the target element or its desc
 
 ### Configuration
 
+![State effect properties in the Effect Editor](state-effect-configuration.png)
+
 * **State** Selects which discovered State definition to render. This lists every State definition found on the target element and its descendants, in element-tree order. If more than one discovered definition shares a name, each is disambiguated by adding its owning element's name in parentheses, for example `Eyes Open (Santa - Model)`; if that's still not unique, a short id is appended as well. A newly added State effect auto-selects the first discovered State definition. If the target has no State property at all, this shows `<No States Available>` and the effect renders nothing. If a previously selected State definition is later deleted, this shows the missing selection and the effect renders nothing until you pick a valid one.
 * **Playback Mode** Controls how multiple active State Items are scheduled.
   * **Default** All active State Items render together for the full effect duration.
@@ -64,6 +66,8 @@ Shown only when **Render Source** is **Custom**.
 
 Builds an ordered list of State Item rows directly on the effect, instead of relying on `<All>` or a Mark Collection. This is useful when you want a specific sequence of a subset of State Items, or want to override a State Item's color for just one row.
 
+![Custom State Items expandable row collection](state-effect-custom-items.png)
+
 * **Custom State Items** An expandable list of rows. Each row has:
   * **State Item** Picks one specific State Item from the selected State definition. In **Cycle** mode, `<None>` is also offered as the first choice — a blank row that consumes a timing slot but renders nothing. `<None>` is not available in **Default** mode, since Default renders every row at once and a blank row would have no effect. If the same State Item name appears more than once in the definition, the row picker disambiguates the duplicates using their assigned element names, or a row number, or a short id if needed.
   * **Color** The color used when this row renders, defaulting to the State Item's configured color when the row is added or its **State Item** is changed. Change it to override the color for just that row, without affecting the State Item's own configured color. The color editor respects the color capabilities of that State Item's assigned elements (full color or discrete color).
@@ -94,6 +98,8 @@ Non-consecutive rows with the same name are never merged, even with grouping off
 ### Effect Timeline Visual
 
 * **Effect Timeline Visual** Enabled by default. When on, the Sequencer timeline shows a dark gray bar labeled with the effect name, the selected State definition, and the active render source (for example `State - Eyes Open - Marks`, or `State - Eyes Open - Custom Group` when Custom is grouped by unchecking **Cycle Individually**) instead of a rendered color preview. Turn this off if you'd rather see the effect's rendered colors in the timeline.
+
+![State effect's labeled bar in the Sequencer timeline](state-effect-timeline-visual.png)
 
 ---
 

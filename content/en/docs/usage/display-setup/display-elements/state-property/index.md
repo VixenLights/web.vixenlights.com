@@ -18,12 +18,16 @@ The **State** property lets you define one or more named State definitions for a
 ### Adding the State Property
 
 1. In Display Setup, select the element or group you want to add States to. This should primarily always be the top level model group defining your Prop. Each Prop that needs State should generally only have one State Property.
-2. In the **Selected Item(s)/Configure** section, choose **Add Properties -> State**.
+2. In the **Selected Item(s)/Configure** section, press **Add Properties**. In the **Select Item** dialog, choose **State** and press **OK**.
 3. With **State** selected in the Configure list, press **Configure** to open the State Property Setup dialog.
+
+![Select Item dialog with State selected](state-property-add.png)
 
 ---
 
 ### State Definitions
+
+![State Property Setup dialog](state-property-setup.png)
 
 At the top of the setup dialog:
 
@@ -61,6 +65,8 @@ The grid also supports column-header sorting — click **Name**, **Color**, or *
 
 The tree on the right side shows the selected element and its children so you can choose which elements a State Item applies to. It's only shown and editable when **exactly one** State Item row is selected in the grid — select more than one row and the tree is empty, since assignments can only be edited one row at a time.
 
+![Assigned Elements tree showing a checked group with grayed-out descendants](state-property-assigned-elements.png)
+
 * Click a node to select it — this only highlights it, it doesn't change its assignment.
 * Ctrl-click adds or removes individual nodes from the selection; Shift-click selects every visible node between the last-clicked node and the new one.
 * Press **Space**, or click **Toggle Selected**, to toggle the checked (assigned) state of every currently selected node.
@@ -74,6 +80,8 @@ The **Count** column on the State Items grid updates as you check and uncheck el
 
 * **Preview** A simple **Off**/**On** toggle. It's off by default and, while off, nothing you do in the dialog affects your live output or preview.
 * When **Preview** is **On**, whichever State Item row(s) are currently selected in the grid light up on the real output/preview using their configured colors. Selecting a different row (or set of rows) updates the preview immediately, and clearing the selection stops previewing anything.
+
+![Preview On with the selected State Item lit in the live preview](state-property-preview.png)
 * Editing a previewed row's assignments or color updates the preview live. Turning **Preview** off, or closing the dialog through **OK**, **Cancel**, or the window close button, always clears any active preview.
 
 ---
