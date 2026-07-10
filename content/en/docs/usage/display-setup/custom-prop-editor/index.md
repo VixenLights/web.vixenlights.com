@@ -18,7 +18,7 @@ The Custom Prop Editor can be launched from multiple places, and offers the same
 
 ---
 
-### Layout
+### Window Layout
 
 ![Custom Prop Editor main window](custom-prop-editor-window.png)
 
