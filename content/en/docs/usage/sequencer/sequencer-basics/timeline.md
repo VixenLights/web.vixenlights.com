@@ -11,7 +11,7 @@ The Timeline is the heart of the sequence editor. It is divided up from left to 
 
 ### Time Ruler
 
-The ruler along the top contains the hash marks for the time intervals. These will vary from minutes to seconds to milliseconds as you zoom in and out. You can also click here to place a caret as the starting place or drag and select a range for the sequence when playing. See [Playing Sequences][4] for more information on this feature. Marks can be added here to mark beats or other important parts of the sequence and can be used as alignment references. Hovering the mouse near the bottom of the ruler will transition the cursor to a horizontal bar that you can click and drag to resize the height of the ruler. The time numbers will scale in size relative to the height. Marks can be added via the ruler. See [Adding Marks][13].
+The ruler along the top contains the hash marks for the time intervals. These will vary from minutes to seconds to milliseconds as you zoom in and out. You can also click here to place a caret as the starting place or drag and select a range for the sequence when playing. See [Playing Sequences][4] for more information on this feature. Marks can be added here to mark beats or other important parts of the sequence and can be used as alignment references. Hovering the mouse near the bottom of the ruler will transition the cursor to a horizontal bar that you can click and drag to resize the height of the ruler. The time numbers will scale in size relative to the height. Double clicking the resize edge will reset the ruler back to its default height. Marks can be added via the ruler. See [Adding Marks][13]. If you want to prevent accidental resizing of the ruler, check **View -> Lock Ruler Height**. While locked, the resize cursor will not appear and dragging or double clicking the bottom edge will not change the height. This is independent of the waveform height lock described in the [Audio][17] section, so either can be locked without affecting the other.
 
 Selecting effects on the Timeline also moves this cursor automatically to keep it in sync with your selection. See [Cursor Movement on Selection][16] for details on this behavior and how to turn it off.
 
@@ -71,3 +71,4 @@ Many of the Timeline settings are saved with each sequence you edit. Thus when y
  [14]: {{< ref "marks#editing-marks">}}
  [15]: {{< ref "layers">}}
  [16]: {{< ref "edit-functions#cursor-movement-on-selection">}}
+ [17]: {{< ref "audio-functions#waveform">}}
