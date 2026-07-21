@@ -5,7 +5,7 @@ description: Creates an effect used to syncronize lyric phomemes to a prop.
 aliases: [/vixen-3-documentation/sequencer/effects/lipsync/]
 ---
 
-### Overview
+## Overview
 
 The Lip-sync effect helps to facilitate sequencing singing faces. It is a multi purpose effect that has evolved over the years into a powerful tool for syncronizing lyrics to your face mapped props. This effect relies on the mapping of the face properies in your elements in order to work properly.
 
@@ -15,7 +15,8 @@ The Lip-sync effect helps to facilitate sequencing singing faces. It is a multi 
 
 * **Phoneme/Marks** This setting determine how the **LipSync** effect behaves.
   * **Mark Collections** Since Version 3.5. This set the effect to get its phomeme information from the [Marks][1] in a Mark Collection. This is the default and the most common way to use the effect.
-    * **Mark Collection** This sets the Mark Collectin that contains the Marks with the Phonemes in it. There are typically 3 types of collections. Phrases, Words, and Phonemes. You select the Phonemes one here.
+    * **Mark Collection** This sets the Mark Collection that contains the Marks with the Phonemes in it.
+      * Since Build 1465, the dropdown is filtered to only show Mark Collections that are tagged as **Phoneme** collections, so Phrase, Word, and other unrelated collections no longer clutter the list. If the effect already has a non-Phoneme collection selected (for example from an older sequence), that collection remains selected and is shown in the list like before so you can still see and continue using it. Once you pick a real Phoneme collection, that legacy entry drops out of the list.
     * **Allow Mark Gaps** When enabled, the effect does not fill gaps between the Marks with a REST.
   * **Phoneme** This allows the effect to be used in manual mode where you configure the phoneme you want to use specifically.
 * **Mapping Type** This allows you to choose the mapping type. This controls how phonemes are mapped to the individual elements in your Prop.
