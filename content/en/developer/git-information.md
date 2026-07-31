@@ -52,6 +52,50 @@ See the [Install Docs][9] for details on how to install it into your PowerShell 
 
 Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You can also utilize a PowerShell terminal into one of the docking panes and then the command line tools are readily available. Using posh-git mentioned above enhances this experience.
 
+### Line Endings
+
+As of June 2026, the repository enforces LF (Unix-style) line endings for source and text files through a [.gitattributes][gitattributes] file at the project root. This was done to eliminate line-ending churn — entire files showing as changed in diffs, pull requests, and merges — caused by editors and tools that default to CRLF on Windows.
+
+The current rules are:
+
+* All text files default to LF (`* text=auto eol=lf`).
+* C# and project files (`*.cs`, `*.csproj`, `*.sln`) are explicitly LF.
+* Documentation and shell scripts (`*.md`, `*.sh`) are explicitly LF.
+* PowerShell scripts (`*.ps1`, `*.psm1`) are the one exception and are kept as CRLF, since that's the native line ending PowerShell tooling on Windows expects.
+
+Because `eol=lf` is set (not just `text=auto`), Git normalizes these files to LF both in the repository and in your working copy on every platform, regardless of your local `core.autocrlf` setting. You don't need to change any personal Git configuration for this to take effect on a fresh clone or a new branch created after the `.gitattributes` file was added.
+
+#### Converting an Existing Branch
+
+If you have a branch that was created before the `.gitattributes` file was added, its commits may still contain files with CRLF line endings. Rebasing straight onto the current master can produce a wall of false conflicts, since master's normalization touched nearly every file. To avoid that, rebase (or merge) using Git's `renormalize` strategy option, which tells Git to resolve line-ending-only differences using the current `.gitattributes` rules instead of flagging them as conflicts:
+
+```sh
+git fetch origin
+git rebase -X renormalize origin/master
+```
+
+If you prefer to merge master into your branch instead of rebasing:
+
+```sh
+git merge -X renormalize origin/master
+```
+
+After the rebase or merge completes, double check that nothing unexpected changed:
+
+```sh
+git diff --stat
+```
+
+If any tracked files in your branch still show CRLF endings afterward (for example, files that predate the `.gitattributes` change but weren't touched by the renormalization on master), you can force Git to re-check every file against the current rules and stage the fix:
+
+```sh
+git add --renormalize .
+git status
+git commit -m "VIX-XXXX Renormalize line endings"
+```
+
+Only do this as a dedicated, separate commit — don't mix a renormalization pass in with unrelated code changes, for the same reason we ask formatting-only fixes to be their own commit; see [Settings][vs-settings] in the Visual Studio guide.
+
 ### Branching Practices
 
 The general idea is that the master branch is, tracking the development for the next version. It's stuff that's going into the product, and will be included in the next version unless something is found to have an issue in testing.
@@ -85,3 +129,5 @@ In this project we prefer developers rebase their changes onto the latest master
 [11]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 [git-rebase]: https://docs.github.com/en/get-started/using-git/about-git-rebase
 [prompt-def-long]: https://github.com/dahlbyk/posh-git/wiki/images/PromptDefaultLong.png   "~\GitHub\posh-git [main ≡ +0 ~1 -0 | +0 ~1 -0 !]> "
+[gitattributes]: https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+[vs-settings]: {{< ref "visual-studio#settings" >}}
