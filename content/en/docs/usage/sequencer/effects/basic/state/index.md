@@ -24,6 +24,7 @@ The effect looks for a State property anywhere on the target element or its desc
   * **Default** All active State Items render together for the full effect duration.
   * **Cycle** Active State Items render one after another, splitting the effect duration between them.
 * **Cycles** Only shown when **Playback Mode** is **Cycle**. Sets how many times the full sequence of active State Items repeats across the effect duration. Ranges from 1 to 20 and defaults to 1.
+* **Cycle Offset** Only shown when **Playback Mode** is **Cycle**. Shifts which slot in the cycle renders first, without changing slot durations, grouping, colors, marks, assignments, or how many times the sequence repeats. Ranges from 0 to 100 and defaults to 0. For example, a cycle of `Red`, `Green`, `Blue` with a Cycle Offset of 1 starts on `Green` and continues `Green`, `Blue`, `Red`. The offset is taken modulo the current number of slots in the cycle, so a value equal to (or a multiple of) the slot count has no visible effect, and any value up to 100 wraps around sensibly regardless of how many slots the cycle currently has. The shift is applied once, before **Cycles** repeats the sequence — so an offset of 1 on `Red`, `Green`, `Blue` with 2 Cycles renders `Green`, `Blue`, `Red`, `Green`, `Blue`, `Red`, not a rotation of the already-repeated six-item sequence. This behaves consistently across all three **Render Source** options; see the notes under each below.
 * **Render Source** Selects how the effect decides which State Items are active.
   * **State Item** Uses one selected State Item, or all of them.
   * **Mark Collection** Uses [Marks][1] to activate State Items by name over time.
@@ -43,6 +44,8 @@ Shown only when **Render Source** is **State Item**.
 
 If the selected State Item name is later renamed, the effect keeps following it and displays the new name. If it's deleted, the effect keeps the missing selection and renders nothing until you choose `<All>` or another valid name.
 
+When **Playback Mode** is **Cycle** and **State Item** is `<All>`, **Cycle Offset** shifts which unique State Item name starts the sequence — the remaining names still follow in their original order and wrap back to the beginning. A specific single-name selection isn't a cycling sequence, so Cycle Offset has no effect on it.
+
 ---
 
 ### Mark Collection
@@ -57,6 +60,8 @@ Each mark's label can contain one or more comma-separated State Item names, for 
 * In **Cycle** mode, each comma-separated segment gets an equal share of the mark's duration, repeated **Cycles** times, and renders in the order listed — so `Open, Closed, Open` produces three intervals, not two.
 
 If the Mark Collection is deleted, the selection clears and the effect renders nothing until you choose another one.
+
+In **Cycle** mode, **Cycle Offset** shifts which comma-separated segment starts each mark's cycle independently — every mark rotates its own segment list rather than being offset against other marks. Blank and unrecognized segments still count as slots, so they shift along with the rest and keep consuming their share of time; the offset never removes or reorders which segments are blank.
 
 ---
 
@@ -79,6 +84,8 @@ Rules that apply to the row list:
 * Switching **Playback Mode** from **Cycle** to **Default** automatically removes `<None>` rows and any duplicate rows for the same State Item, keeping the first occurrence of each.
 * Switching **Render Source** to **Custom** adds one starter row automatically if the list is empty and the State definition has at least one State Item. At least one row is required while **Custom** is active.
 * Changing the top-level **State** selection clears the **Custom State Items** list and, if **Custom** is still selected, reseeds it with one row for the newly selected definition's first State Item.
+
+In **Cycle** mode, **Cycle Offset** shifts which row (or, with **Cycle Individually** unchecked, which group of consecutive same-item rows) starts the sequence. Rows and groups keep their existing order, color overrides, and `<None>`/missing-selection blank slots — the offset only changes the starting point, and grouped rows continue to move and render together after the shift.
 
 #### Cycle Individually
 
