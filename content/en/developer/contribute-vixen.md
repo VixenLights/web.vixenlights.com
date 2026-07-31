@@ -60,26 +60,21 @@ Vixen 3 is a modular application that allows for pluggable modules to be develop
 
 Conventions for development:
 
-* The assembly name should be the name of the module (eg. TimedSequenceEditor), and
-* the default namespace should be "Module.ModuleType.ModuleName". For
-  example, Modules.Editor.TimedSequenceEditor.
-* The build output directory should be relative to the solution directory, in a
-  'Release' directory release builds and a Debug folder for Debug builds. We no longer actively support x86 builds.
-  It will also depend on the type of module. For example:
+* The assembly name should be the name of the module (e.g. `TimedSequenceEditor`), and the default namespace should be `Module.ModuleType.ModuleName` — for example, `Modules.Editor.TimedSequenceEditor`.
+* Assembly names are handled by the `Directory.Build.Props` file for each module type.
+* The build output directory should be relative to the solution directory: a `Release` folder for Release builds and a `Debug` folder for Debug builds. We no longer actively support x86 builds. The exact path also depends on the type of module:
 
-  Vixen Modules (Release):              $(SolutionDir)\Release\Output\Module.ModuleType.ModuleName
-  Vixen Common assemblies (Release):    $(SolutionDir)\Release\Output\
-  Vixen Applications (Release):         $(SolutionDir)\Release\Output\
-* Assembly names are handled by the Directory.Build.Props file for each module type.
+  | Project type | Output path |
+  | --- | --- |
+  | Vixen Modules (Release) | `$(SolutionDir)\Release\Output\Module.ModuleType.ModuleName` |
+  | Vixen Common assemblies (Release) | `$(SolutionDir)\Release\Output\` |
+  | Vixen Applications (Release) | `$(SolutionDir)\Release\Output\` |
 
-* To reference the Vixen project (or any other projects that are needed), make sure you
-  add a 'project reference', and not a "normal" reference (to the binary DLL). This will help compatibility for other developers when used in different locations. References to projects should be set so they do not copy local. This avoids assembly loader issues with multiple copies. Under Properties of the reference.
-
-  * Copy Local : No
+* To reference the Vixen project (or any other projects that are needed), make sure you add a "project reference", not a "normal" reference to the binary DLL. This helps compatibility for other developers when used in different locations. References to projects should be set so they do not copy local — this avoids assembly loader issues with multiple copies. Under the Properties of the reference:
+  * Copy Local: No
   * Include Assets: None
-
-* NuGet packages follow the same principle as Project References. You should include the package in the Common area and allow the libraries to be deployed in that path. Then in the local project the NuGet package is added but is set not to copy the assets locally by setting the following in the properties of the library.
-  * Exclude Assets : None
+* NuGet packages follow the same principle as project references. You should include the package in the Common area and allow the libraries to be deployed in that path. Then in the local project the NuGet package is added but is set not to copy the assets locally, by setting the following in the properties of the library:
+  * Exclude Assets: None
 
 ## Developer Group
 
