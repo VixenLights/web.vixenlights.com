@@ -10,11 +10,15 @@ We currently use Visual Studio 2026 for development. You can use the community o
 
 ## Settings
 
-There are a couple settings that need to be configured in Visual Studio so your code formatting will adhere to our preferred style. We use tabs instead of spaces to format our files. The following screen shot shows how you should configure the editor to do this automatically. Most recently an editorconfig file has been added to the the project which should govern the code style in Visual Studio so this proactive step should not be necessary.
+Code formatting (tabs instead of spaces, indent size, line endings, and C#/VB naming conventions) is governed by the `.editorconfig` files checked into the repository — the root `.editorconfig` and `src/.editorconfig`. Visual Studio has built-in EditorConfig support, so as long as you open the solution from within your cloned copy of the repository, these settings are detected and applied automatically. No manual configuration of tabs/spaces in Visual Studio's own options is required or should be necessary.
 
-![Visual Studio Tab Settings](visualstudio-tab-settings.png)
+To confirm Visual Studio is honoring the file:
 
-You should verify any changes you make are using the correct formatting. You can do this with any diff tool that shows white space in the files.
+* Open a `.cs` file from the solution and go to **Tools > Options > Text Editor > C# > Tabs**. If an `.editorconfig` is in scope, Visual Studio marks these settings as coming from EditorConfig (rather than leaving them editable), and they should reflect tabs with a size of 4.
+* If the settings still look editable and don't match (for example, showing spaces instead of tabs), make sure you opened the file from inside the repository working copy rather than as a standalone file, since EditorConfig only applies to files under the same directory tree as the `.editorconfig`.
+* EditorConfig support is enabled by default in modern Visual Studio versions and doesn't need to be turned on separately.
+
+You should still verify any changes you make are using the correct formatting before committing. You can do this with any diff tool that shows white space in the files.
 
 In the following diff, you can see that the new lines inserted have spaces instead of tabs for the indent formatting. This indicates that your settings are not correct and this should be fixed before continuing. If you are correcting any existing formatting issues, those should be done in separate commits specifically addressing format changes.
 
