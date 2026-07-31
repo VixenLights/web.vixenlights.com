@@ -3,7 +3,7 @@ title: File Extensions
 author: Vixen Team
 weight: 60
 ---
-## File Extensions  
+## File Extensions
 
 * .VCL - Exported Curve Library
 * .VGL - Exported ColorGradient Library
@@ -11,7 +11,7 @@ weight: 60
 * .V3M - Exported Mark Collection (V3 Format)
 * .VPC - Exported Preset Effects Collection \*
 * .VCS - Exported Color list for the Multi-Alternating effect
-* .VCC - Exported Color Collections  For Random/Sequential assignments
+* .VCC - Exported Color Collections For Random/Sequential assignments
 * .TIM - Sequence file names
 * .PRP - Preview Prop file
 * .VMAP - Mapping file for Sequence sharing

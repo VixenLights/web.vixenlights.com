@@ -6,23 +6,23 @@ weight: 40
 
 ## General Info
 
-We use currently use Visual Studio 2026 for development. You can use the community or free version that MS provides, or any of the higher paid versions. The current community version is quite good and is mostly equivalent to the old Professional version. The vast majority of the code is in C#, with a small portion in C++. When you install Visual Studio, you will need the C++ build tools.
+We currently use Visual Studio 2026 for development. You can use the community or free version that MS provides, or any of the higher paid versions. The current community version is quite good and is mostly equivalent to the old Professional version. The vast majority of the code is in C#, with a small portion in C++. When you install Visual Studio, you will need the C++ build tools.
 
 ## Settings
 
 There are a couple settings that need to be configured in Visual Studio so your code formatting will adhere to our preferred style. We use tabs instead of spaces to format our files. The following screen shot shows how you should configure the editor to do this automatically. Most recently an editorconfig file has been added to the the project which should govern the code style in Visual Studio so this proactive step should not be necessary.
 
-![Visual Studio Tab Settings](/images/docs/contribution-guidelines/visualstudio-tab-settings.png)
+![Visual Studio Tab Settings](visualstudio-tab-settings.png)
 
 You should verify any changes you make are using the correct formatting. You can do this with any diff tool that shows white space in the files.
 
 In the following diff, you can see that the new lines inserted have spaces instead of tabs for the indent formatting. This indicates that your settings are not correct and this should be fixed before continuing. If you are correcting any existing formatting issues, those should be done in separate commits specifically addressing format changes.
 
-![Spaces vs Tabs](/images/docs/contribution-guidelines/spaces-vs-tabs.png)
+![Spaces vs Tabs](spaces-vs-tabs.png)
 
 ## Extensions
 
-The project uses WIX to build the installer for the application. If you are using Visual Studio, you should install the Heatwave for VS2022 extension so VS will recognize the project files. [Heatwave][2]
+The project uses WiX to build the installer for the application. If you are using Visual Studio, you should install the Heatwave for VS2022 extension so VS will recognize the project files. [Heatwave][2]
 
 ## Building
 
@@ -30,9 +30,9 @@ Within Visual Studio, you can build / run the project in debug or release mode. 
 
 ## Installer
 
-The Wix tool kit is used for creating the installer. There are two projects (Vixen.Installer and Vixen.DeployBundle) that handle packaging and building the installer. The [Heatwave][2] extension is necessary for Visual Studio to recognize the project types.
+The WiX toolset is used for creating the installer. There are two projects (Vixen.Installer and Vixen.DeployBundle) that handle packaging and building the installer. The [Heatwave][2] extension is necessary for Visual Studio to recognize the project types.
 
-The [Installer][github-installer] folder in the project tree has a README with information on the commands necessary to build the full installer. These same commands are used for production dev and release builds can can be run locally to produce equivelent output. See the Sanbox section below on deploying and testing those installs in a clean environment.
+The [Installer][github-installer] folder in the project tree has a README with information on the commands necessary to build the full installer. These same commands are used for production dev and release builds and can be run locally to produce equivalent output. See the Sandbox section below on deploying and testing those installs in a clean environment.
 
 ## Additional Tools
 

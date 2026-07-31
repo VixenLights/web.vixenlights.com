@@ -1,6 +1,6 @@
 ---
 title: Contribute to Documentation
-author: Vixem Team
+author: Vixen Team
 weight: 20
 description: How to contribute to the Vixen documentation.
 ---
@@ -9,7 +9,7 @@ description: How to contribute to the Vixen documentation.
 
 Vixen is an open source project and we love getting patches and contributions to make Vixen and its docs even better.
 
-This user guide is a Docsy themed site that uses the Hugo static site generator. The code for the website is hosted on [Github][5].
+This user guide is a Docsy themed site that uses the Hugo static site generator. The code for the website is hosted on [GitHub][5].
 
 We welcome updates to the docs!
 
@@ -50,7 +50,7 @@ If you want to run your own local Hugo server to preview your changes as you wor
 
 ## Creating an issue
 
-If there's something you'd like to see in the docs, but you're not sure how to fix it yourself, please create an [Issue][7] on Github for this repository. You can also create an issue about a specific page by clicking the **Create Documentation Issue** link in the top right hand corner of the page.
+If there's something you'd like to see in the docs, but you're not sure how to fix it yourself, please create an [Issue][7] on GitHub for this repository. You can also create an issue about a specific page by clicking the **Create Documentation Issue** link in the top right hand corner of the page.
 
 [5]: https://github.com/vixenlights/web.vixenlights.com
 [6]: https://www.docsy.dev/docs/get-started/

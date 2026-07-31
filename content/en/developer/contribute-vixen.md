@@ -9,7 +9,7 @@ description: How to contribute to the Vixen application.
 
 Vixen is an open source project and we appreciate getting patches and contributions to make Vixen and its documentation even better.
 
-The Vixen application code is hosted on [Github][1]. You can clone the repository to get a copy of the source code to work with.
+The Vixen application code is hosted on [GitHub][1]. You can clone the repository to get a copy of the source code to work with.
 
 ## Development Libraries
 
@@ -33,11 +33,11 @@ See this [article][5] for information on Git.
 
 ## Workflow
 
-When contributing to Vixen, we track all issues and improvements in our [JIRA bug tracker][2]. Work should have an associated issue created for it. It will be necessary to have an account in JIRA so you can work with the issues. See [Lifecycle][7] of an issue for guidance on how we manage issues. When you become a contributor, we can add you to the appropriate access groups to facilite workign with the issues beyond a simple user.
+When contributing to Vixen, we track all issues and improvements in our [JIRA bug tracker][2]. Work should have an associated issue created for it. It will be necessary to have an account in JIRA so you can work with the issues. See [Lifecycle][7] of an issue for guidance on how we manage issues. When you become a contributor, we can add you to the appropriate access groups to facilitate working with the issues beyond a simple user.
 
-You should name your branches with the JIRA issue number. i.e. VIX-2345. Any commits to the branch should start with the same issue number as well. From there follow Git guidelines for commit messages. All commit messages should strive to be useful to provide context of the change. All submissions are done through pull requests on Github. See [Branching Practices][6] for guidance on this topic.
+You should name your branches with the JIRA issue number. i.e. VIX-2345. Any commits to the branch should start with the same issue number as well. From there follow Git guidelines for commit messages. All commit messages should strive to be useful to provide context of the change. All submissions are done through pull requests on GitHub. See [Branching Practices][6] for guidance on this topic.
 
-Commit messages should be descriptive and helpful for those who do not know what you changed. Each commit message titel should start with the JIRA issue id. Beyond that, you should follow Github guildlines for formatting your commit messages. [Git Commit Message][9].
+Commit messages should be descriptive and helpful for those who do not know what you changed. Each commit message title should start with the JIRA issue id. Beyond that, you should follow GitHub guidelines for formatting your commit messages. [Git Commit Message][9].
 
 Commit message example.
 
@@ -45,7 +45,7 @@ VIX-1234 Fixing the invalid dialog message
 
 * Add the correct dialog message showing the error that happened.
 * Removed the info icon and replaced it with the error icon.
-  
+
 More information on how we manage JIRA can be found here. [Issue Management][3].
 
 ## Project Structure
@@ -66,15 +66,15 @@ Conventions for development:
 * The build output directory should be relative to the solution directory, in a
   'Release' directory release builds and a Debug folder for Debug builds. We no longer actively support x86 builds.
   It will also depend on the type of module. For example:
-  
+
   Vixen Modules (Release):              $(SolutionDir)\Release\Output\Module.ModuleType.ModuleName
   Vixen Common assemblies (Release):    $(SolutionDir)\Release\Output\
   Vixen Applications (Release):         $(SolutionDir)\Release\Output\
 * Assembly names are handled by the Directory.Build.Props file for each module type.
-  
+
 * To reference the Vixen project (or any other projects that are needed), make sure you
   add a 'project reference', and not a "normal" reference (to the binary DLL). This will help compatibility for other developers when used in different locations. References to projects should be set so they do not copy local. This avoids assembly loader issues with multiple copies. Under Properties of the reference.
-  
+
   * Copy Local : No
   * Include Assets: None
 
@@ -83,7 +83,7 @@ Conventions for development:
 
 ## Developer Group
 
-We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and decscribe your interests in contributing. We can help you get started. See the [Communty Page][8] for more information on how to connect.
+We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and describe your interests in contributing. We can help you get started. See the [Community Page][8] for more information on how to connect.
 
 ## Creating Issues
 

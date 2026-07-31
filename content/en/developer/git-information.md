@@ -7,7 +7,7 @@ description: This section covers the source code tooling.
 
 ## Overview
 
-The Vixen project uses [Git][2] for our source code management. [Github][1] is our collaboration tool.
+The Vixen project uses [Git][2] for our source code management. [GitHub][1] is our collaboration tool.
 
 ### Tools
 
@@ -15,11 +15,11 @@ There are many tools to work with a Git based project. You will at minimum need 
 
 [Git SCM][2]
 
-#### Github SSH integration
+#### GitHub SSH Integration
 
-In order to use Github and interact with it on the command line you need to ensure you have the proper SSH keys configured. See the following article on how to configure SSH access.
+In order to use GitHub and interact with it on the command line you need to ensure you have the proper SSH keys configured. See the following article on how to configure SSH access.
 
-[Connect to Github via SSH][11]
+[Connect to GitHub via SSH][11]
 
 #### TortoiseGit
 
@@ -27,13 +27,13 @@ In order to use Github and interact with it on the command line you need to ensu
 
 [TortoiseGit Manuals][4]
 
-#### GIT Bash Integration
+#### Git Bash Integration
 
-Here's a project to add the branch info to the prompt in Git Bash. This is similar to the Powershell one but has some slight variations. There are likley many other variations out there that you can try out to find what suits you the best.
+Here's a project to add the branch info to the prompt in Git Bash. This is similar to the PowerShell one but has some slight variations. There are likely many other variations out there that you can try out to find what suits you the best.
 
 [Git Bash Prompt][10]
 
-#### Git Powershell Integration
+#### Git PowerShell Integration
 
 [posh-git][8] is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that
 can be displayed in the PowerShell prompt, e.g.:
@@ -46,19 +46,19 @@ the <kbd>tab</kbd> key. That will tab complete to `git checkout` and if you keep
 cycle through other command matches such as `cherry` and `cherry-pick`. You can also tab complete remote names and
 branch names e.g.: `git pull or<tab> ma<tab>` tab completes to `git pull origin main`.
 
-See the [Install Docs][9] for details on how to install it into your Powershell profile.
+See the [Install Docs][9] for details on how to install it into your PowerShell profile.
 
 #### Visual Studio
 
-Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You can also utilize a Powershell terminal into one of the docking panes and then the command line tools are readily available. Using posh-git mentioned above enhances this experience.
+Visual Studio also has support within it for Git and there are also many other plugins that provide integrations as well. You can also utilize a PowerShell terminal into one of the docking panes and then the command line tools are readily available. Using posh-git mentioned above enhances this experience.
 
 ### Branching Practices
 
 The general idea is that the master branch is, tracking the development for the next version. It's stuff that's going into the product, and will be included in the next version unless something is found to have an issue in testing.
 
-* You should not commit code to your master branch. You should keep it up to date with the real master and make branches off of it for any new work you do. When you first decide to do work on Vixen, you should fork the master at [Github][5] to your own copy of it. You should be able to build and get a running version of Vixen from that is current. Then you can easily make branches from that to work on.
+* You should not commit code to your master branch. You should keep it up to date with the real master and make branches off of it for any new work you do. When you first decide to do work on Vixen, you should fork the master at [GitHub][5] to your own copy of it. You should be able to build and get a running version of Vixen from that is current. Then you can easily make branches from that to work on.
 
-* All work should be done based off of a ticket in the [Bug Tracker][6]. When you take on work for a particular item, you should create a branch off of the current master and name it the same as the ticket you are working on. I.E. VIX-1024. This provides a clear reference back to the description of the problem or feature. In addition to this, each commit should start with the ticket number. This will allow those commits to be linked to the ticket when they are eventually merged into the master. You should ensure you have an open ticket to begin work so that this tracking can occur. Once the ticket it open and assigend to you, you can move it to start work. This will indicate to other developers you are working on the ticket. Once you complete the work, you can submit a pull request to the Vixen repository where it can be reviewed. The JIRA ticket will reflect that a pull request has been submitted. Once reviewed and approved, the ticket will transition states based on it being merged, built and closed automatically. You will not need to transition JIRA beyond the initial start work in normal circumstances. The build that corresponds to the change will be marked in the JIRA ticket along with links to the commits involved. The maintainer will close the ticket when it is merged.
+* All work should be done based off of a ticket in the [Bug Tracker][6]. When you take on work for a particular item, you should create a branch off of the current master and name it the same as the ticket you are working on. I.E. VIX-1024. This provides a clear reference back to the description of the problem or feature. In addition to this, each commit should start with the ticket number. This will allow those commits to be linked to the ticket when they are eventually merged into the master. You should ensure you have an open ticket to begin work so that this tracking can occur. Once the ticket is open and assigned to you, you can move it to start work. This will indicate to other developers you are working on the ticket. Once you complete the work, you can submit a pull request to the Vixen repository where it can be reviewed. The JIRA ticket will reflect that a pull request has been submitted. Once reviewed and approved, the ticket will transition states based on it being merged, built and closed automatically. You will not need to transition JIRA beyond the initial start work in normal circumstances. The build that corresponds to the change will be marked in the JIRA ticket along with links to the commits involved. The maintainer will close the ticket when it is merged.
 
 * If the item you are working on will span some time and the current master gets updated with new features from other developers, you can keep your branch in sync by rebasing your changes onto the current version of the master. You would do a git pull to your master from the master branch tree first. Then you can rebase your branch onto that. This will replay your commits onto the tail of the master giving you a up to date branch. Try to avoid merging the changes in the master into your own branch as this creates a messy commit history. More information on how to rebase can be found [here][7].
 
@@ -68,7 +68,7 @@ The general idea is that the master branch is, tracking the development for the 
 
 ### Rebase vs Merge
 
-In this project we prefer developers rebase their changes onto the latest master when there are conflicts. Rebase provides for a cleaner inline history in our opinion. Not all changes require a rebase / merge to update before presenting a PR, but in many cases is can be beneficial to test your work completely integrated with the mainline. There are benefits when you are working on changes that may span enough time that multiple other changes are incorporated into the mainline. Incremental rebasing can help keep you up to date and allow you to resolve smaller incremental conflicts as you go along.
+In this project we prefer developers rebase their changes onto the latest master when there are conflicts. Rebase provides for a cleaner inline history in our opinion. Not all changes require a rebase / merge to update before presenting a PR, but in many cases it can be beneficial to test your work completely integrated with the mainline. There are benefits when you are working on changes that may span enough time that multiple other changes are incorporated into the mainline. Incremental rebasing can help keep you up to date and allow you to resolve smaller incremental conflicts as you go along.
 
 [Git Rebase][git-rebase]
 
