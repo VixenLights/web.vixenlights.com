@@ -15,8 +15,9 @@ The Vixen application code is hosted on [Github][1]. You can clone the repositor
 
 There are a few libraries and tools that you need to have installed in order to get the application to build. Depending on how much you develop in other projects you may have these already installed.
 
-* Windows 10 or higher.
+* Windows 11 or higher.
 * Visual Studio 2026 / Visual Studio Code with appropriate plugins.
+* Jetbrains Rider >= 2026
 * MSVC v145 VS 2026 C++ tools / C++ build tools for Visual Studio Code.
 * Git >= 2.50
 * Microsoft .NET 10
@@ -54,7 +55,7 @@ Vixen 3 is a modular application that allows for pluggable modules to be develop
 * /Vixen.Common - Common components used by the application and modules
 * /Vixen.Modules - Modules developed and maintained by the core team, and other contributors
 * /Vixen.Application - The main Vixen application
-* /Vixen.Core - The Vixen core framework 
+* /Vixen.Core - The Vixen core framework
 * /Vixen.Installer - Installer projects
 
 Conventions for development:

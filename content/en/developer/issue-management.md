@@ -5,7 +5,7 @@ weight: 40
 description: This section covers managing issues in JIRA.
 ---
 
-### Overview
+## Overview
 
 We use JIRA to track feature requests, bug reports, improvements, and other development-related work for the Vixen application.  This page will explain the structure and layout of some of the JIRA tickets, the processes we go through when working on them, and any other related notes. For documentation issues, see [Contributing to Documentation][3].
 

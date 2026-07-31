@@ -6,4 +6,4 @@ weight: 45
 
 ## Overview
 
-Jetbrains provides a very robust set of tooling to aid with .NET development. The Rider IDE is another tool that can be used for Vixen development. 2025.3 and newer are acceptable if you are looking for an alternative to Visual Studio.
+Jetbrains provides a very robust set of tooling to aid with .NET development. The Rider IDE is another tool that can be used for Vixen development. 2026.0 and newer are acceptable if you are looking for an alternative to Visual Studio.

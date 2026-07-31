@@ -5,7 +5,7 @@ weight: 30
 description: This section covers the source code tooling.
 ---
 
-### Overview
+## Overview
 
 The Vixen project uses [Git][2] for our source code management. [Github][1] is our collaboration tool.
 
