@@ -9,14 +9,15 @@ description: How to contribute to the Vixen application.
 
 Vixen is an open source project and we appreciate getting patches and contributions to make Vixen and its documentation even better.
 
-The Vixen application code is hosted on [Github][1]. You can clone the repository to get a copy of the source code to work with.
+The Vixen application code is hosted on [GitHub][1]. You can clone the repository to get a copy of the source code to work with.
 
 ## Development Libraries
 
 There are a few libraries and tools that you need to have installed in order to get the application to build. Depending on how much you develop in other projects you may have these already installed.
 
-* Windows 10 or higher.
+* Windows 11 or higher.
 * Visual Studio 2026 / Visual Studio Code with appropriate plugins.
+* Jetbrains Rider >= 2026
 * MSVC v145 VS 2026 C++ tools / C++ build tools for Visual Studio Code.
 * Git >= 2.50
 * Microsoft .NET 10
@@ -32,11 +33,11 @@ See this [article][5] for information on Git.
 
 ## Workflow
 
-When contributing to Vixen, we track all issues and improvements in our [JIRA bug tracker][2]. Work should have an associated issue created for it. It will be necessary to have an account in JIRA so you can work with the issues. See [Lifecycle][7] of an issue for guidance on how we manage issues. When you become a contributor, we can add you to the appropriate access groups to facilite workign with the issues beyond a simple user.
+When contributing to Vixen, we track all issues and improvements in our [JIRA bug tracker][2]. Work should have an associated issue created for it. It will be necessary to have an account in JIRA so you can work with the issues. See [Lifecycle][7] of an issue for guidance on how we manage issues. When you become a contributor, we can add you to the appropriate access groups to facilitate working with the issues beyond a simple user.
 
-You should name your branches with the JIRA issue number. i.e. VIX-2345. Any commits to the branch should start with the same issue number as well. From there follow Git guidelines for commit messages. All commit messages should strive to be useful to provide context of the change. All submissions are done through pull requests on Github. See [Branching Practices][6] for guidance on this topic.
+You should name your branches with the JIRA issue number. i.e. VIX-2345. Any commits to the branch should start with the same issue number as well. From there follow Git guidelines for commit messages. All commit messages should strive to be useful to provide context of the change. All submissions are done through pull requests on GitHub. See [Branching Practices][6] for guidance on this topic.
 
-Commit messages should be descriptive and helpful for those who do not know what you changed. Each commit message titel should start with the JIRA issue id. Beyond that, you should follow Github guildlines for formatting your commit messages. [Git Commit Message][9].
+Commit messages should be descriptive and helpful for those who do not know what you changed. Each commit message title should start with the JIRA issue id. Beyond that, you should follow GitHub guidelines for formatting your commit messages. [Git Commit Message][9].
 
 Commit message example.
 
@@ -44,7 +45,7 @@ VIX-1234 Fixing the invalid dialog message
 
 * Add the correct dialog message showing the error that happened.
 * Removed the info icon and replaced it with the error icon.
-  
+
 More information on how we manage JIRA can be found here. [Issue Management][3].
 
 ## Project Structure
@@ -54,35 +55,30 @@ Vixen 3 is a modular application that allows for pluggable modules to be develop
 * /Vixen.Common - Common components used by the application and modules
 * /Vixen.Modules - Modules developed and maintained by the core team, and other contributors
 * /Vixen.Application - The main Vixen application
-* /Vixen.Core - The Vixen core framework 
+* /Vixen.Core - The Vixen core framework
 * /Vixen.Installer - Installer projects
 
 Conventions for development:
 
-* The assembly name should be the name of the module (eg. TimedSequenceEditor), and
-* the default namespace should be "Module.ModuleType.ModuleName". For
-  example, Modules.Editor.TimedSequenceEditor.
-* The build output directory should be relative to the solution directory, in a
-  'Release' directory release builds and a Debug folder for Debug builds. We no longer actively support x86 builds.
-  It will also depend on the type of module. For example:
-  
-  Vixen Modules (Release):              $(SolutionDir)\Release\Output\Module.ModuleType.ModuleName
-  Vixen Common assemblies (Release):    $(SolutionDir)\Release\Output\
-  Vixen Applications (Release):         $(SolutionDir)\Release\Output\
-* Assembly names are handled by the Directory.Build.Props file for each module type.
-  
-* To reference the Vixen project (or any other projects that are needed), make sure you
-  add a 'project reference', and not a "normal" reference (to the binary DLL). This will help compatibility for other developers when used in different locations. References to projects should be set so they do not copy local. This avoids assembly loader issues with multiple copies. Under Properties of the reference.
-  
-  * Copy Local : No
-  * Include Assets: None
+* The assembly name should be the name of the module (e.g. `TimedSequenceEditor`), and the default namespace should be `Module.ModuleType.ModuleName` — for example, `Modules.Editor.TimedSequenceEditor`.
+* Assembly names are handled by the `Directory.Build.Props` file for each module type.
+* The build output directory should be relative to the solution directory: a `Release` folder for Release builds and a `Debug` folder for Debug builds. We no longer actively support x86 builds. The exact path also depends on the type of module:
 
-* NuGet packages follow the same principle as Project References. You should include the package in the Common area and allow the libraries to be deployed in that path. Then in the local project the NuGet package is added but is set not to copy the assets locally by setting the following in the properties of the library.
-  * Exclude Assets : None
+  | Project type | Output path |
+  | --- | --- |
+  | Vixen Modules (Release) | `$(SolutionDir)\Release\Output\Module.ModuleType.ModuleName` |
+  | Vixen Common assemblies (Release) | `$(SolutionDir)\Release\Output\` |
+  | Vixen Applications (Release) | `$(SolutionDir)\Release\Output\` |
+
+* To reference the Vixen project (or any other projects that are needed), make sure you add a "project reference", not a "normal" reference to the binary DLL. This helps compatibility for other developers when used in different locations. References to projects should be set so they do not copy local — this avoids assembly loader issues with multiple copies. Under the Properties of the reference:
+  * Copy Local: No
+  * Include Assets: None
+* NuGet packages follow the same principle as project references. You should include the package in the Common area and allow the libraries to be deployed in that path. Then in the local project the NuGet package is added but is set not to copy the assets locally, by setting the following in the properties of the library:
+  * Exclude Assets: None
 
 ## Developer Group
 
-We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and decscribe your interests in contributing. We can help you get started. See the [Communty Page][8] for more information on how to connect.
+We maintain a developer group for broader discussions on Google Groups. If you are looking to join us as a contributor, please join the Vixen Development Group and introduce yourself and describe your interests in contributing. We can help you get started. See the [Community Page][8] for more information on how to connect.
 
 ## Creating Issues
 
