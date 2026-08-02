@@ -12,6 +12,8 @@ Linking in the Preview is the act of assigning an Element to the light node that
 
 This is the same **Link Elements** dialog for every shape in the Preview — Basic Shapes, Smart Objects, and Custom Props all open it from their Linked Elements property, so the behavior described here applies no matter which prop you're linking.
 
+![Link Elements Dialog](manual-link-elements.png)
+
 ### Usage Notes
 
 * Some elements have multiple strings. Select the string to edit in the **String to Link** list.
