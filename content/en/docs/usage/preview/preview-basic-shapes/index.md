@@ -43,3 +43,9 @@ Hold Ctrl while resizing the shape to maintain the triangle as an isosceles tria
 ### Multi String
 
 The Multi String is used to draw more complex light strings that are not just in a single straight line. They contain multiple points and line segments that join those points together. They can be **Standard** or **Pixel** strings. This can be used for rooflines and other shapes that change directions. You click to start the string and then hover the string out to the location it should change directions. Click again and the segment will hold and you can hover to the next location to click and set that segment. Once you are done, use the ESC key to end the drawing.
+
+### Linked Elements
+
+Like every shape in the Preview, Basic Shapes have a Linked Elements property to assign the elements that drive them. See [Linking Elements][1] for more information.
+
+[1]: {{< ref preview-linking-elements>}} "Linking Elements"
