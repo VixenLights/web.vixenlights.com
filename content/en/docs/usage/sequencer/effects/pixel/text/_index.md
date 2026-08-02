@@ -78,6 +78,8 @@ If it is across the element, it will appear that the text travels through the co
 ### Text
 
 * **Text Line(s)** - One or more lines of text to display.
+                     Blank rows (empty, or containing only spaces or tabs) are treated as a single space when rendering, so they take up one line of vertical space rather than being collapsed or ignored.
+                     This lets you add blank rows above, below, or between lines of text to control spacing. This behavior applies to normal text and does not apply when **Text Trigger** is set to a Mark Collection option.
 
 * **Font** - Specifies the font, style and size to be used. You may use any font installed on the PC. Note that the fonts used must be installed on any PC where you will transfer this sequence.
 
