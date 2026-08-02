@@ -5,13 +5,13 @@ description: Creates an effect that outlines a display element with a marquee bo
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that outlines a display element with a marquee border.
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -21,7 +21,7 @@ Creates an effect that outlines a display element with a marquee border.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Border Mode** - Selects between _Simple_, _Advanced_, or _Marquee_ borders.  Refer to the links below for more information on each of the Border Modes.
 
@@ -48,7 +48,7 @@ Creates an effect that outlines a display element with a marquee border.
 
 ---
 
-### Movement
+## Movement
 
 * **X Offset** - Adjusts the position of the effect along the X axis.
 
@@ -60,13 +60,13 @@ Creates an effect that outlines a display element with a marquee border.
 
 ---
 
-### Color
+## Color
 
 * **Color Gradient** - Controls the color of the bands that make up the marquee.
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.

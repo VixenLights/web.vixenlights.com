@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/vu-meter/]
 
 ---
 
-### Overview
+## Overview
 
 Create an effect that simulates a VU meter indicator light.
 This is designed as a single element effect. The whole element group will be the same color at any point in time.
@@ -21,7 +21,7 @@ Because these effects must preprocess the audio before creating the effect, it m
 
 ---
 
-### Audio Sensitivity Range
+## Audio Sensitivity Range
 
 * **Gain** - This adjusts the sensitivity of the effect to the audio volume.
    
@@ -44,7 +44,7 @@ Because these effects must preprocess the audio before creating the effect, it m
 
 ---
 
-### Response Speed
+## Response Speed
 
 * **Attack Time** - How fast the effect responds to the audio. This adjusts the slope of the leading edge of the wave.
                     
@@ -52,7 +52,7 @@ Because these effects must preprocess the audio before creating the effect, it m
                    
 ---
 
-### Color
+## Color
 
 * **Color Handling** - Controls how the color is handled.
     * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions.                  
@@ -67,7 +67,7 @@ Because these effects must preprocess the audio before creating the effect, it m
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.

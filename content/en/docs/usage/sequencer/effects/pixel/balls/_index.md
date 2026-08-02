@@ -6,13 +6,13 @@ aliases: [/vixen-3-documentation/sequencer/effects/balls/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that animates Ball looking shapes. 
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -22,7 +22,7 @@ Creates an effect that animates Ball looking shapes.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Type** - Configures how balls behave when reaching the edge of the display element between _Bounce_ or _Wrap_.
 
@@ -48,21 +48,21 @@ Creates an effect that animates Ball looking shapes.
 
 ---
 
-###  Color
+##  Color
 
 * **Gradients** - Controls the colors of the balls.
 
 ---
 
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
-### Video
+## Video
 
 {{< video src="/images/docs/usage/sequencer/effects/pixel/balls/Balls.m4v" height="150" width="150" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 

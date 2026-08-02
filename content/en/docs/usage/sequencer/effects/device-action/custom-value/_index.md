@@ -6,7 +6,7 @@ description: Custom Value effect allows the sequencer to specify custom numerica
 
 ---
 
-### Overview
+## Overview
 
 Custom Value effect allows the sequencer to specify a custom numerical value, string, or color (RGB) value for an element at precise time(s) during a sequence.
 The Custom Value effect is a special purpose effect intended primarily for testing and debugging of the Vixen application itself.
@@ -23,7 +23,7 @@ Vixen now contains specialized [Intelligent Fixture Effects](/docs/usage/sequenc
 
 ---
 
-### Configuration
+## Configuration
 
 * **Data Type** - Selects the type of data to generate as the custom value.  
 	* _8 Bit Value_

@@ -22,7 +22,7 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
   * **Pattern Type** - Selects the pattern (_Weave_ or _Brick_) to animate.
 
   * **Direction** - Configures the direction of pattern movement.
-    * _Moves Up_ - The pattern moves in a upward direction.
+    * _Moves Up_ - The pattern moves in an upward direction.
     * _Moves Down_ - The pattern moves in a downward direction.
     * _Vertical Expand_ - The pattern moves outward from the vertical center.
     * _Vertical Compress_ - The pattern moves in a motion that looks like they are compressing in the vertical middle.
@@ -108,4 +108,4 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 
 #### Video Tutorial
 
-{{< youtube pmC0ZrT3ceE>}}
+{{< youtube id="pmC0ZrT3ceE" title="Pattern Effect">}}

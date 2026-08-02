@@ -7,18 +7,18 @@ aliases: [/vixen-3-documentation/sequencer/effects/snowflakes/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that simulates falling snowflakes.
 
 ---
 
-### String Setup
+## String Setup
     
   * **Orientation** - Controls the orientation of the display area (matrix).
 ---
 
-### Configuration
+## Configuration
 
 * **Snowflake Type** - The number of tips on the snowflakes, or a random, mixed collection.  
 
@@ -54,7 +54,7 @@ Creates an effect that simulates falling snowflakes.
 
 * **Random Intensity** - Uses a random Brightness/Intensity for each snowflake.
 
-### Movement
+## Movement
 
 This category is visible when the **Movement** is set to _Speed_, _Wobble_, or _Wobble Both Directions_.
 
@@ -72,7 +72,7 @@ This category is visible when the **Movement** is set to _Speed_, _Wobble_, or _
 
 ---
 
-### Color
+## Color
 
 * **Color Type** - Controls the Type of color.
     * _Range_ - Requires multiple colors/gradients. Flakes will appear in a range of colors bounded by the colors defined in the color/gradient lists.  
@@ -86,13 +86,13 @@ This category is visible when the **Movement** is set to _Speed_, _Wobble_, or _
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 
 
-#### Video
+### Video
 
 {{< video src="/images/docs/usage/sequencer/effects/pixel/snowflakes/Snowflakes.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}

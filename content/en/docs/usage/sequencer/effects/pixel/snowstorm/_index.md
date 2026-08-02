@@ -7,18 +7,18 @@ aliases: [/vixen-3-documentation/sequencer/effects/snowstorm/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that mimics an intense snowstorm with snow falling sideways.
 
 ---
 
-### String Setup
+## String Setup
     
   * **Orientation** - Controls the orientation of the display area (matrix).
 ---
 
-### Configuration
+## Configuration
 
 * **Speed** - How fast the snowflakes move.
 
@@ -30,7 +30,7 @@ Creates an effect that mimics an intense snowstorm with snow falling sideways.
 
 ---
 
-### Color
+## Color
 
     
 * **Color Type**  - Controls the type of color for the snowstorm.
@@ -43,11 +43,11 @@ Creates an effect that mimics an intense snowstorm with snow falling sideways.
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
-#### Video
+### Video
 
 {{< video src="/images/docs/usage/sequencer/effects/pixel/snowstorm/Snowstorm.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}

@@ -6,13 +6,13 @@ description: Launcher effect for launching executables and scripts with the Laun
 
 ---
 
-### Overview
+## Overview
 
 This effect is for launching executables and scripts with the [Launcher Controller][1].
 
 ---
 
-### Configuration
+## Configuration
 
 * **Description** - Description associated with the Executable.  This description is included in the application log when the Executable is launched.
 
@@ -22,7 +22,7 @@ This effect is for launching executables and scripts with the [Launcher Controll
 
 ---
 
-### Example
+## Example
 
 ![Launcher Effect](/images/docs/usage/sequencer/effects/device-action/launcher/launcher-effect.png)
 

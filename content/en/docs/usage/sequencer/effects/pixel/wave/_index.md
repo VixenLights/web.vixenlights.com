@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/Wave/]
 
 ---
 
-### Overview
+## Overview
 
 
 Creates an effect that produces waves on the display element.  This effect works the best on a matrix with a large pixel count.
@@ -15,7 +15,7 @@ Creates an effect that produces waves on the display element.  This effect works
 
 ---
 
-### String Setup
+## String Setup
     
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -25,14 +25,14 @@ Creates an effect that produces waves on the display element.  This effect works
 
 ---
 
-### Configuration
+## Configuration
 
 * **Waves** - This list defines the waves in the effect.
             Waves can be added or removed via the **Add** and **Remove** buttons at the bottom of the list.
             The waves are ordered by number and layered on top of each other.
             The last wave will draw on top of all the other waves.
 
-* **Wave Type** - Determines the type of of waveform.
+* **Wave Type** - Determines the type of waveform.
 
   * _Sine_ - Sinusoidal waveform.
   * _Triangle_ - Non-sinusoidal waveform named for its triangular shape.

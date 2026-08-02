@@ -4,13 +4,13 @@ description: Creates an effect that outlines a display element with a border wit
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that outlines a display element with a border with advanced configuration controls.
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -20,7 +20,7 @@ Creates an effect that outlines a display element with a border with advanced co
 
 ---
 
-### Configuration
+## Configuration
 
 * **Border Mode** - Selects between _Simple_, _Advanced_, or _Marquee_ borders.
 
@@ -29,7 +29,7 @@ Creates an effect that outlines a display element with a border with advanced co
 
 ---
 
-### Border
+## Border
 
 * **Thickness** - Adjusts the thickness of the border.  Applies when _Single_ **Border Type** is selected.
 
@@ -47,7 +47,7 @@ Creates an effect that outlines a display element with a border with advanced co
 
 ---
 
-### Movement
+## Movement
 
 * **X Offset** - Adjusts the position of the effect along the X axis.
 
@@ -55,7 +55,7 @@ Creates an effect that outlines a display element with a border with advanced co
 
 ---
 
-### Color
+## Color
 
 * **Gradient Mode** - Configures how the **Color Gradient** is applied to the border
                       (_Over Time_, _Across Element_, _Vertically Across Element_, _Diagonal Bottom-Top Element_, _Diagonal Top-Bottom Element_).
@@ -64,7 +64,7 @@ Creates an effect that outlines a display element with a border with advanced co
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.

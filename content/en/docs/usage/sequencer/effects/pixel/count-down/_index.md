@@ -84,5 +84,5 @@ This field is only available when the **Direction** is set to **Left, Right, Up,
 
 #### Video Tutorial
 
-{{< youtube RR2egpih9Fw>}}
+{{< youtube id="RR2egpih9Fw" title="Count Down Effect">}}
 

@@ -6,13 +6,13 @@ aliases: [/vixen-3-documentation/sequencer/effects/border/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that outlines a display element with a border.
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -22,7 +22,7 @@ Creates an effect that outlines a display element with a border.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Border Mode** - Selects the type of border.
  
@@ -31,9 +31,9 @@ Creates an effect that outlines a display element with a border.
   * [_Marquee_](./border_marquee) - This border mode provides moving bands of color moving around the display element.  
                                      This border mode also has special render levels that make visually interesting patterns on mega-trees.
 
-#### Video Tutorial
+### Video Tutorial
 
-{{< youtube _lLaCfQWKzA>}}
+{{< youtube id="_lLaCfQWKzA" title="Border Effect">}}
 
 
 

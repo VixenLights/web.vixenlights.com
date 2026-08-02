@@ -6,7 +6,7 @@ description: The Line Dance Fan effect coordinates the pan of a group intelligen
 
 ---
 
-### Overview
+## Overview
 
 The Line Dance Fan effect coordinates the pan of a group intelligent fixtures to make fan shape with the light beams.
 This effect pans pairs of intelligent fixtures.  The amount of pan increases from the center of the collection of fixtures.
@@ -17,7 +17,7 @@ This effect also works well when the Tilt is modified with the _Set Position_ ef
 
 ---
 
-### Configuration
+## Configuration
 
 * **Fan Mode** - Selects the type of fan.
   * _Synchronized_ - All intelligent fixtures in the collection synchronously start their pan at the beginning of the effect and complete the pan at the end of the effect's duration.
@@ -26,7 +26,7 @@ This effect also works well when the Tilt is modified with the _Set Position_ ef
 
   
 * **Pan Increment** - Controls the Pan angle increment between each fixture.  This curve or slider determines how much each pair of intelligent fixtures 
-                      are panned.  The first pair are panned the increment.  The second pair are panned 2 times the increment.  The third pair are panned 3 times the increment and and so on.
+                      are panned.  The first pair are panned the increment.  The second pair are panned 2 times the increment.  The third pair are panned 3 times the increment and so on.
 
 * **Fan Direction** - Controls intelligent fixture fan direction (_Fan From Center_ or _Fan From Edges_).
 
@@ -45,16 +45,16 @@ This effect also works well when the Tilt is modified with the _Set Position_ ef
 
 ---
 
-### Requirements
+## Requirements
 
 This effect requires 2 or more intelligent fixtures that support the Pan function with _Pan_ tag.
 The effect requires that the intelligent fixtues can pan greater than 360 degrees.
 
 ---
 
-#### Video Tutorial
+### Video Tutorial
 
-{{< youtube R2t7cT_qxj0>}}
+{{< youtube id="R2t7cT_qxj0" title="Line Dance Fan Effect">}}
 
 
 

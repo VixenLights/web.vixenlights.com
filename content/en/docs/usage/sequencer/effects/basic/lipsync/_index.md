@@ -34,11 +34,9 @@ The Lip-sync effect helps to facilitate sequencing singing faces. It is a multi 
 
 Since Vixen 3.5
 
-{{< youtube i3quOLEFHv8>}}
+{{< youtube id="i3quOLEFHv8" title="Lip-Sync Enhancements">}}
 
-&nbsp;
-
-{{< youtube RhBecwSIAfo>}}
+{{< youtube id="RhBecwSIAfo" title="Lip-Sync Enhancements (Continued)">}}
 
 ---
 
@@ -46,9 +44,7 @@ Since Vixen 3.5
 
 A good way to get lyric tracks that are very close to begin with is to use a track generator. One that works pretty well is the [Autolyrics][2] site. One of our users made a video that gives an overview of the process. When selecting the mark track to use in the effect, be sure to use the Phoneme one. If you need to make adjustments, you can adjust the phoneme marks to better align with the lipmovements you want. If the track is slightly off, you can select and move the blocks of phrases, words, phonemes to meet your needs. In most cases this gets you very close.
 
-{{< youtube BJoWTXzQQew>}}
-
-&nbsp;
+{{< youtube id="BJoWTXzQQew" title="Lyric Tracks">}}
 
 [1]: {{< ref marks>}} "Marks"
 [2]: <https://autolyrics.lightingfanatics.com> "Autolyrics"

@@ -7,14 +7,14 @@ aliases: [/vixen-3-documentation/sequencer/effects/intelligent-fixture/fixture-s
 
 ---
 
-### Overview
+## Overview
 
 Fixture Strobe effect enables the strobe hardware support on the fixture and controls the strobe speed. 
 The display preview will show a blinking beam when this effect is active but does not attempt to reflect the strobe speed which is hardware dependent.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Function** - The function on the intelligent fixture that controls the strobe (shutter).
 
@@ -24,7 +24,7 @@ The display preview will show a blinking beam when this effect is active but doe
 
 ---
 
-### Requirements 
+## Requirements 
 
 For an intelligent fixture to support the Strobe effect it must have the following:
 

@@ -1,16 +1,16 @@
 ---
 title: Layer Mixing
 author: Vixen Team
-weight: 20
+weight: 30
 description: This section covers examples of using Layers.
 ---
 ## Intensity Overlay
 
-![Effect Fade Layering](/images/docs/usage/sequencer/layers/layer-mixing/EffectFadeLayerFullColor.png)
+![Effect Fade Layering Full Color](/images/docs/usage/sequencer/layers/layer-mixing/EffectFadeLayerFullColor.png)
 
 Layers can be used to dim effects that do not currently have a level curve over the entire effect by using the Intensity Overlay mixer in a defined layer. As shown below the white pulse is in the Intensity Overlay layer and the Alternating is in the Default layer. The alternating effect will fade out in relation to the ramp on the pulse effect. The color of the pulse is not important on full color elements.
 
-![Effect Fade Layering](/images/docs/usage/sequencer/layers/layer-mixing/EffectFadeLayer.png)
+![Effect Fade Layering Discrete Colors](/images/docs/usage/sequencer/layers/layer-mixing/EffectFadeLayer.png)
 
 On discrete items that have color defined, the same principle applies with a bit of a spin. Here I am placing this on some led string lights with defined color. There are multiple strings of Red, Green, and Blue. Here I am alternating from red to green. I have added a red pulse to the intensity overlay layer. Here the red lights will dim as they match the red of the pulse. The green will stay at full intensity.
 

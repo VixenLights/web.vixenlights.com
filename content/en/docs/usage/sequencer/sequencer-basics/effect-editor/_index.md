@@ -5,7 +5,7 @@ weight: 30
 description: This section covers the Effect Editor features.
 ---
 
-The effect editor is a docking pane used to edit the features of the effects. There are various controls that are highly intuitive to control the values of the effects. The docking pane can be docked in any of the normal docking places or can float as a undocked window.
+The effect editor is a docking pane used to edit the features of the effects. There are various controls that are highly intuitive to control the values of the effects. The docking pane can be docked in any of the normal docking places or can float as an undocked window.
 
 Properties of the effect are divided up into collapsable categories. Most of these categories are consistent across all the effects. This will help you find similar features across the multitude of effects as you become familiar with them.
 
@@ -27,6 +27,6 @@ There are image representations for Colors, [Curves]({{< ref inline-curve-editor
 
 In addition to double clicking the Color Gradients or Curve editor images to bring up the large full editors, both can be edited inline directly inline in a similar fashion as they can be edited in the larger editors. Most of the same actions work the same.
 
-Many of these options will change based on selections you make. Options that are not relevant to a specific configuration will be hidden.
+Many of these options will change based on selections you make. Options that are not relevant to a specific configuration will be hidden.
 
 Lastly there is an option to turn on the live preview at the top. This will enable previewing of just the selected effects in the preview window if you have it running. This way you can preview the changes to specific effects without having to play the sequence.

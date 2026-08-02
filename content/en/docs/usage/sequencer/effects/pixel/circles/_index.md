@@ -6,13 +6,13 @@ aliases: [/vixen-3-documentation/sequencer/effects/circles/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that animates concentric circles.
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -22,7 +22,7 @@ Creates an effect that animates concentric circles.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Fill** - Selects the type of fill for the circles between _Fade_, _Empty_, _Gradient Over Time_, and _Gradient Over Element_.
 
@@ -37,7 +37,7 @@ Creates an effect that animates concentric circles.
 
 ---
 
-### Movement
+## Movement
 
 * **Horizontal Offset** - Controls the center positioning of the effect in the horizontal plane. 
 
@@ -45,20 +45,20 @@ Creates an effect that animates concentric circles.
 
 ---
 
-### Color
+## Color
 
 * **Gradients** - Controls the color of the effect.
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
-### Video
+## Video
 
 {{< video src="/images/docs/usage/sequencer/effects/pixel/circles/Circles.mp4" height="150" width="150" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 

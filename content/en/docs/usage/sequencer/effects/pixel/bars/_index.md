@@ -27,7 +27,7 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 * **Direction** - Sets the direction of bar movement.
 
-  * _Moves Up_ - The bars move in a upward direction.
+  * _Moves Up_ - The bars move in an upward direction.
   * _Moves Down_ - The bars move in a downward direction.
   * _Compress_ - The bars move in a motion that looks like they are compressing in the middle.
   * _Expands_ - The bars move outward from the center.
@@ -79,7 +79,7 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 #### Zig Zag Configuration
 
-* **Amplitude:** Controls the height of the zig zag&#8217;s crest.
+* **Amplitude:** Controls the height of the zig zag's crest.
 
 * **Period:** Controls the width or wave length of the zig zag.
 
@@ -91,4 +91,4 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 #### Video Tutorial
 
-{{< youtube puavBNDAIbw>}}
+{{< youtube id="puavBNDAIbw" title="Bars Effect">}}

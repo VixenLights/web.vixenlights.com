@@ -7,9 +7,9 @@ featured_image: /wp-content/uploads/2016/08/EffectEditor.png
 
 ## Overview
 
-The Inline Curve Editor is a powerful tool that allows many features of the full [Color Gradient][1] editor dialog to be done inline in the effect editor. This improves efficency for the user since they do not have to keep opening and closing a bulky dialog box.
+The Inline Gradient Editor is a powerful tool that allows many features of the full [Color Gradient][1] editor dialog to be done inline in the effect editor. This improves efficency for the user since they do not have to keep opening and closing a bulky dialog box.
 
-![Inline Curve Editor](/images/docs/usage/effect-editor/inline-gradient-editor/InlineGradient-300x50.png)
+![Inline Gradient Editor](/images/docs/usage/effect-editor/inline-gradient-editor/InlineGradient-300x50.png)
 
 ## Editing Colors
 
@@ -33,11 +33,11 @@ Sometimes you may want the reverse of an existing gradient that is being used. Y
 
 ## Library Gradients
 
-* When a gradient is linked to a library gradient, a link icon will appear over the gradient control and no nodes will be shown.  
+* When a gradient is linked to a library gradient, a link icon will appear over the gradient control and no nodes will be shown.
 
 A linked Color Gradient denoted by the chain link in the upper left corner.
-![Inline Curve Editor](/images/docs/usage/effect-editor/inline-gradient-editor/LinkedInlineGradient-300x48.png)
+![Linked Inline Gradient Editor](/images/docs/usage/effect-editor/inline-gradient-editor/LinkedInlineGradient-300x48.png)
 
-You will not be able to edit the linked gradient in the effect editor pane.  Double clicking the gradient control will allow you to link or unlink the library gradient. Once it is unlinked, you can edit it in the inline editor or the Full Gradient Editor.
+You will not be able to edit the linked gradient in the effect editor pane. Double clicking the gradient control will allow you to link or unlink the library gradient. Once it is unlinked, you can edit it in the inline editor or the Full Gradient Editor.
 
 [1]: {{< ref color-gradients >}}

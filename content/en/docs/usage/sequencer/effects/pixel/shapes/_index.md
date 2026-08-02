@@ -6,13 +6,13 @@ aliases: [/vixen-3-documentation/sequencer/effects/shapes/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that animates shapes on the display element.
 
 ---
 
-### String Setup
+## String Setup
 
   * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
@@ -22,7 +22,7 @@ Creates an effect that animates shapes on the display element.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Shape Source** - Selects option for determining how shapes are added or removed.  Options include _None_, _Create Shapes from Mark Collection_, _Remove shapes from Mark Collection_.
 
@@ -64,7 +64,7 @@ Creates an effect that animates shapes on the display element.
 
 ---
 
-### Shape Settings
+## Shape Settings
 
 * **Outline Dash Length** -  Controls the outline dash length of the shape, used with the **Outline Space Length** to draw the shape.
 
@@ -77,7 +77,7 @@ Creates an effect that animates shapes on the display element.
 
 ---
 
-### Speed Settings
+## Speed Settings
 
 * **Speed** - Controls the speed of the shape moving on the display element.
 
@@ -93,7 +93,7 @@ Creates an effect that animates shapes on the display element.
 
 ---
 
-### Color
+## Color
 
 * **Fill Colors 1** - Controls the fill color of the shapes.
 
@@ -101,14 +101,14 @@ Creates an effect that animates shapes on the display element.
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
-### Video Tutorial
+## Video Tutorial
 
-{{< youtube Wsouti49lWs>}}
+{{< youtube id="Wsouti49lWs" title="Shapes Effect">}}
 

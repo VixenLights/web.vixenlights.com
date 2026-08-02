@@ -5,7 +5,7 @@ description: Creates a Dissolving or Filling effect.
 aliases: [/vixen-3-documentation/sequencer/effects/Dissolve/]
 ---
 
-### Overview
+## Overview
 
 TThe **Dissolve** effect simulates colors disolving from, or filling into a space. The effect name of Dissolve may seem to suggest that it can only dissolve, but it also supports the opposite with filling color into an element. It has many settings to adjust how the effect behaves.
 
@@ -13,11 +13,11 @@ TThe **Dissolve** effect simulates colors disolving from, or filling into a spac
 
 ---
 
-### Configuration
+## Configuration
 
 * **Timing Source** Controls if the effect is driven by the time duration, or by [Marks][5] in a Mark Collection.
 * **Density** A [Curve][1] that governs how dense the coverage of the elements and how the dissolve itself acts. See the [Inline Curve Editor][2].
-* **Group Level** Controls how many elements in the group have the same Dissolve applied to them. Defaults to 1 meaning each element gets it's own unique Dissolve.
+* **Group Level** Controls how many elements in the group have the same Dissolve applied to them. Defaults to 1 meaning each element gets its own unique Dissolve.
 * **Random Disolve** Controls if the Disolve pattern is random (Checked) as to the order elements Disolve, or if the user can take more control.
   * **Starting Element** Starting location where the Dissolve or Fill will commence from.
   * **Dissolve Flip** Flips the direction of the sequential Dissolve.
@@ -25,7 +25,7 @@ TThe **Dissolve** effect simulates colors disolving from, or filling into a spac
 
 ---
 
-### Color
+## Color
 
 * **Gradients** Sets the [Color Gradient][3] and intensity [Curve][1] for the effect. You can have more than one Gradient and each Gradient will have its own intensity [Curve][1]. See the [Inline Gradient Editor][4] and [Inline Curve Editor][2].
 * **Color Per Step** When enabled, color will change for each step variation. When disabled, each step variation will have all colors.
@@ -34,7 +34,7 @@ TThe **Dissolve** effect simulates colors disolving from, or filling into a spac
 
 ---
 
-### Depth
+## Depth
 
 * **Effect Depth** Controls the depth level in groups that the effect should be applied to. If there are multiple levels of props in a group, the same Dissolve can be applied to each group instead of using multiple effects by using this setting.
 

@@ -5,15 +5,15 @@ description: Creates an alternating effect.
 aliases: [/vixen-3-documentation/sequencer/effects/alternating/]
 ---
 
-### Overview
+## Overview
 
-The **Alternating** effect does what it's name implies. It automates the process of alternating elements between colors. A simple example is a row of mini trees alternating back and forth from red to green.
+The **Alternating** effect does what its name implies. It automates the process of alternating elements between colors. A simple example is a row of mini trees alternating back and forth from red to green.
 
 ![Alternating Settings Screen](/images/docs/usage/sequencer/effects/basic/alternating/Alternatingsettings-174x300.png)
 
 ![Alternating Trees](/images/docs/usage/sequencer/effects/basic/alternating/AlternatingTrees-300x31.png)
 
-### Configuration
+## Configuration
 
 * **Timing Source** This sets the source of how the alternating timing occurs.
   * **Time Interval** This sets the timing of the alternates to be based on time.
@@ -29,19 +29,19 @@ The **Alternating** effect does what it's name implies. It automates the process
 
 ---
 
-### Color
+## Color
 
 * **Gradients** This allows you to choose the color sets to be used. The alternating supports what we can a Color Gradient Level Pair. In this case the color and the brightness level work together. With this you can specify fading colors or any other combination. This works just like a pulse, only within that color portion of the alternating. Each [Color Gradient][3] has a [Curve][1] to control it. You can add or remove these pairs of colors. Both the [Color Gradient][3] and the [Curve][1] support drag and drop. See [Inline Curve Editor][2] and [Inline Gradient Editor][4].
 
 ---
 
-### Depth
+## Depth
 
 * **Levels Deep** When enabled it controls at what level the **Alternating** is applied inside a group of elements. So you can have 8 items and then have 4 of them grouped to the left and 4 grouped to the right. All of these are grouped under on group. By placing the **Alternating** at the top level group, you can **Alternating** all 8 of the items or the left and the right group as a pair.
 
 ---
 
-### Tutorials
+## Tutorials
 
 {{< youtube id="A5DrPmhCIqo" title="Using Marks with the Alternating Effect">}}
 

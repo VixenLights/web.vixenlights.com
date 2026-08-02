@@ -132,4 +132,4 @@ If it is across the element, it will appear that the text travels through the co
 
 {{< video src="Text.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 
-{{< youtube Vo4AI6vNi-0>}}
+{{< youtube id="Vo4AI6vNi-0" title="Text Effect">}}

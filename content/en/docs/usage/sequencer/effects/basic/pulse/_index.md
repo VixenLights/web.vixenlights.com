@@ -5,7 +5,7 @@ description: Creates a pulsing type effect.
 aliases: [/vixen-3-documentation/sequencer/effects/pulse/]
 ---
 
-### Overview
+## Overview
 
 The **Pulse** effect is one step above a Set Level. In fact this effect can do everything the Set Level can plus more. The main differences here are the ability to use a color gradient over a single color and the ability to shape the brightness as a curve value to vary over the length of the effect. See the sections on [Curves][1] and Color Gradients for more details on how they work.
 
@@ -15,13 +15,13 @@ The pulse is also highly useful as a modifying effect when using layers. It can 
 
 ---
 
-### Color
+## Color
 
 * **Gradients** Sets the [Color Gradient][3] for the effect. See the [Inline Gradient Editor][4].
   
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** Sets the intensity [Curve][1] for the effect. See the [Inline Curve Editor][2].
 

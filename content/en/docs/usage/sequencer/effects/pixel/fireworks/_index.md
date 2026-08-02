@@ -56,7 +56,7 @@ Creates an effect that simulates fireworks bursting in the sky. You can select t
 
 {{< video src="/images/docs/usage/sequencer/effects/pixel/fireworks/Fireworks.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 
-{{< youtube 7NWdu-J1ris>}}
+{{< youtube id="7NWdu-J1ris" title="Fireworks Effect">}}
 
 
 ---

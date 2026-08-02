@@ -128,5 +128,5 @@ Note if any of the top level **Whirl Configuration** settings are changed those 
 
 #### Video Tutorial
 
-{{< youtube y_7Z2lo5Cq8>}}
+{{< youtube id="y_7Z2lo5Cq8" title="Whirlpool Effect">}}
 
