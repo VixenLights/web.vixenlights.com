@@ -4,29 +4,29 @@ author: Vixen Team
 weight: 60
 ---
 
-### Overview
+## Overview
 
 Streaming ACN, also known by its abbreviation **sACN** or by its technical specification document number **e1.31** is a lighting protocol that encapsulates DMX type data and sends it over a TCP/IP Ethernet network. It is an intermediate step between DMX based lighting controls, and full ACN based implementations. ACN (Architecture for Control Networks) is an extensible suite of protocols that can be used to control all varieties of devices used in live production networks. Since a full transition to ACN is a major paradigm shift, sACN was created that operates within an ACN network and uses familiar concepts from the DMX standard that has been in common use for decades. DMX defined the electrical signaling as well as the data format. Only the concepts of channels and universe and a loose guideline for timing is carried forward from DMX to sACN.
 
-### Universes and Channels
+## Universes and Channels
 
 In DMX, only 512 channels of data could be carried on a DMX cable. This was a limit based on the balance of data rate, distance requirements, multidrop topology and refresh rate. With all of those factors considered, 512 channels was defined as the standard number of channels in a universe. As shows grew, and designers needed more than 512 channels to control a show, it became necessary to implement multiple independent DMX networks. While not part of the standard, the term **universe** became the standard term to refer to each separate DMX network. In the DMX world, every group of 512 channels was its own physical network and this network was called a universe.
 
 Ethernet networking has far greater capacity for bandwidth and routing. In fact, the bandwidth of the network has no defined limit in Ethernet networking. Faster and faster links continue to be invented and come into common use. Ten years ago, 100BaseT was common. Now 1000BaseT and even 10GBaseT are becoming more and more common. So there is no need to limit the number of channels transmitted on an Ethernet network. However, to maintain backwards compatibility, and to make it easy for hardware developers to implement new transitional devices, the 512 channel per universe limit was kept. But you can now send many universes on the same wire. sACN currently allows 63,999 universes on a network. This doesn't mean this will work on a 10Mbps network. But you can get pretty close on a 1000Mbps network.
 
-### Addressing
+## Addressing
 
 Many people get tripped up over Universe/Channel addressing. It's actually quite simple. Channels are grouped into universes and universes are numbered. You can think of it similar to postal addresses. The channel is like the house number, and the universe is like the street name. You can have a 101 First street, and a 101 Second street and the proper mail will get to the right houses.
 
 A universe can have any number of channels in it from 1 to 512. But each universe always starts at channel 1. If you only have 50 channels to send, you can have a universe send only channels 1-50. But you cannot send only 51-100. (why would you want to?)
 
-### Why do I see the number 510 or 170?
+## Why do I see the number 510 or 170?
 
 Pixels or RGB elements take 3 channels to communicate the data for the Red, Green and Blue parts of the color. If you have 10 pixels, you need 30 channels.
 
 512 does not evenly divide by 3. 512 = 170 1/3. So you can only fit 170 full pixels into a universe with 2 channels left over. 510 channels is 170 pixels worth of data. Earlier models of pixel controllers did not bridge this gap across universes and required you to contain full pixels within a universe. This is becoming less common on newer hardware designs. It's important to know which universe size your hardware supports when configuring the sACN universe outputs.
 
-### Multicast Vs Unicast
+## Multicast Vs Unicast
 
 ACN is designed to be a minimal configuration control protocol. It is intended that the show controller (the computer) just puts the data out onto the network, and the receivers see everything and get configured to use only what they need. For this reason, multicast networking makes the most sense. Multicast is a mechanism where the sender transmits the data, and the receivers see the available data and use it.
 
@@ -38,11 +38,11 @@ Because many people use low end networking equipment, especially in the early da
 
 It's a myth that you can send more universes using unicast than you can by multicast. When the network is doing its job, and all devices are following the rules, the traffic is the same in both cases. It can even be less with multicast, because if more than one controller is getting the same universe data, only one packet is sent to the whole network, not one per device. The **unicast is better** myth started in the DIY Christmas Lighting hobby. The early model pixel controllers didn't properly implement IGMP subscriptions, so it looked like it didn't work anyhow. And these same devices had to employ other means to cope with the overload of data coming in the ports. So there were artificial restrictions placed on it that were safe amounts of data the controller could handle without overload.
 
-### sACN over WiFi
+## sACN over WiFi
 
 When using WiFi as a link for your sACN data, multicast is always better because of the physical nature of wifi being a broadcast medium. There's no magical network switching happening in mid air. Multicast also bypasses certain physical layer data integrity checks in 802.11 WiFi. WiFi makes assumptions in the fundamental design that it's more important for data to arrive without errors than it is for it to arrive on time. While that's true for most general purpose internet traffic, that's not the case for live show realtime data. For our applications, its more important that the data arrive on time, than arrive correct. If it had to retry because there were data errors, it would be too late anyhow. So it's better that data gets dropped than for it to arrive late. That's what happens in multicast over WiFi. Unicast on the other hand will retry a few times until it knows the receiving device got the data and got it correctly. This will usually be seen as irregularly lagging transitions on your lights.
 
-### Optimizing the stream
+## Optimizing the stream
 
 While the specification doesn't give a hard and fast timing for how often a universe should be refreshed, it will never be more than 44 times per second, which is the maximum speed allowed in the old DMX standard. It is typically much lower though - often corresponding on the frame rate of your sequencing or lighting software. Vixen 3 defaults at a 50ms interval which corresponds to 20 frames per second. Like DMX, sACN is designed to be a streaming format where all the data keeps getting resent over and over regardless of whether it's changed. If a light didn't get the message right the first time, it'll have another chance 50 milliseconds later.
 

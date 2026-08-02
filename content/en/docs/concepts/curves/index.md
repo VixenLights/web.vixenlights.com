@@ -5,11 +5,11 @@ weight: 40
 aliases: [/vixen-3-documentation/basic-concepts-of-vixen-3/curve-editor/]
 ---
 
-### Overview
+## Overview
 
 Curves are a way to represent change over time. There are many uses for Curves in Vixen from controlling the dimming of the outputs to how parameters change over time in the effects.
 
-### Editor
+## Editor
 
 The curve editor allows you to define how a parameter changes over time. The most common place you see curves is for intensity. The Pulse effect is a key example where this is used. To create a ramp effect, the curve will be a diagonal line from the lower left to the upper right. To create a ramp down, the curve is reversed. Additional points can be added to the curve to change how it acts. The points can be dragged to the proper place, or the actual values can be edited.
 
@@ -25,7 +25,7 @@ The full curve editor supports many features. There are buttons to reverse a cur
 
 ![Default Dimming Curve](DefaultDimmingCurve-220x300.png)
 
-### Curve Library
+## Curve Library
 
 The Curve library can be accessed in several ways from the Sequence Editor.
 
