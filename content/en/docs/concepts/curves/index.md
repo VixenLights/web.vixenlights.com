@@ -21,7 +21,22 @@ Since the 3.4 releases the curves can now be edited directly in the effect edito
 
 ![Inline Curve Editor](InlineCurveEditor-300x262.png)
 
-The full curve editor supports many features. There are buttons to reverse a curve, invert a curve, free hand draw and use a mathematical function to generate one. There are also key mouse combinations that allow a curve to be adjusted. Holding the Shift Key and click dragging a point on the line will convert it to a flat line curve. It can be freely moved up and down to any point on the graph. This mimics functionality in the inline curve editor.
+## Inline Editing
+
+The inline editor supports quick point-level adjustments directly on the curve, without needing the full dialog editor:
+
+* **Move a point** - Click and drag an existing point to a new position.
+* **Add a point** - Hold Ctrl and click on the curve where you want the new point.
+* **Remove a point** - Hold Alt and click on the point you want to delete. A curve must always keep at least two points, so you can't delete down past that.
+* **Flatten to a level** - Hold Shift and click-drag anywhere in the editor to turn the curve into a flat line, and drag up or down to set its level.
+* **Reverse the curve** - Hold Shift+Alt and click to mirror the curve left-to-right (reverses it in time).
+* **Invert the curve** - Hold Shift+Ctrl and click to mirror the curve top-to-bottom (inverts the values).
+
+See [Inline Curve Editor]({{< ref inline-curve-editor>}}) for a full walkthrough of these controls, including drag and drop with the curve library.
+
+## Full Editor
+
+The full curve editor supports many features. There are buttons to reverse a curve, invert a curve, free hand draw and use a mathematical function to generate one. There are also key mouse combinations that allow a curve to be adjusted, matching the shortcuts in the inline editor above. Holding the Shift Key and click dragging a point on the line will convert it to a flat line curve. It can be freely moved up and down to any point on the graph.
 
 ![Default Dimming Curve](DefaultDimmingCurve-220x300.png)
 

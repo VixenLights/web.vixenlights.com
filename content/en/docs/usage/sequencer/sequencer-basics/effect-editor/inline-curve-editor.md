@@ -14,14 +14,14 @@ The Inline Curve Editor is a powerful tool that allows many features of the larg
 ### Editing Curves
 
 * To add a node, hold the Control Key and Click the line where you want to add the node.
-* To delete a node, hold the Alt Key and Click the node you wish to delete.
+* To delete a node, hold the Alt Key and Click the node you wish to delete. A curve must always keep at least two nodes, so the last two can't be deleted.
 * To move a node, simply Click and Drag any node to the position you want. (The full editor provides more precision if needed)
 
 ### Shortcuts
 
 * To flatten the curve into a horizontal line, hold the shift key and click anywhere in the curve control. Holding shift while dragging will allow you to position that horizontal flat line up and down. This function is intended to replace the functionality of the old simple sliders that have now been replaced with curves.
-* To reverse the curve direction, (flip left to right) use Control+Shift while clicking the curve.
-* To invert the curve (flip top to bottom), use Alt+Shift while clicking the curve.
+* To reverse the curve direction, (flip left to right) use Alt+Shift while clicking the curve.
+* To invert the curve (flip top to bottom), use Control+Shift while clicking the curve.
 
 ### Drag and Drop
 
