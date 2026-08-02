@@ -7,7 +7,7 @@ featured_image: /docs/usage/effect-editor/EffectEditor.png
 
 ### Overview
 
-The Inline Curve Editor is a powerful tool that allows many features of the larger [Curve][1] editor dialog to be done inline in the effect editor. This improves efficency for the user since they do not have to keep opening and closing a bulky dialog box.
+The Inline Curve Editor is a powerful tool that allows many features of the larger [Full Curve Editor][1] editor dialog to be done inline in the effect editor. This improves efficency for the user since they do not have to keep opening and closing a bulky dialog box.
 
 ![Inline Curve Editor](/images/docs/usage/effect-editor/inline-curve-editor/InlineCurve-300x49.png)
 
@@ -15,7 +15,7 @@ The Inline Curve Editor is a powerful tool that allows many features of the larg
 
 * To add a node, hold the Control Key and Click the line where you want to add the node.
 * To delete a node, hold the Alt Key and Click the node you wish to delete. A curve must always keep at least two nodes, so the last two can't be deleted.
-* To move a node, simply Click and Drag any node to the position you want. (The full editor provides more precision if needed)
+* To move a node, simply Click and Drag any node to the position you want. (The [Full Curve Editor][1] provides more precision if needed)
 
 ### Shortcuts
 
@@ -30,7 +30,7 @@ The Inline Curve Editor is a powerful tool that allows many features of the larg
 * To invoke the full curve editor, simply double click on the black area of the curve control.
 * When a curve is linked to a library curve, the line will be gray and a link icon will appear over the control.  
 
-### Full Gradient Editor
+### Full Curve Editor
 
 * To invoke the full curve editor, simply double click on the curve in the effect editor.
 
@@ -39,4 +39,6 @@ A linked Curve denoted by the chain link in the upper left corner.
 
 You will not be able to edit the linked curve in the effect editor pane.  Double clicking the curve control will allow you to link or unlink library curve. Once it is unlinked, you can edit it in the inline editor or the larger Curve dialog.
 
-[1]: {{< ref curves >}}
+See [Full Curve Editor][1] for details on the dialog's drawing, function generator, and library tools.
+
+[1]: {{< ref full-curve-editor>}}

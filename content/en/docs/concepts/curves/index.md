@@ -38,6 +38,8 @@ See [Inline Curve Editor]({{< ref inline-curve-editor>}}) for a full walkthrough
 
 The full curve editor supports many features. There are buttons to reverse a curve, invert a curve, free hand draw and use a mathematical function to generate one. There are also key mouse combinations that allow a curve to be adjusted, matching the shortcuts in the inline editor above. Holding the Shift Key and click dragging a point on the line will convert it to a flat line curve. It can be freely moved up and down to any point on the graph.
 
+See [Full Curve Editor]({{< ref full-curve-editor>}}) for a full walkthrough of the dialog's drawing, function generator, and library tools.
+
 ![Default Dimming Curve](DefaultDimmingCurve-220x300.png)
 
 ## Curve Library
