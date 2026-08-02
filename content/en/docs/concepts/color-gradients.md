@@ -10,7 +10,7 @@ Color gradients are a way of representing color over time in Vixen. Instead of h
 
 ### Color Points
 
-Each Color Gradient will have one or more color points. Each color point defines what the color is at a point within the gradient. Color Gradients with more than one color point will have a transistion zone between the color points where the gradient moves from one color to the other. In between the colors there is a weighting point. When the weight point is in the middle of the two colors they will transition evenly. But if it is moved toward one color or the other, the weight of the transition will shift to favor the color the point is closest to.
+Each Color Gradient will have one or more color points. Each color point defines what the color is at a point within the gradient. Color Gradients with more than one color point will have a transition zone between the color points where the gradient moves from one color to the other. In between the colors there is a weighting point. When the weight point is in the middle of the two colors they will transition evenly. But if it is moved toward one color or the other, the weight of the transition will shift to favor the color the point is closest to.
 
 ### Editor
 
@@ -18,4 +18,4 @@ The Color Gradient editor allows you to edit the color and color points in a gra
 
 ### Library
 
-Color Gradients may be named and saved to a library so they can be reused without havign to recreate them each time.
+Color Gradients may be named and saved to a library so they can be reused without having to recreate them each time.

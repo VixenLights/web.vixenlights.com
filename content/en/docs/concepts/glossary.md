@@ -9,11 +9,11 @@ The individually controllable outputs of a Controller.
 
 ### Controller
 
-A module that defines an specific hardware device or set of devices. The controller setup contains channel configuration, communications protocol, and how it&#8217;s connected to the show computer.
+A module that defines a specific hardware device or set of devices. The controller setup contains channel configuration, communications protocol, and how it's connected to the show computer.
 
 ### Curve
 
-Intensity that changes over time.  This is usually used to refer to a brightness value for an effect.  The curve control shows brightness on the vertical Y axis and time on the horizontal X axis.  Time is a percentage of the duration of the effect.  It is not possible to define a curve in terms of absolute time, it is always relative to the effect duration.
+Intensity that changes over time. This is usually used to refer to a brightness value for an effect. The curve control shows brightness on the vertical Y axis and time on the horizontal X axis. Time is a percentage of the duration of the effect. It is not possible to define a curve in terms of absolute time, it is always relative to the effect duration.
 
 ### Effect
 
@@ -21,7 +21,7 @@ An action on an element or group. Effects range from simple set level to more ad
 
 ### Element
 
-The controllable display elements. These are the strings of lights or the individual pixels that make up your display. Examples of an element are: A candy cane controlled as one unit, or a minitree(RGB) or a string of lights. Elements can be grouped together for convienent manipulation (see Group)   The horizontal tracks in the Sequencer where you assign effects to a display element.   In the Preview, it is the element you see that responds to effects in the timeline.
+The controllable display elements. These are the strings of lights or the individual pixels that make up your display. Examples of an element are: A candy cane controlled as one unit, or a minitree (RGB) or a string of lights. Elements can be grouped together for convenient manipulation (see Group). The horizontal tracks in the Sequencer where you assign effects to a display element. In the Preview, it is the element you see that responds to effects in the timeline.
 
 ### Filter
 
@@ -29,7 +29,7 @@ An object inserted into the path between an element, and a controller channel th
 
 ### Gradient
 
-A gradient is a color that changes over time.  It consists of one or more colors that are positioned horizontally along a timeline.  Similar to a curve, the horizontal axis represents time, relative to the length of a given effect.
+A gradient is a color that changes over time. It consists of one or more colors that are positioned horizontally along a timeline. Similar to a curve, the horizontal axis represents time, relative to the length of a given effect.
 
 ### Group
 
@@ -45,7 +45,7 @@ A portion of the application that performs a specific task. Vixen 3 is built wit
 
 ### Output
 
-Deprecated &#8211; we don&#8217;t talk about those anymore because it can mean too many things and just gets confusing!
+Deprecated — we don't talk about those anymore because it can mean too many things and just gets confusing!
 
 ### Patch
 
@@ -85,7 +85,7 @@ The section of the sequencer located above the element effect workspace. It show
 
 ### Treeview
 
-Several configuration windows use a heirarchical view to show the oranizational relationship of groups and their members.
+Several configuration windows use a hierarchical view to show the organizational relationship of groups and their members.
 
 ### Waveform
 

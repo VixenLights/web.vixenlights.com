@@ -10,7 +10,7 @@ Elements are the building blocks to modeling a Prop in Vixen 3. The purpose is t
 
 The general intent for the development and creation of elements is that it should represent or model something in your display. (e.g. an item, or fixture, or prop) If you have elements that you're naming things like *Renard-37*, *Channel-21*, *Tree-1-Red lights*, then you're going about it the wrong way.
 
-Elements are the entry point for data into the Vixen system. For example, when sequencing a song, the user would sequence data against the elements and groups in their configuration. When playing back the sequence, the effect is applied to one or a group of elements and then it is processed through to the to the appropriate controller in a way that abstracts the details from the user.
+Elements are the entry point for data into the Vixen system. For example, when sequencing a song, the user would sequence data against the elements and groups in their configuration. When playing back the sequence, the effect is applied to one or a group of elements and then it is processed through to the appropriate controller in a way that abstracts the details from the user.
 
 ### Example
 
@@ -18,4 +18,4 @@ For example, a Megatree item in a display might be defined as a group called *Me
 
 ### Properties
 
-Elements and groups also have the ability for extra *Properties* to be defined and configured for each element or group. The intent of a Property is to give the user some way to provide extra information about that element in the display. This information will be used by the effects in the sequences. A color handling property can be used to restrict effects on that element to a certain range of colors. Or, a Position property, can represent the position of elements in their display. Some of these are configured by the user on setup, and others get created as part of another setup process. The Position properties are generally set automatically by the preview when it is configured and based on the location of elements in relation to each other.
+Elements and groups also have the ability for extra *Properties* to be defined and configured for each element or group. The intent of a Property is to give the user some way to provide extra information about that element in the display. This information will be used by the effects in the sequences. A color handling property can be used to restrict effects on that element to a certain range of colors. Or, a Position property, can represent the position of elements in their display. Some of these are configured by the user on setup, and others get created as part of another setup process. The Position properties are generally set automatically by the preview when it is configured and based on the location of elements in relation to each other.

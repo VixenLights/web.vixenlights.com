@@ -1,7 +1,7 @@
 ---
 title: Concepts
 weight: 4
-description: This section covers the basic concepts of using Vixen. 
+description: This section covers the basic concepts of using Vixen.
 ---
 
 ### Overview

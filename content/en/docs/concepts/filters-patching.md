@@ -6,7 +6,7 @@ weight: 50
 
 ### Overview
 
-Patching is the idea used to tell Vixen how a element relates to an output. In a simple setup, a user might have 12 mini-trees, and a single Renard to control them. They might patch each mini-tree channel directly 1:1 to a corresponding output on the Renard. This is a simple use case, and is the equivalent to the way Vixen 2.x works: a direct 1:1 correlation between elements that the user sequences with and the outputs from the controller.
+Patching is the idea used to tell Vixen how an element relates to an output. In a simple setup, a user might have 12 mini-trees, and a single Renard to control them. They might patch each mini-tree channel directly 1:1 to a corresponding output on the Renard. This is a simple use case, and is the equivalent to the way Vixen 2.x works: a direct 1:1 correlation between elements that the user sequences with and the outputs from the controller.
 
 However, in a more complicated setup, there may not be 1:1 mappings. For example, say the user has a large tree that has been wrapped in 8 strings of lights, and they have each string on a different output on a controller. If they wanted to treat the tree as one single object (eg. not control each string individually), they can map the one "Tree" element to the 8 controller outputs that correspond to the strings.
 
