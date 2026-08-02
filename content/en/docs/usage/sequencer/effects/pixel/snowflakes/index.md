@@ -15,7 +15,8 @@ Creates an effect that simulates falling snowflakes.
 
 ## String Setup
     
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
@@ -75,10 +76,10 @@ This category is visible when the **Movement** is set to _Speed_, _Wobble_, or _
 ## Color
 
 * **Color Type** - Controls the Type of color.
-    * _Range_ - Requires multiple colors/gradients. Flakes will appear in a range of colors bounded by the colors defined in the color/gradient lists.  
-    * _Palett_ - Snowflakes will appear in the specific color(s) defined in the color/gradient lists.  
-    * _Rainbow_ - Applies a cycling rainbow of color to each snowflake
-    * _Alternate_ 
+* _Range_ - Requires multiple colors/gradients. Flakes will appear in a range of colors bounded by the colors defined in the color/gradient lists.  
+* _Palett_ - Snowflakes will appear in the specific color(s) defined in the color/gradient lists.  
+* _Rainbow_ - Applies a cycling rainbow of color to each snowflake
+* _Alternate_ 
 
 * **Center Color** - The color of the center point of each snowflake. When a gradient is used, each snowflake uses a fixed color centerpoint, but the centerpoint of each snowflake will be the color of the point in the gradient in time when that snowflake appears.
 

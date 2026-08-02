@@ -44,6 +44,7 @@ A great place to download seamless tiles is: <https://www.patterncooler.com/>. T
 * **Picture Source** - Chooses whether the effect uses an image file you select or one of the built-in embedded picture patterns.
 
 * **Embedded Pictures** - Selects the built-in picture pattern to render when Picture Source is set to Embedded.
+
 *note, you may choose either a custom file, or embedded image, but not both.
 
 * **Stretch to Grid** - Adjusts image diminesions to fit the grid size.

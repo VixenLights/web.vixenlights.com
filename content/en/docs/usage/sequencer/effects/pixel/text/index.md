@@ -27,9 +27,9 @@ The text can appear in any font. It can be static or moving.
 ### Configuration
 
 * **Text Trigger** - Controls how the text is triggered to be displayed.
-  * _None_ - Uses standard text with no trigger. The text is animated using **Direction** and **Iterations**, and **Text Layout** becomes available.
-  * _Mark Collection_ - Uses marks to trigger when each word is shown, taken in order from **Text Line(s)**.
-  * _Mark Collection - Labels_ - Uses marks to trigger when each word is shown, using the mark's own label as the word text instead of **Text Line(s)**.
+* _None_ - Uses standard text with no trigger. The text is animated using **Direction** and **Iterations**, and **Text Layout** becomes available.
+* _Mark Collection_ - Uses marks to trigger when each word is shown, taken in order from **Text Line(s)**.
+* _Mark Collection - Labels_ - Uses marks to trigger when each word is shown, using the mark's own label as the word text instead of **Text Line(s)**.
 
 * **Mark Collection** - Selects the Mark Collection used to determine when words are displayed. Only shown when **Text Trigger** is set to _Mark Collection_ or _Mark Collection - Labels_.
 
@@ -87,6 +87,7 @@ The text can appear in any font. It can be static or moving.
 * **Cycle Mode** - Selects whether **Cycle Color** advances per _Character_ or per _Word_ (including words displayed from a Mark Collection). Only shown when **Cycle Color** is enabled.
 
 * **Gradient Mode** - Specifies how gradients will be applied to the text. There are 8 combinations of direction and how it's applied.
+
 The gradient can be applied across the letters of the text, or across the whole element group.
 If it is across the letters, the gradient will stay with the text.
 If it is across the element, it will appear that the text travels through the colors of the gradient.

@@ -12,11 +12,12 @@ Creates an effect that displays a count down on a display element.
 
 ## String Setup
 
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
   
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
@@ -52,6 +53,7 @@ Creates an effect that displays a count down on a display element.
 * **Movement per number** - When enabled, the count down number moves as specified by the **Direction** over the grid for each number. This field is only available when the **Direction** is set to **Left, Right, Up,** or **Down**. 
 
 * **Iterations** - When enabled, controls how fast the count down moves.  
+
 This field is only available when the **Direction** is set to **Left, Right, Up,** or **Down**. This field is not applicable when **Movement per number** is selected. 
 
 

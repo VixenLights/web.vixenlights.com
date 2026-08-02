@@ -14,7 +14,8 @@ Creates an effect that simulates burning fire.
 
 ## String Setup
 
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration

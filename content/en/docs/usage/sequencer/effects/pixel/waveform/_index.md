@@ -50,9 +50,9 @@ Creates an effect that fills a display element with color based on the audio.
 ## Color
 
 * **Color Handling** - Controls how the color is handled.
-    * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
+* _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+* _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+* _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
 
 * **Custom Gradient** - Controls the color of the effect.
 

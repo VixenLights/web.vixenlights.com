@@ -14,23 +14,24 @@ Creates an effect that washes colors over the display element.
 
 ## String Setup
 
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
   
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
 
 * **Type** - Selects between pattern variations.
-    * _Center_ 
-    * _Outer_ 
-    * _Invert_ 
+* _Center_ 
+* _Outer_ 
+* _Invert_ 
 
 * **Motion** - Controls how the effect progresses across time between **Speed** and **Iterations**.
-    * _Iterations_ - Displays the **Iterations** slider to specify the number of times the pattern repeats over the duration of the effect.
-    * _Speed_ - Displays a **Speed** Curve for configuring the speed of the pattern over the duration of the effect.
+* _Iterations_ - Displays the **Iterations** slider to specify the number of times the pattern repeats over the duration of the effect.
+* _Speed_ - Displays a **Speed** Curve for configuring the speed of the pattern over the duration of the effect.
 
 * **Iterations** - The number of times the pattern repeats over the timespan of the effect.
 

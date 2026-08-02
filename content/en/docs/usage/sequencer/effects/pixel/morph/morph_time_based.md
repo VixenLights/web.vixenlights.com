@@ -11,8 +11,8 @@ The time based mode of the morph effect allows the user to draw a shape and then
 
 Mode Restrictions:
 
-  * The same shape type (polygon, ellipse, line) must be used for the entire effect.
-  * When morphing polygons the number of points that make up the polygon must be the same across all snap shots.
+* The same shape type (polygon, ellipse, line) must be used for the entire effect.
+* When morphing polygons the number of points that make up the polygon must be the same across all snap shots.
 
 ---
 
