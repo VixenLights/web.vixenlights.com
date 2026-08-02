@@ -1,0 +1,18 @@
+<script>
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest('a[data-download-type]');
+    if (!link) return;
+    if (typeof gtag !== 'function') return;
+
+    const url = new URL(link.href, window.location.href);
+    gtag('event', 'file_download', {
+      'file_name': url.pathname.split('/').pop(),
+      'link_url': link.href,
+      'link_domain': url.hostname,
+      'build_type': link.dataset.downloadType,
+      'bitness': link.dataset.bitness,
+      'version': link.dataset.version,
+      'page_path': window.location.pathname
+    });
+  });
+</script>

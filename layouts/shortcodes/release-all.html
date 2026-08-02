@@ -1,4 +1,6 @@
 {{ range hugo.Data.release.all }}
+{{ $version := .name }}
+{{ $buildType := cond .prerelease "development" "production" }}
 <div class="card mb-4">
     <div class="card-body">
         <h5 class="card-title">Version: {{ .name }}</h5>
@@ -6,7 +8,8 @@
     </div>
     <ul class="list-group list-group-flush">
         {{ range .assets }}
-        <li class="list-group-item"><a href="{{ .browser_download_url }}">{{ .name }}</a></li>
+        {{ $bitness := cond (strings.HasSuffix .name "64bit.exe") "64bit" (cond (strings.HasSuffix .name "32bit.exe") "32bit" "") }}
+        <li class="list-group-item"><a href="{{ .browser_download_url }}" data-download-type="{{ $buildType }}" data-bitness="{{ $bitness }}" data-version="{{ $version }}">{{ .name }}</a></li>
         {{ end }}
     </ul>
 </div>

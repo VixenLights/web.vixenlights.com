@@ -37,7 +37,7 @@
       noButton.disabled = true;
     };
     const sendFeedback = (value) => {
-      if (!gtag) { console.log('!gtag'); }
+      if (typeof gtag !== 'function') return;
       gtag('event', 'feedback', {
         'event_category': value?'page helpful':'page not helpful',
         'event_label': window.location.pathname,
