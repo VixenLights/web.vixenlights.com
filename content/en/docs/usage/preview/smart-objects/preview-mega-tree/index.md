@@ -54,9 +54,9 @@ Notes on Auto Linking
 
 Method 2: Manually Linked Elements
 
-* Click on the main element group for your mega-tree.
-* Click on the Mega Tree icon on the toolbar.
-* Left-click and hold the mouse button at the top left corner where you want to position the mega tree and, while holding the mouse button, drag to the bottom right to size the tree.
+* Click on the Tree shape in the preview pane to select it.
+* In the property pane in the lower left there is an entry called Linked Elements. In the right column click on the button with the 3 dots to the right of the word (Collection).
+* The Link Elements dialog will appear to allow you to manually link each element to the strings of the Tree. See [Linking Elements][1] for how to use this dialog, including drag and drop and the right-click copy/reverse options.
 
 ### Settings
 
