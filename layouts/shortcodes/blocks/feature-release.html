@@ -1,4 +1,4 @@
-{{ $release := site.Data.release.latest }}
+{{ $release := hugo.Data.release.latest }}
 
 {{ $icon := .Get "icon" | default "fa-lightbulb" -}}
 {{ $url_text := .Get "url_text" -}}
