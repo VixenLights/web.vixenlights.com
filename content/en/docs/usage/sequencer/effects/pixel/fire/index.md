@@ -36,7 +36,7 @@ Creates an effect that simulates burning fire.
 
 * **Intensity** - This is an overall brightness intensity curve for over the duration of the effect.�
                   This is a legacy parameter, consider using intensity overlay layers instead.
-                 
+
 ---
 
 ## Video 

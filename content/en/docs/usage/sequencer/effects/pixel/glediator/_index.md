@@ -27,7 +27,7 @@ Jinx! can be used to create files to import to this effect also. In Jinx!, you w
 ## String Setup
 
 * **Orientation** - Controls the orientation of the display area (matrix).
-  
+
 ---
 
 ## Movement

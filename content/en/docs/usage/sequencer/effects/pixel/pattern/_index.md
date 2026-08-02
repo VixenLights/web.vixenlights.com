@@ -23,25 +23,25 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 * **Pattern Type** - Selects the pattern (_Weave_ or _Brick_) to animate.
 
 * **Direction** - Configures the direction of pattern movement.
-* _Moves Up_ - The pattern moves in an upward direction.
-* _Moves Down_ - The pattern moves in a downward direction.
-* _Vertical Expand_ - The pattern moves outward from the vertical center.
-* _Vertical Compress_ - The pattern moves in a motion that looks like they are compressing in the vertical middle.
-* _Moves Left_ - The pattern moves from right to left.
-* _Moves Right_ - The pattern moves from left to right.
-* _Horizontal Expand_ - The pattern moves outward from the horizontal center.
-* _Horizontal Compress_ - The pattern moves in a motion that looks like they are compressing in the horizontal middle.       
-* _Center Compress_ - The pattern moves in a motion that looks like they are compressing in the middle.    
-* _Center Expand_ - The pattern moves outward from the center.
-    
+  * _Moves Up_ - The pattern moves in an upward direction.
+  * _Moves Down_ - The pattern moves in a downward direction.
+  * _Vertical Expand_ - The pattern moves outward from the vertical center.
+  * _Vertical Compress_ - The pattern moves in a motion that looks like they are compressing in the vertical middle.
+  * _Moves Left_ - The pattern moves from right to left.
+  * _Moves Right_ - The pattern moves from left to right.
+  * _Horizontal Expand_ - The pattern moves outward from the horizontal center.
+  * _Horizontal Compress_ - The pattern moves in a motion that looks like they are compressing in the horizontal middle.       
+  * _Center Compress_ - The pattern moves in a motion that looks like they are compressing in the middle.    
+  * _Center Expand_ - The pattern moves outward from the center.
+
 
 * **Rotation** - The rotation of the pattern.  The pattern can rotate in either direction using the following mapping to the curve:
 
-* 100 - 180 Degrees (Counter Clockwise)
-* 75 - 90 Degrees (Counter Clockwise)
-* 50 - No Rotation
-* 25 - 90 Degrees (Clockwise)
-* 0 - 180 Degrees (Clockwise)
+  * 100 - 180 Degrees (Counter Clockwise)
+  * 75 - 90 Degrees (Counter Clockwise)
+  * 50 - No Rotation
+  * 25 - 90 Degrees (Clockwise)
+  * 0 - 180 Degrees (Clockwise)
 
 * **Speed** - Determines how fast the pattern moves.
 
@@ -50,8 +50,8 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 * **Highlight %** - Controls the percentage of the bar / brick that is highlighted.  This control is only applicable when the effect is in _Locations_ mode.
 
 * **3D** - Makes each color appear as a gradient fading to black.
-  
-  
+
+
 
 ---
 

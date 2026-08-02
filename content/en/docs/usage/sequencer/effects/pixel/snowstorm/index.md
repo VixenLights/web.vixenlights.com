@@ -34,10 +34,10 @@ Creates an effect that mimics an intense snowstorm with snow falling sideways.
 ## Color
 
 * **Color Type**  - Controls the type of color for the snowstorm.
-* _Rainbow_ - Cycles through a rainbow of colors.
-* _Range_ - Each snowflake will be a single color selected from a range between the defined colors.  
-* _Palette_ - Each snowflake will be one of the specific colors/gradients defined in the color list.  
-* _Gradient_ - Uses gradients in the color list for each individual snowflake. 
+  * _Rainbow_ - Cycles through a rainbow of colors.
+  * _Range_ - Each snowflake will be a single color selected from a range between the defined colors.  
+  * _Palette_ - Each snowflake will be one of the specific colors/gradients defined in the color list.  
+  * _Gradient_ - Uses gradients in the color list for each individual snowflake. 
 
 * **Color** - Selects the color gradients used by **Color Types** _Range_, _Pallette_, and _Gradient_.
 

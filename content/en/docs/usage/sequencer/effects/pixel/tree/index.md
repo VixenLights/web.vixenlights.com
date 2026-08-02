@@ -43,10 +43,10 @@ This effect is best used on megatrees.
 * **Branches** - The number of branches to divide the tree into.  Determines the number of garland rings to apply to the tree.
 
 * **Color Type** - How colors are applied to the garlands.  
-* _Static_ - One color/gradient per garland level.
-* _Twinkle_ - Each pixel in the garland twinkles thru the defined colors.
-* _Alternate Segment_ - Each swagged segment of garland is colored alternately through the list of defined colors.  
-* _Alternate Pixel_ - Each pixel is colored by rotating through the list of defined colors.
+  * _Static_ - One color/gradient per garland level.
+  * _Twinkle_ - Each pixel in the garland twinkles thru the defined colors.
+  * _Alternate Segment_ - Each swagged segment of garland is colored alternately through the list of defined colors.  
+  * _Alternate Pixel_ - Each pixel is colored by rotating through the list of defined colors.
 
 * **Color** - One or more colors/gradients used to color the garlands around the tree.
 

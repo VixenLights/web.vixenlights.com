@@ -38,7 +38,7 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 * **Normalize** - Applies an audio normalizing filter to the audio before it is analyzed for use in the effect. This should be enabled for most uses.
 
 * **Zoom** - Scales the visual response to the audio.
-            
+
 
 ---
 
@@ -54,9 +54,9 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 ## Color
 
 * **Color Handling** - Controls how the color is handled.
-* _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-* _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-* _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
+  * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
 
 * **Custom Gradient** - Controls the color of the effect.
 

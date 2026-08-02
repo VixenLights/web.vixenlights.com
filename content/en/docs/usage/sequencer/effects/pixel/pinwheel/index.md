@@ -58,10 +58,10 @@ This effect can be layered with other effects to produce complex effect combinat
 ### Color
 
 * **Color Type** - Determines how arm colors are generated from the **Colors** list below.
-* _Gradient over time_ - Each arm is given one color from the list (cycling through the list if there are more arms than colors), which shifts along that color's gradient as the effect plays.
-* _Gradient Across Arms_ - Each arm's color instead varies along its length, from hub to tip, following the gradient.
-* _Random_ - Each arm is assigned a random solid color when the effect starts and keeps that color for the duration. The **Colors** list is hidden and not used.
-* _Rainbow_ - Each arm is assigned a new random color on every frame, producing a flickering rainbow look. The **Colors** list is hidden and not used.
+  * _Gradient over time_ - Each arm is given one color from the list (cycling through the list if there are more arms than colors), which shifts along that color's gradient as the effect plays.
+  * _Gradient Across Arms_ - Each arm's color instead varies along its length, from hub to tip, following the gradient.
+  * _Random_ - Each arm is assigned a random solid color when the effect starts and keeps that color for the duration. The **Colors** list is hidden and not used.
+  * _Rainbow_ - Each arm is assigned a new random color on every frame, producing a flickering rainbow look. The **Colors** list is hidden and not used.
 
 * **Colors** - Can be simple colors or gradients. Each color or gradient has a level to adjust its brightness over the duration of the effect. You can have one to many colors; if there are more arms than colors, colors are reused round-robin across the arms. Hidden when **Color Type** is set to _Random_ or _Rainbow_.
 

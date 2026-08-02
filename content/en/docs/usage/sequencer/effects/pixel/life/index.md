@@ -15,7 +15,7 @@ When set to a low Cell Start count, it can be made to somewhat resemble confetti
 ---
 
 ## String Setup
- 
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -40,7 +40,7 @@ When set to a low Cell Start count, it can be made to somewhat resemble confetti
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
-                 
+
 ---
 
 ## Video

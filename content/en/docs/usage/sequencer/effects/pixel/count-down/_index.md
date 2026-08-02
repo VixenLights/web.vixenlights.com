@@ -15,7 +15,7 @@ Creates an effect that displays a count down on a display element.
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -81,7 +81,7 @@ This field is only available when the **Direction** is set to **Left, Right, Up,
 * **Intensity** - This is an overall brightness intensity curve for the count down over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
-                  
+
 ---
 
 #### Video Tutorial

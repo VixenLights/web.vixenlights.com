@@ -14,11 +14,11 @@ Creates an effect that simulates the shockwave from an explosion, or the ripples
 ---
 
 ## String Setup
-  
+
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---

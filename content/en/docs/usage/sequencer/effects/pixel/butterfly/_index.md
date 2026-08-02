@@ -17,7 +17,7 @@ Creates a pulsing effect reminiscent of the flapping wings of a butterfly.
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       *Locations* is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want *Strings* when applying to one prop and *Locations* if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -25,18 +25,18 @@ Creates a pulsing effect reminiscent of the flapping wings of a butterfly.
 ## Configuration
 
 * **Butterfly Type** - Allows you to choose between different movement patterns.  Different patterns may be suitable for different element group types.
-* _Pulsing Circle_ 
-* _Pulsing Grid of Circles_ 
-* _Alternating Inverted Boxes_ 
-* _Flapping Wings_ 
-    
+  * _Pulsing Circle_ 
+  * _Pulsing Grid of Circles_ 
+  * _Alternating Inverted Boxes_ 
+  * _Flapping Wings_ 
+
 * **Direction** - Changes the direction in which the pattern moves.  This is more evident on the linear Butterfly types than it is on the pulsing or oscillating types.
-* _Forward_ 
-* _Backword_ 
+  * _Forward_ 
+  * _Backword_ 
 
 * **Motion** - Controls how the effect progresses across time.
-* _Iterations_ - Displays the **Iterations** slider to specify the number of times the pattern repeats over the duration of the effect.
-* _Speed_ - Displays a **Speed** Curve for configuring the speed of the pattern over the duration of the effect.
+  * _Iterations_ - Displays the **Iterations** slider to specify the number of times the pattern repeats over the duration of the effect.
+  * _Speed_ - Displays a **Speed** Curve for configuring the speed of the pattern over the duration of the effect.
 
 * **Iterations** - The number of times the pattern repeats over the duration of the effect.
 

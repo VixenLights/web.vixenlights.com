@@ -27,7 +27,7 @@ This effect can be used as a standalone effect but also can be used as a layerin
 
 * **Polygon Type** - Determines the mode of the morph effect.
 
-* [_Pattern_](../morph_pattern) - This mode was inspired by other sequencers. This mode is restricted to using four point polygons, ellipses or lines. This mode includes settings that allow the user to repeat a shape (polygon/ellipse/line) several times across the display element. Repeating the shape establishes a repeating pattern.
+  * [_Pattern_](../morph_pattern) - This mode was inspired by other sequencers. This mode is restricted to using four point polygons, ellipses or lines. This mode includes settings that allow the user to repeat a shape (polygon/ellipse/line) several times across the display element. Repeating the shape establishes a repeating pattern.
 
 _
 

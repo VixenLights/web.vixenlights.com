@@ -22,9 +22,9 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
 ### Configuration
 
 * **Motion** - Chooses the overall meteor movement style.
-* _Falling_ - Uses the selected direction.
-* _Random_ - Creates meteors within the min/max angle range.
-* _Explode_ - Sends meteors outward from the center.
+  * _Falling_ - Uses the selected direction.
+  * _Random_ - Creates meteors within the min/max angle range.
+  * _Explode_ - Sends meteors outward from the center.
 
 * **Direction** - The direction of movement of the meteors.
 
@@ -57,10 +57,10 @@ Creates an effect that simulates falling meteors. Can also be used to create an 
 ### Color
 
 * **Color Type** - Selects how colors are applied to the effect.
-* _Rainbow_ - Uses random colors on all meteors and their tails
-* _Range_ - Uses one solid color for each meteor. The colors are chosen from a range between the colors/gradients in the gradient list.
-* _Palette_ - Uses one solid color for each meteor. The colors are chosen from the specific colors/gradients in the gradient list. If the colors in the list are gradients, only the starting color is used.
-* _Gradient_ - Uses one gradient for each meteor. The gradients are chosen from the specific colors/gradients in the gradient list.
+  * _Rainbow_ - Uses random colors on all meteors and their tails
+  * _Range_ - Uses one solid color for each meteor. The colors are chosen from a range between the colors/gradients in the gradient list.
+  * _Palette_ - Uses one solid color for each meteor. The colors are chosen from the specific colors/gradients in the gradient list. If the colors in the list are gradients, only the starting color is used.
+  * _Gradient_ - Uses one gradient for each meteor. The gradients are chosen from the specific colors/gradients in the gradient list.
 
 * **Gradients:** The colors/gradient list used by the effect. See the color type above for how the colors/gradients are applied.
 

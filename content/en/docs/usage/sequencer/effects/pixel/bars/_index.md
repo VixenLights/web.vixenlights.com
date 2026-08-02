@@ -17,7 +17,7 @@ Creates an effect that animates bars on a display element.  This effect works th
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -28,26 +28,26 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 * **Direction** - Sets the direction of bar movement.
 
-* _Moves Up_ - The bars move in an upward direction.
-* _Moves Down_ - The bars move in a downward direction.
-* _Compress_ - The bars move in a motion that looks like they are compressing in the middle.
-* _Expands_ - The bars move outward from the center.
-* _Moves Left_ - The bars move from right to left.
-* _Moves Right_ - The bars move from left to right.
-* _Horizontal Compress_ - The bars move in a motion that looks like they are compressing in the middle.
-* _Horizontal Expand_ - The bars move outward from the display element center.
-* _Alternate Up_ - The bars move up in an alternating fashion.
-* _Alternate Down_ - The bars move down in an alternating fashion. 
-* _Alternate Left_ - The bars move left in an alternating fashion.
-* _Alternate Right_  - The bars move right in an alternating fashion.
-  
+  * _Moves Up_ - The bars move in an upward direction.
+  * _Moves Down_ - The bars move in a downward direction.
+  * _Compress_ - The bars move in a motion that looks like they are compressing in the middle.
+  * _Expands_ - The bars move outward from the center.
+  * _Moves Left_ - The bars move from right to left.
+  * _Moves Right_ - The bars move from left to right.
+  * _Horizontal Compress_ - The bars move in a motion that looks like they are compressing in the middle.
+  * _Horizontal Expand_ - The bars move outward from the display element center.
+  * _Alternate Up_ - The bars move up in an alternating fashion.
+  * _Alternate Down_ - The bars move down in an alternating fashion. 
+  * _Alternate Left_ - The bars move left in an alternating fashion.
+  * _Alternate Right_  - The bars move right in an alternating fashion.
+
 * **Rotation:** The rotation of the bars.  The bars can rotate in either direction using the following mapping to the curve:          
-    
-* 100 - 180 Degrees (Counter Clockwise)
-* 75 - 90 Degrees (Counter Clockwise)
-* 50 - No Rotation
-* 25 - 90 Degrees (Clockwise)
-* 0 - 180 Degrees (Clockwise)
+
+  * 100 - 180 Degrees (Counter Clockwise)
+  * 75 - 90 Degrees (Counter Clockwise)
+  * 50 - No Rotation
+  * 25 - 90 Degrees (Clockwise)
+  * 0 - 180 Degrees (Clockwise)
 
 * **Motion** - Determines the how the motion of the bars is controlled by selecting either _Iterations_ or _Speed_.
 

@@ -36,11 +36,11 @@ Creates an effect that resembles plasma. The style and motion of the plasma can 
 ## Color
 
 * **Color Type** - Selects between different methods to apply colors to the effect.
-* _Custom_ - Uses one or more gradients to set the colors.
-* _Red & Green_
-* _Green & Blue_
-* _Rainbow_
-* _Black & White_
+  * _Custom_ - Uses one or more gradients to set the colors.
+  * _Red & Green_
+  * _Green & Blue_
+  * _Rainbow_
+  * _Black & White_
 
 ---
 

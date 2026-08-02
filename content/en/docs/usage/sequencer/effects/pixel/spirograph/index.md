@@ -44,9 +44,9 @@ Inner Circle Radius: Sets the inner circle radius used to draw the spirograph sh
 ### Color
 
 * **Color Type** -  Chooses how colors are applied.
-* _Standard_ - Standard uses the selected colors by distance from center.  
-* _Rainbow_ - Rainbow generates random rainbow colors.  
-* _Random_ - Random picks randomly from the selected colors.
+  * _Standard_ - Standard uses the selected colors by distance from center.  
+  * _Rainbow_ - Rainbow generates random rainbow colors.  
+  * _Random_ - Random picks randomly from the selected colors.
 * **Gradients** - One or more colors used to shade the effect.
 
 ---

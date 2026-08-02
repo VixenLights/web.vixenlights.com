@@ -16,11 +16,11 @@ Creates an effect that produces waves on the display element.  This effect works
 ---
 
 ## String Setup
-    
+
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -34,12 +34,12 @@ Creates an effect that produces waves on the display element.  This effect works
 
 * **Wave Type** - Determines the type of waveform.
 
-* _Sine_ - Sinusoidal waveform.
-* _Triangle_ - Non-sinusoidal waveform named for its triangular shape.
-* _Square_ - Non-sinusoidal periodic waveform in which the amplitude alternates at a steady frequency between fixed minimum and maximum values, with the same duration at minimum and maximum.
-* _Decaying Sine_ - Sinusoidal waveform where the amplitude is decreasing over time.
-* _Fractal Ivey_ - Random growing ivey vine like growing pattern.
-* _Sawtooth_ - Non-sinusoidal waveform. It is named based on its resemblance to the teeth of a plain-toothed saw with a zero rake angle.
+  * _Sine_ - Sinusoidal waveform.
+  * _Triangle_ - Non-sinusoidal waveform named for its triangular shape.
+  * _Square_ - Non-sinusoidal periodic waveform in which the amplitude alternates at a steady frequency between fixed minimum and maximum values, with the same duration at minimum and maximum.
+  * _Decaying Sine_ - Sinusoidal waveform where the amplitude is decreasing over time.
+  * _Fractal Ivey_ - Random growing ivey vine like growing pattern.
+  * _Sawtooth_ - Non-sinusoidal waveform. It is named based on its resemblance to the teeth of a plain-toothed saw with a zero rake angle.
 
 
 * **Use Marks** - Enables the Mark Collection Name drop down to select a mark collection to determine when the Decaying Sine will bounce back to the normal amplitude.
@@ -48,9 +48,9 @@ Creates an effect that produces waves on the display element.  This effect works
 
 * **Movement Type** - Determines the movement of the waveform.
 
-* _Continuous_ - Continuous waveform that grows.
-* _Snake_ - Only portion of the waveform is shown which for sine wave type appears snake like.  Once the waveform reaches the edge of the display element it wraps around to the other side.
-* _Grow and Shrink_ - The waveform grows to the edge of the display and then shrinks back to the opposite edge of the display.
+  * _Continuous_ - Continuous waveform that grows.
+  * _Snake_ - Only portion of the waveform is shown which for sine wave type appears snake like.  Once the waveform reaches the edge of the display element it wraps around to the other side.
+  * _Grow and Shrink_ - The waveform grows to the edge of the display and then shrinks back to the opposite edge of the display.
 
 * **Snake Length** - Determines the length of the snake.  This setting is only applicable when the Movement Type is Snake.
 
@@ -59,10 +59,10 @@ Creates an effect that produces waves on the display element.  This effect works
 
 * **Direction** - Determines the direction of the waveform.  This setting allows for multiple waveforms to move in opposing directions.
 
-* _Left To Right_
-* _Right To Left_ 
-* _Top To Bottom_ 
-* _Bottom To Top_ 
+  * _Left To Right_
+  * _Right To Left_ 
+  * _Top To Bottom_ 
+  * _Bottom To Top_ 
 
 * **Mirror** - Mirrors the waveform across an imaginary y-axis.
 

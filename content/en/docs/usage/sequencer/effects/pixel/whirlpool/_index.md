@@ -31,33 +31,33 @@ Creates an effect that draws a whirlpool.  This effect works the best on a matri
   If the top level **Whirl Configuration** settings are modified, those changes are applied to all whirl panels.
 
 ---
-    
+
 ## Whirl Configuration
 
 * **Whirl Mode** - Determines if the whirls are drawn as continous rings, concentric rings, or as a meteor travelling the whirlpool path.
-* _Continuous Whirls_ - Draw a continuous whirl.
-* _Concentric Whirls_ - Draws concentrics rings to form the whirlpool.
-* _Meteor_ - Draws a meteor following the whirlpool path.
-    
+  * _Continuous Whirls_ - Draw a continuous whirl.
+  * _Concentric Whirls_ - Draws concentrics rings to form the whirlpool.
+  * _Meteor_ - Draws a meteor following the whirlpool path.
+
 * **Tail Length** - Determines the length of the meteor as a percentage of the display element.  Only applies when the **Whirl Mode** is set to *Meteor*.
 
 * **Rotation** - Configure the direction of rotation (Clockwise vs Counter-Clockwise) that the whirls are drawn.
-* _Clockwise_ - Whirls are drawn moving clockwise.
-* _Counter-Clockwise_ - Whirls are drawn moving clockwise.
+  * _Clockwise_ - Whirls are drawn moving clockwise.
+  * _Counter-Clockwise_ - Whirls are drawn moving clockwise.
 
 * **Start Location** - Controls the corner of the matrix where the whirls start from.
-* _Top Left_ - Whirls start in the upper left corner.
-* _Bottom Left_ - Whirls start in the bottom left corner.
-* _Top Right_ - Whirls start in the top right corner.
-* _Bottom Right_ - Whirls start in the bottom right corner.
+  * _Top Left_ - Whirls start in the upper left corner.
+  * _Bottom Left_ - Whirls start in the bottom left corner.
+  * _Top Right_ - Whirls start in the top right corner.
+  * _Bottom Right_ - Whirls start in the bottom right corner.
 
 * **Direction** -  Determines if the whirls are drawn moving *In*, moving *Out*, or *In and Out*.
-* _In_ - Draws the whirls moving in.
-* _Out_ - Draws the whirls moving out.
-* _In And Out_ - Draws the whirls moving in and then erases the whirls moving out.
+  * _In_ - Draws the whirls moving in.
+  * _Out_ - Draws the whirls moving out.
+  * _In And Out_ - Draws the whirls moving in and then erases the whirls moving out.
 
 * **Reverse Draw** - Reverses the drawing of the whirl.  The whirl is drawn complete and then is erased.
-  
+
 * **Spacing** - Controls the amount blank area between each whirl as a percentage of the display element.
 
 * **Thickness** - Controls the thickness of the whirl as a percentage of the display element.
@@ -100,10 +100,10 @@ Note if any of the top level **Whirl Configuration** settings are changed those 
 ### Color
 
 * **Color Mode** - Controls how color is applied to the whirlpool.
-* _Single Color_ - Applies a single color gradient to the whirlpool over the duration of the effect.
-* _Side Colors_ - Applies a unique color gradient to each side over the duration of the effect of the whirlpool.
-* _Color Rings_ - Iterates over a collection of color gradients and draws each ring with a separate color gradient over the duration of the effect.
-* _Color Bands_ - Applies a collection of colors to the whirlpool by drawing a small band of the whirlpool in each color.
+  * _Single Color_ - Applies a single color gradient to the whirlpool over the duration of the effect.
+  * _Side Colors_ - Applies a unique color gradient to each side over the duration of the effect of the whirlpool.
+  * _Color Rings_ - Iterates over a collection of color gradients and draws each ring with a separate color gradient over the duration of the effect.
+  * _Color Bands_ - Applies a collection of colors to the whirlpool by drawing a small band of the whirlpool in each color.
 
 
 * **Color** - Color gradient applied to the whirlpool when in *Single Color* color mode.

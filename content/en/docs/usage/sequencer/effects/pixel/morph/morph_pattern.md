@@ -20,9 +20,9 @@ Once in Free Form mode the user can configure settings on each of the shapes ind
 
 * **Fill Type** - Determines how the shape (polygon/ellipse/line) is filled (Wipe, Solid, or Outline).
 
-* _Wipe_ - This fill type performs a wipe effect across the shape for the duration of the effect. The wipe is colored with head and tail color gradient.
-* _Solid_ - This fill type fills the shape using the Polygon Color gradient. This fill type is useful for when using the shape as a layering mask.
-* _Outline_ - This fill type outlines the shape using the Polygon Color gradient.
+  * _Wipe_ - This fill type performs a wipe effect across the shape for the duration of the effect. The wipe is colored with head and tail color gradient.
+  * _Solid_ - This fill type fills the shape using the Polygon Color gradient. This fill type is useful for when using the shape as a layering mask.
+  * _Outline_ - This fill type outlines the shape using the Polygon Color gradient.
 
 * **Edit Polygons** - Select this button to display the polygon editor to draw polygons, ellipses and lines on the display element.
 
