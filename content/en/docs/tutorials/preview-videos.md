@@ -5,18 +5,18 @@ weight: 50
 description: This section contains tutorials related to the Preview.
 ---
 
-### Linking Elements
+## Linking Elements
 
-{{< youtube KElcj88nqW0>}}
+{{< youtube id="KElcj88nqW0" title="Linking Elements">}}
 
-### Creating a Star
+## Creating a Star
 
-{{< youtube -gfuD0yl4Qw>}}
+{{< youtube id="-gfuD0yl4Qw" title="Creating a Star">}}
 
-### Intelligent Fixtures
+## Intelligent Fixtures
 
-{{< youtube 3wQTXoXmWCY>}}
+{{< youtube id="3wQTXoXmWCY" title="Intelligent Fixtures">}}
 
-### Custom Prop Editor
+## Custom Prop Editor
 
-{{< youtube w6p6gcqfBTA>}}
+{{< youtube id="w6p6gcqfBTA" title="Custom Prop Editor">}}
