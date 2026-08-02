@@ -95,6 +95,6 @@ If it is across the element, it will appear that the text travels through the co
 
 #### Video Tutorial
 
-{{< video src="/images/docs/usage/sequencer/effects/pixel/text/Text.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
+{{< video src="Text.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 
 {{< youtube Vo4AI6vNi-0>}}
