@@ -1,0 +1,57 @@
+<script>
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest('a[data-download-type]');
+    if (!link) return;
+    if (typeof gtag !== 'function') return;
+
+    const url = new URL(link.href, window.location.href);
+    gtag('event', 'file_download', {
+      'file_name': url.pathname.split('/').pop(),
+      'link_url': link.href,
+      'link_domain': url.hostname,
+      'build_type': link.dataset.downloadType,
+      'bitness': link.dataset.bitness,
+      'version': link.dataset.version,
+      'page_path': window.location.pathname
+    });
+  });
+</script>
+
+{{ if hugo.IsProduction -}}
+<div id="consent-banner" class="d-print-none" role="region" aria-label="Cookie consent"
+     style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:1050; background:#212529; color:#fff; padding:1rem;">
+  <div class="container d-flex flex-wrap align-items-center justify-content-between gap-3">
+    <p class="mb-0 me-3">
+      We use Google Analytics to understand how the site is used. See our
+      <a href="{{ .Site.Params.privacy_policy }}" class="text-white text-decoration-underline">privacy policy</a>.
+    </p>
+    <div class="d-flex gap-2">
+      <button id="consent-decline" type="button" class="btn btn-outline-light btn-sm">Decline</button>
+      <button id="consent-accept" type="button" class="btn btn-primary btn-sm">Accept</button>
+    </div>
+  </div>
+</div>
+<script>
+  (function() {
+    const banner = document.getElementById('consent-banner');
+    if (!banner) return;
+
+    let stored;
+    try { stored = localStorage.getItem('consent-analytics'); } catch (e) {}
+    if (!stored) banner.style.display = 'block';
+
+    document.getElementById('consent-accept').addEventListener('click', () => {
+      try { localStorage.setItem('consent-analytics', 'granted'); } catch (e) {}
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', { 'analytics_storage': 'granted' });
+      }
+      banner.style.display = 'none';
+    });
+
+    document.getElementById('consent-decline').addEventListener('click', () => {
+      try { localStorage.setItem('consent-analytics', 'denied'); } catch (e) {}
+      banner.style.display = 'none';
+    });
+  })();
+</script>
+{{ end -}}

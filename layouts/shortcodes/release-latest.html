@@ -6,13 +6,13 @@
         {{ range $release.assets }}
             {{ if strings.HasSuffix .name "64bit.exe" }}
                 <p class="card-text">64 bit Release Build</p>
-                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="production" data-bitness="64bit" data-version="{{ $release.name }}">{{ .name }}</a></p>
             {{ end }}
         {{ end }}
         {{ range $release.assets }}
             {{ if strings.HasSuffix .name "32bit.exe" }}
                 <p class="card-text">32 bit build for older computers. This will likely be phased out in 2023.</p>
-                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}">{{ .name }}</a></p>
+                <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="production" data-bitness="32bit" data-version="{{ $release.name }}">{{ .name }}</a></p>
             {{ end }}
         {{ end }}
     </div>
