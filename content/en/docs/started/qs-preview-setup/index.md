@@ -9,6 +9,10 @@ description: Display Setup.
 
 The first step in creating a new display is to tell Vixen about the elements in your display. There are two main areas that drive the setup of your display. The Preview Setup and the Display setup. In older versions of Vixen this would start in the Display Setup, but in the current versions, you should begin in the Preview Setup.
 
+When you launch Vixen, you are presented with the main screen. From here you can open a sequence, setup your display, setup your preview, and see a list of your recent sequences.
+
+![Main Screen](main-screen.png "Main Screen")
+
 ### Preview Setup
 
 From the main screen launch into the Preview Setup using the Setup Previews button. If this is your first time you will be presented with the preview setup screen.
