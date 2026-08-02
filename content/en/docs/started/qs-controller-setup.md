@@ -5,7 +5,7 @@ weight: 50
 description: Controller Setup.
 ---
 
-### Overview
+## Overview
 
 Hopefully by now you have made your first sequence and seen the visulaization of it play on a basic prop. You can create entire sequences and a whole show to visualize without ever needing to setup any controllers. But at some point you will want to see your hard work on some real props. At that point you will need to setup some controllers and connect your Props to the controlers. This is done by a process called patching.
 

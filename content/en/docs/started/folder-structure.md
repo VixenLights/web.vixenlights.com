@@ -5,7 +5,7 @@ weight: 25
 description: An Introduction to Profiles.
 ---
 
-### Overview
+## Overview
 
 In Vixen we try to think of things in terms of a show or display. This tends to organize around something like a Christmas display or a Hallowen display, but can really be any logical project you want to define. The artifacts are stored in what we call a Profile. In the simplest terms, when you first launch Vixen, it will create a default profile for you. The files for the layout of your display, the sequences, the audio and media you use are all stored in this profile. By default the folder for the profile is under the users My Documents folder called Vixen 3. C:\Users\{user}\Documents\Vixen 3.
 

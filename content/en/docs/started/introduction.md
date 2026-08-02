@@ -5,7 +5,7 @@ weight: 1
 description: An Introduction to Vixen.
 ---
 
-### Overview
+## Overview
 
 The Vixen project is dedicated to creating a better creative experience in putting on your own animated lighting display. Whether that is a holiday display, theatrical, or some other project, Vixen can provide the tools to make that experience sucessful. It has a modern UI with an intuitive sequencing workflow that can facilitate the rapid creation of content. It supports all the mainstream hardware and protocols.
 

@@ -5,7 +5,7 @@ weight: 30
 description: Display Setup.
 ---
 
-### Overview
+## Overview
 
 The first step in creating a new display is tell Vixen about the elements in your display. There are two main areas that drive the setup of your display. The Preview Setup and the Display setup. In older versions of Vixen this would start in the Display Setup, but in the current versions, you should begin in the Preview Setup.
 

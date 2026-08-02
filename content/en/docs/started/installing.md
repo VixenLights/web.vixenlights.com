@@ -5,7 +5,7 @@ weight: 20
 description: Installation instructions.
 ---
 
-### Overview
+## Overview
 
 **All Windows 7/8 support ceased in 2020. Windows 8.1 will have limited support.**
 
@@ -17,27 +17,20 @@ Setting your computer's power and performance settings to Maximum Performance is
 
 ### Which Version Do I Install?
 
-Vixen is available as either a 32 bit or a 64 bit application.
-
-* If you're running a 64 bit version of windows 8.1 or greater you should download and install the x64 package.
-* If you're running a 32 bit version of windows, download and install the x32 package. The 32 bit version will likely be phased out in 2023.
-
-The benefit of the 64 bit version is that it is able to make use of more system memory.  32 bit applications are limited to less than 3GB of memory.  If you are using a PC with more than 3GB of RAM, the 64 bit version will allow you use more of your available system memory to make the lights go blinky flashy.  This results in a faster, smother sequencing experience with less lag time. The 32 bit version will in fact work on an x64 version of windows, but if you've got 64 bit windows, why not use it.
+Vixen is only available as a 64 bit application. The 32 bit version were discontinued in 2023.
 
 ### System Requirements
 
 #### Display with less than 2000 hardware controller channels
 
-* Windows 10 or greater.
-* 64 bit version of Vixen 3 or 32 bit if your system does not support 64 bit.
+* Windows 11 or greater.
 * Dual Core processor. 2.0Ghz per core.  Intel Core 2 Duo or newer.
 * 4 GB RAM or more
 * 1024 x 768 (XGA) or greater video monitor
 
 #### Display with more than 2000 hardware controller channels
 
-* Current Windows 10 or greater. 64 bit version.
-* 64 bit version of Vixen 3.
+* Current Windows 11 or greater.
 * Multi Core processor. 2.8Ghz per core Intel Core i5 or greater.
 * 8+ GB RAM.
 * Ample hard drive space. Multiple profiles can take up several hundred megabytes.

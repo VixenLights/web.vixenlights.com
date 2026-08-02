@@ -5,7 +5,7 @@ weight: 30
 description: Creating your first sequence.
 ---
 
-### Overview
+## Overview
 
 This section will walk you through creating your first sequence. If you have not done the basic display setup, see the getting started section on [Display Setup][1]. Getting started with creating a simple sequence is very straight forward.
 
