@@ -8,7 +8,7 @@ aliases: [/vixen-3-documentation/preview/how-to/linking-elements/]
 
 ## Overview
 
-Linking in the Preview is the act of assigning an Element to the light node that it represets. Much of this can be automated when adding Props to the Preview, but sometimes you may need to do it manually. In the Proerties section of a Prop shape is a entry called Linked Elements that can be used to edit the linkage.
+Linking in the Preview is the act of assigning an Element to the light node that it represents. Much of this can be automated when adding Props to the Preview, but sometimes you may need to do it manually. In the Properties section of a Prop shape is an entry called Linked Elements that can be used to edit the linkage.
 
 ### Usage Notes
 
@@ -22,4 +22,4 @@ Linking in the Preview is the act of assigning an Element to the light node that
 
 ### Video Tutorial
 
-{{< youtube KElcj88nqW0>}}
+{{< youtube id="KElcj88nqW0" title="Linking Elements">}}

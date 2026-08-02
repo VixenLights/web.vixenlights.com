@@ -24,7 +24,7 @@ Light strings are defined by two points, Point1 and Point2 which are located on 
 
 Use the ![Rectangle button](draw-rectangle.png) button. A rectangle is basically four strings of lights that are attached at each corner. Once the rectangle is placed, each corner can be individually moved so that it no longer keeps its rectangular shape.
 
-To maintain a rectangular shape when adjusting it's size, hold down the Ctrl key while moving the bottom, right corner.
+To maintain a rectangular shape when adjusting its size, hold down the Ctrl key while moving the bottom, right corner.
 
 ### Ellipse
 
@@ -42,4 +42,4 @@ Hold Ctrl while resizing the shape to maintain the triangle as an isosceles tria
 
 ### Multi String
 
-The Multi String is used to draw more complex light strings that are not just in a single straight line. They contan multiple points and line segments that join those points together. They can be **Standard** or **Pixel** strings. This can be used for rooflines and other shapes that change directions. You click to start the string and then hover the string out to the location it should change directions. Click again and the segment will hold and you can hover to the next location to click and set that segment. Once you are done, usethe ESC key to end the drawing.
+The Multi String is used to draw more complex light strings that are not just in a single straight line. They contain multiple points and line segments that join those points together. They can be **Standard** or **Pixel** strings. This can be used for rooflines and other shapes that change directions. You click to start the string and then hover the string out to the location it should change directions. Click again and the segment will hold and you can hover to the next location to click and set that segment. Once you are done, use the ESC key to end the drawing.

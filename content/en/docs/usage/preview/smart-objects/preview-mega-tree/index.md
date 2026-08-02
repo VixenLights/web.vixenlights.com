@@ -13,7 +13,7 @@ A Mega Tree can be either **Pixel** based or **Standard** string based. A pixel 
 
 **Start in the Preview instead of in Display Setup as you may have done in the past.**
 
-You can add a Mega Tree using the wizard buy clicking the Mega Tree icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Mega Tree and drag from upper left to lower right. This will create a basic Mega Tree shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Mega Tree.
+You can add a Mega Tree using the wizard by clicking the Mega Tree icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Mega Tree and drag from upper left to lower right. This will create a basic Mega Tree shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Mega Tree.
 
 ![Mega Tree Wizard](mega-tree-std-setup.png)
 
@@ -21,7 +21,7 @@ In this dialog, you will provide the name for your Mega Tree. It defaults to Meg
 
 The next choice is to determine if you have a pixel tree or an analog tree of traditional light strings. If yours is a **Pixel** tree, then check the Pixel Tree box. You will then choose the number of pixels on each string and the pixel name prefix. The default is 50 nodes. Adjust the count to match your setup. If you have a **Standard** light tree, then skip over the pixel count.
 
-The next section concerns the startign location for the wiring on your tree. Typical is the bottom left. If yo uare using zig zag strings, then set the option for Zig Zag and enter the number of pixels in each Zig Zag. This is only if you are not setting up the Zig Zag in hardware. This will affect the patching to compensate for hardware that cannot do Zig Zag or if you choose to do it in software istead. It will setup a patching order, so you can just patch it straight through on the Display Setup screen. This does not generally apply to **Standard** light trees.
+The next section concerns the starting location for the wiring on your tree. Typical is the bottom left. If you are using zig zag strings, then set the option for Zig Zag and enter the number of pixels in each Zig Zag. This is only if you are not setting up the Zig Zag in hardware. This will affect the patching to compensate for hardware that cannot do Zig Zag or if you choose to do it in software instead. It will setup a patching order, so you can just patch it straight through on the Display Setup screen. This does not generally apply to **Standard** light trees.
 
 Setup for a **Pixel** Tree
 
@@ -39,7 +39,7 @@ There are two different ways to add a mega-tree to the preview display. You can 
 
 If you have already taken the time to define your element groupings, then you can save a lot of time vs linking the tree manually to elements.
 
-Sometimes, it is nice to just start drawing& on the screen to test your ideas and plan the props you may want to add to your display. In this case, you might just want to play around with placement of objects that you may or may not have created in your element tree. Vixen allows you do place items on the preview without pre-linking them to elements.
+Sometimes, it is nice to just start drawing on the screen to test your ideas and plan the props you may want to add to your display. In this case, you might just want to play around with placement of objects that you may or may not have created in your element tree. Vixen allows you do place items on the preview without pre-linking them to elements.
 
 Method 1: Auto-Linking Elements
 
@@ -66,7 +66,7 @@ After the tree is drawn, there are many options that can be set to adjust the lo
 
 Click on the Setup button to link elements to the strings in the Mega Tree. Elements are linked to the mega tree in the [Element Links Screen][1].
 
-## String Type
+### String Type
 
 See the [common settings][2] section for more information.
 
@@ -76,7 +76,7 @@ See the [common settings][2] section for more information.
 
 ### String Count
 
-The string count is the total number of visible strings you have in your mega tree. If you&#8217;ve got a 180 degree mega tree and you want 10 strings, set the string count to 10.
+The string count is the total number of visible strings you have in your mega tree. If you've got a 180 degree mega tree and you want 10 strings, set the string count to 10.
 
 ### Lights per String
 
@@ -88,7 +88,7 @@ A mega tree is made up of a top ellipse and a bottom ellipse connected by light 
 
 ### Top Width
 
-A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the width of the top ellipse. It can be as small as 1 or as large as you want. It can even be larger than the base if that&#8217;s the way you want it.
+A mega tree is made up of a top ellipse and a bottom ellipse connected by light strings. This is the width of the top ellipse. It can be as small as 1 or as large as you want. It can even be larger than the base if that's the way you want it.
 
 ### Base Height
 

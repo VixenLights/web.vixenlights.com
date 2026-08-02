@@ -12,7 +12,7 @@ Icicles can be either **Pixel** based or **Standard** string based. Pixel Icicle
 
 **Create Icicles in the Preview instead of in Display Setup as you may have done in the past.**
 
-You can add Icicles using the wizard buy clicking the Snowflake icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to Iciclest the Icicles and drag from upper left to lower right. This will create a basic Icicles shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Icicles.
+You can add Icicles using the wizard by clicking the Snowflake icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Icicles and drag from upper left to lower right. This will create a basic Icicles shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Icicles.
 
 ![Icicles Wizard](icicles-setup.png)
 

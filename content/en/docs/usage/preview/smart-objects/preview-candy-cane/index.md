@@ -13,13 +13,13 @@ A Candy Cane can be either **Pixel** based or **Standard** string based. A pixel
 
 **Start in the Preview instead of in Display Setup as you may have done in the past.**
 
-You can add a Candy Cane using the wizard buy clicking the Candy Cane icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Candy Cane and drag from upper left to lower right. This will create a basic Candy Cane shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Candy Cane.
+You can add a Candy Cane using the wizard by clicking the Candy Cane icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Candy Cane and drag from upper left to lower right. This will create a basic Candy Cane shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Candy Cane.
 
 ![Candy Cane Wizard](candy-cane-setup.png)
 
-In this dialog, you will provide the group name for your Candy Cane. It defaults to CandyCane, but if you are adding multiples, you will want to name them CandyCane-1, CandyCane-2, etc. The next entry is the name the segments will be called. This defaults to CandyCane Px. If you are adding multiple Candy Canees, you would name this CandyCane-1 Px or CandyCane-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example CandyCane-1 Px-1, CandyCane-1 Px-2.
+In this dialog, you will provide the group name for your Candy Cane. It defaults to CandyCane, but if you are adding multiples, you will want to name them CandyCane-1, CandyCane-2, etc. The next entry is the name the segments will be called. This defaults to CandyCane Px. If you are adding multiple Candy Canes, you would name this CandyCane-1 Px or CandyCane-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example CandyCane-1 Px-1, CandyCane-1 Px-2.
 
-Last is the number of segments. If this is a **Pixel** Candy Cane it would be the number of pixels. If it is a *Standard** Candy Cane wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
+Last is the number of segments. If this is a **Pixel** Candy Cane it would be the number of pixels. If it is a **Standard** Candy Cane wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
 
 Once you select Ok, the next step will be whether to add a Dimming Curve or not. See the section on [Dimming Curves][3]
 
@@ -31,15 +31,13 @@ After setting the Color Handling, the Candy Cane will be completed and the eleme
 
 [See Linking Elements][1]
 
-### Properties
-
 ### Position
 
 See Position in [Common Settings][2]
 
 ### Light Count
 
-For an Candy Cane, this is commonly the number of segments in the Candy Cane. If your Candy Cane has 25 pixel segments, it will be 25. If you have 9 segments of analog lights, the number will be 9.
+For a Candy Cane, this is commonly the number of segments in the Candy Cane. If your Candy Cane has 25 pixel segments, it will be 25. If you have 9 segments of analog lights, the number will be 9.
 See Light Count in [Common Settings][2]
 
 ### Light Size

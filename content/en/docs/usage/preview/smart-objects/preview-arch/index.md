@@ -12,13 +12,13 @@ An arch can be either **Pixel** based or **Standard** string based. A pixel arch
 
 **Start in the Preview instead of in Display Setup as you may have done in the past.**
 
-You can add an Arch using the wizard buy clicking the Rainbow icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Arch and drag from upper left to lower right. This will create a basic ARch shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Arch.
+You can add an Arch using the wizard by clicking the Rainbow icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Arch and drag from upper left to lower right. This will create a basic Arch shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Arch.
 
 ![Arch Wizard](arch-setup.png)
 
 In this dialog, you will provide the group name for your Arch. It defaults to Arch, but if you are adding multiples, you will want to name them Arch-1, Arch-2, etc. The next entry is the name the segments will be called. This defaults to Arch Px. If you are adding multiple Arches, you would name this Arch-1 Px or Arch-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example Arch-1 Px-1, Arch-1 Px-2.
 
-Last is the number of segments. If this is a **Pixel** Arch it would be the number of pixels. If it is a *Standard** Arch wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
+Last is the number of segments. If this is a **Pixel** Arch it would be the number of pixels. If it is a **Standard** Arch wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
 
 Once you select Ok, the next step will be whether to add a Dimming Curve or not. See the section on [Dimming Curves][3]
 
@@ -42,7 +42,7 @@ Steps:
   6. Click on the ... next to Linked Elements
   7. Assign your first arch element to the first item multiple (in our example, the first 4 pixels).
   8. Assign each successive multiple (in our example above, 4 pixels) to the same element.
-  9. That's it, your done.
+  9. That's it, you're done.
 
 ### Linking a Pixel Arch to existing Elements
 
@@ -51,8 +51,6 @@ This is much easier than adding a standard arch. Just click on your arch group i
 ### Linking Elements
 
 [See Linking Elements][1]
-
-### Properties
 
 ### Position
 

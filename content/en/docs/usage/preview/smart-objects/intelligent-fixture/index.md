@@ -5,7 +5,7 @@ description: This section covers using the Intelligent Fixture Smart object.
 aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-objects/intelligent-fixture']
 ---
 
-### Overview
+## Overview
 
 Intelligent Fixtures are only supported in the OpenGL Preview due to performance and the need for 3D rendering capability.
 
@@ -23,7 +23,7 @@ If the intelligent fixtures do not exist in the Display Setup perform the follow
 
 Once the Intelligent Fixture graphics have been created the following Intelligent Fixture Properties may be adjusted. Select the fixture by clicking on it in the Preview area.
 
-### Beam Properties
+## Beam Properties
 
 * **Beam Length** - Percentage of the background height. If a background image is not being used then the beam length is the percentage of the height of the preview window. Note percentages greater than 100 are allowed.
 
@@ -31,13 +31,13 @@ Once the Intelligent Fixture graphics have been created the following Intelligen
 
 * **Beam Width Multiplier** - Determines the beam width at the top of the beam. The multiplier is multiplied times the base width to determine the top width.
 
-### Color Wheel Properties
+## Color Wheel Properties
 
 * **Color Wheel Rotation Speed Maximum (s)** - The time in seconds it takes the color wheel to make a complete rotation when configured to the fastest setting.
 
 * **Color Wheel Rotation Speed Minimum (s)** - The time in seconds it takes the color wheel to make a complete rotation when configured to the slowest setting.
 
-### Pan Properties
+## Pan Properties
 
 * **Invert Pan Direction** - Changes the start point of the pan by 180 degrees and inverts the direction of movement. This setting is often used with **Top** (upside down) mounting position.
 
@@ -47,19 +47,19 @@ Once the Intelligent Fixture graphics have been created the following Intelligen
 
 * **Pan Stop Position (Degrees)** - The stop position defines the maximum range of movement. This value helps ensure the Preview matches the movement of the actual hardware.
 
-### Position Properties
+## Position Properties
 
-The following cooordinate properties define a rectangle determing the preview drawing area for the Intelligent Fixture.
+The following coordinate properties define a rectangle determining the preview drawing area for the Intelligent Fixture.
 
 * **Bottom Left** - Bottom left coordinate of the drawing area.
 
 * **Bottom Right** - Bottom right coordinate of the drawing area.
 
-* **Top Left** -Top left coordinate of the drawing area.
+* **Top Left** - Top left coordinate of the drawing area.
 
 * **Top Right** - Top right coordinate of the drawing area.
 
-### Settings
+## Settings
 
 * **Linked Element** - Determines the Intelligent Fixture element the graphic is linked to. Selecting the **...** button allows you to pick an Intelligent Fixture element. 
 
@@ -71,9 +71,9 @@ The following cooordinate properties define a rectangle determing the preview dr
 
 * **Zoom Narrow To Wide** - Indicates whether the fixture zooms from a narrow beam to a wide beam or vice-versa.
 
-### Strobe Properties
+## Strobe Properties
 
-* **Maximum Strobe Duration** - Determines the maximum amount of time an intelligent fixture's beam will be active in the preview when it's shutter is in strobe mode.
+* **Maximum Strobe Duration** - Determines the maximum amount of time an intelligent fixture's beam will be active in the preview when its shutter is in strobe mode.
 This time may be reduced depending on the strobe interval time such that the beam is ON (active) for 25% of the interval.
 This property should be configured to allow the preview to simulate the actual strobe duration of the physical hardware.
 
@@ -84,7 +84,7 @@ This property should be configured to allow the preview to simulate the actual s
 This property should be configured to allow the preview to simulate the actual strobe rate of the physical hardware.
 
 
-### Tilt Properties
+## Tilt Properties
 
 * **Invert Tilt Direction** - Swaps the start position with the stop position and inverts the direction of movement. This setting is often used with **Top** (upside down) mounting position.
 
@@ -94,6 +94,6 @@ This property should be configured to allow the preview to simulate the actual s
 
 * **Tilt Stop Position (Degrees)** - Defines the maximum range of tilt movement. This value helps ensure the Preview matches the movement of the actual hardware.
 
-### Video Tutorial
+## Video Tutorial
 
-{{< youtube 3wQTXoXmWCY>}}
+{{< youtube id="3wQTXoXmWCY" title="Intelligent Fixtures">}}
