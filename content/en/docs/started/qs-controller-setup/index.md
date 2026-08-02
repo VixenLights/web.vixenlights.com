@@ -23,19 +23,19 @@ You now have a controller in the list on the right hand column. You can click th
 
 This will need to match your controller setup. In this case we will assume you are using universe 1, our prop starts on channel 1 and we are going to have just 75 channels to match our Arch. Change the 510 in the last column to 75. Click the green plus at the bottom and set the IP Address of the controller. You should see something similar to this.
 
-![Universe Setup Screen](/images/docs/getting-started/universe-setup.png "Universe Setup Screen")
+![Universe Setup Screen](universe-setup.png "Universe Setup Screen")
 
 If it looks right, then click Ok. If you now expand the plus in front of the controller you will see the universes mapped to the outputs. The dots will be grey, indicating that nothing is patched to them.
 
-![Controller Unpatched Universes](/images/docs/getting-started/controller-unpatched.png "Controller Unpatched Universes")
+![Controller Unpatched Universes](controller-unpatched.png "Controller Unpatched Universes")
 
 Now I want to patch my Arch to this controller. I select the Arch in the left column and the controller in the right column. In the middle section I now see I have 75 total patch points on the selected elements (Arch Prop) and 75 outputs on the selected controller, so everything matches. The big Patch button is enabled in the bottom of the middle section and it indicates it is going to patch 75 element patch points to 75 controller outputs.
 
-![Ready to Patch](/images/docs/getting-started/ready-to-patch.png "Ready to Patch")
+![Ready to Patch](ready-to-patch.png "Ready to Patch")
 
 Click the Patch button. It will prompt a dialog indicating the patch details. Now if I expand my Arch, and the controller I see all green dots indicating they are connected.
 
-![Controller Patched](/images/docs/getting-started/patched-controller.png "Controller Patched")
+![Controller Patched](patched-controller.png "Controller Patched")
 
 Click Ok on display setup and then you can play your sequence. If everything is properly configured on the controller, you should see lights working when the effects are played.
 

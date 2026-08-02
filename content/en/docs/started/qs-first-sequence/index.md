@@ -15,19 +15,19 @@ The sequencer is where you will spend the majority of your time. This is where y
 
 In addition to the Timeline, there are two other windows we will focus on while getting started. The Effect window and the Effect Editor window. The Effect window contains all the effects Vixen has to use on your props. It should be visible on the left side by default. If it is not, you can use the View -> Effects Window and ensure that is it checked. This window lists all the [Effects][8] and groups them by type. The most common types are [Basic Lighting][4] and [Pixel Lighting][5]. You can learn more about each type in the linked sections. There are two other types for controlling specialized [Devices][6] and [Intelligent Fixtures][7]. You will also want to ensure that the [Effect Editor][11] window is also visible. This defaults to being on the right side of the window.
 
-![Effect Window](/images/docs/getting-started/effect-window.png "Effect Window")
+![Effect Window](effect-window.png "Effect Window")
 
 The effects can also be accessed via an optional toolbar. Under View -> Toolbars, select Effects and ensure it is checked. It will look something like the following and can be customized to have labels or not.
 
-![Effect Toolbar](/images/docs/getting-started/effect-toolbar.png "Effect Toolbar")
+![Effect Toolbar](effect-toolbar.png "Effect Toolbar")
 
 Now that you have some familiarity with how to access the effects, let's add a basic effect to our Arch. From either the Toolbar, or the Effect window, click and drag the [Set Level][9] effect onto the row for the Arch in the Timeline. You can place it anywhere in the visible space under the [Time Ruler][10]. It will create a 2 second long effect that sets the Arch to a white color. The effect should be selected by default as indicated by a dotted line around it. If it is not selected, there will be a solid black line around it instead. Just click on the effect and it will become selected.
 
-![Set Level Effect](/images/docs/getting-started/set-level.png "Set Level Effect")
+![Set Level Effect](set-level.png "Set Level Effect")
 
 After dropping the effect, your window should look something like the following.
 
-![Effect On Arch](/images/docs/getting-started/effect-on-arch.png "Set Level Effect on Arch")
+![Effect On Arch](effect-on-arch.png "Set Level Effect on Arch")
 
 The [Effect Editor][11] allows you to change the settings of how the effect behaves. It allows you to edit the selected effect's behavior. The [Set Level][9] is the most basic of effects, so it only has two settings: the color and the intensity. Use the slider to change the intensity. It varies from 0 - 100 percent. If you set it to 50 percent, you will see the white bar for the effect change in brightness to reflect the lower intensity. As you drag the slider, a tooltip will indicate the value it is set to. To change the color, double click on the white square in the Effect Editor. A color picker window will appear and allow you to select the color you want. Since this is a pixel prop, any color is available. There are presets for the common RGBW colors, or you can enter RGB or HSV values. You can also use the color box to select with your mouse. Once you select Ok, your new color will be reflected in the color square and the effect will render and show the new color as well. If you want more information on the effect, you can click the question mark icon or the More Info link in the Effect Editor. It will navigate you to the proper section in the online documentation.
 
@@ -35,7 +35,7 @@ The [Effect Editor][11] allows you to change the settings of how the effect beha
 
 Let's add another effect. This time drag the [Pulse][12] effect onto the timeline somewhere after the Set Level. It looks similar to the Set Level, but this effect allows you to change the intensity and/or the color over the span of the effect. You will notice that the Effect Editor has some different controls for this effect. The editor adapts the controls based on the type of effect selected.
 
-![Pulse Effect Editor](/images/docs/getting-started/pulse-editor.png "Pulse Effect on Arch")
+![Pulse Effect Editor](pulse-editor.png "Pulse Effect on Arch")
 
 For this effect, the Intensity control is now a rectangle with a diagonal line on it. This indicates the effect will ramp up from 0 to 100 in intensity. You can see this reflected in the effect with the white color getting brighter along the time span of the effect. How the intensity behaves is controlled by what is called a [Curve][13]. There are two ways to edit the Curve. The most convenient is the [Inline Curve Editor][14] that you see in the Effect Editor. For this example, hover your mouse over the top right side of the diagonal line where it meets the edge. There is a dot there indicating the 100 percent point. When you hover over it, it will change to a cross cursor, and you can click and drag it down. Drag it down along the right edge to about half way. Again you will see a tooltip indicating the coordinates of the point. For this example you are looking for something near 100, 50. The 100 is the position in time, and the 50 is the intensity value. The diagonal line will follow your drag motions. Once you release the mouse the effect will render and you will see the ending intensity of the effect is now lower. There can be many points across the curve to give it infinite shapes. Curves are very powerful for shaping the behaviors of effects. They are common across most of the effects. See the section on [Curves][13] for more information.
 
