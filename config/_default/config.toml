@@ -66,12 +66,12 @@ id = "G-96PKHB28ZQ"   # Test id
 
 [languages]
   [languages.en]
+    label = "English"
+    # Weight used for sorting.
+    weight = 1
     [languages.en.params]
       title = "Vixen Lights"
       description = "Website for Vixen Lights Software"
-      languageName ="English"
-      # Weight used for sorting.
-      weight = 1
 
 [markup]
   [markup.goldmark]
@@ -91,6 +91,7 @@ id = "G-96PKHB28ZQ"   # Test id
 # Comment out if you don't want the "print entire section" link enabled.
 [outputs]
 section = ["HTML", "print", "RSS"]
+home = ["HTML", "RSS", "LLMS"]
 
 [params]
 copyright = "The Vixen Team"
