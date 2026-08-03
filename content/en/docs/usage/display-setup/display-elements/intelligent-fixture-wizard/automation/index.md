@@ -6,7 +6,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 weight: 50 
 ---
 
-![Automation](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Automation.png)
+![Automation](Automation.png)
 
 ---
 ## Background

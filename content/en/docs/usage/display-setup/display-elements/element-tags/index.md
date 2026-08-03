@@ -37,6 +37,6 @@ Display Setup and Preview Setup never hide elements based on their tags — ever
 
 Choose **Tags > Manage Tag Colors...** from the context menu to open the Element Tag Manager. It lists the built-in tags with a color swatch for each — click a swatch to choose a new color, then save. Color changes apply everywhere tags are shown: Display Setup, Preview Setup, and the Sequencer.
 
-![Manage Tag Colors dialog](/images/docs/usage/display-setup/display-elements/element-tags/Element-Tag-Manager.png "Element Tag Manager")
+![Manage Tag Colors dialog](Element-Tag-Manager.png "Element Tag Manager")
 
 Tag assignments and any tag color changes made from Display Setup or Preview Setup are saved along with the rest of your changes when you save and close that editor, the same as any other edit made there.

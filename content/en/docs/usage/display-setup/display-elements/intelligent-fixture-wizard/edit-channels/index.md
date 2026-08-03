@@ -6,7 +6,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 weight: 30 
 ---
 
-![EditChannels](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/EditChannels.png)
+![EditChannels](EditChannels.png)
 
 ---
 ## Background

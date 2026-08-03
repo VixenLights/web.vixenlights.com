@@ -6,7 +6,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 weight: 70 
 ---
 
-![Grouping](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Grouping.png)
+![Grouping](Grouping.png)
 
 ---
 ## Background

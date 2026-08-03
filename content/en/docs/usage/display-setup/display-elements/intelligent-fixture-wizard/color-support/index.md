@@ -6,7 +6,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 weight: 40 
 ---
 
-![ColorSupport](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/ColorSupport.png)
+![ColorSupport](ColorSupport.png)
 
 ---
 ## Background

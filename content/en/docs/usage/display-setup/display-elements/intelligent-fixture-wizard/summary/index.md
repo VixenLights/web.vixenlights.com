@@ -6,7 +6,7 @@ weight: 80
 aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/intelligent-fixture-wizard/summary/]
 ---
 
-![Summary](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Summary.png)
+![Summary](Summary.png)
 
 ---
 ## Background

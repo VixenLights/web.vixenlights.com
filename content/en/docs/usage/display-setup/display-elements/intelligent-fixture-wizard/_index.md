@@ -33,7 +33,7 @@ The Intelligent Fixture Wizard has two purposes:
 
 The Intelligent Fixture Wizard can be activated from the Display Setup.  Select _**Intelligent Fixture**_ from the _**Elements**_ drop down and then select the _**Plus**_ button.
 
-![How to Start](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DisplaySetupIntelligentFixture-300x121.png)
+![How to Start](DisplaySetupIntelligentFixture-300x121.png)
 
 
 ---

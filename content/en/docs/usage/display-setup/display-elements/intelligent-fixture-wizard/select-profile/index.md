@@ -8,7 +8,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 
 ---
 
-![Select Profile](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/SelectProfile.png)
+![Select Profile](SelectProfile.png)
 
 
 ---

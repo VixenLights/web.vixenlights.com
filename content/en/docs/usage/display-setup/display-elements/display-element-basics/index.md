@@ -14,25 +14,25 @@ An item such as a single string of lights is defined as a single item in the Ele
 
 **Right-click** somewhere in the white-space of the Element Tree and select **Add**.
 
-![Add Item Menu](/images/docs/usage/display-setup/display-elements/AddItemMenu.png "Add Item Menu")
+![Add Item Menu](AddItemMenu.png "Add Item Menu")
 
 Give your element a name. We'll call ours *Mini-Tree 1*. The new element will be added to the list as a single node.
 
-![New Item Mini-Tree 1](/images/docs/usage/display-setup/display-elements/Mini-TreeNewItem.png "Mini-Tree 1")
+![New Item Mini-Tree 1](Mini-TreeNewItem.png "Mini-Tree 1")
 
 Click on the newly created element to select it.
 
-![Selected Mini Tree](/images/docs/usage/display-setup/display-elements/SelectedMiniTree.png)
+![Selected Mini Tree](SelectedMiniTree.png)
 
 Make sure **Color Handling** is selected in the **Selected Item(s)/Configure** section and press the Configure button
 
-![Configure Button](/images/docs/usage/display-setup/display-elements/ConfigureButton.png)
+![Configure Button](ConfigureButton.png)
 
-![Color Configure Button](/images/docs/usage/display-setup/display-elements/ColorConfigureButton.png)
+![Color Configure Button](ColorConfigureButton.png)
 
 When the Color Configuration dialog box appears, click on the first radio button (They are a single color...).
 
-![Configure Color Dialog Single](/images/docs/usage/display-setup/display-elements/ConfigureColorDialogSingle.png)
+![Configure Color Dialog Single](ConfigureColorDialogSingle.png)
 
 Click the color box (blue in the above graphic) to define the color of this element.
 
@@ -48,25 +48,25 @@ Let's say you have 16 mini-trees that are a single color (mine are white). These
 
 Select **Generic Numbered Group** from the **Add** combo-box under Element Setup.
 
-![Template Generic Numbered Group](/images/docs/usage/display-setup/display-elements/TemplateGenericNumberedGroup.png)
+![Template Generic Numbered Group](TemplateGenericNumberedGroup.png)
 
-Click on the ![Green Plus Button](/images/docs/usage/display-setup/display-elements/GreenPlus.png) to the right of **Generic Numbered Group** drop down box.
+Click on the ![Green Plus Button](GreenPlus.png) to the right of **Generic Numbered Group** drop down box.
 
 A dialog box will appear that lets you name your new element group and each item within the group. We're going to fill ours out with a group name of Mini-Trees, an item prefix of Mini-Tree and an item count of 16.
 
-![Mini Tree Group](/images/docs/usage/display-setup/display-elements/MiniTreeGroup.png)
+![Mini Tree Group](MiniTreeGroup.png)
 
 When you press OK a new group will be created at the bottom of the Element Tree named *Mini-Trees* with 16 individual trees named *Mini-Tree-X* where X is the number of the item.
 
-![Mini Trees 16](/images/docs/usage/display-setup/display-elements/MiniTrees16New-140x150.png)
+![Mini Trees 16](MiniTrees16New-140x150.png)
 
 Now, we need to define the color-handling for these items. For versions 3.6 and above the following steps will be invoked automatically for you when you create an item with the prop shortcuts. In addition, you will be prompted to ask if you need a dimming curve to control the brightness of your prop.  Click on the Mini-Trees group so it is selected.
 
-Make sure **Color Handling** is selected in the **Selected Item(s)/Configure** section and press the ![Configure Button](/images/docs/usage/display-setup/display-elements/ConfigureButton.png).
+Make sure **Color Handling** is selected in the **Selected Item(s)/Configure** section and press the ![Configure Button](ConfigureButton.png).
 
 When the Color Configuration dialog box appears, click on the first radio button (They are a single color).
 
-![Configure Color Dialog Single](/images/docs/usage/display-setup/display-elements/ConfigureColorDialogSingle.png)
+![Configure Color Dialog Single](ConfigureColorDialogSingle.png)
 
 Click the color box (blue in the above graphic) to define the color of this element.
 

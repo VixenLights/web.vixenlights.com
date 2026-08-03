@@ -6,7 +6,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 weight: 60 
 ---
 
-![DimmingCurves](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DimmingCurves.png)
+![DimmingCurves](DimmingCurves.png)
 
 ---
 ## Background

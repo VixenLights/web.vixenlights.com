@@ -8,7 +8,7 @@ weight: 30
 
 In some cases you may have created an element structure that does not conform to one of the built in template generators and you need to create more of them. Instead of manually recreating each one, Vixen has a feature to allow you to copy and paste a new version of it. Normally copy and paste just makes additional copies that are linked to the original. But in this case you truly want a new version of it.
 
-![Snowflake Elements](/images/docs/usage/display-setup/display-elements/SnowflakeElements.png)
+![Snowflake Elements](SnowflakeElements.png)
 
 ## Steps
 
@@ -16,10 +16,10 @@ In some cases you may have created an element structure that does not conform to
 
 2. Right click out in the white space area of the element list and the context menu will appear.
 
-![Context Menu](/images/docs/usage/display-setup/display-elements/ContextMenu.png)
+![Context Menu](ContextMenu.png)
 
 3. Choose Paste as New. After this a cloned copy will be created as shown below.
 
-![Duplicated Snowflake Element](/images/docs/usage/display-setup/display-elements/SnowFlakeDuplicate.png)
+![Duplicated Snowflake Element](SnowFlakeDuplicate.png)
 
 Because Vixen does not allow different elements to have the same name, the feature will append some numeric qualifier on the end of the new elements to make them different. You can leave these as is, or use some of the renaming features described elsewhere to rename them.

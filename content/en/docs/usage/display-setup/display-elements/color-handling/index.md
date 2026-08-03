@@ -16,7 +16,7 @@ The color configuration can occur from multiple places. If you add elements in d
 
 ## Color Configuration
 
-![Color Configuration](/images/docs/usage/display-setup/display-elements/color-configuration.png)
+![Color Configuration](color-configuration.png)
 
 The Color Configuration dialog will be presented from multiple places. It is key to getting the color setup correct on your elements so the sequencer can properly manage them. There are 3 options on this dialog and they relate to the information above on what type of lights you are using.
 
