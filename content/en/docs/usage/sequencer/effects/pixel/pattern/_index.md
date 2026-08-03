@@ -13,63 +13,64 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 
 ## String Setup
 
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
-  * **Orientation** - Controls the orientation of the display area (matrix).
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
 
-  * **Pattern Type** - Selects the pattern (_Weave_ or _Brick_) to animate.
+* **Pattern Type** - Selects the pattern (_Weave_ or _Brick_) to animate.
 
-  * **Direction** - Configures the direction of pattern movement.
-    * _Moves Up_ - The pattern moves in a upward direction.
-    * _Moves Down_ - The pattern moves in a downward direction.
-    * _Vertical Expand_ - The pattern moves outward from the vertical center.
-    * _Vertical Compress_ - The pattern moves in a motion that looks like they are compressing in the vertical middle.
-    * _Moves Left_ - The pattern moves from right to left.
-    * _Moves Right_ - The pattern moves from left to right.
-    * _Horizontal Expand_ - The pattern moves outward from the horizontal center.
-    * _Horizontal Compress_ - The pattern moves in a motion that looks like they are compressing in the horizontal middle.       
-    * _Center Compress_ - The pattern moves in a motion that looks like they are compressing in the middle.    
-    * _Center Expand_ - The pattern moves outward from the center.
-    
+* **Direction** - Configures the direction of pattern movement.
+  * _Moves Up_ - The pattern moves in an upward direction.
+  * _Moves Down_ - The pattern moves in a downward direction.
+  * _Vertical Expand_ - The pattern moves outward from the vertical center.
+  * _Vertical Compress_ - The pattern moves in a motion that looks like they are compressing in the vertical middle.
+  * _Moves Left_ - The pattern moves from right to left.
+  * _Moves Right_ - The pattern moves from left to right.
+  * _Horizontal Expand_ - The pattern moves outward from the horizontal center.
+  * _Horizontal Compress_ - The pattern moves in a motion that looks like they are compressing in the horizontal middle.       
+  * _Center Compress_ - The pattern moves in a motion that looks like they are compressing in the middle.    
+  * _Center Expand_ - The pattern moves outward from the center.
 
-  * **Rotation** - The rotation of the pattern.  The pattern can rotate in either direction using the following mapping to the curve:
 
-    * 100 - 180 Degrees (Counter Clockwise)
-    * 75 - 90 Degrees (Counter Clockwise)
-    * 50 - No Rotation
-    * 25 - 90 Degrees (Clockwise)
-    * 0 - 180 Degrees (Clockwise)
+* **Rotation** - The rotation of the pattern.  The pattern can rotate in either direction using the following mapping to the curve:
 
-  * **Speed** - Determines how fast the pattern moves.
+  * 100 - 180 Degrees (Counter Clockwise)
+  * 75 - 90 Degrees (Counter Clockwise)
+  * 50 - No Rotation
+  * 25 - 90 Degrees (Clockwise)
+  * 0 - 180 Degrees (Clockwise)
 
-  * **Highlight** -  Creates a white highlighted leading edge on each weave bar or brick. This may not be highly visible in some cases when using location positioning.
+* **Speed** - Determines how fast the pattern moves.
 
-  * **Highlight %** - Controls the percentage of the bar / brick that is highlighted.  This control is only applicable when the effect is in _Locations_ mode.
+* **Highlight** -  Creates a white highlighted leading edge on each weave bar or brick. This may not be highly visible in some cases when using location positioning.
 
-  * **3D** - Makes each color appear as a gradient fading to black.
-  
-  
+* **Highlight %** - Controls the percentage of the bar / brick that is highlighted.  This control is only applicable when the effect is in _Locations_ mode.
+
+* **3D** - Makes each color appear as a gradient fading to black.
+
+
 
 ---
 
 ## Weave Configuration
 
-  * **Thickness** - Controls the thickness of the weave bar.  This value is a percentage of the display element.  
+* **Thickness** - Controls the thickness of the weave bar.  This value is a percentage of the display element.  
 
-  * **Spacing** - Controls the blank area between each weave bar. This value is percentage of the display element. 
+* **Spacing** - Controls the blank area between each weave bar. This value is percentage of the display element. 
 
-  * **Advanced Sizing** - Enables curves for controling the weave bar thickness and spacing.  The horizontal and vertical weave bar thickness and spacing can be configured independently
+* **Advanced Sizing** - Enables curves for controling the weave bar thickness and spacing.  The horizontal and vertical weave bar thickness and spacing can be configured independently
                           when in advanced sizing mode.
 
-  * **Horizontal Thickness** - Controls the thickness of the horizontal weave bars.  This value is a percentage of the display element.
+* **Horizontal Thickness** - Controls the thickness of the horizontal weave bars.  This value is a percentage of the display element.
 
-  * **Horizontal Spacing** - Controls the blank area between each horizontal weave bar. This value is percentage of the display element. 
+* **Horizontal Spacing** - Controls the blank area between each horizontal weave bar. This value is percentage of the display element. 
 
-  * **Vertical Thickness** - Controls the thickness of the vertical weave bars.  This value is a percentage of the display element.
+* **Vertical Thickness** - Controls the thickness of the vertical weave bars.  This value is a percentage of the display element.
 
-  * **Vertical Spacing** - Controls the blank area between each vertical weave bar. This value is percentage of the display element. 
+* **Vertical Spacing** - Controls the blank area between each vertical weave bar. This value is percentage of the display element. 
 
 ---
 
@@ -87,9 +88,9 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 
 ### Color (Weave)
 
-  * **Horizontal Gradients** - The color gradients for the horizontal bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
+* **Horizontal Gradients** - The color gradients for the horizontal bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
 
-  * **Vertical Gradients** - The color gradients for the vertical bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
+* **Vertical Gradients** - The color gradients for the vertical bars that make up the weave.  The list supports gradients of solid, or varying colors.  Gradients are applied over the width of the bar.
 
 ---
 
@@ -101,11 +102,11 @@ Creates an effect that draws a pattern and animates it.  The pattern is either a
 
 ### Brightness
 
-  * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
+* **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                     This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
 #### Video Tutorial
 
-{{< youtube pmC0ZrT3ceE>}}
+{{< youtube id="pmC0ZrT3ceE" title="Pattern Effect">}}

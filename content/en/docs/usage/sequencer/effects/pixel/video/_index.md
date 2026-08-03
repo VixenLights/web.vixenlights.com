@@ -8,22 +8,23 @@ aliases: [/vixen-3-documentation/sequencer/effects/video/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that allows you to embed a video file to be played on your grid.
 
 ---
 
-### String Setup
-    
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+## String Setup
+
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
-### Movement
+## Movement
 
 * **Movement Type** - Choose between several options to move the video around the grid while it is playing.
 
@@ -38,7 +39,7 @@ Creates an effect that allows you to embed a video file to be played on your gri
 
 ---
 
-### Video Configuration
+## Video Configuration
 
 * **File Name** - Select the file to use.
 
@@ -52,7 +53,7 @@ Creates an effect that allows you to embed a video file to be played on your gri
 
 ---
 
-### Advanced Configuration
+## Advanced Configuration
 
 * **Start Time** - The number of seconds into the video file to start from. This helps to save time editing and trimming video files specifically for use with this effect.
 

@@ -19,7 +19,7 @@ The text can appear in any font. It can be static or moving.
 * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props.
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
+
 * **Orientation** - Controls the orientation of the display area (matrix).
 
 ---
@@ -87,6 +87,7 @@ The text can appear in any font. It can be static or moving.
 * **Cycle Mode** - Selects whether **Cycle Color** advances per _Character_ or per _Word_ (including words displayed from a Mark Collection). Only shown when **Cycle Color** is enabled.
 
 * **Gradient Mode** - Specifies how gradients will be applied to the text. There are 8 combinations of direction and how it's applied.
+
 The gradient can be applied across the letters of the text, or across the whole element group.
 If it is across the letters, the gradient will stay with the text.
 If it is across the element, it will appear that the text travels through the colors of the gradient.
@@ -132,4 +133,4 @@ If it is across the element, it will appear that the text travels through the co
 
 {{< video src="Text.m4v" height="110" width="110" preload="auto" autoplay="autoplay" loop="loop" type="video/mp4">}}
 
-{{< youtube Vo4AI6vNi-0>}}
+{{< youtube id="Vo4AI6vNi-0" title="Text Effect">}}

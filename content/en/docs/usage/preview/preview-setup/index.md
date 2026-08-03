@@ -13,7 +13,7 @@ The Previews Configuration dialog lets you add and edit multiple previews. Why m
 
 ### Adding a New Preview
 
-To add a new preview, click the Add New Preview button. You will then be presented with the Select Item dialog box allowing you to select the type of preview you would like to add. Currently, the only choice is Vixen Display Preview&#8230; so, guess what? You're going to click on Vixen Display Preview and press the OK button.
+To add a new preview, click the Add New Preview button. You will then be presented with the Select Item dialog box allowing you to select the type of preview you would like to add. Currently, the only choice is Vixen Display Preview... so, guess what? You're going to click on Vixen Display Preview and press the OK button.
 
 ### Change the Name of a Preview
 
@@ -25,4 +25,4 @@ To edit the preview, click on the item you would like to edit and click the Conf
 
 ### Activating a Preview
 
-While you can have multiple preview active at one time, I would suggest only activating one at a time. To activate a preview, click on the checkbox next to the preview name in the listbox. After selected, the preview display will appear on the screen.
+While you can have multiple previews active at one time, I would suggest only activating one at a time. To activate a preview, click on the checkbox next to the preview name in the listbox. After selected, the preview display will appear on the screen.

@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/intelligent-fixture/spin-colo
 
 ---
 
-### Overview
+## Overview
 
 Spin Color Wheel effect spins the intelligent fixture color wheel.
 The effect configures the rotation speed and intensity of the light beam.
@@ -15,7 +15,7 @@ The display preview will show a beam changing colors but does not attempt to ref
 
 ---
 
-### Configuration
+## Configuration
 
 * **Function** - The function on the intelligent fixture that controls the color wheel.  If the fixture supports more than one color wheel this is where you pick the desired color wheel.
 
@@ -28,7 +28,7 @@ The display preview will show a beam changing colors but does not attempt to ref
 
 ---
 
-### Requirements 
+## Requirements 
 
 * For an intelligent fixture to support the Spin Color Wheel effect it must have the following:
 

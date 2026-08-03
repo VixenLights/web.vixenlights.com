@@ -1,15 +1,15 @@
 ---
 title: Vertical Meter
 author: Vixen Team
-description: Creates an effect that simulates Simulates a vertical audio meter.
+description: Creates an effect that simulates a vertical audio meter.
 aliases: [/vixen-3-documentation/sequencer/effects/vertical-meter/]
 ---
 
 ---
 
-### Overview
+## Overview
 
-Creates an effect that simulates Simulates a vertical audio meter.  This is designed as a single string effect, but if it is applied to a grid, all strings will behave the same.  
+Creates an effect that simulates a vertical audio meter. This is designed as a single string effect, but if it is applied to a grid, all strings will behave the same.  
 The origin of the meter is the starting point where it is drawn on the preview. So the preview should be drawn from the bottom up for it to appear as a normal vertical meter.
 
 
@@ -19,7 +19,7 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 
 ---
 
-### Audio Sensitivity Range
+## Audio Sensitivity Range
 
 * **Gain** - This adjusts the sensitivity of the effect to the audio volume.
 
@@ -38,11 +38,11 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 * **Normalize** - Applies an audio normalizing filter to the audio before it is analyzed for use in the effect. This should be enabled for most uses.
 
 * **Zoom** - Scales the visual response to the audio.
-            
+
 
 ---
 
-### Response Speed
+## Response Speed
 
 * **Attack Time** - How fast the effect responds to the audio. This adjusts the slope of the leading edge of the wave.
 
@@ -51,12 +51,12 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 
 ---
 
-### Color
+## Color
 
 * **Color Handling** - Controls how the color is handled.
-    * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
+  * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
 
 * **Custom Gradient** - Controls the color of the effect.
 
@@ -68,14 +68,14 @@ The origin of the meter is the starting point where it is drawn on the preview. 
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
-### Depth
+## Depth
 
 * **Levels Deep** - Determines at which element grouping level to apply the effect.
 

@@ -6,9 +6,7 @@ description: >
   This section covers all of the Intelligent Fixture effects in Vixen and details the features and how to use them.
 ---
 
----
+## Video Tutorial
 
-#### Video Tutorial
-
-{{< youtube ePPJFnDJJGs>}}
+{{< youtube id="ePPJFnDJJGs" title="Intelligent Fixture Effects">}}
 

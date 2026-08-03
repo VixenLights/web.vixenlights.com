@@ -5,7 +5,7 @@ weight: 30
 description: This section covers exporting a sequences to be played on the Falcon Pi Player.
 ---
 
-### Overview
+## Overview
 
 The Falcon Player (FPP) is a lightweight, optimized, feature-rich sequence player designed to run on low-cost Single Board Computers (SBC). It was originally created to run on the $35 Raspberry Pi, hence the middle 'P' in the short name but now the FPP supports many more systems. It is still mostly commonly used on a Raspberry Pi (Zero, 2, 3, 4) or a Beagle Bone (Black, Green, Pocket).
 
@@ -16,19 +16,19 @@ FPP aims to be controller agnostic, it can talk E1.31, DDP, DMX, Pixelnet, and R
 Useful Links:
 
 - [FPP Documentation in Github](https://github.com/FalconChristmas/fpp/tree/master/docs/README.md)
-- [Falcon Christmas forums](http://falconchristmas.com/forum/)
-- [Falcon Player sub-forum](http://falconchristmas.com/forum/index.php/board,8.0.html)
-- [Wiki](http://falconchristmas.com/wiki/index.php/Main_Page)
+- [Falcon Christmas forums](https://falconchristmas.com/forum/)
+- [Falcon Player sub-forum](https://falconchristmas.com/forum/index.php/board,8.0.html)
+- [Wiki](https://falconchristmas.com/wiki/index.php/Main_Page)
   
-### Vixen Support
+## Vixen Support
 
 Vixen can export FSEQ files to be played on the FPP player or FPP based controller. There are two ways to export. Sequence at a time from within the [Sequencer][1] and via an Export Wizard that can export multiple sequences at a time.
 
-### Export Wizard
+## Export Wizard
 
 The Export Wizard is the recommended way to export your sequences. It was added on to help automate the exporting of an entire show's worth of sequences instead of having to do them one at a time in the [Sequencer][1]. It can be started from the main Admin window under **Tools -> Export Wizard**.
 
-#### Step 1: Select or Start a New Export Configuration
+### Step 1: Select or Start a New Export Configuration
 
 Every setting you configure in the wizard - the sequence list, controller order, output format, and destination - is stored together as a named **configuration** (profile) so you can re-run the same export again later without reconfiguring it.
 
@@ -36,7 +36,7 @@ This screen shows a **Configurations** drop-down. The first time you run the wiz
 
 ![Export Wizard Step 1 - Select or Start a New Export Configuration](step1-configurations.png)
 
-#### Step 2: Select Sequences to Export
+### Step 2: Select Sequences to Export
 
 The next screen will allow you to select or review the sequences to be exported. If you used a saved configuration, this will be pre-populated with the sequences used before. You can edit to add or remove to get the list of sequences you need.
 
@@ -46,7 +46,7 @@ The next screen will allow you to select or review the sequences to be exported.
 
 Once you have the sequences you need in the list, choose next.
 
-#### Step 3: Configure the Required Outputs and Order
+### Step 3: Configure the Required Outputs and Order
 
 The next screen allows you to choose the controller blocks and the order they should be exported in. The check boxes on each controller determine if it is included in the export; **Enable All** / **Disable All** buttons let you toggle every controller at once, and **Ctrl+A** selects every row so you can drag a block of them together. You can drag and drop the controllers into any order desired. The channel ranges will be adjusted to match the new order.
 
@@ -54,7 +54,7 @@ This will need to directly match the intended setup in FPP. Vixen can export the
 
 ![Export Wizard Step 3 - Configure the Required Outputs and Order](step3-controllers.png)
 
-#### Step 4: Choose the Output Format and Destination
+### Step 4: Choose the Output Format and Destination
 
 The next screen is used to set up how the export is done.
 
@@ -70,7 +70,7 @@ Once you have chosen a format, the section below it adapts to match. Formats oth
 
 Below those options, choose how the files reach FPP - **File Path** or **Direct Upload**:
 
-##### File Path
+#### File Path
 
 This is the original method, and works with any FPP version. Choose an output folder - it can be a plain local/network folder, or a mapped path directly into FPP's own storage in the form `\\hostname\fpp` or `\\ip\fpp`, using FPP's Samba/CIFS file sharing. Vixen creates the `sequences`, `music`, and `config` subfolders it needs underneath whichever folder you choose.
 
@@ -92,13 +92,13 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation with DW
 
 If you export via File Path directly to FPP, you will need to manually restart the FPPD daemon afterward to pick up any universe configuration changes.
 
-##### Direct Upload
+#### Direct Upload
 
 Direct Upload sends sequences, audio, and the universe file straight to FPP over its own web API, entirely avoiding Samba/CIFS and the Windows 11 issue above. Enter the FPP device's hostname or IP address in the **FPP Host / IP** field. Vixen pings the host as you leave the field to confirm it's reachable - you can't move to the next step until it responds. If a universe file is generated, FPPD is restarted automatically after the upload, so no manual restart is needed.
 
 ![Export Wizard Step 4 - Direct Upload destination](step4-direct-upload.png)
 
-#### Step 5: Summary
+### Step 5: Summary
 
 The last screen details what will be done: sequence count, timing, format, output folder, audio handling, and (for Falcon Player Sequence 2.6+ with universe file generation) the universe file destination. If not all of the selected controllers support universes, a warning is shown here, since those controllers will be left out of the universe file and will need to be configured manually in FPP.
 
@@ -108,9 +108,9 @@ If you're using Direct Upload with the Falcon Player Sequence 2.6+ format, an **
 
 Check **Save export settings** and enter (or choose an existing) configuration name to save these settings as a profile for future use. After you hit next, it will commence exporting, with progress bars showing progress through the process.
 
-### Sequence Editor Export
+## Sequence Editor Export
 
 Under **File -> Export** in the sequencer is the legacy export. It is very similar to the wizard, but much simpler in that it can only export the sequence you have open in the editor. You cannot save any settings in it either. This is retained for legacy purposes, but may be removed in the future, so the recommendation is to use the wizard.
 
 [1]: {{< ref sequencer>}}
-[2]: <https://learn.microsoft.com/en-us/w...4h2#server-message-block-smb-protocol-changes>
+[2]: <https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-24h2#server-message-block-smb-protocol-changes>

@@ -21,7 +21,7 @@ These position properties give you fine control over the exact location and size
 
 ### String Type
 
-This defines the type of string you want to use for this item. A **Standard** string type is one where the entire prop is linked to a single element. A **Pixel** string type is one that has each of it's lights liked to an individual element. There is nothing wrong with linking multiple lights in a pixel string to the same element.
+This defines the type of string you want to use for this item. A **Standard** string type is one where the entire prop is linked to a single element. A **Pixel** string type is one that has each of its lights linked to an individual element. There is nothing wrong with linking multiple lights in a pixel string to the same element.
 
 ### Standard String
 
@@ -37,13 +37,13 @@ What makes a Pixel string **Pixel** is that all of the lights in the string are 
 
 ### Light Size
 
-The diameter of the light on the screen. Adjust this until the light size looks the way you want. The defaut size is 3, and bigger numbers provide a larger light diameter.
+The diameter of the light on the screen. Adjust this until the light size looks the way you want. The default size is 3, and bigger numbers provide a larger light diameter.
 
 ### Light Count
 
 The number of lights in the string or prop. This is very important if you are defining an item with individually addressed pixels. If you are designing with standard strings, this number can be whatever you want to get the look you are going for. Some items, such as the rectangle, have multiple strings each with their own light count.
 
-Increasing the light count in a a string will add lights to the end of the string. If the item is defined as a **Standard** string type, there is no more configuration necessary. If the item is defined as a **Pixel** string type, these newly added pixels will be unassigned. You will have to link them to an element.
+Increasing the light count in a string will add lights to the end of the string. If the item is defined as a **Standard** string type, there is no more configuration necessary. If the item is defined as a **Pixel** string type, these newly added pixels will be unassigned. You will have to link them to an element.
 
 Decreasing the light count removes pixels from the end of the string. There is a side effect of this. If you have a **Pixel** string type and remove 10 pixels and then re-add 10 pixels, you will lose any Element linking information you may have had defined.
 

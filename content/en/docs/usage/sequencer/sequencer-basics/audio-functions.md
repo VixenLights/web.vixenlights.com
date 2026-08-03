@@ -1,7 +1,7 @@
 ---
 title: Audio
 author: Vixen Team
-weight: 120
+weight: 90
 description: This section describes the Audio features.
 ---
 
@@ -17,11 +17,11 @@ To remove an audio file, you can select the **Remove Audio** menu option. The au
 
 ### Waveform
 
-Once an audio file is associated, the Timeline will be updated with a waveform showing the general audio shape of the audio. This is similar to what you will see in other audio players or editors. It is based on sampling the audio and mapping that into the time available. Zoomming in and out of the timeline will increase or decrease the detail of the sampling. The waveform can take two shape. Either a full stereo waveform with each channel eminating from the the center, or a single mono form with the merged channels eminating upward. You can change toggle this under the **View -> Full Waveform** option in the toolbar menu. The vertical space the waveform occupies can be changed by hovering at the bottom of the waveform area until a cross bar cursor appears. Clicking and dragging will allow you to resize the area to the desired height. Double clicking the resize edge will reset the waveform back to its default height. If you want to prevent accidental resizing of the waveform, check **View -> Lock Waveform Height**. While locked, the resize cursor will not appear and dragging or double clicking the bottom edge will not change the height. This is independent of the ruler height lock described in the [Time Ruler][2] section, so either can be locked without affecting the other.
+Once an audio file is associated, the Timeline will be updated with a waveform showing the general audio shape of the audio. This is similar to what you will see in other audio players or editors. It is based on sampling the audio and mapping that into the time available. Zooming in and out of the timeline will increase or decrease the detail of the sampling. The waveform can take two shapes. Either a full stereo waveform with each channel emanating from the center, or a single mono form with the merged channels emanating upward. You can change toggle this under the **View -> Full Waveform** option in the toolbar menu. The vertical space the waveform occupies can be changed by hovering at the bottom of the waveform area until a cross bar cursor appears. Clicking and dragging will allow you to resize the area to the desired height. Double clicking the resize edge will reset the waveform back to its default height. If you want to prevent accidental resizing of the waveform, check **View -> Lock Waveform Height**. While locked, the resize cursor will not appear and dragging or double clicking the bottom edge will not change the height. This is independent of the ruler height lock described in the [Time Ruler][2] section, so either can be locked without affecting the other.
 
 ### Beat / Bar Detection
 
-Marks for audio beats and bars can be automatically detected on an audio track that has been added to the the sequence in the editor, under the menu in the toolbar **Tools -> Audio -> Beat/Bar detection**.  This will bring up a dialog to select the type of marks you want to generate. See [Beat / Bar Detection][1] under the section on Marks.
+Marks for audio beats and bars can be automatically detected on an audio track that has been added to the sequence in the editor, under the menu in the toolbar **Tools -> Audio -> Beat/Bar detection**.  This will bring up a dialog to select the type of marks you want to generate. See [Beat / Bar Detection][1] under the section on Marks.
 
 ### Audio Playback Speed
 

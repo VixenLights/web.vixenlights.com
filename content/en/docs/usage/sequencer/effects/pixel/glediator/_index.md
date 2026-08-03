@@ -27,12 +27,13 @@ Jinx! can be used to create files to import to this effect also. In Jinx!, you w
 ## String Setup
 
 * **Orientation** - Controls the orientation of the display area (matrix).
-  
+
 ---
 
 ## Movement
 
 * **Movement Type** - Select between _Iterations_ or _Speed_.  When set to iterations, the **Iterations** slider will adjust the number of times the pattern will repeat over the duration of the effect.
+
 When Movement Type is set to Speed, the **Speed** slider will control the speed of each iteration.
 
 * **Iterations** - Controls how many times the pattern repeats over the timespan.

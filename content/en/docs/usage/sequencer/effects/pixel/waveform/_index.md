@@ -7,13 +7,13 @@ aliases: [/vixen-3-documentation/sequencer/effects/waveform/]
 
 ---
 
-### Overview
+## Overview
 
 Creates an effect that fills a display element with color based on the audio.
 
 ---
 
-### Audio Sensitivity Range
+## Audio Sensitivity Range
 
 * **Gain** - This adjusts the sensitivity of the effect to the audio volume.
 
@@ -32,11 +32,11 @@ Creates an effect that fills a display element with color based on the audio.
 * **Normalize** - Applies an audio normalizing filter to the audio before it is analyzed for use in the effect. This should be enabled for most uses.
 
 * **Zoom** - Scales the visual response to the audio.
-            
+
 
 ---
 
-### Response Speed
+## Response Speed
 
 * **Scroll Speed** - How fast the color scrolls across the display element.
 
@@ -47,12 +47,12 @@ Creates an effect that fills a display element with color based on the audio.
 
 ---
 
-### Color
+## Color
 
 * **Color Handling** - Controls how the color is handled.
-    * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
-    * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
+  * _Linear_ - Applies a standard Green-Yellow-Red gradient to the string. When this option is selected, The Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Discrete_ - Applies a standard Green-Yellow-Red gradient to the string using discrete colors. When this option is selected, the Green and Red position sliders will be available to adjust the threshold where the color transitions. 
+  * _Custom_ - Uses a custom gradient to define the color range. Set up the custom gradient in the Color box below.
 
 * **Custom Gradient** - Controls the color of the effect.
 
@@ -64,14 +64,14 @@ Creates an effect that fills a display element with color based on the audio.
 
 ---
 
-### Brightness
+## Brightness
 
 * **Intensity** - This is an overall brightness intensity curve over the duration of the effect.
                   This is a legacy parameter, consider using intensity overlay layers instead.
 
 ---
 
-### Depth
+## Depth
 
 * **Levels Deep** - Determines at which element grouping level to apply the effect.
 

@@ -8,17 +8,17 @@ aliases: ['/vixen-3-documentation/preview/adding-items-to-the-preview/smart-obje
 
 A Star can be either **Pixel** based or **Standard** string based. A pixel Star has individually addressable pixels across the entire Star and a standard Star has a number of segments that span the Star.
 
-### Adding an Star in Vixen 3.6+
+### Adding a Star in Vixen 3.6+
 
 **Start in the Preview instead of in Display Setup as you may have done in the past.**
 
-You can add an Star using the wizard buy clicking the Star icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Star and drag from upper left to lower right. This will create a basic Star shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Star.
+You can add a Star using the wizard by clicking the Star icon in the Smart Objects toolbar and then with the mouse, click a point in your preview to start the Star and drag from upper left to lower right. This will create a basic Star shape and launch the wizard. Next a dialog will appear to setup the basic attributes of the Star.
 
 ![Star Wizard](star-setup.png)
 
 In this dialog, you will provide the group name for your Star. It defaults to Star, but if you are adding multiples, you will want to name them Star-1, Star-2, etc. The next entry is the name the segments will be called. This defaults to Star Px. If you are adding multiple Stars, you would name this Star-1 Px or Star-2 Px. The Px is just a shortcut for pixel, you can use anything you like for the segments. Each segment will have a number appended to this name. Example Star-1 Px-1, Star-1 Px-2.
 
-Last is the number of segments. If this is a **Pixel** Star it would be the number of pixels. If it is a *Standard** Star wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
+Last is the number of segments. If this is a **Pixel** Star it would be the number of pixels. If it is a **Standard** Star wrapped with segments of light strings, it will be the number of light segments. It defaults to 25.
 
 Once you select Ok, the next step will be whether to add a Dimming Curve or not. See the section on [Dimming Curves][3]
 
@@ -59,17 +59,17 @@ The number of points in the star. It must be three or more... or else it isn't a
 
 ### String Type
 
-See the String Type section for more information.
+See the String Type section in [Common Settings][2] for more information.
 
 ### Notes
 
 * Holding Ctrl when re-sizing using the bottom right corner will force the star to a fit a perfect square.
 * Star pixels start at the right tip of the right-most point (the one pointing to the right) and move clockwise.
-* You can nudge any object on the preview screen by selecting it and using the arrow keys. This will move it one pixel at at time.
+* You can nudge any object on the preview screen by selecting it and using the arrow keys. This will move it one pixel at a time.
 
 ### Video Tutorial
 
-{{< youtube -gfuD0yl4Qw>}}
+{{< youtube id="-gfuD0yl4Qw" title="Creating a Star">}}
 
 [1]: {{< ref preview-linking-elements>}} "Linking Elements"
 [2]: {{< ref preview-common-settings>}} "Common Settings"

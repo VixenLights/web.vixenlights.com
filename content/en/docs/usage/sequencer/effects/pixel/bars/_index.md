@@ -14,11 +14,12 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 ## String Setup
 
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
@@ -27,7 +28,7 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 * **Direction** - Sets the direction of bar movement.
 
-  * _Moves Up_ - The bars move in a upward direction.
+  * _Moves Up_ - The bars move in an upward direction.
   * _Moves Down_ - The bars move in a downward direction.
   * _Compress_ - The bars move in a motion that looks like they are compressing in the middle.
   * _Expands_ - The bars move outward from the center.
@@ -39,14 +40,14 @@ Creates an effect that animates bars on a display element.  This effect works th
   * _Alternate Down_ - The bars move down in an alternating fashion. 
   * _Alternate Left_ - The bars move left in an alternating fashion.
   * _Alternate Right_  - The bars move right in an alternating fashion.
-  
+
 * **Rotation:** The rotation of the bars.  The bars can rotate in either direction using the following mapping to the curve:          
-    
-    * 100 - 180 Degrees (Counter Clockwise)
-    * 75 - 90 Degrees (Counter Clockwise)
-    * 50 - No Rotation
-    * 25 - 90 Degrees (Clockwise)
-    * 0 - 180 Degrees (Clockwise)
+
+  * 100 - 180 Degrees (Counter Clockwise)
+  * 75 - 90 Degrees (Counter Clockwise)
+  * 50 - No Rotation
+  * 25 - 90 Degrees (Clockwise)
+  * 0 - 180 Degrees (Clockwise)
 
 * **Motion** - Determines the how the motion of the bars is controlled by selecting either _Iterations_ or _Speed_.
 
@@ -79,7 +80,7 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 #### Zig Zag Configuration
 
-* **Amplitude:** Controls the height of the zig zag&#8217;s crest.
+* **Amplitude:** Controls the height of the zig zag's crest.
 
 * **Period:** Controls the width or wave length of the zig zag.
 
@@ -91,4 +92,4 @@ Creates an effect that animates bars on a display element.  This effect works th
 
 #### Video Tutorial
 
-{{< youtube puavBNDAIbw>}}
+{{< youtube id="puavBNDAIbw" title="Bars Effect">}}

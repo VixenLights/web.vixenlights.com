@@ -1,6 +1,6 @@
 ---
 title: Preview
-auther: Vixen Team
+author: Vixen Team
 weight: 40
 description: This section covers the Preview features.
 ---

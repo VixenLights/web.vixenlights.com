@@ -19,5 +19,3 @@ If you’re looking to show your pride as a Vixen 3 user, you might want to incl
 ### Logo Transparent Background
 
 {{< download-img src="/images/logo/vixen3-icon-64x64.png" download="vixen3-icon-64x64.png" alt="Logo Transparent Background" >}}
-
-&nbsp;

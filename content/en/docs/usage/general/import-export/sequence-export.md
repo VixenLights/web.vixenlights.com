@@ -5,11 +5,11 @@ weight: 10
 description: This section covers exporting a sequence package for sharing with others.
 ---
 
-### Overview
+## Overview
 
 New in 3.6u1 is the ability to import/export a sequence package. This packages up all the necessary items to share sequence(s) from a profile with someone else, or another profile of your own with different elements. See the section on [Importing][1].
 
-### Exporting
+## Exporting
 
 From the main admin window, select **Tools -> Export Sequence Package** menu. A wizard workflow will walk you through making an export package of the sequence(s) you want to share. 
 
@@ -21,8 +21,8 @@ The last step is a Summary confirmation window to validate what will occur. If t
 
 Once finished you have a package file that can be shared. It is fully standalone and has all the information necessary for the import process to use.
 
-### Tutorial
+## Tutorial
 
-{{< youtube wjpftzQ2hbk>}}
+{{< youtube id="wjpftzQ2hbk" title="Sequence Import / Export">}}
 
 [1]: {{< ref sequence-import>}}

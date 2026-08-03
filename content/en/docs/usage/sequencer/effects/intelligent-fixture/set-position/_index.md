@@ -7,7 +7,7 @@ aliases: [/vixen-3-documentation/sequencer/effects/intelligent-fixture/set-posit
 
 ---
 
-### Overview
+## Overview
 
 
 Set Position effect positions the pan and tilt of the intelligent fixture.
@@ -16,7 +16,7 @@ This effect is fully supported in the OpenGL preview.
 
 ---
 
-### Configuration
+## Configuration
 
 * **Pan** - Controls the horizontal rotation of the intelligent fixture.  The zero position of the curve represents the horizontal starting position of the fixture.  The 100 position of the curve indicates the maximum horizontal rotation of the fixture.
 
@@ -25,7 +25,7 @@ This effect is fully supported in the OpenGL preview.
 
 ---
 
-### Requirements 
+## Requirements 
 
 * For an intelligent fixture to support Pan the fixture is required to have a Range Function with the _Pan_ tag.
 

@@ -5,6 +5,4 @@ weight: 10
 description: Tutorials related to Effects
 ---
 
-### Alternating
-
-{{< youtube id="A5DrPmhCIqo" title="Using Marks with the Alternating Effect">}}
+Video tutorials covering individual effects are collected in the [Effects playlist](https://www.youtube.com/playlist?list=PLB0X6JfgTpgdLiBsY3vzamg0DT6irZ_B0) on the Vixen YouTube channel.

@@ -16,11 +16,12 @@ This effect works the best on a matrix with a large pixel count.
 
 ## String Setup
 
-  * **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
+* **Positioning** - Determines how the target elements are treated.  Either as individual strings or by their actual location in the display preview.
                       Locations is often referred to as whole house, but it can be any form of multiple props. 
                       Generally you want Strings when applying to one prop and locations if the target is multiple props.
-  
-  * **Orientation** - Controls the orientation of the display area (matrix).
+
+* **Orientation** - Controls the orientation of the display area (matrix).
+
 ---
 
 ## Configuration
@@ -56,17 +57,17 @@ This effect works the best on a matrix with a large pixel count.
 
 * **Frames Per Color** - Determines how many frames of particles are created for each color in the list.
 
-* **Particle Color** - Determines the color of the emitter&#8217;s liquid particles
+* **Particle Color** - Determines the color of the emitter's liquid particles
 
-* **Particle Intensity** - Determines the brightness of the emitter&#8217;s liquid particles.
+* **Particle Intensity** - Determines the brightness of the emitter's liquid particles.
 
-* **Particle Lifetime** - Determines how long the emitter&#8217;s particles exist.
+* **Particle Lifetime** - Determines how long the emitter's particles exist.
 
 * **Particle Velocity** - Determines the speed of the particles emitting from the emitter.
 
 * **Animate** - This option animates the position of the emitter within the element.
 
-* **Random Start** - Controls whether the animated emitter&#8217;s start position is random.
+* **Random Start** - Controls whether the animated emitter's start position is random.
                      When selected the initial start position of the emitter is randomized to a position on the display element.
 
 * **X Start Position** - Controls the X starting position of the emitter.
@@ -78,8 +79,8 @@ This effect works the best on a matrix with a large pixel count.
                          100 is the top of the display element.
 
 * **Edge Handling** - This option controls how the emitters behave when they reach the edge of the display area.
-    * _Bounce_ setting causes the emitter to bounce off the edge of the display area.
-    * _Wrap_ setting causes the emitter to wrap around from the other side of the display area.
+  * _Bounce_ setting causes the emitter to bounce off the edge of the display area.
+  * _Wrap_ setting causes the emitter to wrap around from the other side of the display area.
 
 * **Velocity X** - Controls the speed of the emitter in the X axis when animated.
 
@@ -93,14 +94,14 @@ This effect works the best on a matrix with a large pixel count.
                     The smaller the nozzle the more the particles go in different directions.
                     The larger the nozzle the more the particles go in a straight line.
 
-* **Nozzle Movement** - Controls how the position of the emitter&#8217;s nozzle is determined.
+* **Nozzle Movement** - Controls how the position of the emitter's nozzle is determined.
 
   * _Fixed Angle_ - Angle determine by a curve
   * _Oscillate_ - Oscillates back and forth between two angular stops.
   * _Spin Clockwise_ - Spins clockwise for the duration of the effect
   * _Spin Counter Clockwise_ - Spins clockwise for the duration of the effect
 
-* **Nozzle Angle** - Controls the angle of the emitter&#8217;s nozzle.
+* **Nozzle Angle** - Controls the angle of the emitter's nozzle.
   * 0 - Points Right (0 Degrees)
   * 25 - Points Up (90 Degrees)
   * 50 - Points Left (180 Degrees)
@@ -111,7 +112,7 @@ This effect works the best on a matrix with a large pixel count.
 
 * **Oscillate End Angle** - Defines the end angle of the oscillation. This is the point where the nozzle will reverse the direction of rotation.
 
-* **Nozzle Speed** - Determines the emitter&#8217;s nozzle rotation speed.
+* **Nozzle Speed** - Determines the emitter's nozzle rotation speed.
 
 * **Flow Control** - This drop down determines the continuity of the liquid flow.
   * _Continuous_ - Solid flow of liquid.

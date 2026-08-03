@@ -18,7 +18,7 @@ On the left, top of this screen is the Elements Tree. This is a duplicate of the
 
 Below the Elements Tree are the properties for the currently selected display item.
 
-And, on the right is the stage. This is where you will do all the work to setup your display preview. As you add items, you&#8217;ll do it in this area.
+And, on the right is the stage. This is where you will do all the work to setup your display preview. As you add items, you'll do it in this area.
 
 ### Toolbar
 
@@ -30,7 +30,7 @@ The toolbar is used to tell the preview what you want to do. There are various g
 
 To set the preview background, click the picture frame in the **Background** section of the toolbar.
 
-The background image is usually a picture of your house that you use to define your lighting scene. Try to take the best shot you can looking directly your house. Stand way back and get the entire scene in a single picture - or stitch multiple pictures together. I would not recommend taking a panoramic picture as it tends to distort a lot toward the ends. You can try this, though, if you like.
+The background image is usually a picture of your house that you use to define your lighting scene. Try to take the best shot you can looking directly at your house. Stand way back and get the entire scene in a single picture - or stitch multiple pictures together. I would not recommend taking a panoramic picture as it tends to distort a lot toward the ends. You can try this, though, if you like.
 
 #### Setting the Background Image
 
@@ -123,17 +123,17 @@ The **Help** menu links to this documentation (**View Help**), the [Vixen YouTub
 
 ### Close
 
-When you're done editing this screen, click X button in the upper right or File -> Exit. Incremental changes may be saved using the File -> Save menu or Ctrl S. If you dod not save inside the preview you can save or cancel your changes in the [Previews Configuration]({{< ref preview-setup >}} "Previews Configuration"). If you made a huge mistake and want to lose your changes, click Cancel on the Previews Configuration dialog box and it will revert to the last saved change. That could be the save inside the preview, or to the last time you clicked OK in the Preview Configuration Dialog.
+When you're done editing this screen, click the X button in the upper right or File -> Exit. Incremental changes may be saved using the File -> Save menu or Ctrl S. If you did not save inside the preview you can save or cancel your changes in the [Previews Configuration]({{< ref preview-setup >}} "Previews Configuration"). If you made a huge mistake and want to lose your changes, click Cancel on the Previews Configuration dialog box and it will revert to the last saved change. That could be the save inside the preview, or to the last time you clicked OK in the Preview Configuration Dialog.
 
 ### Prop Wizards
 
-Starting with Vixen 3.6, above the element tree is a drop down selector to add certain props that have wizards. This is similar to the same wizards in the Display Setup in that you can create the elements and the preview visual all in one step. You select the type of prop you want and then click the green + button to the right. You will be prompted by the wizard for the information needed to create it just like you would in Display Setup. Then once you fill in the info the preview visual will be created and automatically linked. You can then drag it around to position it where you wish. You can also drag the prop shape from the toolbar and it will also invoke the same wizrd as the template in the drop down.
+Starting with Vixen 3.6, above the element tree is a drop down selector to add certain props that have wizards. This is similar to the same wizards in the Display Setup in that you can create the elements and the preview visual all in one step. You select the type of prop you want and then click the green + button to the right. You will be prompted by the wizard for the information needed to create it just like you would in Display Setup. Then once you fill in the info the preview visual will be created and automatically linked. You can then drag it around to position it where you wish. You can also drag the prop shape from the toolbar and it will also invoke the same wizard as the template in the drop down.
 
 ### Element Tree
 
-![Preview Toolbar](element-tree.png)
+![Element Tree](element-tree.png)
 
-The Element Tree is the same tree used on the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups") screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templataes in the preview, it will walk you though setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers]({{< ref controllers >}} "Controllers") section.
+The Element Tree is the same tree used on the [Display Elements & Groups]({{< ref display-elements-groups >}} "Display Elements & Groups") screen. If you are using 3.6+, the best way is to create much of the setup in the preview. Most of the abilities to manipulate elements are available in the preview now. When using smart object or the templates in the preview, it will walk you through setting up the color and dimming if desired. Patching and controllers are still managed in the Display Setup. If you are still using something older than 3.6, then you must start in the Display Setup and then link preview visuals to them. We highly recommend upgrading beyond 3.6 for the best experience. For the purposes of setting up elements, building a preview and then sequencing your display, you can skip the [Configure Controllers]({{< ref controllers >}} "Controllers") section.
 
 If you already have the elements created, then you can add a preview visual with the following steps.
 

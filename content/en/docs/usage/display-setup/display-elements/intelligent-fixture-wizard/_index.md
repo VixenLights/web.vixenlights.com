@@ -7,20 +7,20 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 ---
 
 ---
-### Required Materials
+## Required Materials
 
 Vixen's support for intelligent fixtures (DMX moving heads) is based on giving Vixen detailed knowledge about your hardware.
 To perform this data entry you are going to need the User manual for your fixture that lists the functions your fixture supports and what channel(s) are associated with those functions.
 
 ---
 
-### Time Commitment
+## Time Commitment
 
 Expect to spend ~20 minutes defining your fixture profile.   
 
 ---
 
-### Background
+## Background
 
 The Intelligent Fixture Wizard has two purposes:
 
@@ -29,34 +29,34 @@ The Intelligent Fixture Wizard has two purposes:
 
 ---
 
-### How to Start
+## How to Start
 
 The Intelligent Fixture Wizard can be activated from the Display Setup.  Select _**Intelligent Fixture**_ from the _**Elements**_ drop down and then select the _**Plus**_ button.
 
-![How to Start](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DisplaySetupIntelligentFixture-300x121.png)
+![How to Start](DisplaySetupIntelligentFixture-300x121.png)
 
 
 ---
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
-
----
-
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube ePPJFnDJJGs>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 
-{{< youtube 3wQTXoXmWCY>}}
+{{< youtube id="ePPJFnDJJGs" title="Intelligent Fixture Effects">}}
 
 ---
 
-{{< youtube UnIbapPEG-k>}}
+{{< youtube id="3wQTXoXmWCY" title="Intelligent Fixtures">}}
+
+---
+
+{{< youtube id="UnIbapPEG-k" title="Intelligent Fixture Wizard Demo">}}
 
 
 ---
