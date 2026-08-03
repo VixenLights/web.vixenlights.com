@@ -7,6 +7,8 @@ description: This section covers the Effect Editor features.
 
 The effect editor is a docking pane used to edit the features of the effects. There are various controls that are highly intuitive to control the values of the effects. The docking pane can be docked in any of the normal docking places or can float as an undocked window.
 
+![Effect Editor](EffectEditor.png)
+
 Properties of the effect are divided up into collapsable categories. Most of these categories are consistent across all the effects. This will help you find similar features across the multitude of effects as you become familiar with them.
 
 The label for each property has some hover text that gives a better description of what the property changes or how it may act.

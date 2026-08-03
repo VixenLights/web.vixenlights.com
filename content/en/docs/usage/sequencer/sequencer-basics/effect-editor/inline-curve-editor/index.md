@@ -2,7 +2,6 @@
 title: Inline Curve Editor
 author: Vixen Team
 description: This section covers the Inline Curve Editor features.
-featured_image: /docs/usage/effect-editor/EffectEditor.png
 ---
 
 ## Overview

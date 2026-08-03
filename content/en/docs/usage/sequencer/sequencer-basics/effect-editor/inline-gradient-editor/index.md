@@ -2,7 +2,6 @@
 title: Inline Gradient Editor
 author: Vixen Team
 description: This section covers the Inline Color Gradient Editor features.
-featured_image: /wp-content/uploads/2016/08/EffectEditor.png
 ---
 
 ## Overview
