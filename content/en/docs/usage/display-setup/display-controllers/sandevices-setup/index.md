@@ -28,13 +28,15 @@ This example sets it up so that strand 1 is on Universe 1, strand 2 is on Univer
 
 ### Configuration Steps
 
-a) Start by opening your web browser and connect to the SanDevices IP address. It will display the SanDevices configuration page (in this case for a E682):
+Start by opening your web browser and connect to the SanDevices IP address. It will display the SanDevices configuration page (in this case for a E682):
 
 ![SanDevices Multicast](sandevices-1-multicast.png)
 
 Set the page up as above.
 
-a) Make sure you've specified Multicast, and no test pattern (b). If you change either of those, click *Update System Information* before proceeding.
+a) Make sure you've specified Multicast, and no test pattern.
+
+b) If you change either of those, click *Update System Information* before proceeding.
 
 c) Make sure your Universe selection contains universe 1 to 12. These are the universes that will appear in the dropdown at (d)
 
