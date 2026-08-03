@@ -8,7 +8,7 @@ Vixen supports creating multiple profiles so that you can have different setups.
 
 The Profile setup can be accessed from the main administration page under System -> Profiles.
 
-![Profile](/images/docs/usage/general/profiles/Profile.png)
+![Profile](Profile.png)
 
 Here you can add or delete profiles. Using the green plus button will add a new profile. The default folder is placed in your My Documents folder and is based on the name you give the profile. If you want to delete a profile you can select it in the drop down and click the red minus button. This will remove the profile from showing up in Vixen, but it will not actually delete the contents on your hard drive. You will need to manually remove it if you want to. This helps prevent accidental removal of a profile.
 

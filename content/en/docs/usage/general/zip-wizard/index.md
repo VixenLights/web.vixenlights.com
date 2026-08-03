@@ -8,7 +8,7 @@ date: 2019-09-18T16:29:50+00:00
 
 The zip wizard screen is accessed from the profile System => Profiles menu on the main admin form. It can be used to create backups, copy a profile to another PC, provide a copy to developers to help debug, or share with others. It has several options to configure it. Profiles are stored in the My Documents folder by default. This PC\Documents or c:\Users\bob\Documents where bob is the current logged in user. This shows up in various forms depending on the version of windows, but it is the traditional My Documents folder. Profiles generally start with Vixen 3 in the folder name if the defaults are used, but that is not mandatory. 
 
-![Zip Wizard Backup Settings](/images/docs/usage/general/zip-wizard/ZipWizard_Backup.png)
+![Zip Wizard Backup Settings](ZipWizard_Backup.png)
 
 ## Backups
 
@@ -30,11 +30,11 @@ If you are using a Profile from another user, additional care should be taken to
 
 If this is the first time the profile has been copied to a PC you will need to establish the new profile for Vixen to find it. After extracting the profile, start Vixen up. To do this we want to open the Profile Editor. Depending on how you have it setup, you may see the profile selection screen at startup or not. If you see the profile selection screen at startup, the [Profile Editor][1] can be opened from there. Otherwise, it can be opened from the System => Profiles menu on the main screen.
 
-![Profile Editor Setup](/images/docs/usage/general/zip-wizard/ProfileSetup.png)
+![Profile Editor Setup](ProfileSetup.png)
 
 In this screen (shown above) you need to add a new profile and give it a name. Ideally this would be the same name as you used in the source Vixen PC. Then you need to set the Data Folder to the path of where you extracted the profile you copied. This should be in your My Documents folder. In the example above, the path is C:\users\bob\Documents and the profile folder is Small Test. If you used the default path for the profile name on the source machine and named the profile the same on the destination, this may already be correct. Otherwise you can use the file explore to navigate to it. Choose the options to ask you which profile to load, or default to a specific profile and click ok. If you do not choose to ask, then you should select the new profile if you want it to load by default. Vixen will validate that the path entered is correct. If it asks you if you want to create the folder, you have misconfigured the path and should cancel and check the path. You will then need to restart Vixen once the path is correct. Once you restart, then you will either be prompted to choose the profile, or it will load the default profile you chose. You should only need to setup the profile the first time you copy a profile over to establish it. After that, just extracting the backup over the existing profile should work without any changes to the profile setup.
 
-![Zip Wizard](/images/docs/usage/general/zip-wizard/ZipWizard.png)
+![Zip Wizard](ZipWizard.png)
 
 ## Diagnostics
 
