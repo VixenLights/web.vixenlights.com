@@ -9,7 +9,7 @@ weight: 70
 ![Grouping](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Grouping.png)
 
 ---
-### Background
+## Background
 
 This wizard page determines how many fixture display elements to create and if to group them.
 This wizard page also determines the naming convention for the fixtures.
@@ -31,13 +31,13 @@ Select the **Next** button to continue to configure your intelligent fixture.
 
 ---
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 

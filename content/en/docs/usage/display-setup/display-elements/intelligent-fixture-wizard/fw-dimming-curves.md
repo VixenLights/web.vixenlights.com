@@ -9,14 +9,14 @@ weight: 60
 ![DimmingCurves](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/DimmingCurves.png)
 
 ---
-### Background
+## Background
 
 This wizard page configures optional dimming curves for the fixture outputs.
 From this wizard one dimming curve can be configured via the **Setup Dimming Curve** button.
 A dimming curve can be useful if you want to ensure you drive the fixture at less than maximum intensity.
 Typically used on fixtures with a LED light source.
 
-* **Do Not Include a Dimming Curve** - The default option is not not include any dimming curves.
+* **Do Not Include a Dimming Curve** - The default option is to not include any dimming curves.
 
 * **Add Dimming Curve For Fixture** - This option adds a single dimming curve for all color channels.
 
@@ -30,13 +30,13 @@ Select the **Next** button to continue to configure your intelligent fixture.
 
 ---
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 

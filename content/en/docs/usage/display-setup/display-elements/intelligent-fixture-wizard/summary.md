@@ -9,7 +9,7 @@ aliases: [/vixen-3-documentation/setup-configuration/setup-display-elements/inte
 ![Summary](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Summary.png)
 
 ---
-### Background
+## Background
 
 The Summary wizard page summarizes the selections made on the previous pages for review.
 Select the **Finish** button for the wizard to actually create the fixture display elements and save the fixture profile to the file system.

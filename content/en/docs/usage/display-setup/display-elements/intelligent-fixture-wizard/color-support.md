@@ -9,7 +9,7 @@ weight: 40
 ![ColorSupport](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/ColorSupport.png)
 
 ---
-### Background
+## Background
 
 Vixen will examine fixture channels and functions and default the color support.
 This selection is hardware dependent.
@@ -31,13 +31,13 @@ Select the **Next** button to continue to configure your intelligent fixture.
 
 ---
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 

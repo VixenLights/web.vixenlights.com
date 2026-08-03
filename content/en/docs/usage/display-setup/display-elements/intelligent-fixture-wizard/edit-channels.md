@@ -9,7 +9,7 @@ weight: 30
 ![EditChannels](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/EditChannels.png)
 
 ---
-### Background
+## Background
 
 The Edit Channels wizard page defines the channels on the fixture.
 The channels in this grid are order dependent.  
@@ -21,11 +21,11 @@ A channel with a function of **None** will be ignored by Vixen.  Including these
 
 ---
 
-### What Do I Do On This Wizard Page?
+## What Do I Do On This Wizard Page?
 
 This wizard page defines the channels that make up the fixture.
 This table should match your user manual precisely.
-Channels should not skipped or omitted.
+Channels should not be skipped or omitted.
 Order is important and should match your fixture's manual.
 
   1. Select the Plus ![Plus](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Plus.png) button to add a new channel.
@@ -41,13 +41,13 @@ Select the **Next** button to continue to configure your intelligent fixture.
 
 ---
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 

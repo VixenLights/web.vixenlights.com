@@ -10,7 +10,7 @@ weight: 20
 
 ---
 
-### Background
+## Background
 
 This wizard page (**Edit Functions**) and the **Edit Channels** wizard page define the majority of the fixture.
 Vixen comes with a number of built in functions to make this data entry task easier.
@@ -20,7 +20,7 @@ Note the names of the predefined functions can be changed to better match your f
 
 ---
 
-### What is a Tag?
+## What is a Tag?
 
 The Vixen Intelligent Fixture support was designed to allow users to input their fixture channel map information in verbatim.
 There are areas of the Vixen Intelligent Fixture support where Vixen needs to know what certain fixture function do.
@@ -31,17 +31,17 @@ Many of the built in functions are already assigned a tag.
 
 ---
 
-### What Do I Do On This Wizard Page?
+## What Do I Do On This Wizard Page?
 
 Look over your fixture user manual and make sure all your fixture functions are defined on this page.
-Note is possible to navigate back and forth between the **Edit Functions** and **Edit Channels** wizard pages if you find you need to add an additional function.
+Note it is possible to navigate back and forth between the **Edit Functions** and **Edit Channels** wizard pages if you find you need to add an additional function.
 Select the Plus ![Plus](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Plus.png) button to add additional fixture functions.
 
 Some of the functions require additional details which appear in the details pane to the right.
 
 ---
 
-### Create New Function
+## Create New Function
 
   1. Select the Plus ![Plus](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Plus.png) button to add a new function.
   2. Give the function a unique name.
@@ -50,13 +50,13 @@ Some of the functions require additional details which appear in the details pan
      The preview legend is displayed below the fixture with corresponding DMX value assigned to the channel.
      This feature can be useful for debugging problems.
   5. Optionally assign a **Tag** to the function.
-     See _'What is a Tag'_' section above for more information.
+     See _'What is a Tag'_ section above for more information.
 
 ---
 
-### Assigning Function Details
+## Assigning Function Details
 
-There are twelve built in functions.
+There are nine built in functions.
 The following sections describe each built in function and what configuration is still required.
 The functions in the fixture profile are NOT ordered.  If your fixture does not support one of these
 built in functions there is no harm in leaving them in the profile.  If there is any doubt if a function might 
@@ -87,7 +87,7 @@ to maximize support with the Vixen Intelligent Fixture sequencing effects.
   5. (Optionally) select if the entry should be controlled via a curve.
      Example: select **Use Curve** when the manual shows a range of DMX values that spin the color wheel.
   6. (Optionally) select the **Half Stop** option if the entry is half way between two colors on the color wheel.
-     Note the colors will automatically populated for this entry.
+     Note the colors will automatically be populated for this entry.
   7. Select the **...** button to assign the color.
   8. Select the **Exclude Color Property** option to exclude the color entry from the color property associated with the element.
      This option should be selected for colors like CTB and UV.
@@ -129,7 +129,7 @@ For fixtures that support this function it is typical to have one index entry th
 If the entries are tagged Vixen will automatically apply the prism if a prism is selected via another function.
 
   * The entry that applies the prism should be tagged **Prism Open**.
-  * The entry that remove the prism should be tagged **Prism Close**.
+  * The entry that removes the prism should be tagged **Prism Close**.
 
   **Associated Prism Function** - This drop down allows the user to select the associated Prism function that is being opened and closed.
   This field is critical when the fixture contains more than one prism function that can be opened and closed.
@@ -139,7 +139,7 @@ If the entries are tagged Vixen will automatically apply the prism if a prism is
 * **Prism Function** - Defines a function for placing a prism into the beam of light.
 
   1. Select the Plus ![Plus](/images/docs/usage/display-setup/display-elements/intelligent-fixture-wizard/Plus.png) button to add a new prism entry.
-  2. Optionally select the **Use Curve** for entries define a range where the user should select a specific value within that range.
+  2. Optionally select the **Use Curve** for entries that define a range where the user should select a specific value within that range.
      This entry will be edited using a curve in effects.
   3. Enter the DMX start value for the prism entry.
   4. Enter the DMX stop value for the prism entry.
@@ -149,19 +149,19 @@ If the entries are tagged Vixen will automatically apply the prism if a prism is
 ---
 
 * **Frost Function** - Defines a function that places a frost lens in the beam of light.
-                       This function is a range function and does require any further configuration.
+                       This function is a range function and does not require any further configuration.
 
 ---
 
 Select the **Next** button to continue to configure your intelligent fixture.
 
-### Video Tutorials
+## Video Tutorials
 
-{{< youtube 5sCJ_iqTQQ4>}}
+{{< youtube id="5sCJ_iqTQQ4" title="Intelligent Fixture Wizard Tutorial">}}
 
 ---
 
-{{< youtube Q9K5AtgapZo>}}
+{{< youtube id="Q9K5AtgapZo" title="Intelligent Fixture Wizard Tutorial (Continued)">}}
 
 ---
 
