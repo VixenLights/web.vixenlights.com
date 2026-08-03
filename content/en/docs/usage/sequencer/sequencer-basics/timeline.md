@@ -1,7 +1,7 @@
 ---
 title: Timeline
 author: Vixen Team
-weight: 24
+weight: 70
 description: This section covers the Timeline features.
 ---
 

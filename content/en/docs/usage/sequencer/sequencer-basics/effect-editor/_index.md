@@ -1,7 +1,7 @@
 ---
 title: Effect Editor
 author: Vixen Team
-weight: 30
+weight: 110
 description: This section covers the Effect Editor features.
 ---
 

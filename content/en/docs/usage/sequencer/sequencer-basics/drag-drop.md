@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop
 author: Vixen Team
-weight: 50
+weight: 190
 description: This section covers drag and drop actions.
 ---
 

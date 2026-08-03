@@ -1,7 +1,7 @@
 ---
 title: Snap Points
 author: Vixen Team
-weight: 80
+weight: 170
 description: This section covers the Snap Point features.
 ---
 

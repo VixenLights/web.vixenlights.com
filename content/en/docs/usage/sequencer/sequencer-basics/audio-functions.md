@@ -1,7 +1,7 @@
 ---
 title: Audio
 author: Vixen Team
-weight: 120
+weight: 90
 description: This section describes the Audio features.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Resize / Draw Indicator
 author: Vixen Team
-weight: 70
+weight: 230
 description: This section covers the Resize and Draw Indicator features.
 ---
 

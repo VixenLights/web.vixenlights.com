@@ -1,7 +1,7 @@
 ---
 title: Alignment Helpers
 author: Vixen Team
-weight: 60
+weight: 250
 description: This section covers the Alignment Helpers for aligning effects.
 ---
 

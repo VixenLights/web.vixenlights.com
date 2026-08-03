@@ -1,7 +1,7 @@
 ---
 title: Element Tags
 author: Vixen Team
-weight: 150
+weight: 290
 description: This section covers using Element Tags in the Sequencer, including hiding elements and blocking effects on deprecated elements.
 ---
 
