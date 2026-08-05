@@ -9,7 +9,7 @@
     <ul class="list-group list-group-flush">
         {{ range .assets }}
         {{ $bitness := cond (strings.HasSuffix .name "64bit.exe") "64bit" (cond (strings.HasSuffix .name "32bit.exe") "32bit" "") }}
-        <li class="list-group-item"><a href="{{ .browser_download_url }}" data-download-type="{{ $buildType }}" data-bitness="{{ $bitness }}" data-version="{{ $version }}">{{ .name }}</a></li>
+        <li class="list-group-item"><a href="{{ .browser_download_url }}" data-download-type="{{ $buildType }}" data-bitness="{{ $bitness }}" data-version="{{ $version }}" target="_blank" rel="noopener">{{ .name }}</a></li>
         {{ end }}
     </ul>
 </div>
