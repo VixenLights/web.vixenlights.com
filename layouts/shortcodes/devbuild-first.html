@@ -9,13 +9,13 @@
             {{ range .assets }}
                 {{ if strings.HasSuffix .name "64bit.exe" }}
                     <p class="card-text">64 Bit Development Build</p>
-                    <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="development" data-bitness="64bit" data-version="{{ $version }}">{{ .name }}</a></p>
+                    <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="development" data-bitness="64bit" data-version="{{ $version }}" target="_blank" rel="noopener">{{ .name }}</a></p>
                 {{ end }}
             {{ end }}
             {{ range .assets }}
                 {{ if strings.HasSuffix .name "32bit.exe" }}
                     <p class="card-text">32 Bit Development Build</p>
-                    <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="development" data-bitness="32bit" data-version="{{ $version }}">{{ .name }}</a></p>
+                    <p class="card-text"><a href="{{ .browser_download_url }}" aria-label="{{ .name }}" data-download-type="development" data-bitness="32bit" data-version="{{ $version }}" target="_blank" rel="noopener">{{ .name }}</a></p>
                 {{ end }}
             {{ end }}
         </ul>
