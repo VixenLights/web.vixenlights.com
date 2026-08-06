@@ -59,7 +59,7 @@ This is a faster way to fix or build out face mapping without leaving your seque
 
 ### Image Mapping
 
-LipSync's other **Mapping Type**, **Image Mapping**, doesn't use the Face property or individual element mapping at all — it draws a phoneme image onto the target as if it were a pixel matrix, using shared image maps instead. Those maps are managed from the Sequence Editor via **Tools -> LipSync -> Edit Image Maps** and **Tools -> LipSync -> Default Image Map**. Full documentation for those tools is planned as a follow-up.
+LipSync's other **Mapping Type**, **Image Mapping**, doesn't use the Face property or individual element mapping at all — it draws a phoneme image onto the target as if it were a pixel matrix, using shared image maps instead. See [LipSync Image Maps]({{< ref lipsync-image-maps >}} "LipSync Image Maps") for how to manage those.
 
 ---
 

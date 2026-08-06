@@ -40,7 +40,7 @@ When **Mapping Type** is set to **Face Mapping** (the default and most common se
 
 These settings only appear when **Mapping Type** above is set to **Image Mapping**.
 
-* **Image Map** Chooses which phoneme-to-image library to use for mapping phonemes to mouth images.
+* **Image Map** Chooses which phoneme-to-image library to use for mapping phonemes to mouth images. See [LipSync Image Maps][6] for how to create and edit these.
 * **Orientation** Defines the direction of the strings and controls how the effect is oriented on the element — **Horizontal** or **Vertical**.
 * **Scale To Grid** When enabled (the default), automatically scales the phoneme images to match the element's pixel grid size.
   * **Scale** Only shown when **Scale To Grid** is off. Controls the percentage to scale images down by, to fit large images onto the grid. Range is 1-100%.
@@ -75,3 +75,4 @@ A good way to get lyric tracks that are very close to begin with is to use a tra
 [3]: {{< ref face-property>}} "Face Property"
 [4]: {{< ref curves>}} "Curves"
 [5]: {{< ref inline-curve-editor>}} "Inline Curve Editor"
+[6]: {{< ref lipsync-image-maps>}} "LipSync Image Maps"
