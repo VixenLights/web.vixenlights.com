@@ -22,12 +22,19 @@ If you're using LipSync's **Image Mapping** type instead — drawing a mouth-sha
 
 ### Face Setup Wizard
 
-**Face Setup** has two tabs, each a grid with one row per element you selected:
+**Face Setup** has two tabs, each a grid with one row per element you selected, ending in a shared **Color** column — setting a color on one tab also updates it on the other, since it's really one color per element.
 
-* **Mouth** One checkbox column per phoneme — **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **REST**, **U**, **WQ** (the standard Preston Blair/Papagayo set) — with a reference image in each column header. Check the phoneme(s) that row's element should light up for.
-* **Outlines/Eyes** Checkbox columns for **Outlines**, **Eyes Open**, and **Eyes Closed**. Check the appropriate box(es) for that row's element.
+**Mouth**
 
-Both tabs end with a **Color** column, which is shared — setting a color on one tab also updates it on the other, since it's really one color per element.
+![Face Setup dialog showing the Mouth tab with phoneme checkboxes and a Color column](face-property-mouth-tab.png)
+
+One checkbox column per phoneme — **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **U**, and **WQ** (the standard Preston Blair/Papagayo set, minus **REST** — there's no checkbox for REST, since it's simply the state where none of the others are checked). Check the phoneme(s) that row's element should light up for.
+
+**Outlines/Eyes**
+
+![Face Setup dialog showing the Outlines/Eyes tab with Outlines, Eyes Open, and Eyes Closed checkboxes](face-property-eyes-tab.png)
+
+Checkbox columns for **Outlines**, **Eyes Open**, and **Eyes Closed**. Check the appropriate box(es) for that row's element.
 
 * Click a checkbox cell to toggle it. You can select multiple cells first (click, Ctrl-click, Shift-click, or drag across a range) — clicking any one of the selected cells then toggles the whole selection together: if fewer than half of the selected cells are currently checked, the click checks all of them; otherwise it unchecks all of them.
 * Double-click a **Color** cell to open a color picker for that row's element. If the target elements only support a fixed set of discrete colors, you get a picker limited to those choices; otherwise you get the full color picker. Multi-select several rows' Color cells first and double-click one to apply the same color to all of them at once.
@@ -37,7 +44,16 @@ Both tabs end with a **Color** column, which is shared — setting a color on on
 
 ### Editing from the Sequence Editor
 
-You don't have to return to Display Setup to adjust face mapping. In the Sequence Editor, **Tools -> LipSync -> Edit Element Face Mapping** opens a dialog with two lists — move the elements you want to map from the list on the left to the list on the right, then continue to open the same **Face Setup** wizard described above for that selection. This is a faster way to fix or build out face mapping without leaving your sequence.
+You don't have to return to Display Setup to adjust face mapping. In the Sequence Editor, **Tools -> LipSync -> Edit Element Face Mapping** opens the **LipSync Mapping Node Select** dialog:
+
+![LipSync Mapping Node Select dialog with an element tree on the left and a chosen-elements list on the right](face-property-edit-mapping.png)
+
+* Browse and select elements in the tree on the left, then press **->** to move them into the list on the right — multi-select first to move several at once. **<-** moves selected items back out of the list, and **Reset** clears it entirely.
+* **Allow Groups** (checked by default) lets you move a group node itself into the list as a single entry, instead of restricting the list to individual leaf elements.
+* **Add Recursively** expands a moved group into its individual descendant elements in the list, instead of keeping it as one group entry.
+* Once the elements you want to map are in the list on the right, press **OK** to open the same **Face Setup** wizard described above, for that selection.
+
+This is a faster way to fix or build out face mapping without leaving your sequence.
 
 ---
 
