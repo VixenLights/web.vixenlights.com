@@ -11,7 +11,7 @@ The Lip-sync effect helps to facilitate sequencing singing faces. It is a multi 
 
 The phoneme codes used throughout this effect (and in your Mark labels) are the standard Preston Blair/Papagayo set: **AI**, **E**, **O**, **U**, **FV**, **L**, **MBP**, **WQ**, **ETC**, and **REST** (mouth closed/idle).
 
-When **Mapping Type** is set to **Face Mapping** (the default and most common setup), this effect relies on the target elements having a **Face** property configured, mapping individual elements or lights to mouth phonemes, eyes, and an outline.
+When **Mapping Type** is set to **Face Mapping** (the default and most common setup), this effect relies on the target elements having a [Face property][3] configured, mapping individual elements or lights to mouth phonemes, eyes, and an outline.
 
 ---
 
@@ -26,7 +26,7 @@ When **Mapping Type** is set to **Face Mapping** (the default and most common se
     * **Phoneme** Selects the single phoneme mouth shape to hold for the entire length of the effect.
     * **Lyric** A free-text label for the lyric this phoneme is associated with. It's purely informational — it's shown on the effect block for your own reference and doesn't affect rendering.
 * **Mapping Type** This allows you to choose the mapping type. This controls how phonemes are mapped to the individual elements in your Prop.
-  * **Face Mapping** This option is used when you have a Prop that is usually a defined shape and you have mapped specific elements to the mouth phonemes via the Face property. Selecting this reveals the **Eye Mode** and **Show Outline** options below.
+  * **Face Mapping** This option is used when you have a Prop that is usually a defined shape and you have mapped specific elements to the mouth phonemes via the [Face property][3]. Selecting this reveals the **Eye Mode** and **Show Outline** options below.
   * **Image Mapping** This option is used for matrix type props that use an image for a mouth shape rather than mapping individual lights or elements — it treats the target like a pixel matrix and draws a phoneme image onto it, similar to the Picture effect. It doesn't require a Face property. Selecting this reveals the [Image Mapping](#image-mapping) options below instead of Eye Mode and Show Outline.
 * **Eye Mode** Only available when **Mapping Type** is **Face Mapping**. This sets how the eyes should be handled when the effect is active.
   * **Open** This sets the eyes to open using the open eyes mapping.
@@ -44,7 +44,7 @@ These settings only appear when **Mapping Type** above is set to **Image Mapping
 * **Orientation** Defines the direction of the strings and controls how the effect is oriented on the element — **Horizontal** or **Vertical**.
 * **Scale To Grid** When enabled (the default), automatically scales the phoneme images to match the element's pixel grid size.
   * **Scale** Only shown when **Scale To Grid** is off. Controls the percentage to scale images down by, to fit large images onto the grid. Range is 1-100%.
-* **X Offset** and **Y Offset** Two [Curves][3] that let you shift the phoneme image's horizontal and vertical position over the course of the effect, instead of leaving it centered the whole time. See the [Inline Curve Editor][4].
+* **X Offset** and **Y Offset** Two [Curves][4] that let you shift the phoneme image's horizontal and vertical position over the course of the effect, instead of leaving it centered the whole time. See the [Inline Curve Editor][5].
 
 ---
 
@@ -72,5 +72,6 @@ A good way to get lyric tracks that are very close to begin with is to use a tra
 
 [1]: {{< ref marks>}} "Marks"
 [2]: <https://autolyrics.lightingfanatics.com> "Autolyrics"
-[3]: {{< ref curves>}} "Curves"
-[4]: {{< ref inline-curve-editor>}} "Inline Curve Editor"
+[3]: {{< ref face-property>}} "Face Property"
+[4]: {{< ref curves>}} "Curves"
+[5]: {{< ref inline-curve-editor>}} "Inline Curve Editor"
