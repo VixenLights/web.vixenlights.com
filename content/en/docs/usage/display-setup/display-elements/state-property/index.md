@@ -8,7 +8,7 @@ weight: 60
 
 Since Build 1449.
 
-The **State** property lets you define one or more named State definitions for an element or group, each made up of State Items that map a color to a set of elements. It's the authoring side of a pair of features: once States are defined here, the [State]({{< ref state >}} "State") effect renders them in the Sequencer. This is the same relationship the existing **Face** property has with the LipSync effect, except State isn't limited to faces or phonemes — it works for any prop with parts that need to switch between named looks, like a waving arm, a lit sign, or a costume.
+The **State** property lets you define one or more named State definitions for an element or group, each made up of State Items that map a color to a set of elements. It's the authoring side of a pair of features: once States are defined here, the [State]({{< ref state >}} "State") effect renders them in the Sequencer. This is the same relationship the existing [Face Property]({{< ref face-property >}} "Face Property") has with the LipSync effect, except State isn't limited to faces or phonemes — it works for any prop with parts that need to switch between named looks, like a waving arm, a lit sign, or a costume.
 
 * A **State definition** is one named State, such as `Eyes Open` or `Arm Up`. It has a description and one or more State Items.
 * A **State Item** is one row inside a State definition — a name, a color, and the set of elements it applies to. Giving two State Items the same name groups them so the effect can activate both together (for example, `Full Outfit` might be built from a red-coat State Item and a white-cuffs State Item, both named the same or targeted together as needed).

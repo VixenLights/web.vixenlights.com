@@ -9,7 +9,9 @@ The **Spin** is similar to the [Chase][5] effect. It can be thought of as repeat
 
 Since Version 3.6u1
 
-* **Across Elements/Groups** is the default behavior and is equivalent to how the effect acted prior. When the effect is applied on an element that has multiple levels deep, then the Behavior section will appear.
+The Behavior control only appears when there's a meaningful choice to make — either you've targeted more than one element/group, or the target has more than two levels of grouping beneath it (the same condition that reveals the **Levels Deep** option in the Depth section below).
+
+* **Across Elements/Groups** is the default behavior and is equivalent to how the effect acted prior.
 
 * **Each Element/Group** This is a new behavior that changes how the effect looks at the elements and targets them. Previously you could use the levels and spin across a group of Arches or similar props, but if you wanted to apply the same Spin to each Arch in the group, you would need to put a Spin on each Arch specifically. Now you can choose the Each Element/Group behavior and the proper level to get an identical Spin on each arch. This also allows the possibility to Spin up/down a Pixel tree instead of just around it. Many combinations are possible using variations of the Behavior and Level options.
 
@@ -46,14 +48,14 @@ Since Version 3.6u1
 
   ![Ramp Up and Down](/docs/usage/sequencer/effects/basic/chase/PulseIntensityRampUpDown-300x23.png)
 
-* **Minimum Brightness** This allows you to set a minimum level of the color across areas that are not spinning. So you could have a green spin over a dim green background. The background will have the same color attibutes chosen above.
+* **Minimum Brightness** This allows you to set a minimum level of the color across areas that are not spinning. So you could have a green spin over a dim green background. The background will have the same color attributes chosen above.
   * **Minimum Level** Enabled when you choose minimum brightness and allows you to set the 0 - 100 percent intensity via a slider.
 
 ---
 
 ## Direction
 
-* **Direction** the direction the spin rotates can be choosen from this drop down. The possible values are Forward and Reverse.
+* **Direction** The direction the spin rotates can be chosen from this drop down. The possible values are Forward and Reverse.
 
 ---
 
@@ -73,10 +75,11 @@ Since Version 3.6u1
 
 * **Pulse Type** This controls the type of the pulse behavior.
   * **Distribute Evenly** This distributes the pulses evenly over the timespan of the revolution. This is the default.
-  * **Fixed Time** This sets the duration of each pulse in milliseconds.
-  * **Duration** Duration of the pulse in milliseconds.
+  * **Fixed Time** This sets the duration of each pulse in milliseconds. Selecting this reveals the **Duration** and **Pulse Overlap** options below.
+    * **Duration** Duration of the pulse in milliseconds. This is only used while **Pulse Overlap** is 0.
+    * **Pulse Overlap** Controls how many milliseconds the individual pulses overlap. As soon as this is set to a non-zero value, it takes over from **Duration** — the pulse length is instead calculated automatically (spread evenly across the target elements) and then lengthened by this many milliseconds, so the pulses overlap in time. Negative values do the opposite, shortening each pulse and leaving a gap between them instead.
   * **Percent Revolution** This sets the duration of the pulse to be a percent of the revolution time.
-  * **Pulse Length** A 0 - 100 percent value determining the percent of the revolution.
+    * **Pulse Length** A 0 - 100 percent value determining the percent of the revolution.
 
 ---
 

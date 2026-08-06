@@ -24,23 +24,26 @@ The **Twinkle** effect was designed to simulate the effect of twinkling lights o
 
 ## Brightness
 
-* **Max** Controls the maximum brightness of the twinkles.
-* **Min** Controls the minimum brightness of the twinkles.
-* **Variation** Controls the percent variation in the brightness of each twinkle.
+* **Max** Controls the peak brightness a twinkle pulse can reach.
+* **Min** Controls the baseline brightness maintained across the whole effect. Each twinkle pulse ramps up from this level and back down to it, rather than starting from fully off.
+* **Variation** Controls how much the peak brightness of each individual twinkle randomly varies below **Max**, as a percentage of the Min-Max range. Higher values mean some twinkles will noticeably dimmer than others instead of all peaking at the same brightness.
 
 ---
 
 ## Configuration
 
-* **Avg Pulse Time** Controls how long the average pulse time of each twinkle is in milliseconds.
-* **Coverage** Controls what percentage of the Prop is covered by twinkles.
-* **Variation** Controls the percent variation in the time of each twinkle.
+* **Avg Pulse Time** Controls how long the average pulse time of each twinkle is in milliseconds. The default is 400 ms.
+* **Coverage** Controls how densely packed the twinkles are in time — essentially how much of the time an element spends twinkling versus sitting idle at the minimum brightness between twinkles. Higher values produce more frequent, overlapping twinkles; lower values produce sparser, more occasional ones. This is a percentage, and the default is 50%.
+* **Variation** Controls the percent variation in the time (duration) of each twinkle, relative to **Avg Pulse Time**.
 
 ---
 
 ## Depth
 
-* **Levels Deep** When enabled it controls at what level the **Twinkle** is applied inside a group of elements. So you can have 8 items and then have 4 of them grouped to the left and 4 grouped to the right. All of these are grouped under on group. By placing the **Twinkle** at the top level group, you can **Twinkle** all 8 of the items or the left and the right group as a pair.
+* **Effect Depth** Controls whether each targeted element twinkles independently, or whether elements are grouped together and twinkle in sync. Enabled by default.
+  * When **enabled**, this reveals the **Levels Deep** option below, and every element or group at that depth is given its own independently randomized twinkle pattern — this is the classic, organic-looking twinkle.
+  * When **disabled**, grouping is turned off entirely (the effect always targets individual leaf elements, regardless of **Levels Deep**), and every element is given the exact same randomly generated twinkle pattern, so they all twinkle in perfect sync rather than independently. This can be useful for a uniform pulsing look across a whole prop.
+* **Levels Deep** Only shown when **Effect Depth** is enabled. Controls at what level the **Twinkle** is applied inside a group of elements. So you can have 8 items and then have 4 of them grouped to the left and 4 grouped to the right. All of these are grouped under one group. By placing the **Twinkle** at the top level group, you can **Twinkle** all 8 of the items or the left and the right group as a pair — with each group's twinkle pattern still independently randomized from the other group's. The default is 0, which targets individual leaf elements.
 
 [1]: {{< ref curves>}}
 [2]: {{< ref inline-curve-editor>}}
