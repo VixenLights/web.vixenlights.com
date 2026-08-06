@@ -39,7 +39,7 @@ Opened via **New** or **Edit** above, the **Image Map** window edits one map's i
 * **Name** and **Notes** Editable fields for the map's library name and a free-text description.
 * **< / >** Step to the previous/next phoneme. The current phoneme's code and reference icon are shown above the image preview, cycling through all 10 phoneme codes: **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **REST**, **U**, **WQ**.
 * **File** Browse for an image (`.bmp`, `.jpg`, or `.png`) to assign to the current phoneme. You can also drag and drop image file(s) directly onto the window.
-  * If you select or drop more than one file at once, an **Image Mapper** dialog opens instead, with a dropdown per phoneme, so you can assign each dropped file to whichever phoneme it belongs to in one pass instead of one at a time.
+  * If you select or drop more than one file at once, an **Image Mapper** dialog opens instead, with a dropdown per phoneme, so you can assign each dropped file to whichever phoneme it belongs to in one pass instead of one at a time. If you name your image files after their phoneme codes (`AI.png`, `E.png`, `ETC.png`, and so on) and select or drop them all together, they line up with the matching phoneme automatically — just review the dropdowns and press **Accept**, adjusting any that aren't right first.
 * **Edit** Opens the current phoneme's image in an external image editor (Windows Paint) for touch-ups, then reloads it once you save and close that program. This requires Windows — it's the only editor it launches.
 * **Clear** Removes the image assigned to the current phoneme, leaving it blank.
 * Double-clicking the image preview does **File** if the phoneme has no image yet, or **Edit** if it already has one.
