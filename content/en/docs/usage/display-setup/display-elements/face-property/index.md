@@ -28,7 +28,7 @@ If you're using LipSync's **Image Mapping** type instead — drawing a mouth-sha
 
 ![Face Setup dialog showing the Mouth tab with phoneme checkboxes and a Color column](face-property-mouth-tab.png)
 
-One checkbox column per phoneme — **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **U**, and **WQ** (the standard Preston Blair/Papagayo set, minus **REST** — there's no checkbox for REST, since it's simply the state where none of the others are checked). Check the phoneme(s) that row's element should light up for.
+One checkbox column per phoneme — **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **U**, **WQ**, and **REST** (the standard Preston Blair/Papagayo set). Check the phoneme(s) that row's element should light up for.
 
 **Outlines/Eyes**
 
