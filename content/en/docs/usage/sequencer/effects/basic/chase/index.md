@@ -15,7 +15,9 @@ The **Chase** Effect allows you to have a series of **Pulse** effects spaced out
 
 Since Version 3.6u1
 
-* **Across Elements/Groups** is the default behavior and is equivalent to how the effect acted prior. When the effect is applied on an element that has multiple levels deep, then the Behavior section will appear.
+The Behavior control only appears when there's a meaningful choice to make — either you've targeted more than one element/group, or the target has more than two levels of grouping beneath it (the same condition that reveals the **Levels Deep** option in the Depth section below).
+
+* **Across Elements/Groups** is the default behavior and is equivalent to how the effect acted prior.
 
 * **Each Element/Group** This is a new behavior that changes how the effect looks at the elements and targets them. Previously you could use the levels and chase across a group of Arches or similar props, but if you wanted to apply the same chase to each Arch in the group, you would need to put a Chase on each Arch specifically. Now you can choose the Each Element/Group behavior and the proper level to get an identical Chase on each arch. This also allows the possibility to Chase up/down a Pixel tree instead of just around it. Many combinations are possible using variations of the Behavior and Level options.
 
@@ -52,6 +54,9 @@ Since Version 3.6u1
 
   ![Ramp Up and Down](PulseIntensityRampUpDown-300x23.png)
 
+* **Minimum Brightness** Enables a constant background level behind the chase, rendered for the full duration of the effect using the same **Color Handling** settings as the moving pulses. This lets the un-chased elements sit at a low glow instead of being fully off between pulses.
+* **Minimum Level** Only shown when **Minimum Brightness** is enabled. Sets the brightness of that background level. A value of 0 is sometimes useful on its own to force certain behaviors when layering this effect with others underneath it.
+
 ---
 
 ## Direction
@@ -78,7 +83,7 @@ Since Version 3.6u1
 
   ![Extend To Start](ExtendToStart-300x21.png)
 
-* **Pulse Overlap** Controls how much the pulses of the chase overlap with each other. This can be used to create a more smooth flowing effect by adding more overlap.
+* **Pulse Overlap** Controls how many milliseconds the individual pulses of the chase overlap with each other. This can be used to create a more smooth flowing effect by adding more overlap. Negative values do the opposite, shortening each pulse and leaving a gap between them instead.
 
   Zero overlap
 
