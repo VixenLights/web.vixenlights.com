@@ -20,10 +20,12 @@ All three related tools live under **Tools -> LipSync** in the Sequence Editor:
 
 **Tools -> LipSync -> Edit Image Maps** opens the **Image Maps** window, a library manager listing every map by name and its Notes. The current default map is shown in **bold**. Changes here take effect immediately — there's no Cancel; **OK** just closes the window.
 
+![Image Maps window listing the library's maps, with New, Edit, Remove, and Clone buttons](lipsync-image-maps-library.png)
+
 * **New** Creates a map named `New Map` (or `New Map(1)`, `(2)`, and so on if that name is taken), then immediately opens it in the [Image Map Editor](#image-map-editor) described below. Canceling out of that editor discards the new map entirely.
 * **Edit** (or double-click a row) Opens the selected map in the Image Map Editor.
 * **Clone** Duplicates the selected map(s), including all of their images, under an auto-generated unique name.
-* **Remove** Deletes the selected map(s) and their image files, after confirming. Any LipSync effect using a removed map reverts to whichever map is set as default.
+* **Remove** Deletes the selected map(s) and their image files, after confirming. Any LipSync effect using a removed map reverts to whichever map is set as default. Disabled while only one map remains in the library — you can't remove the last one.
 * To rename a map, select it and click its name again (or press F2) to edit it in place. Renaming moves the map's image folder to the new name; if a map with that name already exists, the rename doesn't happen.
 
 ---
@@ -31,6 +33,8 @@ All three related tools live under **Tools -> LipSync** in the Sequence Editor:
 ### Image Map Editor
 
 Opened via **New** or **Edit** above, the **Image Map** window edits one map's images, one phoneme at a time.
+
+![Image Map editor showing the Name field, phoneme stepper, image preview, and File/Edit/Clear buttons](lipsync-image-maps-editor.png)
 
 * **Name** and **Notes** Editable fields for the map's library name and a free-text description.
 * **< / >** Step to the previous/next phoneme. The current phoneme's code and reference icon are shown above the image preview, cycling through all 10 phoneme codes: **AI**, **E**, **ETC**, **FV**, **L**, **MBP**, **O**, **REST**, **U**, **WQ**.
