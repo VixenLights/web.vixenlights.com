@@ -31,4 +31,6 @@ In addition to double clicking the Color Gradients or Curve editor images to bri
 
 Many of these options will change based on selections you make. Options that are not relevant to a specific configuration will be hidden.
 
+If you find yourself reconfiguring the same effect the same way every time, see [Effect Defaults]({{< ref effect-defaults >}}) to save your own starting point for an effect type.
+
 Lastly there is an option to turn on the live preview at the top. This will enable previewing of just the selected effects in the preview window if you have it running. This way you can preview the changes to specific effects without having to play the sequence.
