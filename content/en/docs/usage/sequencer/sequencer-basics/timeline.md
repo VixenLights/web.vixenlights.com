@@ -33,6 +33,8 @@ Rows can also be collapsed quickly by clicking the **View -> Collapse All Elemen
 
 [Effects][5] can be added to the elements in multiple ways. You can drag the effect from the Effect list docker onto any place in the timeline. They can also be added from the context menu by right clicking in the place you wish to add it and then navigating to the effect and selecting the desired one. Effects are added with a default length of 2 seconds and default settings that are helpful to get you going. More control over how effects are added can be obtained by using the [Draw Mode][6] feature. Once an effect is on the timeline it can be edited in the Effect Editor docking widow by selecting it. See the [Effect Editor][7] section for details on editing effects.
 
+Multiple copies of an effect can be added to an element in one step by holding Shift while choosing the effect from the right click menu. See [Add Multiple Effects][18] for details.
+
 Effects can be moved around on the timeline by simply clicking on them and dragging it to the desired location. The length can also be changed by dragging on the beginning or end of the effect. A tool tip will appear when resizing to show the start and duration of the effect. The same tool tip will appear when hovering over the effect. Multiple effects can be moved or resized at the same time by multi selecting them. This uses standard select means of Ctrl/Shift click as you would see in any modern windows app. Once you have multiples selected, they can be moved or resized as a group. See the section on [Alignment Helpers][8] and the [Draw Indicator][9] sections for further ways to manipulate effects in relation to each other.
 
 Effects can also be [Cut, Copied and Pasted][10] from one place to another. Normal paradigms apply for this mechanism. Another way to make a quick copy of an effect is to Ctrl click and then drag on the effect. This will clone the selected effect(s) and allow you to quickly drag a copy of it else where. Holding the Shift key while dragging the effect will hold it at the time so you can drag it to another element and not change its position in time. Holding Ctrl + Shift while dragging clones the selected effect(s) and locks the clones to the same start and end times, letting you drag the clones straight up or down to another element without changing their position in time.
@@ -72,3 +74,4 @@ Many of the Timeline settings are saved with each sequence you edit. Thus when y
  [15]: {{< ref "layers">}}
  [16]: {{< ref "edit-functions#cursor-movement-on-selection">}}
  [17]: {{< ref "audio-functions#waveform">}}
+ [18]: {{< ref "add-multiple-effects">}}
