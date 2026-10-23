@@ -4,7 +4,8 @@
   "description": "Website for the Vixen Sequencer lighting software.",
   "main": "none.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ln -sf ../sass-embedded/dist/bin/sass.js node_modules/.bin/sass"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,10 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "~>8.5.10",
-    "postcss-cli": "^12.0.0"
-  }
+    "postcss-cli": "^12.0.0",
+    "sass-embedded": "^1.102.0"
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
 }
