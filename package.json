@@ -4,7 +4,8 @@
   "description": "Website for the Vixen Sequencer lighting software.",
   "main": "none.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ln -sf ../sass-embedded/dist/bin/sass.js node_modules/.bin/sass"
   },
   "repository": {
     "type": "git",
