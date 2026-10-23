@@ -239,14 +239,11 @@ enable = false
 
 [module]
   # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
+  # replacements = "github.com/docsy/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
     min = "0.160.1"
   [[module.imports]]
-    path = "github.com/google/docsy/theme"
+    path = "github.com/docsy/docsy/theme"
     disable = false
-    version = "v0.17.0"
-  [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
-    disable = false    
+    version = "v0.18.0"
