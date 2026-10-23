@@ -56,6 +56,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Add Dart Sass to PATH
+        run: echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
+
       - name: Hugo build
         run: hugo --environment ${{ inputs.environment }}
 
