@@ -217,6 +217,11 @@ enable = false
   icon = "fab fa-facebook"
   desc = "Vixen 3 Sequencing Group"
 [[params.links.user]]
+  name = "Vixen Discord"
+  url = "https://discord.gg/Am2r287Wr"
+  icon = "fab fa-discord"
+  desc = "Chat with the Vixen community on Discord"
+[[params.links.user]]
   name = "Official YouTube Channel"
   url = "https://www.youtube.com/@VixenLightsSoftware"
   icon = "fab fa-youtube"
